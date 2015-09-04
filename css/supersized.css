@@ -1,0 +1,88 @@
+/*
+
+	Supersized - Fullscreen Slideshow jQuery Plugin
+	Version : 3.2.7
+	Site	: www.buildinternet.com/project/supersized
+	
+	Author	: Sam Dunn
+	Company : One Mighty Roar (www.onemightyroar.com)
+	License : MIT License / GPL License
+	
+*/
+
+* { margin:0; padding:0; }
+body { background:#111; height:100%; font-family: fantasy,'Comic Sans MS','Lucida Sans Unicode';}
+.fontFantasy {font-family: fantasy,'Comic Sans MS','Lucida Sans Unicode';}
+	img { border:none; }
+	
+	#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(../img/progress.gif) no-repeat center center;}
+	
+	#supersized {  display:block; position:fixed; left:0; top:0; overflow:hidden; z-index:-999; height:100%; width:100%; }
+		#supersized img { width:auto; height:auto; position:relative; display:none; outline:none; border:none; }
+			#supersized.speed img { -ms-interpolation-mode:nearest-neighbor; image-rendering: -moz-crisp-edges; }	/*Speed*/
+			#supersized.quality img { -ms-interpolation-mode:bicubic; image-rendering: optimizeQuality; }			/*Quality*/
+		
+		#supersized li { display:block; list-style:none; z-index:-30; position:fixed; overflow:hidden; top:0; left:0; width:100%; height:100%; background:#111; }
+		#supersized a { width:100%; height:100%; display:block; }
+			#supersized li.prevslide { z-index:-20; }
+			#supersized li.activeslide { z-index:-10; }
+			#supersized li.image-loading { background:#111 url(../img/progress.gif) no-repeat center center; width:100%; height:100%; }
+				#supersized li.image-loading img{ visibility:hidden; }
+			#supersized li.prevslide img, #supersized li.activeslide img{ display:inline; }
+#menuData a {font-family: 'Lucida Sans Unicode'; }
+#menuData a img {margin-top: 2px; }
+#shareLinks {position:relative;float:right;padding:5px;padding-right:10px !important;padding-top:40px !important;}
+#demo-block {width:30%;float:left;position:fixed;}
+#contactForm {display:none;margin-left:25%;margin-top:40px;position:absolute;width:700px;border-radius: 25px;}
+#shareLinks a {background: grey; float:left; padding-left: 5px; padding-right: 5px; color: white;font-size: 15px;width:80px; border: 2px;border-radius: 25px;text-align: center;text-decoration: none;margin-left: 10px;}
+#shareLinks a.black {background: black;}
+#conCloseX {text-decoration:none;color:white;font-family:Arial;width:10px;float:right;background: grey;padding:5px;}
+#audioPlayer {float: right;padding-top: 6px;cursor: pointer;}
+#audioControl img {width: 20px; height:20px; padding:5px;}
+#contactForm div {
+	width: 50%;
+	float: left;
+	border-radius: 25px;
+	border: 2px solid lightgray;
+	padding: 10px;
+	background: lightgray;
+	margin-top: 50px;
+}
+
+.centerContentArea {
+	color: white;
+	width: 90%;
+	padding-left:20px;
+	padding-right: 20px;
+	margin-bottom: 120px;
+	margin-left: 120px;
+	display: inline-table;
+	padding-top:70px;
+}
+.centerContentArea div {
+	float: left;
+	padding-right: 5px;
+}
+.centerContentArea div img {
+	width: 90%;
+	height: 120px;
+	padding:2px;
+	border: 2px solid grey;
+	-moz-box-shadow: 0 0 10px #ccc; 
+	-webkit-box-shadow: 0 0 10px #ccc; 
+	box-shadow: 0 0 10px #ccc;
+	margin:10px;
+	text-decoration: none;
+}
+.centerContentArea div img:hover{
+	cursor: pointer;
+	-moz-box-shadow: 0 0 20px #ccc; 
+	-webkit-box-shadow: 0 0 20px #ccc; 
+	box-shadow: 0 0 20px #ccc;
+}
+.centerContentArea div a {
+	text-decoration: none;
+}
+#cboxWrapper {
+	font-family: Arial;
+}
