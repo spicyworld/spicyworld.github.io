@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Welcome to Spicy World | Arpita's Kitchen</title>
+		<link rel="alternate" href="http://amitava3g.github.io" hreflang="en-us" />
+		<meta property="og:title" content="Spicy World by Arpita Ghosh Das" />
+		<meta property="og:site_name" content="Spicy World" />
+		<meta property="og:url" content="http://amitava3g.github.io/arpita" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="Welcome to Spicy World by Arpita Ghosh Das." />
+		<meta property="og:image" content="http://amitava3g.github.io/arpita/images/home-bg.jpg" />
+		<link rel="icon" type="image/jpeg" href="http://amitava3g.github.io/arpita/images/home-bg.jpg">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<script type="text/javascript" src="carosal/jquery.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="recipes.js"></script>
+		<script>
+			var globalNo = 1;
+			var maxImg = 3;
+			function playHomePage() {
+				$('#img_' + globalNo).fadeOut(2000);
+				if (globalNo == maxImg) {
+					globalNo = 1;
+				} else {
+					globalNo = globalNo + 1;
+				}
+				$('#img_' + globalNo).fadeIn(2000);
+				setTimeout("playHomePage()", 4000);
+			}
+		</script>
+	</head>
+	<body class="newBodybody bg" onLoad="loadHomePageGraphics()">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=1387433224896844";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div class="menuArea">
+			<ul>
+				<li><a href="index.html" class="highlighted">Home</a></li>
+				<li><a href="recipes.html">My Recipes</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+			</ul>
+			<div class="homeTopFb"><a href="https://www.facebook.com/spicyworldrecipes" target="_blank"><img src="images/fb.jpg" width="100px" alt="Follow us on Facebook" title="Follow us on Facebook"/></a></div>
+		</div>
+		<div class="siteTopLogo">
+			<a href="/arpita"><img src="images/header-logo.jpg"/></a>
+		</div>
+		
+		<div style="background-color:black;height:540px;" class="camera_wrap">
+			<img id="img_1" class="show" src="images/home/home1.jpg" width="100%" height="100%"/>
+			<img id="img_2" class="hide" src="images/home/home2.jpg" width="100%" height="100%"/>
+			<img id="img_3" class="hide" src="images/home/home3.jpg" width="100%" height="100%"/>
+		</div>
+
+		<div class="pageFooterOther">
+			© 2015 Amitava Ghosh&nbsp;&nbsp;&nbsp;
+			<div class="fb-like" data-href="http://amitava3g.github.io/arpita/" data-width="100" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+		</div>
+		<div class="pageFooterOther footerRight">
+			<a href="http://amitava3g.github.io/arpita/rss.xml">RSS</a>&nbsp;|&nbsp;<a href="http://amitava3g.github.io/sitemap.xml">Sitemap</a>
+		</div>
+
+		<div class="homeDiv" id="homeDiv">
+			Easy and Simple Recipies make your cooking faster and your food delicious.
+		</div>
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-61634056-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>
