@@ -160,10 +160,10 @@ public class FileGenerator {
 		saveFile(templatePath
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html", fileData);
-		System.out
+		/*System.out
 				.println("Created HTML for "
 						+ eElement.getElementsByTagName("url").item(0)
-								.getTextContent());
+								.getTextContent());*/
 	}
 
 	public static String recepiData(String recipes_data, Element eElement) {
