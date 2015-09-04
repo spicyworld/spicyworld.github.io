@@ -117,7 +117,7 @@ public class FileGenerator {
 		
 		out = "<div><div class='h2Class'><h1 style=\"font-size: 25px;display: inline;\">"
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</h1><span>("
+				+ "</h1><span>&nbsp;("
 				+ itemType
 				+ ")</span><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
