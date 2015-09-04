@@ -118,9 +118,9 @@ public class FileGenerator {
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
 				+ "</h1><span>("
 				+ itemType
-				+ ")</span><div class=\"fb-like\" data-href=\""
+				+ ")</span><div class=\"fb-send\" data-href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\" data-width=\"100\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div>"
+				+ ".html\"></div>"
 				+ "<p class=\"descp\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
