@@ -118,7 +118,7 @@ public class FileGenerator {
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
 				+ "</h1><span>("
 				+ itemType
-				+ ")</span><div class=\"fb-send\" data-href=\""
+				+ ")</span><div class=\"fb-send\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\"></div>"
 				+ "<p class=\"descp\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
