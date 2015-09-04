@@ -116,11 +116,9 @@ public class FileGenerator {
 		}
 		out = "<div><div class='h2Class'><h1 style=\"font-size: 25px;display: inline;\">"
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</h1><span>("
+				+ "</h1><span>&nbsp;("
 				+ itemType
-				+ ")</span><div class=\"fb-send\" data-href=\"http://spicyworld.in/"
-				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\"></div>"
+				+ ")</span>"
 				+ "<p class=\"descp\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
