@@ -1,9 +1,13 @@
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -13,6 +17,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.w3c.tidy.Tidy;
 
 public class FileGenerator {
 	
@@ -65,7 +70,7 @@ public class FileGenerator {
 			String fileData = readFile(recipes_template);
 			fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			saveFile(templatePath + "recipes.html", fileData);
+			saveHTMLFile(templatePath + "recipes.html", fileData);			
 			saveFile(templatePath + "recipes.js", homeJSON);
 			saveFile(basePath + "sitemap.xml", siteMapData);
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
@@ -158,13 +163,13 @@ public class FileGenerator {
 				+ " " + eElement.getElementsByTagName("shortDesc").item(0).getTextContent());*/
 		String keyword = eElement.getElementsByTagName("title").item(0).getTextContent() + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + eElement.getElementsByTagName("url").item(0).getTextContent();
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
-		saveFile(templatePath
+		saveHTMLFile(templatePath
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html", fileData);
-		/*System.out
+		System.out
 				.println("Created HTML for "
 						+ eElement.getElementsByTagName("url").item(0)
-								.getTextContent());*/
+								.getTextContent());
 	}
 
 	public static String recepiData(String recipes_data, Element eElement) {
@@ -225,6 +230,22 @@ public class FileGenerator {
 		return fileData;
 	}
 
+	public static void saveHTMLFile(String outPath, String fileData) {
+	try {
+		Tidy tidy = new Tidy();
+		tidy.setXHTML(true);
+		InputStream stream = new ByteArrayInputStream(fileData.getBytes(StandardCharsets.UTF_8));
+		File file = new File(outPath);
+		FileOutputStream fop = new FileOutputStream(file);
+		tidy.parse(stream, fop);
+		fop.flush();
+		fop.close();
+		stream.close();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+	}
+	
 	public static void saveFile(String outPath, String fileData) {
 		try {
 			File newTextFile = new File(outPath);
