@@ -70,7 +70,7 @@ public class FileGenerator {
 			String fileData = readFile(recipes_template);
 			fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			saveHTMLFile(templatePath + "recipes.html", fileData);			
+			saveFile(templatePath + "recipes.html", fileData);			
 			saveFile(templatePath + "recipes.js", homeJSON);
 			saveFile(basePath + "sitemap.xml", siteMapData);
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
@@ -163,7 +163,7 @@ public class FileGenerator {
 				+ " " + eElement.getElementsByTagName("shortDesc").item(0).getTextContent());*/
 		String keyword = eElement.getElementsByTagName("title").item(0).getTextContent() + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + eElement.getElementsByTagName("url").item(0).getTextContent();
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
-		saveHTMLFile(templatePath
+		saveFile(templatePath
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html", fileData);
 		System.out
