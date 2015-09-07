@@ -252,6 +252,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8d31', end
   height: 250px;
 }
 
+.newBodybody .homeDivAddAllImg{
+  width: 250px;
+  position: fixed;
+  top: 110px;
+  background: grey;
+  right: 0px;
+  height: 450px;
+}
+
 .float-box {
   position: fixed;
   margin: 10px;
