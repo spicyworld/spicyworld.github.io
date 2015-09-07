@@ -28,6 +28,7 @@ public class FileGenerator {
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/FileGenerator.java";
 		String recipes_template = templatePath + "template/recipes.html";
+		String recipes_template_img = templatePath + "template/image-list.html";
 		String recipes_data = "<table class=\"dataTable\">";
 		String homeJSON = "var myData = [";
 		String siteMapData = "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">";
@@ -35,6 +36,7 @@ public class FileGenerator {
 		String rssXMLData = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version=\"2.0\"><channel>"
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
 				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>";
+		String recipes_data_img = "";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -54,6 +56,7 @@ public class FileGenerator {
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element eElement = (Element) nNode;
 					recipes_data = recepiData(recipes_data, eElement);
+					recipes_data_img = getAllImages(recipes_data_img, eElement);
 					createItemData(templatePath, eElement);
 					if ("var myData = [".equals(homeJSON)) {
 						homeJSON += createHomeJS(eElement);
@@ -74,11 +77,24 @@ public class FileGenerator {
 			saveFile(templatePath + "recipes.js", homeJSON);
 			saveFile(basePath + "sitemap.xml", siteMapData);
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
+			
+			fileData = readFile(recipes_template_img);
+			fileData = fileData.replace("##DATA_ENTRY##", recipes_data_img);
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			saveFile(templatePath + "all-food-images.html", fileData);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		selfCopy(templatePath + "template/FileGenerator.java", processor);
 		System.out.println("Processed ...");
+	}
+	
+	public static String getAllImages(String recipes_data, Element eElement) {
+		recipes_data += "<div><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'><img style=\"width: 200px !important;\" src=\""
+				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
+				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:200px;height:70px\"><a style=\"color:white;\" href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
+		return recipes_data;
 	}
 	
 	public static String staticEntriesSiteMap() {
