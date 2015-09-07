@@ -98,11 +98,12 @@ public class FileGenerator {
 	}
 	
 	public static String staticEntriesSiteMap() {
-		return "<url><loc>http://www.spicyworld.in</loc></url>"
-				+ "<url><loc>http://www.spicyworld.in/recipes.html</loc></url>"
-				+ "<url><loc>http://www.spicyworld.in/feedback.html</loc></url>"
-				+ "<url><loc>http://www.spicyworld.in/rss.xml</loc></url>"
-				+ "<url><loc>http://amitava3g.github.io/sitemap.xml</loc></url>";
+		return "<url><loc>http://spicyworld.in</loc></url>"
+				+ "<url><loc>http://spicyworld.in/recipes.html</loc></url>"
+				+ "<url><loc>http://spicyworld.in/feedback.html</loc></url>"
+				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
+				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
+				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>";
 	}
 	
 	public static String populateRSSData(Element eElement) {
