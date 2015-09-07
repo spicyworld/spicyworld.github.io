@@ -91,7 +91,7 @@ public class FileGenerator {
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
 		recipes_data += "<div><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
-				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'><img style=\"width: 200px !important;\" src=\""
+				+ "'><img style=\"width: 200px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:200px;height:70px\"><a style=\"color:white;\" href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
