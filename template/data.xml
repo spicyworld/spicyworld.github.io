@@ -15,9 +15,37 @@
       <url>muri-ghonto</url>
    </element>
 
+   <element>
+      <title>Chicken Tangri Kabab</title>
+      <type>nonVegItem</type>
+      <shortDesc>Nowadays 'kabab' become very popular starter in party menu or restaurant's menu. 'Tangri' means leg piece. When we go to restaurants for dinner, this is our must starter. The taste is completely different from tandoori chicken and you will love it. After today you can make this dish in your own kitchen.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;6 chicken leg pieces.&lt;/li&gt;&lt;li&gt;8 table spoons of hung curd.&lt;/li&gt;&lt;li&gt;4 tsp mustard oil.&lt;/li&gt;&lt;li&gt;2 tsp coriander powder.&lt;/li&gt;&lt;li&gt;2 tsp cumin powder.&lt;/li&gt;&lt;li&gt;Half tsp cardamom powder.&lt;/li&gt;&lt;li&gt;1 tsp garam masala powder.&lt;/li&gt;&lt;li&gt;1 tsp redchili powder.&lt;/li&gt;&lt;li&gt;Pinch of red food color.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;2 tsp of lemon juice.&lt;/li&gt;&lt;li&gt;Some butter.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      
+      <process>&lt;ul&gt;&lt;li&gt;Wash the chicken legs very well and pat dry. Make some slits on legs with sharp knife.&lt;/li&gt;&lt;li&gt;Put mustard oil, all above mentioned powder, food color and salt in a bowl. Mix it and keep it for 15 minutes.&lt;/li&gt;&lt;li&gt;Then add hung curd and lemon juice. Again mix this.&lt;/li&gt;&lt;li&gt;Now add the chicken legs in the marination. Massage the legs with curd mixture very well. Keep this in the refrigerator for overnight.&lt;/li&gt;&lt;li&gt;Preheat the oven in highest temperature for 15 minutes.&lt;/li&gt;&lt;li&gt;Place the marinated chicken legs on a baking tray.&lt;/li&gt;&lt;li&gt;Put the tray in upper rack of the preheated oven for 20 minutes in 480F.&lt;/li&gt;&lt;li&gt;Then baste some butter, change the sides and bake another 20 minutes.&lt;/li&gt;&lt;li&gt;Rest the chicken for 5 minutes and then serve it.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Tangri kabab is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this starter with some onion rings and green chutney ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>data/nonveg/chicken-tangri-kabab.jpg</pic>
+      <thumb>data/nonveg/chicken-tangri-kabab.jpg</thumb>
+      <url>chicken-tangri-kabab</url>
+   </element>
+
+   <element>
+      <title>Pancake (Bengali Style)</title>
+      <type>nonVegItem</type>
+      <shortDesc>Kids are always excited about their lunchbox. My mom used to make this dish for my lunchbox and I just loved it. Yesterday I made this in dinner and we two as usual loved it. I mentioned the style here because it is little bit of spicy but very easy to make. Try this at your home and share with your friends.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;2 cups of all purpose flour.&lt;/li&gt;&lt;li&gt;1 egg.&lt;/li&gt;&lt;li&gt;3 cups of milk.&lt;/li&gt;&lt;li&gt;Half tsp baking powder.&lt;/li&gt;&lt;li&gt;Half onion finely chopped.&lt;/li&gt;&lt;li&gt;2 green chilies chopped.&lt;/li&gt;&lt;li&gt;1 tsp chopped garlic.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;White oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      
+      <process>&lt;ul&gt;&lt;li&gt;Take a bowl. Add egg, salt and 1 cup of milk. Beat it very well.&lt;/li&gt;&lt;li&gt;Then gradually add little flour and mix it. Do not add all flour and milk at a time. Add little portion of flour and milk , then mix.&lt;/li&gt;&lt;li&gt;After mixing 2 cups of flour with milk add onion, garlic, green chilies, baking powder and salt. Mix this as a lump free runny batter.&lt;/li&gt;&lt;li&gt;Heat 2 tsp oil in a frying pan. Add little portion of batter and spread with spoon. Fry one side for 4 minutes.&lt;/li&gt;&lt;li&gt;Then turn it and fry this side for another 3-4 minutes. You can make 4-5 pancakes with this batter.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Bengali style Pancake is ready ..</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some ketchup / chutney ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>data/nonveg/pancake-bengali-style.jpg</pic>
+      <thumb>data/nonveg/pancake-bengali-style.jpg</thumb>
+      <url>pancake-bengali-style</url>
+   </element>
+
     <element>
       <title>Oreo Milkshake</title>
-      <type>nonVegItem</type>
+      <type>vegItem</type>
       <shortDesc>Whenever my tummy craving for sweet snack, Oreo is my first choice. I also love to drink milkshake during summer afternoon. Every friday after returning from office 'he' wants special snacks / drinks. Last friday I made a milkshake with oreo and it was a total hit. Try this in your kitchen and impress your family.</shortDesc>
       <ingrediants>&lt;ul&gt;&lt;li&gt;6 oreo biscuits.&lt;/li&gt;&lt;li&gt;1 cup of chilled milk.&lt;/li&gt;&lt;li&gt;2 scoops of vanilla icecream.&lt;/li&gt;&lt;li&gt;1 tsp vanilla essence.&lt;/li&gt;&lt;li&gt;2 tsp chocolate sauce.&lt;/li&gt;&lt;li&gt;Whipped cream for garnishing.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       
