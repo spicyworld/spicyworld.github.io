@@ -15,6 +15,20 @@
       <url>muri-ghonto</url>
    </element>
 
+    <element>
+      <title>Oreo Milkshake</title>
+      <type>nonVegItem</type>
+      <shortDesc>Whenever my tummy craving for sweet snack, Oreo is my first choice. I also love to drink milkshake during summer afternoon. Every friday after returning from office 'he' wants special snacks / drinks. Last friday I made a milkshake with oreo and it was a total hit. Try this in your kitchen and impress your family.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;6 oreo biscuits.&lt;/li&gt;&lt;li&gt;1 cup of chilled milk.&lt;/li&gt;&lt;li&gt;2 scoops of vanilla icecream.&lt;/li&gt;&lt;li&gt;1 tsp vanilla essence.&lt;/li&gt;&lt;li&gt;2 tsp chocolate sauce.&lt;/li&gt;&lt;li&gt;Whipped cream for garnishing.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      
+      <process>&lt;ul&gt;&lt;li&gt;Put milk, icecream, essence and chocolate sauce in a blender. Blend it for 2 minutes.&lt;/li&gt;&lt;li&gt;Then add oreo biscuits. Again blend this for 3 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Oreo milkshake is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this milkshake with some whipped cream on top.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>data/nonveg/oreo-milkshake.jpg</pic>
+      <thumb>data/nonveg/oreo-milkshake.jpg</thumb>
+      <url>oreo-milkshake</url>
+   </element>
+
    <element>
       <title>Mutton Stew</title>
       <type>nonVegItem</type>
