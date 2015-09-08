@@ -2,6 +2,20 @@
 <root>
 
    <element>
+      <title>Muri Ghonto (Fish head with spicy rice)</title>
+      <type>nonVegItem</type>
+      <shortDesc>In Bengali ceremony preparing any dish with fish head is a very good sign. There are plenty of dishes where they use fish head. But 'muri ghonto' is the delicacy of Bengal. I learned this dish from my mom. There are also some variations of muri ghonto. Some uses yellow lentil or flattened rice instead of gobindovog rice. But I prefer this dish what my mom used to make. </shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup gobindovog / kalijeera rice.&lt;/li&gt;&lt;li&gt;1 potato cut into cubes.&lt;/li&gt;&lt;li&gt;2 fish heads (rohu / katla).&lt;/li&gt;&lt;li&gt;10-15 cashews and raisins.&lt;/li&gt;&lt;li&gt;3 tsp turmeric powder.&lt;/li&gt;&lt;li&gt;1 tsp cumin powder.&lt;/li&gt;&lt;li&gt;1 tsp garam masala powder.&lt;/li&gt;&lt;li&gt;1 tsp red chili powder.&lt;/li&gt;&lt;li&gt;Whole spices (4 green cardamoms, 1 bay leaf, 1 small cinnamon stick).&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 onion finely chopped.&lt;/li&gt;&lt;li&gt;1 tsp ginger paste.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;10 tsp of white oil.&lt;/li&gt;&lt;li&gt;3 tsp of ghee / clarified butter.&lt;/li&gt;&lt;li&gt;2 cups of hot water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      
+      <process>&lt;ul&gt;&lt;li&gt;Wash the rice well and soak in half cup of water for 30 minutes.&lt;/li&gt;&lt;li&gt;Wash the fish head thoroughly and marinate with some salt, 2 tsp turmeric powder for 10 minutes.&lt;/li&gt;&lt;li&gt;Heat white oil in a pan. Fry both sides of the fish heads untill golden brown. Keep aside.&lt;/li&gt;&lt;li&gt;In the remaining oil fry potatoes, cashews and raisins gradually. Remove them from oil.&lt;/li&gt;&lt;li&gt;Then add 2 tsp ghee.&lt;/li&gt;&lt;li&gt;Add whole spices and saute it for a minute.&lt;/li&gt;&lt;li&gt;Now add chopped onion. Fry this until golden color.&lt;/li&gt;&lt;li&gt;Then add ginger paste. Mix it for 3 minutes.&lt;/li&gt;&lt;li&gt;Add green chilies, 3 tsp salt, 1 tsp sugar and above mentioned all powder. Mix very well for 3 minutes.&lt;/li&gt;&lt;li&gt;Then add the soaked rice along with the water. Mix the rice with spices for 6 minutes.&lt;/li&gt;&lt;li&gt;Then add fried potatoes, cashews, raisins and 2 cups of hot water. Mix and cover it for 5 minutes.&lt;/li&gt;&lt;li&gt;Then add fried fish heads and cook this with cover for 8 minutes in slow flame.&lt;/li&gt;&lt;li&gt;After that turn off the heat, add remaining ghee and reast it for 10 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Muri Ghonto is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this with chicken or any other curry ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>data/nonveg/muri-ghonto.jpg</pic>
+      <thumb>data/nonveg/muri-ghonto.jpg</thumb>
+      <url>muri-ghonto</url>
+   </element>
+
+   <element>
       <title>Mutton Stew</title>
       <type>nonVegItem</type>
       <shortDesc>During summer we generally avoid to eat rich food. But when it comes to mutton, the decision become difficult 😉. For this kind of situation 'mutton stew' is the perfect food for all. The recipe is very simple and have some mild flavours. You will love this when you make it.</shortDesc>
