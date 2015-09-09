@@ -10,7 +10,10 @@ import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -31,6 +34,7 @@ public class FileGenerator {
 		String processor = "/Users/vghosam/Documents/workspace/test/src/FileGenerator.java";
 		String recipes_template = templatePath + "template/recipes.html";
 		String recipes_template_img = templatePath + "template/image-list.html";
+		String tags_template = templatePath + "template/tags.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
 		String homeJSON = "var myData = [";
@@ -42,6 +46,7 @@ public class FileGenerator {
 		String recipes_data_img = "", fileData = "";
 		int count = 1, perPageData = 30;
 		List recipeDataList = new ArrayList();
+		String tags = "";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -75,6 +80,9 @@ public class FileGenerator {
 					}
 					siteMapData += siteMapEntry(eElement);
 					rssXMLData += populateRSSData(eElement);
+					try {
+						tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
+					} catch (Exception e) {}
 				}
 			}
 			if (!"".equals(recipes_data)) {
@@ -108,6 +116,32 @@ public class FileGenerator {
 			fileData = fileData.replace("##DATA_ENTRY##", recipes_data_img);
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			saveFile(templatePath + "all-food-images.html", fileData);
+			
+			// Create tag cloud
+			String ss[] = tags.split(",");
+			Map tagMap = new HashMap();
+			for (int i=0; i<ss.length; i++) {
+				String key = ss[i];
+				key = key.trim();
+				if (!"".equals(key) && !",".equals(key)) {
+					int value = 1;
+					try {
+						value = (int) tagMap.get(key);
+						value = value + 1;
+					} catch (Exception e) {}
+					tagMap.put(key, value);
+				}
+			}
+			Iterator iterator = tagMap.entrySet().iterator();
+			String htmlTags = "";
+			while (iterator.hasNext()) {
+				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
+				htmlTags += "<span data-weight=\"" + entry.getValue() + "\">" + entry.getKey() + "</span>";
+			}
+			fileData = readFile(tags_template);
+			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			saveFile(templatePath + "tags.html", fileData);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
