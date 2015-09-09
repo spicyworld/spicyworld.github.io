@@ -46,7 +46,8 @@
       <pic>data/nonveg/pancake-bengali-style.jpg</pic>
       <thumb>data/nonveg/pancake-bengali-style.jpg</thumb>
       <url>pancake-bengali-style</url>
-      <tags>bengali,fish</tags>
+      <keywords>pancake, bengali, egg, spicy, batter, garlic, golaruti, fry, lunch box, dinner </keywords>
+      <tags>bengali,pancake,golaruti,egg,lunchbox</tags>
    </element>
 
     <element>
@@ -61,6 +62,8 @@
       <pic>data/nonveg/oreo-milkshake.jpg</pic>
       <thumb>data/nonveg/oreo-milkshake.jpg</thumb>
       <url>oreo-milkshake</url>
+      <keywords>oreo, milk, shake, vanilla, icecream, biscuit, drink, cream, chocolate</keywords>
+      <tags>oreo,milkshake,drink,vanilla</tags>
    </element>
 
    <element>
@@ -75,6 +78,8 @@
       <pic>data/nonveg/mutton-stew.jpg</pic>
       <thumb>data/nonveg/mutton-stew.jpg</thumb>
       <url>mutton-stew</url>
+      <keywords>mutton, stew, lunch, summer, mild, cooker, curd, onion</keywords>
+      <tags>mutton,stew,lunch,mild,summer</tags>
    </element>
 
     <element>
@@ -89,6 +94,8 @@
       <pic>data/nonveg/pineapple-milkshake.jpg</pic>
       <thumb>data/nonveg/pineapple-milkshake.jpg</thumb>
       <url>pineapple-milkshake</url>
+      <keywords>pineapple, milk, shake, vanilla, icecream, drink, sweet, cream, summer</keywords>
+      <tags>pineapple,milkshake,summer,drink</tags>
    </element>
 
    <element>
@@ -103,6 +110,8 @@
       <pic>data/nonveg/dum-aloo.jpg</pic>
       <thumb>data/nonveg/dum-aloo.jpg</thumb>
       <url>dum-aloo</url>
+      <keywords>bengali, aloo, dom, dum, main course, potato, whole, spices, ghee, curry, rich</keywords>
+      <tags>bengali,aloo,curry,maincourse,ghee</tags>
    </element>
 
 
@@ -118,6 +127,8 @@
       <pic>data/nonveg/spicy-macaroni-mushroom.jpg</pic>
       <thumb>data/nonveg/spicy-macaroni-mushroom.jpg</thumb>
       <url>spicy-macaroni-mushroom</url>
+      <keywords>pasta, macaroni, mushroom, starter, oregano, italian, herb, tomato, garlic, sauce</keywords>
+      <tags>pasta,mushroom,sauce,starter,macaroni</tags>
    </element>
 
 
@@ -133,6 +144,8 @@
       <pic>data/nonveg/omelet-curry.jpg</pic>
       <thumb>data/nonveg/omelet-curry.jpg</thumb>
       <url>omelet-curry</url>
+      <keywords>omlet, egg, curry, onion, green chili, rice</keywords>
+      <tags>egg,curry,mustard oil</tags>
    </element>
 
 
@@ -148,6 +161,8 @@
       <pic>data/nonveg/mutton-korma.jpg</pic>
       <thumb>data/nonveg/mutton-korma.jpg</thumb>
       <url>mutton-korma</url>
+      <keywords>mutton. korma, gravy, rich, party, brown, onion, dinner, oil, curd, kewra, ghee</keywords>
+      <tags>mutton,gravy,maincourse,ghee</tags>
    </element>
 
    <element>
@@ -162,6 +177,8 @@
       <pic>data/nonveg/dhaba-style-mutton-tarka.jpg</pic>
       <thumb>data/nonveg/dhaba-style-mutton-tarka.jpg</thumb>
       <url>dhaba-style-mutton-tarka</url>
+      <keywords>mutton, tarka, dhaba, main course, spicy, lentil, onion, fenugreek, coriander, butter,garam masala</keywords>
+      <tags>mutton,dhaba,lentil,gravy</tags>
    </element>
 
    <element>
@@ -176,6 +193,8 @@
       <pic>data/nonveg/macher-kalia.jpg</pic>
       <thumb>data/nonveg/macher-kalia.jpg</thumb>
       <url>macher-kalia</url>
+      <keywords>fry, bengali, fish, gravy, kaliya, party, mustard oil, ghee, whole spice, rice, lunch, maincourse</keywords>
+      <tags>lunch,fish,gravy,mustard oil,rice</tags>
    </element>
 
    <element>
@@ -184,12 +203,14 @@
       <shortDesc>This is one of my favourite snacks in the evening along with tea. You can get this chop from many fast food centers in West Bengal. But today you can make this Bengali style macher chop in your own kitchen. Just follow the recipe and you will get this mouth watering snack very easily.</shortDesc>
       <ingrediants>&lt;ul&gt;&lt;li&gt;5 pieces of fish with bone (bhetki / rui / katla).&lt;/li&gt;&lt;li&gt;1 boiled potato.&lt;/li&gt;&lt;li&gt;1 egg.&lt;/li&gt;&lt;li&gt;4 tsp milk.&lt;/li&gt;&lt;li&gt;Bread crumbs.&lt;/li&gt;&lt;li&gt;2 tsp turmeric powder.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 clove of garlic chopped.&lt;/li&gt;&lt;li&gt;1 inch ginger chopped.&lt;/li&gt;&lt;li&gt;1 small onion finely chopped.&lt;/li&gt;&lt;li&gt;Spice powder (1 tsp roasted cumin powder, 2 tsp roasted coriander powder, 1 tsp dry mango powder, 1 tsp red chili powder).&lt;/li&gt;&lt;li&gt;Some chopped coriander leaves.&lt;/li&gt;&lt;li&gt;7 tsp mustard oil.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       
-      <process>&lt;ul&gt;&lt;li&gt;Marinate the fish pieces with turmeric powder and some salt. Keep it for 20 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat the mustard oil.&lt;/li&gt;&lt;li&gt;Fry thy fish pieces both sides one by one till golden color. Remove those in a plate and let it become cool.&lt;/li&gt;&lt;li&gt;Now discard the skin and debone the fish pieces. Make the fish crumble a little bit.&lt;/li&gt;&lt;li&gt;Mash the boiled potato with your hand and keep aside.&lt;/li&gt;&lt;li&gt;In the same pan add chopped ginger and garlic in the remaining hot mustard oil. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Then add chopped onion and green chilies. Fry it for 6 minutes.&lt;/li&gt;&lt;li&gt;Now add all of the spice powder and salt. Mix it well.&lt;/li&gt;&lt;li&gt;Add the mashed potato in the mixture. Mix this very well.&lt;/li&gt;&lt;li&gt;Then add the debone fish and coriander leaves. Mix this for 5 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning and adjust it according to your taste.&lt;/li&gt;&lt;li&gt;Let this mixture cool down completely.&lt;/li&gt;&lt;li&gt;Take a bowl. Beat an egg with pinch of salt and 4 tsp milk.&lt;/li&gt;&lt;li&gt;Put lots of bread crumbs in a flat plate.&lt;/li&gt;&lt;li&gt;Take a small portion of mixture in your hand and give it any shape of your choice.&lt;/li&gt;&lt;li&gt;Dip it in the egg and then coat this with bread crumbs. Again dip it in the egg and coat it with bread crumbs.&lt;/li&gt;&lt;li&gt;You have to do the ciating process twice.&lt;/li&gt;&lt;li&gt;Keep those coated chops rest for 10 minutes.&lt;/li&gt;&lt;li&gt;Now fry those one by one in hot white oil for 5 minutes. Remove the chops in a paper towel.&lt;/li&gt;&lt;/ul&gt;</process>
+      <process>&lt;ul&gt;&lt;li&gt;Marinate the fish pieces with turmeric powder and some salt. Keep it for 20 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat the mustard oil.&lt;/li&gt;&lt;li&gt;Fry thy fish pieces both sides one by one till golden color. Remove those in a plate and let it become cool.&lt;/li&gt;&lt;li&gt;Now discard the skin and debone the fish pieces. Make the fish crumble a little bit.&lt;/li&gt;&lt;li&gt;Mash the boiled potato with your hand and keep aside.&lt;/li&gt;&lt;li&gt;In the same pan add chopped ginger and garlic in the remaining hot mustard oil. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Then add chopped onion and green chilies. Fry it for 6 minutes.&lt;/li&gt;&lt;li&gt;Now add all of the spice powder and salt. Mix it well.&lt;/li&gt;&lt;li&gt;Add the mashed potato in the mixture. Mix this very well.&lt;/li&gt;&lt;li&gt;Then add the debone fish and coriander leaves. Mix this for 5 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning and adjust it according to your taste.&lt;/li&gt;&lt;li&gt;Let this mixture cool down completely.&lt;/li&gt;&lt;li&gt;Take a bowl. Beat an egg with pinch of salt and 4 tsp milk.&lt;/li&gt;&lt;li&gt;Put lots of bread crumbs in a flat plate.&lt;/li&gt;&lt;li&gt;Take a small portion of mixture in your hand and give it any shape of your choice.&lt;/li&gt;&lt;li&gt;Dip it in the egg and then coat this with bread crumbs. Again dip it in the egg and coat it with bread crumbs.&lt;/li&gt;&lt;li&gt;You have to do the coating process twice.&lt;/li&gt;&lt;li&gt;Keep those coated chops rest for 10 minutes.&lt;/li&gt;&lt;li&gt;Now fry those one by one in hot white oil for 5 minutes. Remove the chops in a paper towel.&lt;/li&gt;&lt;/ul&gt;</process>
       <completionStatement>Your Fish Chop is ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some ketchup ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <pic>data/nonveg/macher-chop-fish-croquettes.jpg</pic>
       <thumb>data/nonveg/macher-chop-fish-croquettes.jpg</thumb>
       <url>macher-chop-fish-croquettes</url>
+      <keywords>fish, fry, bengali, chop, cutlet, starter, fast food, snack, spice, powder, potato, tea</keywords>
+      <tags>fish,snack,fry,spice powder</tags>
    </element>
 
    <element>
@@ -204,6 +225,8 @@
       <pic>data/nonveg/dry-chili-fish-mushroom.jpg</pic>
       <thumb>data/nonveg/dry-chili-fish-mushroom.jpg</thumb>
       <url>dry-chili-fish-mushroom</url>
+      <keywords>chili, fish, mushroom, garlic, chinese, soy sauce, spicy, green chilies</keywords>
+      <tags>fish,chinese,mushroom,sauce</tags>
    </element>
 
    <element>
@@ -218,12 +241,14 @@
       <pic>data/nonveg/kheema-biriyani-minced-meat-biriyani.jpg</pic>
       <thumb>data/nonveg/kheema-biriyani-minced-meat-biriyani.jpg</thumb>
       <url>kheema-biriyani-minced-meat-biriyani</url>
+      <keywords>biriyani, kheema, mince, meat, indian, main course, ghee, rice</keywords>
+      <tags>biriyani,kheema,ghee,main course,indian</tags>
    </element>
 
    <element>
       <title>Chicken Pakora</title>
       <type>nonVegItem</type>
-      <shortDesc>How about a crazy snack in a rainy evening ?? Ohh yeaah its Pakora time !! In Kolkata we get this kind of chicken pakora from fast food centers. If you follow this recipe you can get the same flavour from your homemade pakora.</shortDesc>
+      <shortDesc>How about a crazy snack in a rainy evening ?? Ohh yeaah its Pakora time !! Many houses have their own pakora story. In Kolkata we get this kind of chicken pakora from fast food centers. If you follow this recipe you can get the same flavour from your homemade pakora.</shortDesc>
       <ingrediants>&lt;ul&gt;&lt;li&gt;10 boneless chicken medium size pieces.&lt;/li&gt;&lt;li&gt;3 tsp lemon juice.&lt;/li&gt;&lt;li&gt;2 tsp black pepper powder.&lt;/li&gt;&lt;li&gt;Half onion finely chopped.&lt;/li&gt;&lt;li&gt;1 tsp finely chopped ginger.&lt;/li&gt;&lt;li&gt;2 tsp finely chopped garlic.&lt;/li&gt;&lt;li&gt;2 green chilies chopped.&lt;/li&gt;&lt;li&gt;2 eggs.&lt;/li&gt;&lt;li&gt;10 tsp Cornflour.&lt;/li&gt;&lt;li&gt;Salt to taste.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       
       <process>&lt;ul&gt;&lt;li&gt;Marinate the chicken pieces with lemon juice, some salt and 1 tsp black pepper powder. Keep it in the refrigerator for 2-3 hours.&lt;/li&gt;&lt;li&gt;Take a bowl. Add 2 eggs. Beat these eggs very well.&lt;/li&gt;&lt;li&gt;Then add cornflour little by little. Mix this well.&lt;/li&gt;&lt;li&gt;Then add chopped onion, ginger, garlic and green chilies. Mix it.&lt;/li&gt;&lt;li&gt;Adjust the seasoning by adding salt and pepper powder. Mix this entire thing very well.&lt;/li&gt;&lt;li&gt;Dont add water in the mixture. If this become too runny you can add some more cornflour.&lt;/li&gt;&lt;li&gt;Heat 3 inches of white oil in a kadai / pan.&lt;/li&gt;&lt;li&gt;Take a chicken piece, dip into the mixture and put into the hot oil. Fry it untill golden brown.&lt;/li&gt;&lt;li&gt;Remove it in a paper towel. &lt;/li&gt;&lt;li&gt;Now again take the fried chicken, dip it into the mixture anf fry it. You have to do the process twice.&lt;/li&gt;&lt;/ul&gt;</process>
@@ -232,6 +257,8 @@
       <pic>data/nonveg/chicken-pakora.jpg</pic>
       <thumb>data/nonveg/chicken-pakora.jpg</thumb>
       <url>chicken-pakora</url>
+      <keywords>chicken, starter, pakora, pokora, nuggets, fry, spicy, </keywords>
+      <tags>chicken,fry,starter,nuggets</tags>
    </element>
 
    <element>
@@ -245,6 +272,8 @@
       <pic>data/nonveg/mutton-pulao-yakhni-pulao.jpg</pic>
       <thumb>data/nonveg/mutton-pulao-yakhni-pulao.jpg</thumb>
       <url>mutton-pulao-yakhni-pulao</url>
+      <keywords>mutton, rice, pulao, yakhni, juice, main course, measurement, ghee, onion, garlic</keywords>
+      <tags>mutton,pulao,yakhni,ghee,juice</tags>
    </element>
 
    <element>
@@ -258,6 +287,8 @@
       <pic>data/nonveg/stawberry-milkshake.jpg</pic>
       <thumb>data/nonveg/stawberry-milkshake.jpg</thumb>
       <url>stawberry-milkshake</url>
+      <keywords>strawberry, milk, shake, drink, summer, sweet, icecream</keywords>
+      <tags>strawberry,milkshake,summer,drink</tags>
    </element>
 
    <element>
@@ -271,6 +302,8 @@
       <pic>data/nonveg/dahi-chicken.jpg</pic>
       <thumb>data/nonveg/dahi-chicken.jpg</thumb>
       <url>dahi-chicken</url>
+      <keywords>chicken, curd, gravy, black pepper, dahi, doi, green chili, garlic</keywords>
+      <tags>chicken,curd,main course,spicy</tags>
    </element>
 
     <element>
@@ -284,6 +317,8 @@
       <pic>data/nonveg/lassi.jpg</pic>
       <thumb>data/nonveg/lassi.jpg</thumb>
       <url>lassi</url>
+      <keywords>lassi, indian, summer, drink, curd, doi, chilled, sugar</keywords>
+      <tags>lassi,curd,summer,chilled,drink</tags>
    </element>
 
    <element>
@@ -297,6 +332,8 @@
       <title>Singara (samosa)</title>
       <type>vegItem</type>
       <url>singara-samosa</url>
+      <keywords>singara, samosa, potato, dough, spicy, fry, starter, indian, ginger, green chili, cone</keywords>
+      <tags>singara,samosa,fry,indian,starter</tags>
    </element>
    <element>
       <completionStatement>Your Hara Bhara Kabab is ready ...</completionStatement>
@@ -304,11 +341,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;2 big potatoes boiled and peeled.&lt;/li&gt;&lt;li&gt;6 cups of chopped spinach.&lt;/li&gt;&lt;li&gt;3 green chilies chopped.&lt;/li&gt;&lt;li&gt;Half cup chopped coriander leaves.&lt;/li&gt;&lt;li&gt;1 tsp chaat masala.&lt;/li&gt;&lt;li&gt;1 tsp roasted cumin and coriander powder.&lt;/li&gt;&lt;li&gt;1 tsp cumin seeds.&lt;/li&gt;&lt;li&gt;Salt to taste.&lt;/li&gt;&lt;li&gt;2-3 tsp cornstrach.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/hara-bhara-kabab.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Take a pan. Heat 2 tsp oil.&lt;/li&gt;&lt;li&gt;Add cumin seeds. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Then add raw spinach leaves. Cook it for 5 minutes. You have to dry out all juices. Remove this from the pan and cool it.&lt;/li&gt;&lt;li&gt;Now take a bowl. Add boiled potato, cooked spinach, coriander leaves, green chilies, 3 kinds of powder, salt and cornstrach. Mash the potatoes and mix the entire thing very well with your hand. Check the seasoning and adjust it according to your taste.&lt;/li&gt;&lt;li&gt;After that heat 3-4 inches of white oil in a kadai / pan.&lt;/li&gt;&lt;li&gt;Take small portion of the mixture in your hand and give any shape of your choice.&lt;/li&gt;&lt;li&gt;Put those kababas into the hot oil and fry for 5-6 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>Yesterday my husband was craving for some snacks in afternoon. I had some boiled potatoes in my fridge. Then I thought about this recipe. You can say its fried kabab. After eating this he said you should upload the recipe ☺️. So, its very easy to make. Just give it a try.</shortDesc>
+      <shortDesc>Yesterday my husband was craving for some snacks in afternoon. I had some boiled potatoes in my fridge. Then I thought about this recipe. You can say it is fried kabab. "Hara" means green color. After eating this he said you should upload the recipe ☺️. So, its very easy to make. Just give it a try.</shortDesc>
       <thumb>data/nonveg/hara-bhara-kabab.jpg</thumb>
       <title>Hara Bhara Kabab (Green Vegetable Kabab)</title>
       <type>vegItem</type>
       <url>hara-bhara-kabab</url>
+      <keywords>kabab, fry, starter, spicy, indian, potato, spinach, green chili, </keywords>
+      <tags>fry,kabab,potato,spinach,</tags>
    </element>
    <element>
       <completionStatement>Your Dhaba style egg curry is ready ...</completionStatement>
@@ -321,6 +360,8 @@
       <title>Dhaba style egg curry</title>
       <type>nonVegItem</type>
       <url>dhaba-style-egg-curry</url>
+      <keywords>egg, gravy, curry, dhaba, spicy, indian, main course, potato, kasuri methi</keywords>
+      <tags>egg,curry,dhaba,indian</tags>
    </element>
    <element>
       <completionStatement>Your Kasuri Methi Murg Masala is ready ...</completionStatement>
@@ -333,6 +374,8 @@
       <title>Bhapa Doi (Baked Yogurt) - Mango flavour</title>
       <type>vegItem</type>
       <url>bhapa-doi</url>
+      <keywords>bengali, doi, bhapa, baked, yogurt, sweet, mango, dessert</keywords>
+      <tags>doi,yogurt,mango,baked,dessert</tags>
    </element>
    <element>
       <completionStatement>Your chicken tandoori is ready ...</completionStatement>
@@ -345,6 +388,8 @@
       <title>Chicken Tandoori</title>
       <type>nonVegItem</type>
       <url>chicken-tandoori</url>
+      <keywords>chicken, tandoori, indian, spicy, starter, oven, curd, butter, smokey, grill</keywords>
+      <tags>chicken,oven,grill,tandoori,starter</tags>
    </element>
    <element>
       <completionStatement>Your Kasuri Methi Murg Masala is ready ...</completionStatement>
@@ -357,18 +402,22 @@
       <title>Kasuri Methi Murg Masala</title>
       <type>nonVegItem</type>
       <url>kasuri-methi-murg-masala</url>
+      <keywords>chicken, murg, kasuri methi, fenugreek, gravy, main course, indian, spicy, turmeric, powder</keywords>
+      <tags>chicken,fenugreek,gravy,main course</tags>
    </element>
    <element>
       <completionStatement>Your Vegetable Biriyani is ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this with raita / any type of gravy.&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Basmati rice 2 cups.&lt;/li&gt;&lt;li&gt;2 potatoes cut into square pieces.&lt;/li&gt;&lt;li&gt;2 carrots chopped.&lt;/li&gt;&lt;li&gt;Some french beans chopped.&lt;/li&gt;&lt;li&gt;10 pieces of cauliflower florets.&lt;/li&gt;&lt;li&gt;Some green peas.&lt;/li&gt;&lt;li&gt;Whole spice (1 cinnamon stick, 5 cloves, 6 green cardemom, 2 bay leaf, 1 staranis, 1 tsp cumin seeds).&lt;/li&gt;&lt;li&gt;Hung curd 4 tsp.&lt;/li&gt;&lt;li&gt;1 onion thinly sliced.&lt;/li&gt;&lt;li&gt;3 green chilies.&lt;/li&gt;&lt;li&gt;5 tsp of biriyani masala.&lt;/li&gt;&lt;li&gt;2 tsp ginger &amp; garlic paste.&lt;/li&gt;&lt;li&gt;Some saffron.&lt;/li&gt;&lt;li&gt;4 tsp milk.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;5 tsp Ghee / clarified butter.&lt;/li&gt;&lt;li&gt;1 tsp rose water/kewra water.&lt;/li&gt;&lt;li&gt;White oil.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/vegetable-biriyani.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Wash the rice and soak in water for 30 minutes.&lt;/li&gt;&lt;li&gt;Take a small bowl. Pour 4 tsp milk and add some saffron strands in it. Soak this for 30 minutes.&lt;/li&gt;&lt;li&gt;Fry the potatoes, carrots, cauliflower and beans 50% in white oil. Then keep aside.&lt;/li&gt;&lt;li&gt;Now take a pan heat 3 tsp white oil.&lt;/li&gt;&lt;li&gt;Add onion slices. Fry it for 12 minutes.&lt;/li&gt;&lt;li&gt;Then add ginger &amp; garlic paste. Mix it for 3 minutes.&lt;/li&gt;&lt;li&gt;Add salt, pinch of sugar and biriyani masala. Mix this very well.&lt;/li&gt;&lt;li&gt;Then add the hung curd. Cook this for 5 minutes.&lt;/li&gt;&lt;li&gt;Then add all fried vegetables, green peas and green chilies. Mix it and add some warm water. Cook this for another 10-15 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning. Vegetables should be 80% done and must have some gravy.&lt;/li&gt;&lt;li&gt;Turn of the gas. Keep aside.&lt;/li&gt;&lt;li&gt;Now take another vessel. Boil some water.&lt;/li&gt;&lt;li&gt;Add the whole spices, 5 tsp salt and soaked rice in the boiling water.&lt;/li&gt;&lt;li&gt;The rice should be boiled 80%.&lt;/li&gt;&lt;li&gt;Drain the water and keep it aside with lid.&lt;/li&gt;&lt;li&gt;Take another pan. First put 2 tsp ghee.&lt;/li&gt;&lt;li&gt; Put a layer of vegetables then a layer of rice.&lt;/li&gt;&lt;li&gt;Add 2 tsp ghee on top, half tsp kewra water.&lt;/li&gt;&lt;li&gt;Again put the layer of vegetables and rice.&lt;/li&gt;&lt;li&gt;Now add 1 tsp ghee, kewra water and saffron soaked milk on top.&lt;/li&gt;&lt;li&gt;Cover the pan with a tight lid and turn on the gas in medium flame for 20 minutes.&lt;/li&gt;&lt;li&gt;After 20 minutes turn of the gas and dont open the lid for another 15 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This dish dont need any explanation. Because its 'Biriyani'. Just give it a try and impress your family.</shortDesc>
+      <process>&lt;ul&gt;&lt;li&gt;Wash the rice and soak in water for 30 minutes.&lt;/li&gt;&lt;li&gt;Take a small bowl. Pour 4 tsp milk and add some saffron strands in it. Soak this for 30 minutes.&lt;/li&gt;&lt;li&gt;Fry the potatoes, carrots, cauliflower and beans 50% in white oil. Then keep aside.&lt;/li&gt;&lt;li&gt;Now take a pan heat 3 tsp white oil.&lt;/li&gt;&lt;li&gt;Add onion slices. Fry it for 12 minutes.&lt;/li&gt;&lt;li&gt;Then add ginger &amp; garlic paste. Mix it for 3 minutes.&lt;/li&gt;&lt;li&gt;Add salt, pinch of sugar and biriyani masala. Mix this very well.&lt;/li&gt;&lt;li&gt;Then add the hung curd. Cook this for 5 minutes.&lt;/li&gt;&lt;li&gt;Then add all fried vegetables, green peas and green chilies. Mix it and add some warm water. Cook this for another 10-15 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning. Vegetables should be 80% done and must have some gravy.&lt;/li&gt;&lt;li&gt;Turn of the gas. Keep aside.&lt;/li&gt;&lt;li&gt;Now take another vessel. Boil some water.&lt;/li&gt;&lt;li&gt;Add the whole spices, 5 tsp salt and soaked rice in the boiling water.&lt;/li&gt;&lt;li&gt;The rice should be boiled 80%.&lt;/li&gt;&lt;li&gt;Drain the water and keep it aside with lid.&lt;/li&gt;&lt;li&gt;Take another pan. First put 2 tsp ghee.&lt;/li&gt;&lt;li&gt; Put a layer of vegetables then a layer of rice.&lt;/li&gt;&lt;li&gt;Add 2 tsp ghee on top, half tsp kewra water.&lt;/li&gt;&lt;li&gt;Again put the layer of vegetables and rice.&lt;/li&gt;&lt;li&gt;Now add 1 tsp ghee, kewra water and saffron soaked milk on top.&lt;/li&gt;&lt;li&gt;Cover the pan with a tight lid and turn on the gas in medium flame for 20 minutes.&lt;/li&gt;&lt;li&gt;After 20 minutes turn of the gas and rest it  for another 15 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
+      <shortDesc>This dish dont need any explanation. Because its 'Biriyani'. Its the most popular dish in India. The  vegetarian version of biriyani is also very tasty Just give a try and impress your family.</shortDesc>
       <thumb>data/nonveg/vegetable-biriyani.jpg</thumb>
       <title>Vegetable Biriyani</title>
       <type>vegItem</type>
       <url>vegetable-biriyani</url>
+      <keywords>biriyani, vegetable, veg, rice, ghee, spicy, indian, main course, layer, dum, saffron</keywords>
+      <tags>biriyani,vegetable,indian,main course</tags>
    </element>
    <element>
       <completionStatement>Your Baked Chicken Legs are ready ...</completionStatement>
@@ -376,11 +425,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;4 chicken legs.&lt;/li&gt;&lt;li&gt;4 tsp hung curd.&lt;/li&gt;&lt;li&gt;2 tsp ginger &amp; garlic paste.&lt;/li&gt;&lt;li&gt;Spice powder 1 tsp (cumin, coriander, white pepper, kasuri methi /dry fenugreek leave).&lt;/li&gt;&lt;li&gt;Salt  as per your taste.&lt;/li&gt;&lt;li&gt;2 tsp white oil.&lt;/li&gt;&lt;li&gt;2 tsp butter.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/baked-chicken-legs.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Wash the chicken legs very well and pat dry. Make sure the chicken legs should be dry.&lt;/li&gt;&lt;li&gt;Make some slits with sharp knife on the chicken legs.&lt;/li&gt;&lt;li&gt;Then take a bowl. Put the hunk curd, ginger &amp; garlic paste, all the spice powder, white oil and salt. Mix this with your hand.&lt;/li&gt;&lt;li&gt;Check the seasoning. Adjust it according to your taste. If you like more hot add more pepper powder.&lt;/li&gt;&lt;li&gt;Then put the chicken legs into the marination. Massage it very well with your hand.&lt;/li&gt;&lt;li&gt;Keep this marinated chicken in the refrigerator for 3-4 hours.&lt;/li&gt;&lt;li&gt;Preheat your oven in the highest temperature for 10 minutes.&lt;/li&gt;&lt;li&gt;Place the chicken one by one in a baking tray.&lt;/li&gt;&lt;li&gt;Put the tray in the oven, close to the filaments for 15 minutes in 460 degree F.&lt;/li&gt;&lt;li&gt;Then brush some butter and turn the legs other side. &lt;/li&gt;&lt;li&gt;Again bake them for 15 minutes in same temperature.&lt;/li&gt;&lt;li&gt;At last brush some butter and remove them in a plate.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This is a mouth watering snack recipe. Please try this at your home and surprise your family &amp; guest.</shortDesc>
+      <shortDesc>Wanna try something new ? Just follow this recipe and get perfect starter for your friday evening. These baked leg pieces will never fail to satisfy your apetite. Try this and surprise your family &amp; guest.</shortDesc>
       <thumb>data/nonveg/baked-chicken-legs.jpg</thumb>
       <title>Baked Chicken Legs</title>
       <type>nonVegItem</type>
       <url>baked-chicken-legs</url>
+      <keywords>chicken, leg piece, drumstick, kabab, oven, bake, grill, curd, indian, starter</keywords>
+      <tags>chicken,kabab,starter,bake</tags>
    </element>
    <element>
       <completionStatement>Your Matar paneer pulaao is ready ...</completionStatement>
@@ -388,11 +439,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup basmati rice.&lt;/li&gt;&lt;li&gt;Half cup green peas.&lt;/li&gt;&lt;li&gt;7-8 paneer cubes.&lt;/li&gt;&lt;li&gt;1 small onion finely chopped.&lt;/li&gt;&lt;li&gt;2 green chilies chopped.&lt;/li&gt;&lt;li&gt;Whole spices (1 bay leaf, 1 small cinnamon stick, 4 green cardemoms, 4 cloves, half tsp cumin seeds).&lt;/li&gt;&lt;li&gt;10 cashews.&lt;/li&gt;&lt;li&gt;10 raisins.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;5 tsp ghee / clarified butter.&lt;/li&gt;&lt;li&gt;1 cup water.&lt;/li&gt;&lt;li&gt;4 tsp white oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/matar-paneer-pulaao.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Wash the rice very well and soak it for 30 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat the white oil.&lt;/li&gt;&lt;li&gt;Fry the paneer cubes in oil for 3-4 minutes. Then remove these from oil and keep aside.&lt;/li&gt;&lt;li&gt;Take another pan. Heat ghee.&lt;/li&gt;&lt;li&gt;Then add whole spices. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Add the finely chopped onion. Fry it for 7-8 minutes.&lt;/li&gt;&lt;li&gt;Then add the cashews and raisins. Again cook this for 2-3 minutes.&lt;/li&gt;&lt;li&gt;Now add the soaked rice, green chilies, 3-4tsp salt and 1-2 tsp sugar. Mix this gently.&lt;/li&gt;&lt;li&gt;Then add 1 cup of water and green peas. Stir it 1 more time.&lt;/li&gt;&lt;li&gt;Then cover the pan and cook this in slow flame for 30 minutes. Check the pulao twice in between.&lt;/li&gt;&lt;li&gt;After that add the fried paneer cubes. Mix this gently, check the seasoning and cover this for 5 minutes.&lt;/li&gt;&lt;li&gt;Then turn of your gas and do not open the cover for another 6 minutes.&lt;/li&gt;&lt;li&gt;Handle the pulaao with your spatula very gently.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This is a variation in rice main course item. In many gatherings you can make this and impress your guest.</shortDesc>
+      <shortDesc>First time I ate this pulao from one of my favourite aunt. She can turn this simple pulao into something special with her love and care. She really has some magic in her hand and I simply love it. In many gatherings you can make this dish and impress your guest.</shortDesc>
       <thumb>data/nonveg/matar-paneer-pulaao.jpg</thumb>
       <title>Matar Paneer Pulaao</title>
       <type>vegItem</type>
       <url>matar-paneer-pulaao</url>
+      <keywords>paneer, cottage cheese, matar, green peas, pulao, rice, main course, ghee, onion, cashew, raisin</keywords>
+      <tags>pulao,paneer,green peas,main course</tags>
    </element>
    <element>
       <completionStatement>Your palak kichdi is ready ...</completionStatement>
@@ -400,23 +453,27 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;Fresh spinach leaves 2 cups.&lt;/li&gt;&lt;li&gt;1 cup of rice.&lt;/li&gt;&lt;li&gt;1 cup of yellow lentils (moong daal).&lt;/li&gt;&lt;li&gt;1 small onion chopped.&lt;/li&gt;&lt;li&gt;1 tsp chopped ginger.&lt;/li&gt;&lt;li&gt;2 tsp chopped garlic.&lt;/li&gt;&lt;li&gt;1 chopped tomato.&lt;/li&gt;&lt;li&gt;2 chopped green chilies.&lt;/li&gt;&lt;li&gt;1 tsp turmeric powder.&lt;/li&gt;&lt;li&gt;1 tsp garam masala powder.&lt;/li&gt;&lt;li&gt;1 dry red chili.&lt;/li&gt;&lt;li&gt;4 cloves.&lt;/li&gt;&lt;li&gt;1 small cinnamon stick.&lt;/li&gt;&lt;li&gt;Half tsp asafetida.&lt;/li&gt;&lt;li&gt;1 tsp cumin seeds.&lt;/li&gt;&lt;li&gt;2 tsp chopped coriander leaves.&lt;/li&gt;&lt;li&gt;4 tsp ghee / clarified butter.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;Some warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/palak-kichdi.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Wash the rice and lentils very well.&lt;/li&gt;&lt;li&gt;Boil the rice and lentils together with some salt and 1 tsp turmeric powder. Keep it aside.&lt;/li&gt;&lt;li&gt;Then make a pure of fresh spinach leaves with some water. Keep this aside.&lt;/li&gt;&lt;li&gt;Now take pan and heat 2 tsp ghee.&lt;/li&gt;&lt;li&gt;Add 1 tsp of chopped garlic and half tsp of ginger. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Then add chopped onion. Fry this for 6 minutes.&lt;/li&gt;&lt;li&gt;Then add chopped tomatoes, green chilies, salt and a pinch of sugar. Cook this for another 6 minutes.&lt;/li&gt;&lt;li&gt;When this masala starts to separate oil add the spinach pure. Stir it well and cook this without cover for 7 minutes.&lt;/li&gt;&lt;li&gt;Then add the boiled rice and lentil (kichdi). Mix it well. &lt;/li&gt;&lt;li&gt;The consistency should be a little bit of runny like the picture. So add some warm water if you need to.&lt;/li&gt;&lt;li&gt;Add a tsp of garam masala. Mix the entire thing very well. Check the seasoning. Then keep aside.&lt;/li&gt;&lt;li&gt;For tempering take another pan. Heat the remaining ghee. Ghee should be very hot.&lt;/li&gt;&lt;li&gt;Add cumin seeds, dry red chili, asafetida, cloves, cinnamon stick, remaing chopped ginger &amp; garlic, coriander leaves one by one but quickly. Mix it for 1 minute.&lt;/li&gt;&lt;li&gt;Then add this tempering into the khichdi. Mix it 1 last time and cover with a lid for 5 minutes before serving.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>When you are in a mood of healthy eating, just give it a try ... This is a very tasty meal.</shortDesc>
+      <shortDesc>When you are in a mood of healthy eating, just give it a try ... You will find peace during eating this khichdi because it has some mild flavours and healthy ingredients. This is a meal which you can not ignore.</shortDesc>
       <thumb>data/nonveg/palak-kichdi.jpg</thumb>
       <title>Palak Kichdi</title>
       <type>vegItem</type>
       <url>palak-kichdi</url>
+      <keywords>khichdi, khichri, khichuri, palak, spinach, lunch, meal, dry red chili, onion, garlic, ginger, masala</keywords>
+      <tags>khichuri,palak,lunch,tempering,ghee</tags>
    </element>
    <element>
       <completionStatement>Your ghugni is ready to serve.</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with roti, naan.&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Yellow peas 1 small bowl.&lt;/li&gt;&lt;li&gt;Onion 1 big size&lt;/li&gt;&lt;li&gt;Ginger garlic paste 1 tsp.&lt;/li&gt;&lt;li&gt;Tomato 1 medium size.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Cumin seeds 1 tsp.&lt;/li&gt;&lt;li&gt;Cumin powder 1 tsp.&lt;/li&gt;&lt;li&gt;Coriander powder 1 tsp.&lt;/li&gt;&lt;li&gt;Red chili powder 1/2 tsp.&lt;/li&gt;&lt;li&gt;Garam masala powder 1 tsp.&lt;/li&gt;&lt;li&gt;Salt and suger as per your taste.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;Mustard oil 4 tsp.&lt;/li&gt;&lt;li&gt;Turmeric powder 2 tsp.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;One dry red chili.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Yellow peas 1 small bowl.&lt;/li&gt;&lt;li&gt;Onion 1 big size&lt;/li&gt;&lt;li&gt;Ginger garlic paste 1 tsp.&lt;/li&gt;&lt;li&gt;Tomato 1 medium size.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Cumin seeds 1 tsp.&lt;/li&gt;&lt;li&gt;Roasted cumin powder 1 tsp.&lt;/li&gt;&lt;li&gt;Roasted coriander powder 1 tsp.&lt;/li&gt;&lt;li&gt;Red chili powder 1 tsp.&lt;/li&gt;&lt;li&gt;Garam masala powder 1 tsp.&lt;/li&gt;&lt;li&gt;Salt and suger as per your taste.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;Mustard oil 4 tsp.&lt;/li&gt;&lt;li&gt;Turmeric powder 2 tsp.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;One dry red chili.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/gugni-1.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Soak the yellow peas overnight into the water.&lt;/li&gt;&lt;li&gt;Take a pressure cooker with water and boil the soaked peas till one whistle.&lt;/li&gt;&lt;li&gt;Now take a pan and heat mustard oil.&lt;/li&gt;&lt;li&gt;Add cumin seeds, bay leave and dry red chili. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Add the chopped onion. Fry it for 7 mins.&lt;/li&gt;&lt;li&gt;Then add the ginger and garlic paste. Cook it for 4 minutes.&lt;/li&gt;&lt;li&gt;Add the chopped tomato. Cook it for 5 minutes.&lt;/li&gt;&lt;li&gt;Now add turmeric, redchili, cumin and coriander powder. Cook it for 3 minutes.&lt;/li&gt;&lt;li&gt;Add salt and sugar as per your taste.&lt;/li&gt;&lt;li&gt;Now add boiled peas and green chilies. Cook this for 10 minuts.&lt;/li&gt;&lt;li&gt;If you want this runny then add some water. &lt;/li&gt;&lt;li&gt;When its done add some chopped coriander leaves and some garam masala powder.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>Its a delicious vegetarian curry. It is also called yellow peas curry. You can also eat this as snack.</shortDesc>
+      <process>&lt;ul&gt;&lt;li&gt;Soak the yellow peas overnight into the water.&lt;/li&gt;&lt;li&gt;Take a pressure cooker with water and boil the soaked peas till one whistle.&lt;/li&gt;&lt;li&gt;Now take a pan and heat mustard oil.&lt;/li&gt;&lt;li&gt;Add cumin seeds, bay leave and dry red chili. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Add the chopped onion. Fry it for 7 mins.&lt;/li&gt;&lt;li&gt;Then add the ginger and garlic paste. Cook it for 4 minutes.&lt;/li&gt;&lt;li&gt;Add the chopped tomato. Cook it for 5 minutes.&lt;/li&gt;&lt;li&gt;Now add turmeric, redchili, cumin and coriander powder. Cook it for 5 minutes.&lt;/li&gt;&lt;li&gt;Add salt and sugar as per your taste.&lt;/li&gt;&lt;li&gt;When oil starts separating add boiled peas and green chilies. Cook this for 10 minuts.&lt;/li&gt;&lt;li&gt;If you want this runny then add some water. &lt;/li&gt;&lt;li&gt;When its done add some chopped coriander leaves, 1 tsp ghee, roasted cumin powder and some garam masala powder.&lt;/li&gt;&lt;/ul&gt;</process>
+      <shortDesc>It is almost impossible to find them, who does not love street food and specially 'ghugni' from train vendors. But 'ghugni' also plays a different role along with 'nimki'and 'naaru' during BIJOYA dashami. From childhood I am a big fan of my mom's cooking. I think you already understand that this one is also from my mom's diary :-) </shortDesc>
       <thumb>data/nonveg/gugni-1.jpg</thumb>
       <title>Ghugni or Yellow peas curry</title>
       <type>vegItem</type>
       <url>ghugni</url>
+      <keywords>ghugni, motor, starter, gravy, chaat, street food, indian, onion, green chilies, coriander leaves </keywords>
+      <tags>ghugni,yellow peas,spicy,starter</tags>
    </element>
    <element>
       <completionStatement>Your kadai paneer is ready ...</completionStatement>
@@ -424,11 +481,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;10-15 paneer cubes.&lt;/li&gt;&lt;li&gt;1 small onion chopped.&lt;/li&gt;&lt;li&gt;2 cloves garlic.&lt;/li&gt;&lt;li&gt;1 inch ginger.&lt;/li&gt;&lt;li&gt;1 tomato chopped.&lt;/li&gt;&lt;li&gt;1 green chili.&lt;/li&gt;&lt;li&gt;Whole spice (2 tsp cumin seeds, 2 tsp coriander seeds, 1 tsp fennel seeds, 1 dry red chili, 1 tsp whole black pepper, 2 tsp dry fenugreek leaves, 2 cloves, 1 green cardemom).&lt;/li&gt;&lt;li&gt;Some onion shell cubes.&lt;/li&gt;&lt;li&gt;Green capsicum cubes.&lt;/li&gt;&lt;li&gt;1 tsp turmeric powder.&lt;/li&gt;&lt;li&gt;1 tsp kashmiri red chili powder.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;1 small bowl full fat cream.&lt;/li&gt;&lt;li&gt;Butter 2 tsp.&lt;/li&gt;&lt;li&gt;Oil 2 tsp.&lt;/li&gt;&lt;li&gt;Some warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/kadai-paneer.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Roast the whole spices for some time. Then blend it like a fine powder. This is kadai masala. Keep aside.&lt;/li&gt;&lt;li&gt;Heat oil in a pan.&lt;/li&gt;&lt;li&gt;Then add chopped onion. Fry it in high flame for 6 minutes.&lt;/li&gt;&lt;li&gt;Then add garlic &amp; ginger. Cook it for another 4 minutes.&lt;/li&gt;&lt;li&gt;Then add chopped tomato, some salt, green chili, turmeric powder and kashmiri red chili powder. Cook this for 6 minutes.&lt;/li&gt;&lt;li&gt;Then keep this aside for cool down. &lt;/li&gt;&lt;li&gt;After cooling down blend this like a fine paste. Keep aside.&lt;/li&gt;&lt;li&gt;Now heat the butter in a pan / kadai.&lt;/li&gt;&lt;li&gt;Add 2 tsp of kadai masala. Mix it.&lt;/li&gt;&lt;li&gt;Then add the onion shells and capsicum cubes. Mix it in high flame for 2-3 minutes.&lt;/li&gt;&lt;li&gt;Then add the masala paste. Mix it very well.&lt;/li&gt;&lt;li&gt;Add half tsp of sugar and very little water. Stir this and cook for 10 minutes in medium flame.&lt;/li&gt;&lt;li&gt;Then add paneer cubes and cream. Mix it gently. Cook another 6 minutes.&lt;/li&gt;&lt;li&gt;Finally add another 2 tsp of kadai masala and check the seasoning.&lt;/li&gt;&lt;li&gt;Turn of your gas. Gravy should not be too much runny.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This is a very delicious dish. The main attraction here is Kadai masala. It gives such a nice flavour in this dish. Please try this at your home.</shortDesc>
+      <shortDesc>Though me and my hubby both are nonveg lovers, but we also love spicy veg dishes. 'Kadai Paneer' is our favourite one. Last night my dinner was this paneer dish along with butter naan. There were no other words but 'delicious and mouth watering' about the combination. The main attraction here is KADAI masala. It gives such a nice flavour in this dish. Just close your eyes and go for it.</shortDesc>
       <thumb>data/nonveg/kadai-paneer.jpg</thumb>
       <title>Kadai Paneer</title>
       <type>vegItem</type>
       <url>kadai-paneer</url>
+      <keywords>paneer, cottage cheese, kadai, karai, masala, gravy, onion, capsicum, indian, main course, cream</keywords>
+      <tags>paneer,masala,main course,rich gravy</tags>
    </element>
    <element>
       <completionStatement>Your paneer is ready ...</completionStatement>
@@ -436,23 +495,27 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;Full fat milk 2 lt.&lt;/li&gt;&lt;li&gt;One small bowl lemon juice.&lt;/li&gt;&lt;li&gt;Hunk beaten curd 5 tsp.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/paneer.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Take a vessel, pour the milk. Bring it to boil. Stir with a spatula occasionally.&lt;/li&gt;&lt;li&gt;When it starts boiling add the lemon juice and beaten curd. &lt;/li&gt;&lt;li&gt;Turn of the gas. Stir 1/2 times.&lt;/li&gt;&lt;li&gt;When the milk curdles strain the water.&lt;/li&gt;&lt;li&gt;Wash the curdled milk in cold water for 2-3 minutes. Again strain the water.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>In vegetarian world paneer plays a very important role. But in nonvegrtarian world it also offers some special dishes. Homemade paneer has its own frshness and taste. So, lets see the recipe.</shortDesc>
+      <shortDesc>In vegetarian world PANEER plays a very important role. We, nonveg lovers are also become fan of paneer. There is nothing like fresh homemade paneer. It has its own frshness and taste. You can make many kinds of starter, main course and dessert dishes with it. Believe me after trying this recipe you will never go to shop for paneer.</shortDesc>
       <thumb>data/nonveg/paneer.jpg</thumb>
       <title>Paneer (Indian Cottage Cheese)</title>
       <type>vegItem</type>
       <url>paneer</url>
+      <keywords>paneer, chana, cottage cheese, milk, lemon, indian</keywords>
+      <tags>paneer,indian cottage cheese,milk,lemon</tags>
    </element>
    <element>
       <completionStatement>Your Beguni (Eggplant fritters) are ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy the crispiness of these fritters with some puffed rice or tea ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Eggplant/Brinjal very thinly sliced 8 pieces.&lt;/li&gt;&lt;li&gt;Bengal gram flour (besan) 1 small cup.&lt;/li&gt;&lt;li&gt;Red chili powder half tsp.&lt;/li&gt;&lt;li&gt;Turmeric powder half tsp.&lt;/li&gt;&lt;li&gt;Dry mango powder half tsp.&lt;/li&gt;&lt;li&gt;Baking powder half tsp.&lt;/li&gt;&lt;li&gt;Nigella seeds 1 tsp.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/beguni.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Soak the eggplant slices in cold water for 15 minutes.&lt;/li&gt;&lt;li&gt;Take a bowl and put gram flour.&lt;/li&gt;&lt;li&gt;Then add all the powder, nigella seeds and some salt. Mix all the things very well with your hand or egg beater.&lt;/li&gt;&lt;li&gt;Now add little water and mix it. The batter should not too thick or too runny. Make a lump free batter and adjust the seasoning.&lt;/li&gt;&lt;li&gt;Keep this aside in refrigerator for 20 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat white oil for deep fry. Oil should be medium hot.&lt;/li&gt;&lt;li&gt;Then take a slice of eggplant, dip into the batter and put in the hot oil.&lt;/li&gt;&lt;li&gt;Fry very well from both side. Dont remove it from oil very fast. Otherwise it will not become crunchy.&lt;/li&gt;&lt;li&gt;Then keep them in paper towel for a minute.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This is a famous snack item in Bengal. You need very few ingredients. Make this at your home and enjoy the crunch.</shortDesc>
+      <process>&lt;ul&gt;&lt;li&gt;Soak the eggplant slices in cold water for 15 minutes.&lt;/li&gt;&lt;li&gt;Take a bowl and put gram flour.&lt;/li&gt;&lt;li&gt;Then add all the powder, nigella seeds and some salt. Mix all the things very well with your hand or egg beater.&lt;/li&gt;&lt;li&gt;Now add little water and mix it. The batter should not be too thick or too runny. Make a lump free batter and adjust the seasoning.&lt;/li&gt;&lt;li&gt;Keep this aside in refrigerator for 20 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat white oil for deep fry. Oil should be medium hot.&lt;/li&gt;&lt;li&gt;Then take a slice of eggplant, dip into the batter and put in the hot oil.&lt;/li&gt;&lt;li&gt;Fry very well from both side. Dont remove it from oil very fast. Otherwise it will not become crunchy.&lt;/li&gt;&lt;li&gt;Then keep them in paper towel for a minute and sprinkle some black salt.&lt;/li&gt;&lt;/ul&gt;</process>
+      <shortDesc>We, Bengalis, call them 'beguni'. Some people call them 'baingan bhajji'. There is no difference among the names. Its all about the tastiness and chrunchiness. You can get this fritter with some puffed rice and green chili in Bengal from any 'choper dokan'/fast food centers. When they serve this in 'thonga'/paper bag, the feel and look always increase my apetite a bit. Make this at your home and enjoy the crunch with a cup of tea.</shortDesc>
       <thumb>data/nonveg/beguni.jpg</thumb>
       <title>Beguni (Crispy Eggplant Fritters)</title>
       <type>vegItem</type>
       <url>beguni</url>
+      <keywords>beguni, begun, eggplant, baingan, gram flour, besan, fry, starter, indian, nigella seeds</keywords>
+      <tags>fry,beguni,gram flour,starter</tags>
    </element>
    <element>
       <completionStatement>Your red lentil fritters is ready ...</completionStatement>
@@ -460,11 +523,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;Red lentil (musur daal) 1 cup.&lt;/li&gt;&lt;li&gt;Half onion finely chopped.&lt;/li&gt;&lt;li&gt;Two green chilies finely chopped&lt;/li&gt;&lt;li&gt;Finely chopped ginger and garlic 1 tsp.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Some water.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/musur-daaler-bora.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Wash the red lentils very well in cold water. Then soak this in water for 1 hour.&lt;/li&gt;&lt;li&gt;Then drain all the water from lentils.&lt;/li&gt;&lt;li&gt;Make a paste of soaked lentils and 5 tsp water. The paste should be very thick.&lt;/li&gt;&lt;li&gt;Then put the paste in a bowl. &lt;/li&gt;&lt;li&gt;Beat the paste with your hand for 4-5 minutes. This is a very important step. &lt;/li&gt;&lt;li&gt;After that add onion, green chilies, ginger, garlic and salt. Mix it again with your hand for 3 minutes.&lt;/li&gt;&lt;li&gt;Adjust seasoning according to your taste.&lt;/li&gt;&lt;li&gt;Now heat oil for deep fry.&lt;/li&gt;&lt;li&gt;Put little amount of mixture in hot oil. Dont overcrowd the pan.&lt;/li&gt;&lt;li&gt;Fry this in medium flame untill it gets red colour.&lt;/li&gt;&lt;li&gt;Remove the fritters in paper towel.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>We can call this comfort food. Because you can make this with very simple ingredients and it tastes yummy.</shortDesc>
+      <shortDesc>According to me comfort food means hot plain rice, lentil soup (daal), one lemon slice, mashed potato with fried onion, one green chili and lots of 'red lentil fritters'. I know every person has their own comfort food. But isn't it become more comforter when your mom serve this plate with her love and care. It definitely is. I learned this recipe from her. Just give it a try.</shortDesc>
       <thumb>data/nonveg/musur-daaler-bora.jpg</thumb>
       <title>Musur daaler Bora (Red lentil fritters)</title>
       <type>vegItem</type>
       <url>musur-daaler-bora</url>
+      <keywords>fritters, lentil, musur dal, bora, onion, green chilies, fry, snack, lunch, comfort</keywords>
+      <tags>fry,fritters,lentil,snack,lunch</tags>
    </element>
    <element>
       <completionStatement>Your watermelon smoothie is ready ...</completionStatement>
@@ -472,11 +537,13 @@
       <ingrediants>&lt;ul&gt;&lt;li&gt;Two cups of freezed watermelon cubes.&lt;/li&gt;&lt;li&gt;Lemon juice 4 tsp.&lt;/li&gt;&lt;li&gt;Sugar 3 tsp.&lt;/li&gt;&lt;li&gt;Black salt half tsp.&lt;/li&gt;&lt;li&gt;Mint leaves 3-4.&lt;/li&gt;&lt;li&gt;Finely chopped half tsp ginger.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>data/nonveg/watermelon-smoothie.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Cut the watermelon in cube sizes. Then put it in the freezer for 1 hour.&lt;/li&gt;&lt;li&gt;Take a blender. Put all the ingredients. Blend it very well.&lt;/li&gt;&lt;li&gt;Check the seasoning. Adjust the sweetness according to your taste.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>During summer it is a very healthy drink. This needs very few ingredients. Hope you will like it.</shortDesc>
+      <shortDesc>I love to eat chilled watermelon cubes during summer. My divaai(grandma) serve watermelon cubes with some crushed ice on top and then magically the taste level increases twice. She has her own unique style. So, today I made an attempt on watermelon smoothie and it came out quite delicious. Hope you will like it.</shortDesc>
       <thumb>data/nonveg/watermelon-smoothie.jpg</thumb>
       <title>Watermelon Smoothie</title>
       <type>vegItem</type>
       <url>watermelon-smoothie</url>
+      <keywords>watermelon, drink, summer, cooler, ice cubes, ginger, lemon juice</keywords>
+      <tags>watermelon,summer,smoothie,chilled</tags>
    </element>
    <element>
       <completionStatement>Your chicken dak bunglow is ready ...</completionStatement>
