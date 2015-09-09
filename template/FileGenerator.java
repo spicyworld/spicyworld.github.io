@@ -220,7 +220,8 @@ public class FileGenerator {
 				+ "<url><loc>http://spicyworld.in/feedback.html</loc></url>"
 				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
-				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>";
+				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>"
+				+ "<url><loc>http://spicyworld.in/tags.html</loc></url>";
 	}
 	
 	public static String populateRSSData(Element eElement) {
