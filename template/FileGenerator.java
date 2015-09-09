@@ -137,10 +137,12 @@ public class FileGenerator {
 			count = 0;
 			while (iterator.hasNext()) {
 				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
-				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + entry.getKey() + "-tag.html\">" + entry.getKey() + "</a></span>";
+				String data = entry.getKey();
+				data = data.replace(" ", "-");
+				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
-				generateTagHTML(entry.getKey(), tag_data_template, nList, templatePath, count);
-				siteMapData += "<url><loc>http://spicyworld.in/" + entry.getKey() + "-tag.html</loc></url>";
+				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey());
+				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc></url>";
 			}
 			fileData = readFile(tags_template);
 			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
@@ -156,7 +158,7 @@ public class FileGenerator {
 		System.out.println("Processed ...");
 	}
 	
-	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count) {
+	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
 		String recipes_data = "<table class=\"dataTable\">", tagData = null;
 		try {
 			for (int temp = 0; temp < nList.getLength(); temp++) {
@@ -170,7 +172,7 @@ public class FileGenerator {
 					} catch (Exception e) {
 						tagData = "";
 					}
-					if (tagData!=null && tagData.indexOf(tag) > -1) {
+					if (tagData!=null && tagData.indexOf(tagDataStr) > -1) {
 						recipes_data = recepiData(recipes_data, eElement, "");
 					}
 				}
@@ -180,9 +182,9 @@ public class FileGenerator {
 		String fileData = readFile(templatePath);
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
-		fileData = fileData.replaceAll("##PAGE_TITLE##", tag.toUpperCase());
+		fileData = fileData.replaceAll("##PAGE_TITLE##", tagDataStr.toUpperCase());
 		saveFile(baseTemplatePath + tag + "-tag.html", fileData);
-		System.out.println(count + ". Creating Tag Page for " + tag);
+		System.out.println(count + ". Creating Tag Page for " + tagDataStr);
 	}
 	
 	private static String getPagination(int currentPage, int totalPage, String siteMapData) {
