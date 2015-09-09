@@ -110,7 +110,6 @@ public class FileGenerator {
 			}
 			
 			saveFile(templatePath + "recipes.js", homeJSON);
-			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
 			
 			fileData = readFile(recipes_template_img);
@@ -141,11 +140,15 @@ public class FileGenerator {
 				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + entry.getKey() + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
 				generateTagHTML(entry.getKey(), tag_data_template, nList, templatePath, count);
+				siteMapData += "<url><loc>http://spicyworld.in/" + entry.getKey() + "-tag.html</loc></url>";
 			}
 			fileData = readFile(tags_template);
 			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			saveFile(templatePath + "tags.html", fileData);
+			
+			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
