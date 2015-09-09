@@ -35,6 +35,7 @@ public class FileGenerator {
 		String recipes_template = templatePath + "template/recipes.html";
 		String recipes_template_img = templatePath + "template/image-list.html";
 		String tags_template = templatePath + "template/tags.html";
+		String tag_data_template = templatePath + "template/tag-content.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
 		String homeJSON = "var myData = [";
@@ -69,7 +70,7 @@ public class FileGenerator {
 						recipeDataList.add(recipes_data_front + recipes_data + "</table>");
 						recipes_data = "";
 					}
-					recipes_data = recepiData(recipes_data, eElement);
+					recipes_data = recepiData(recipes_data, eElement, "");
 					recipes_data_img = getAllImages(recipes_data_img, eElement);
 					createItemData(templatePath, eElement, count);
 					count++;
@@ -134,9 +135,12 @@ public class FileGenerator {
 			}
 			Iterator iterator = tagMap.entrySet().iterator();
 			String htmlTags = "";
+			count = 0;
 			while (iterator.hasNext()) {
 				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
-				htmlTags += "<span data-weight=\"" + entry.getValue() + "\">" + entry.getKey() + "</span>";
+				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + entry.getKey() + "-tag.html\">" + entry.getKey() + "</a></span>";
+				count++;
+				generateTagHTML(entry.getKey(), tag_data_template, nList, templatePath, count);
 			}
 			fileData = readFile(tags_template);
 			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
@@ -147,6 +151,35 @@ public class FileGenerator {
 		}
 		selfCopy(templatePath + "template/FileGenerator.java", processor);
 		System.out.println("Processed ...");
+	}
+	
+	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count) {
+		String recipes_data = "<table class=\"dataTable\">", tagData = null;
+		try {
+			for (int temp = 0; temp < nList.getLength(); temp++) {
+
+				Node nNode = nList.item(temp);
+
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+					Element eElement = (Element) nNode;
+					try {
+						tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
+					} catch (Exception e) {
+						tagData = "";
+					}
+					if (tagData!=null && tagData.indexOf(tag) > -1) {
+						recipes_data = recepiData(recipes_data, eElement, "");
+					}
+				}
+			}
+		} catch (Exception e) {}
+		recipes_data += "</table>";
+		String fileData = readFile(templatePath);
+		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+		fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
+		fileData = fileData.replaceAll("##PAGE_TITLE##", tag.toUpperCase());
+		saveFile(baseTemplatePath + tag + "-tag.html", fileData);
+		System.out.println(count + ". Creating Tag Page for " + tag);
 	}
 	
 	private static String getPagination(int currentPage, int totalPage, String siteMapData) {
@@ -277,7 +310,7 @@ public class FileGenerator {
 								.getTextContent());
 	}
 
-	public static String recepiData(String recipes_data, Element eElement) {
+	public static String recepiData(String recipes_data, Element eElement, String prefix) {
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
 		String itemTypeClass = "";
@@ -293,7 +326,7 @@ public class FileGenerator {
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\"><img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
-				+ eElement.getElementsByTagName("thumb").item(0)
+				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"float:left;width:480px\">"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
