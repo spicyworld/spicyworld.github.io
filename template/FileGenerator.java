@@ -90,6 +90,7 @@ public class FileGenerator {
 				fileData = fileData.replace("#PAGINATION_RECIPE#", pagination);
 				fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+				fileData = fileData.replaceAll("##PAGE_TITLE##", "My Recipes - Page " + (i+1));
 				if (i > 0) {
 					saveFile(templatePath + "recipes-" + i + ".html", fileData);	
 					siteMapData += "<url><loc>http://spicyworld.in/recipes-" + i + ".html</loc></url>";
@@ -120,13 +121,15 @@ public class FileGenerator {
 			if (i == currentPage) {
 				data += "<div class=\"selected\">" + i + "</div>";
 			} else {
-				String pageURL = "";
+				String pageURL = "", pageTitle = "";
 				if (i == 1) {
 					pageURL = "recipes.html";
+					pageTitle = "My Recipes - Page 1";
 				} else {
 					pageURL = "recipes-" + (i-1) + ".html";
+					pageTitle = "My Recipes - Page " + i;
 				}
-				data += "<div><a href='" + pageURL + "'>" + i + "</a></div>";
+				data += "<div><a title='" + pageTitle + "' href='" + pageURL + "'>" + i + "</a></div>";
 			}
 		}
 		return data;
