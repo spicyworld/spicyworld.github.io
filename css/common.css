@@ -1,3 +1,51 @@
+.topPagination {
+  position: absolute;
+  left: 365px;
+  top: 130px;
+  font-size: 18px;
+  font-family: inherit;
+  clear: both;
+  background-color: white;
+  padding: 5px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 6px 6px grey;
+}
+
+.topPagination .leftText {
+    float: left;
+    color: black;
+    font-size: 18px;
+}
+
+#topPaginationData {
+  float: left;
+}
+
+#topPaginationData div a {
+  color: white;
+}
+
+#topPaginationData div.selected {
+  color: lightgrey;
+}
+
+#topPaginationData div {
+    float: left;
+    border: 1px solid grey;
+    margin: 0px 10px 0px 10px;
+    width: 30px;
+    text-align: center;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7abcff+0,60abf8+44,4096ee+100;Blue+3D+%2314 */
+background: rgb(122,188,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+
 #cboxTitle {
   display: none !important;
 }
