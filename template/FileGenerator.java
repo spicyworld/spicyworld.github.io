@@ -37,6 +37,7 @@ public class FileGenerator {
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
 				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>";
 		String recipes_data_img = "";
+		int count = 1;
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -57,7 +58,8 @@ public class FileGenerator {
 					Element eElement = (Element) nNode;
 					recipes_data = recepiData(recipes_data, eElement);
 					recipes_data_img = getAllImages(recipes_data_img, eElement);
-					createItemData(templatePath, eElement);
+					createItemData(templatePath, eElement, count);
+					count++;
 					if ("var myData = [".equals(homeJSON)) {
 						homeJSON += createHomeJS(eElement);
 					} else {
@@ -126,7 +128,7 @@ public class FileGenerator {
 		return homeJSON;
 	}
 	
-	public static void createItemData(String templatePath, Element eElement) {
+	public static void createItemData(String templatePath, Element eElement, int count) {
 		String out = "";
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
@@ -178,13 +180,22 @@ public class FileGenerator {
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		/*String keyword = Utility.getKeyword(eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ " " + eElement.getElementsByTagName("shortDesc").item(0).getTextContent());*/
-		String keyword = eElement.getElementsByTagName("title").item(0).getTextContent() + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + eElement.getElementsByTagName("url").item(0).getTextContent();
+		String ky = null;
+		try {
+			ky = eElement.getElementsByTagName("keywords").item(0).getTextContent();
+		} catch (Exception e) {}
+		String keyword = "";
+		if (ky!=null && !"".equals(ky)) {
+			keyword = ky + ", " + eElement.getElementsByTagName("title").item(0).getTextContent();
+		} else {
+			keyword = eElement.getElementsByTagName("title").item(0).getTextContent() + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + eElement.getElementsByTagName("url").item(0).getTextContent();
+		}
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
 		saveFile(templatePath
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html", fileData);
 		System.out
-				.println("Created HTML for "
+				.println(count + ". Created HTML for "
 						+ eElement.getElementsByTagName("url").item(0)
 								.getTextContent());
 	}
