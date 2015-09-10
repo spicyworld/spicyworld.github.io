@@ -263,7 +263,7 @@ public class FileGenerator {
 				+ itemType
 				+ ")</span><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\" data-layout=\"button_count\"></div>"
+				+ ".html\" data-layout=\"button_count\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\" data-pin-height=\"28\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script></div>"
 				+ "<p class=\"descp\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
