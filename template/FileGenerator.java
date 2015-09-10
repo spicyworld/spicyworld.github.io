@@ -138,7 +138,7 @@ public class FileGenerator {
 			while (iterator.hasNext()) {
 				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
 				String data = entry.getKey();
-				keywordTags += data;
+				keywordTags += data + " ";
 				data = data.replace(" ", "-");
 				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
