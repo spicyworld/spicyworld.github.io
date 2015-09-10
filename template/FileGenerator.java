@@ -285,6 +285,21 @@ public class FileGenerator {
 				+ "<div class='garnishment'>"
 				+ eElement.getElementsByTagName("garnishment").item(0)
 						.getTextContent() + "</div></div>" + "</div></div>";
+		
+		try {
+			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
+			String tags = "<div class=\"tagContent\"><div class=\"heading\">Tags:</div>";
+			if (tagData!=null) {
+				String ss[] = tagData.split(",");
+				for (int i=0; i<ss.length; i++) {
+					String tg = ss[i];
+					tags += "<div><a href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></div>";
+				}
+			}
+			tags += "</div>";
+			out += tags;
+		} catch (Exception e) {} 
+		
 		String fileData = readFile(templatePath + "template/food-item.html");
 		fileData = fileData.replace("##DATA_ENTRY##", out);
 		fileData = fileData.replaceAll("##TITLE_DATA##", eElement
