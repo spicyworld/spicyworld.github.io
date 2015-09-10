@@ -257,16 +257,16 @@ public class FileGenerator {
 			itemType = "Vegetarian";
 		}
 		
-		out = "<div><div class='h2Class'><h1 style=\"font-size: 25px;display: inline;\">"
+		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 25px;display: inline;float:left\">"
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</h1><span>&nbsp;("
+				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
-				+ ")</span><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
+				+ ")</div><div style=\"float:left\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\" data-layout=\"button_count\">" 
-				+ "</div><div><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
-				+ "</div>"
-				+ "<p class=\"descp\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
+				+ "</div></div><div style=\"float:left\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
+				+ "</div></div>"
+				+ "<p class=\"descp\" style=\"clear:both\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src='"
