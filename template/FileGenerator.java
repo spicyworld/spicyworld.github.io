@@ -133,11 +133,12 @@ public class FileGenerator {
 				}
 			}
 			Iterator iterator = tagMap.entrySet().iterator();
-			String htmlTags = "";
+			String htmlTags = "", keywordTags = "";
 			count = 0;
 			while (iterator.hasNext()) {
 				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
 				String data = entry.getKey();
+				keywordTags += data;
 				data = data.replace(" ", "-");
 				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
@@ -147,6 +148,7 @@ public class FileGenerator {
 			fileData = readFile(tags_template);
 			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
 			saveFile(templatePath + "tags.html", fileData);
 			
 			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
