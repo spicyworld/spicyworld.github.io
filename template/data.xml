@@ -94,7 +94,7 @@
       <thumb>recipeimages/mutton-stew.jpg</thumb>
       <url>mutton-stew</url>
       <keywords>mutton, stew, lunch, summer, mild, cooker, curd, onion</keywords>
-      <tags>mutton,stew,lunch,mild,summer</tags>
+      <tags>mutton,stew,lunch,mild,summer,curd,dahi</tags>
    </element>
 
     <element>
@@ -176,8 +176,8 @@
       <pic>recipeimages/mutton-korma.jpg</pic>
       <thumb>recipeimages/mutton-korma.jpg</thumb>
       <url>mutton-korma</url>
-      <keywords>mutton. korma, gravy, rich, party, brown, onion, dinner, oil, curd, kewra, ghee</keywords>
-      <tags>mutton,gravy,maincourse,ghee</tags>
+      <keywords>mutton. korma, gravy, rich, party, brown, onion, dinner, oil, curd, kewra, ghee, dahi</keywords>
+      <tags>mutton,gravy,maincourse,ghee,curd,dahi</tags>
    </element>
 
    <element>
@@ -318,7 +318,7 @@
       <thumb>recipeimages/dahi-chicken.jpg</thumb>
       <url>dahi-chicken</url>
       <keywords>chicken, curd, gravy, black pepper, dahi, doi, green chili, garlic</keywords>
-      <tags>chicken,curd,main course,spicy</tags>
+      <tags>chicken,curd,main course,spicy,hadi</tags>
    </element>
 
     <element>
@@ -333,7 +333,7 @@
       <thumb>recipeimages/lassi.jpg</thumb>
       <url>lassi</url>
       <keywords>lassi, indian, summer, drink, curd, doi, chilled, sugar</keywords>
-      <tags>lassi,curd,summer,chilled,drink</tags>
+      <tags>lassi,curd,summer,chilled,drink,dahi</tags>
    </element>
 
    <element>
@@ -404,7 +404,7 @@
       <type>nonVegItem</type>
       <url>chicken-tandoori</url>
       <keywords>chicken, tandoori, indian, spicy, starter, oven, curd, butter, smokey, grill</keywords>
-      <tags>chicken,oven,grill,tandoori,starter</tags>
+      <tags>chicken,oven,grill,tandoori,starter,curd,dahi</tags>
    </element>
    <element>
       <completionStatement>Your Kasuri Methi Murg Masala is ready ...</completionStatement>
@@ -418,7 +418,7 @@
       <type>nonVegItem</type>
       <url>kasuri-methi-murg-masala</url>
       <keywords>chicken, murg, kasuri methi, fenugreek, gravy, main course, indian, spicy, turmeric, powder</keywords>
-      <tags>chicken,fenugreek,gravy,main course</tags>
+      <tags>chicken,fenugreek,gravy,main course,dahi,curd</tags>
    </element>
    <element>
       <completionStatement>Your Vegetable Biriyani is ready ...</completionStatement>
@@ -445,8 +445,8 @@
       <title>Baked Chicken Legs</title>
       <type>nonVegItem</type>
       <url>baked-chicken-legs</url>
-      <keywords>chicken, leg piece, drumstick, kabab, oven, bake, grill, curd, indian, starter</keywords>
-      <tags>chicken,kabab,starter,bake</tags>
+      <keywords>chicken, leg piece, drumstick, kabab, oven, bake, grill, curd, indian, starter, dahi</keywords>
+      <tags>chicken,dahi,kabab,starter,bake,curd</tags>
    </element>
    <element>
       <completionStatement>Your Matar paneer pulaao is ready ...</completionStatement>
@@ -565,7 +565,7 @@
       <garnishment>&lt;ul&gt;&lt;li&gt;Serve this hot with plain rice or roti ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Chicken 10-15 pieces.&lt;/li&gt;&lt;li&gt;Four baby potatoes.&lt;/li&gt;&lt;li&gt;Four hard boil eggs.&lt;/li&gt;&lt;li&gt;One onion thinly sliced.&lt;/li&gt;&lt;li&gt;Ginger &amp; garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;One tomato chopped.&lt;/li&gt;&lt;li&gt;Hunk curd 4 tsp.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Whole spices( 4 green cardemom, 4 cloves, 1 small cinnamon stick, 1 bay leaf, 5 whole black pepper )&lt;/li&gt;&lt;li&gt;Spice powder( 2 tsp turmeric, 1 tsp red chili, 1 tsp cumin, 1 tsp coriander )&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;Mustard oil.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>recipeimages/chicken-dak-bunglow.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Marinate the chicken pieces with hunk curd, spice powder. Keep this aside for 1 hour.&lt;/li&gt;&lt;li&gt;Shallow fry the potatoes for 5 minutes and eggs for 2 minutes. Keep aside.&lt;/li&gt;&lt;li&gt;Make a paste of whole spices with 4 tsp of water. Keep aside.&lt;/li&gt;&lt;li&gt;Take a pan and heat the mustard oil.&lt;/li&gt;&lt;li&gt;Add chopped onion in hot. Fry this for 10 minutes.&lt;/li&gt;&lt;li&gt;Add ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/li&gt;&lt;li&gt;Add chopped tomato, salt and some sugar. Cook this in slow flame for 6 minutes.&lt;/li&gt;&lt;li&gt;Now add the marinated chicken. Mix it very well in high flame for 7 minutes.&lt;/li&gt;&lt;li&gt;Add the fried potatoes , green chilies and some warm water. Cook this in slow flame for 30 minutes.&lt;/li&gt;&lt;li&gt;After that add the boiled eggs and the whole spice paste. Cook this another 2 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning, chicken and potatoes should be tendor and gravy should be thick.&lt;/li&gt;&lt;/ul&gt;</process>
+      <process>&lt;ul&gt;&lt;li&gt;Marinate the chicken pieces with hung curd, spice powder. Keep this aside for 1 hour.&lt;/li&gt;&lt;li&gt;Shallow fry the potatoes for 5 minutes and eggs for 2 minutes. Keep aside.&lt;/li&gt;&lt;li&gt;Make a paste of whole spices with 4 tsp of water. Keep aside.&lt;/li&gt;&lt;li&gt;Take a pan and heat the mustard oil.&lt;/li&gt;&lt;li&gt;Add chopped onion in hot. Fry this for 10 minutes.&lt;/li&gt;&lt;li&gt;Add ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/li&gt;&lt;li&gt;Add chopped tomato, salt and some sugar. Cook this in slow flame for 6 minutes.&lt;/li&gt;&lt;li&gt;Now add the marinated chicken. Mix it very well in high flame for 7 minutes.&lt;/li&gt;&lt;li&gt;Add the fried potatoes , green chilies and some warm water. Cook this in slow flame for 30 minutes.&lt;/li&gt;&lt;li&gt;After that add the boiled eggs and the whole spice paste. Cook this another 2 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning, chicken and potatoes should be tendor and gravy should be thick.&lt;/li&gt;&lt;/ul&gt;</process>
       <shortDesc>Yesterday morning during surfing net I saw an eyecatching picture of Chicken Dak Bunglow curry. It made me doing immediate preparation on this for dinner. I once ate the mutton version of this curry. That was finger licking good. But believe me after dinner there was nothing in our plate except bones:-) It was that good.
       Give it a try and I am sure you will never regret.</shortDesc>
       <thumb>recipeimages/chicken-dak-bunglow.jpg</thumb>
@@ -592,7 +592,7 @@
    <element>
       <completionStatement>Your banana smoothie is ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this as summer pleasure ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Two ripe bananas.&lt;/li&gt;&lt;li&gt;Hunk curd 4 tsp.&lt;/li&gt;&lt;li&gt;Whole milk 1 cup.&lt;/li&gt;&lt;li&gt;Sugar 3 tsp.&lt;/li&gt;&lt;li&gt;Honey 1 tsp.&lt;/li&gt;&lt;li&gt;Pinch of salt.&lt;/li&gt;&lt;li&gt;Ice cubes.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Two ripe bananas.&lt;/li&gt;&lt;li&gt;Hung curd 4 tsp.&lt;/li&gt;&lt;li&gt;Whole milk 1 cup.&lt;/li&gt;&lt;li&gt;Sugar 3 tsp.&lt;/li&gt;&lt;li&gt;Honey 1 tsp.&lt;/li&gt;&lt;li&gt;Pinch of salt.&lt;/li&gt;&lt;li&gt;Ice cubes.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>recipeimages/banana-smoothie.jpg</pic>
       <process>&lt;ul&gt;&lt;li&gt;Take a blender. Put all the ingredients. Blend it very well.&lt;/li&gt;&lt;li&gt;Check the seasoning. Adjust the sweetness according to your taste.&lt;/li&gt;&lt;/ul&gt;</process>
       <shortDesc>Whoever like me love to eat banana, this drink is for them. It is a very healthy drink for summer. This needs very few ingredients. Hope you will like it.</shortDesc>
@@ -600,8 +600,8 @@
       <title>Banana Smoothie</title>
       <type>vegItem</type>
       <url>banana-smoothie</url>
-      <keywords>banana, smoothie, milkshake, drink, curd, sweet, summer</keywords>
-      <tags>banana,summer,smoothie,drink,milkshake,sweet</tags>
+      <keywords>banana, smoothie, milkshake, drink, curd, sweet, summer, dahi</keywords>
+      <tags>banana,summer,dahi,smoothie,drink,milkshake,sweet,curd</tags>
    </element>
    <element>
       <completionStatement>Your fish kaliaa is ready ...</completionStatement>
@@ -656,8 +656,8 @@
       <title>Chicken Salad Sandwich</title>
       <type>nonVegItem</type>
       <url>chicken-salad-sandwich</url>
-      <keywords>chicken, sandwich, curd, bread, mayonaise, salad, breakfast</keywords>
-      <tags>chicken,sandwich,curd</tags>
+      <keywords>chicken, sandwich, curd, bread, mayonaise, salad, breakfast, dahi</keywords>
+      <tags>chicken,dahi,sandwich,curd</tags>
    </element>
    <element>
       <completionStatement>Your basanti pulao is ready ...</completionStatement>
@@ -724,8 +724,8 @@
       <title>Mango Smoothie</title>
       <type>vegItem</type>
       <url>mango-smoothie</url>
-      <keywords>mango, smoothie, milkshake, summer, drink, chilled, sweet, curd, milk, sugar</keywords>
-      <tags>mango,smoothie,milkshake,summer,drink,sweet,curd</tags>
+      <keywords>mango, smoothie, milkshake, summer, drink, chilled, sweet, curd, milk, sugar, dahi</keywords>
+      <tags>mango,smoothie,dahi,milkshake,summer,drink,sweet,curd</tags>
    </element>
    <element>
       <completionStatement>Your fried rice is ready ...</completionStatement>
@@ -766,8 +766,8 @@
       <title>Chicken Korma</title>
       <type>nonVegItem</type>
       <url>chicken-korma</url>
-      <keywords>chicken, korma, rich, gravy, party, main course, ghee, indian, spicy, mughlai, onion, curd</keywords>
-      <tags>chicken,gravy,rich,party,spicy,indian,ghee,curd,main course</tags>
+      <keywords>chicken, korma, rich, gravy, party, dahi, main course, ghee, indian, spicy, mughlai, onion, curd</keywords>
+      <tags>chicken,gravy,rich,party,spicy,indian,ghee,curd,main course,dahi</tags>
    </element>
    <element>
       <completionStatement>Your chicken biriyani is ready .... Enjoy ...!!</completionStatement>
@@ -780,8 +780,8 @@
       <title>Chicken Biriyani</title>
       <type>nonVegItem</type>
       <url>chicken-biriyani</url>
-      <keywords>chicken, biriyani, rice, ghee, main course, indian, spicy, rich, curd, garam masala</keywords>
-      <tags>chicken,biriyani,rice,ghee,main course,indian,spicy,curd</tags>
+      <keywords>chicken, biriyani, rice, ghee, main course, indian, spicy, rich, curd, garam masala, dahi</keywords>
+      <tags>chicken,biriyani,rice,ghee,main course,indian,spicy,curd,dahi</tags>
    </element>
    <element>
       <completionStatement>Your chicken roll is ready .... Enjoy ...!!</completionStatement>
