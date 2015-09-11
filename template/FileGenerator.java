@@ -262,7 +262,10 @@ public class FileGenerator {
 				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
 				+ ")</div></div><div style=\"clear:both\">"
-				+ "<div style=\"float:left;\"><a href='https://twitter.com/share?url=http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html&text=" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'><img height='20px' src='img/twitter-share.png'/></a></div>"
+				+ "<div style=\"float:left;height:10px\">"
+				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" data-text=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" data-via=\"amitava3g\"></a>"
+				+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
+				+ "</div>"
 				+ "<div style=\"float:left;padding-left:7px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\" data-layout=\"button_count\">" 
