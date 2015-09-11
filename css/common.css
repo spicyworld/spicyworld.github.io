@@ -342,12 +342,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8d31', end
 }
 
 .newBodybody .homeDivAddAllImg{
-  width: 250px;
-  position: fixed;
-  top: 110px;
-  background: grey;
-  right: 0px;
-  height: 450px;
+    width: 250px;
+    position: fixed;
+    top: 210px;
+    background: grey;
+    left: 0px;
+    height: 450px;
 }
 
 .float-box {
