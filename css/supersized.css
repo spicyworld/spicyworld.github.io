@@ -11,8 +11,8 @@
 */
 
 * { margin:0; padding:0; }
-body { background:#111; height:100%; font-family: fantasy,'Comic Sans MS','Lucida Sans Unicode';}
-.fontFantasy {font-family: fantasy,'Comic Sans MS','Lucida Sans Unicode';}
+body { background:#111; height:100%; font-family: 'Comic Sans MS','Lucida Sans Unicode';}
+.fontFantasy {font-family: 'Comic Sans MS','Lucida Sans Unicode';}
 	img { border:none; }
 	
 	#supersized-loader { position:absolute; top:50%; left:50%; z-index:0; width:60px; height:60px; margin:-30px 0 0 -30px; text-indent:-999em; background:url(../img/progress.gif) no-repeat center center;}

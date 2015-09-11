@@ -106,9 +106,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', end
 .descp {
     font-size: 15px;
     text-transform: initial;
-    font-family: Verdana;
+    font-family: sans-serif;
     font-weight: normal;
     margin: 0px;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 
 .footerRight {
