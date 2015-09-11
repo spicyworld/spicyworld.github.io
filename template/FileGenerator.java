@@ -262,19 +262,27 @@ public class FileGenerator {
 				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
 				+ ")</div></div><div style=\"clear:both\">"
-				+ "<div style=\"float:left;height:10px\">"
+				// Pinterest Starts
+				+ "<div style=\"float:left;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
+				+ "</div>"
+				// Pinterest Ends
+				// Twitter Starts
+				+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
 				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" data-text=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" data-via=\"amitava3g\"></a>"
 				+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
 				+ "</div>"
+				// Twitter Ends
+				// G-Plus starts
 				+ "<div style=\"float:left;padding-left:10px;\">"
 				+ "<div class=\"g-plus\" data-action=\"share\" data-annotation=\"bubble\" data-href=\"http://.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\"></div>"
 				+ "</div>"
+				// G-Plus ends
+				// FB Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\">" 
-				+ "</div></div><div style=\"float:left;padding-left:10px;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
-				+ "</div></div>"
-				+ "<p class=\"descp\" style=\"clear:both\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
+				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
+				// FB Ends
+				+ "</div><p class=\"descp\" style=\"clear:both\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src='"
