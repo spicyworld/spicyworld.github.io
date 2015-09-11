@@ -262,7 +262,7 @@ public class FileGenerator {
 				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
 				+ ")</div></div><div style=\"clear:both\">"
-				+ "<div style=\"float:left;\"><a href='https://twitter.com/share?url=http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html&text=" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'>Tweet</a></div>"
+				+ "<div style=\"float:left;\"><a href='https://twitter.com/share?url=http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html&text=" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'><img height='20px' src='img/twitter-share.png'/></a></div>"
 				+ "<div style=\"float:left;padding-left:7px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\" data-layout=\"button_count\">" 
