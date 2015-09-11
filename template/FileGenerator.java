@@ -272,11 +272,6 @@ public class FileGenerator {
 				+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
 				+ "</div>"
 				// Twitter Ends
-				// G-Plus starts
-				+ "<div style=\"float:left;padding-left:10px;\">"
-				+ "<div class=\"g-plus\" data-action=\"share\" data-annotation=\"bubble\" data-href=\"http://.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\"></div>"
-				+ "</div>"
-				// G-Plus ends
 				// FB Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
