@@ -2,6 +2,21 @@
 <root>
 
    <element>
+      <title>Dahi Dhuan Chicken</title>
+      <type>nonVegItem</type>
+      <shortDesc>It's always very hard for me to make as usual meal like 'daal, sabji' on weekend. I am sure you will get delicious aroma of spicy dishes from my kitchen almost every weekend. Last weekend 'charcoal' flavour was coming out from a new chicken preparation. Yes, its 'dahi dhuan chicken'. If you like to eat dhaba foods then you will become a fan of this dish. It has a thick rich gravy, nice crunch of onion and appetizing smokey flavour. Just close your eyes and go for it.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;10-12 medium size with bone chicken pieces.&lt;/li&gt;&lt;li&gt;1 onion finely chopped.&lt;/li&gt;&lt;li&gt;2 tsp ginger and garlic paste.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 cup hung curd.&lt;/li&gt;&lt;li&gt;2 tsp turmeric powder.&lt;/li&gt;&lt;li&gt;1 tsp red chili powder.&lt;/li&gt;&lt;li&gt;1 tsp coriander powder.&lt;/li&gt;&lt;li&gt;1 tsp garam masala powder.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;7 tsp white oil.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;Some finely chopped mint leaves.&lt;/li&gt;&lt;li&gt;7-8 raw onion rings.&lt;/li&gt;&lt;li&gt;1 small charcoal.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <process>&lt;ul&gt;&lt;li&gt;Marinate the chicken pieces with half cup of hung curd for 2 hours.&lt;/li&gt;&lt;li&gt;Heat oil in a pan.&lt;/li&gt;&lt;li&gt;Add chopped onion. Fry it for 6-7 minutes.&lt;/li&gt;&lt;li&gt;Then add ginger and garlic paste. Mix this very well for 3 minutes.&lt;/li&gt;&lt;li&gt;Now add the marinated chicken. Mix the entire thing in high flame for 6 minutes.&lt;/li&gt;&lt;li&gt;Then add all mentioned powder one by one, salt and 1 tsp sugar. Mix very well for 5 minutes in medium flame.&lt;/li&gt;&lt;li&gt;Add little water and green chilies. Mix this and cook it in slow flame for 25 minutes.&lt;/li&gt;&lt;li&gt;The gravy should be thick and chicken should be tendor.&lt;/li&gt;&lt;li&gt;Place the charcoal upon the flame of your another burner for 2 minutes.&lt;/li&gt;&lt;li&gt;Now beat the remaining curd very well and spread some upon the chicken as layer.&lt;/li&gt;&lt;li&gt;Add chopped mint leaves and onion rings one by one as layer.&lt;/li&gt;&lt;li&gt;Lastly place a steel bowl / aluminium foil on top and put the hot charcoal into it. Drizzle 2-3 drops of oil over the coal, it will creat the smoke and cover the pan with a tight lid.&lt;/li&gt;&lt;li&gt;Reduce the temperature to low and give it 5 minutes to absorb the smokey flavour.&lt;/li&gt;&lt;li&gt;After that turn off the heat and let it rest for another 5 minutes. Then remove the lid, charcoal piece from the pan and serve hot.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Dahi Dhuan Chicken is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this special dish with plain roti / naan / paratha ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>recipeimages/dahi-dhuan-chicken.jpg</pic>
+      <thumb>recipeimages/dahi-dhuan-chicken.jpg</thumb>
+      <url>dahi-dhuan-chicken</url>
+      <keywords>curd, chicken, charcoal, dahi, indian, gravy, spicy, main course, mint, onion, plain roti, naan, paratha</keywords>
+      <tags>curd,chicken,dahi,charcoal,indian,gravy,spicy,main course</tags>
+   </element>
+
+   <element>
       <title>Muri Ghonto (Fish head with spicy rice)</title>
       <type>nonVegItem</type>
       <shortDesc>In Bengali ceremony preparing any dish with fish head is a very good sign. There are plenty of dishes where they use fish head. But 'muri ghonto' is the &lt;b&gt;delicacy of Bengal&lt;/b&gt;. I learned this dish from my mom. There are also some variations of muri ghonto. Some uses yellow lentil or flattened rice instead of &lt;b&gt;gobindovog rice&lt;/b&gt;. But I prefer this dish what my mom used to make. </shortDesc>
