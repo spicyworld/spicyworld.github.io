@@ -261,10 +261,12 @@ public class FileGenerator {
 				+ eElement.getElementsByTagName("title").item(0).getTextContent()
 				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
-				+ ")</div><div style=\"float:left;padding-top:5px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
+				+ ")</div></div><div style=\"clear:both\">"
+				+ "<div style=\"float:left;\"><a href='https://twitter.com/share?url=http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html&text=" + eElement.getElementsByTagName("title").item(0).getTextContent() + "'>Tweet</a></div>"
+				+ "<div style=\"float:left;padding-left:7px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\" data-layout=\"button_count\">" 
-				+ "</div></div><div style=\"float:left;padding-top:5px;padding-left:7px;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
+				+ "</div></div><div style=\"float:left;padding-left:7px;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><!-- Please call pinit.js only once per page --><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
 				+ "</div></div>"
 				+ "<p class=\"descp\" style=\"clear:both\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
 				+ "<div>"
