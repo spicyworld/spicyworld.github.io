@@ -279,7 +279,12 @@ public class FileGenerator {
 				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + "\n Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
 				+ "<img style='height:21px;' src='img/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
 				// Email Ends
-				// FB Starts
+				// Google Plus Starts
+				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Share in Google Plus' title='Share in Google Plus' "
+				+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html?link=GooglePlus', '" + title + "','resizable,height=400,width=550');return false;\">"
+				+ "<img style='height:22px;' src='img/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
+				// Google Plus Ends
+				// FB Starts 
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
 				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
