@@ -161,7 +161,7 @@ public class FileGenerator {
 		}
 		selfCopy(templatePath + "template/FileGenerator.java", processor);
 		System.out.println("Processed ...");
-		getAllImages(basePath + "recipeimages");
+		//getAllImages(basePath + "recipeimages");
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
@@ -289,9 +289,9 @@ public class FileGenerator {
 				+ "<img style='height:21px;' src='img/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
 				// Google Plus Ends
 				// Linked In Starts
-				+ "<div style=\"float:left;padding-left:10px;\">"
-				+ "<script src=\"//platform.linkedin.com/in.js\" type=\"text/javascript\"> lang: en_US</script><script type=\"IN/Share\" data-url=\"http://spicyworld.in/" + url + ".html\" data-counter=\"right\"></script>"
-				+ "</div>" 
+				//+ "<div style=\"float:left;padding-left:10px;\">"
+				//+ "<script src=\"//platform.linkedin.com/in.js\" type=\"text/javascript\"> lang: en_US</script><script type=\"IN/Share\" data-url=\"http://spicyworld.in/" + url + ".html\" data-counter=\"right\"></script>"
+				//+ "</div>" 
 				// Linked In Ends
 				// FB Starts 
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
