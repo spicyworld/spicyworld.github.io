@@ -1,3 +1,4 @@
+import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -15,9 +16,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import javax.imageio.ImageIO;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.imgscalr.Scalr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -158,6 +161,7 @@ public class FileGenerator {
 		}
 		selfCopy(templatePath + "template/FileGenerator.java", processor);
 		System.out.println("Processed ...");
+		getAllImages(basePath + "recipeimages");
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
@@ -210,7 +214,7 @@ public class FileGenerator {
 	}
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
-		recipes_data += "<div><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 200px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:200px;height:70px\"><a style=\"color:white;\" href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
@@ -241,7 +245,7 @@ public class FileGenerator {
 
 	public static String createHomeJS(Element eElement) {
 		String homeJSON = null;
-		homeJSON = "{\"title\":\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\",\"thumb\":\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\",\"url\":\"" + eElement.getElementsByTagName("url").item(0).getTextContent()
+		homeJSON = "{\"title\":\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\",\"pic\":\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\",\"url\":\"" + eElement.getElementsByTagName("url").item(0).getTextContent()
 		+ ".html\"}";
 		return homeJSON;
 	}
@@ -447,6 +451,42 @@ public class FileGenerator {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+	
+	private static List getAllImages (String destinationPath) {
+		List listFiles = new ArrayList();
+		String src = "";
+		String dest = "";
+		try {
+	        File[] files = new File(destinationPath).listFiles();
+	        for (File file : files) {
+	            if (!file.isDirectory()) {
+	                listFiles.add(file.getCanonicalPath());
+	                src = file.getCanonicalPath();
+	                dest = destinationPath + "/thumb/" + file.getName();
+	                createImage(src, dest);
+	            }
+	        }
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+		return listFiles;
+	}
+	
+	private static void createImage (String source, String destination) {
+		File image = new File(source);
+        File smallImage = new File(destination); // FORNOW: added the file extension just to check the result a bit more easily
+        // FORNOW: added print statements just to be doubly sure where we're reading from and writing to
+        System.out.println(image.getAbsolutePath());
+        System.out.println(smallImage.getAbsolutePath());
+        try {
+            BufferedImage bufimage = ImageIO.read(image);
+
+            BufferedImage bISmallImage = Scalr.resize(bufimage, 220); // after this line my dimensions in bISmallImage are correct!
+            ImageIO.write(bISmallImage, "png", smallImage); // but my smallImage has the same dimension as the original foto
+        } catch (Exception e) {
+            System.out.println(e.getMessage()); // FORNOW: added just to be sure
+        }
 	}
 
 }
