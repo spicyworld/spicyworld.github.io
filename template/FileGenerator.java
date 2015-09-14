@@ -294,7 +294,7 @@ public class FileGenerator {
 				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
 				// FB Ends
-				+ "</div><p class=\"descp\" style=\"clear:both\">" + desc + "</p></div><br/>"
+				+ "</div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
