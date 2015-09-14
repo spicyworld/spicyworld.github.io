@@ -276,7 +276,7 @@ public class FileGenerator {
 				// Twitter Ends
 				// Email Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
-				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + ". Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
+				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + "\n Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
 				+ "<img style='height:21px;' src='img/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
 				// Email Ends
 				// FB Starts
@@ -320,14 +320,9 @@ public class FileGenerator {
 		
 		String fileData = readFile(templatePath + "template/food-item.html");
 		fileData = fileData.replace("##DATA_ENTRY##", out);
-		fileData = fileData.replaceAll("##TITLE_DATA##", eElement
-				.getElementsByTagName("title").item(0).getTextContent()
-				+ " Recipe | Spicy World | Arpita's Kitchen");
-		fileData = fileData.replace("##URL_DATA##", eElement
-				.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html");
-		fileData = fileData.replace("##DESC_DATA##", eElement
-				.getElementsByTagName("shortDesc").item(0).getTextContent());
+		fileData = fileData.replaceAll("##TITLE_DATA##", title + " Recipe | Spicy World | Arpita's Kitchen");
+		fileData = fileData.replace("##URL_DATA##", url + ".html");
+		fileData = fileData.replace("##DESC_DATA##", desc);
 		fileData = fileData.replace("##IMG_DATA##", eElement
 				.getElementsByTagName("pic").item(0).getTextContent() + buildNo);
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
