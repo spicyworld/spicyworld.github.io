@@ -276,7 +276,7 @@ public class FileGenerator {
 				// Twitter Ends
 				// Email Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
-				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + " Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
+				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + ". Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
 				+ "<img style='height:21px;' src='img/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
 				// Email Ends
 				// FB Starts
