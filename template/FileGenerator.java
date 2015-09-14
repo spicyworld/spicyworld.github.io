@@ -281,9 +281,14 @@ public class FileGenerator {
 				// Email Ends
 				// Google Plus Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Share in Google Plus' title='Share in Google Plus' "
-				+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html?link=GooglePlus', '" + title + "','resizable,height=400,width=550');return false;\">"
+				+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html', '" + title + "','resizable,height=400,width=550');return false;\">"
 				+ "<img style='height:21px;' src='img/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
 				// Google Plus Ends
+				// Linked In Starts
+				+ "<div style=\"float:left;padding-left:10px;\">"
+				+ "<script src=\"//platform.linkedin.com/in.js\" type=\"text/javascript\"> lang: en_US</script><script type=\"IN/Share\" data-url=\"http://spicyworld.in/" + url + ".html\" data-counter=\"right\"></script>"
+				+ "</div>" 
+				// Linked In Ends
 				// FB Starts 
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
 				+ url
