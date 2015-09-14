@@ -315,7 +315,7 @@ public class FileGenerator {
 		fileData = fileData.replace("##DATA_ENTRY##", out);
 		fileData = fileData.replaceAll("##TITLE_DATA##", eElement
 				.getElementsByTagName("title").item(0).getTextContent()
-				+ " | Spicy World | Arpita's Kitchen");
+				+ " Recipe | Spicy World | Arpita's Kitchen");
 		fileData = fileData.replace("##URL_DATA##", eElement
 				.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html");
