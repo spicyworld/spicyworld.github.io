@@ -256,9 +256,11 @@ public class FileGenerator {
 		} else {
 			itemType = "Vegetarian";
 		}
-		
+		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
+		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 25px;display: inline;float:left\">"
-				+ eElement.getElementsByTagName("title").item(0).getTextContent()
+				+ title
 				+ "</h1><div style=\"float:left\">&nbsp;("
 				+ itemType
 				+ ")</div></div><div style=\"clear:both\">"
@@ -268,19 +270,24 @@ public class FileGenerator {
 				// Pinterest Ends
 				// Twitter Starts
 				+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
-				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" data-text=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" data-via=\"amitava3g\"></a>"
+				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + url + ".html\" data-text=\"" + title + "\" data-via=\"amitava3g\"></a>"
 				+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
 				+ "</div>"
 				// Twitter Ends
+				// Email Starts
+				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
+				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + " Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
+				+ "<img src='img/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
+				// Email Ends
 				// FB Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
-				+ eElement.getElementsByTagName("url").item(0).getTextContent()
+				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
 				// FB Ends
-				+ "</div><p class=\"descp\" style=\"clear:both\">" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</p></div><br/>"
+				+ "</div><p class=\"descp\" style=\"clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
-				+ "' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src='"
+				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' width='100%'/></a><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div><br/>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
@@ -324,7 +331,7 @@ public class FileGenerator {
 		fileData = fileData.replace("##IMG_DATA##", eElement
 				.getElementsByTagName("pic").item(0).getTextContent() + buildNo);
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		/*String keyword = Utility.getKeyword(eElement.getElementsByTagName("title").item(0).getTextContent() 
+		/*String keyword = Utility.getKeyword(title 
 				+ " " + eElement.getElementsByTagName("shortDesc").item(0).getTextContent());*/
 		String ky = null;
 		try {
@@ -332,18 +339,13 @@ public class FileGenerator {
 		} catch (Exception e) {}
 		String keyword = "";
 		if (ky!=null && !"".equals(ky)) {
-			keyword = ky + ", " + eElement.getElementsByTagName("title").item(0).getTextContent();
+			keyword = ky + ", " + title;
 		} else {
-			keyword = eElement.getElementsByTagName("title").item(0).getTextContent() + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + eElement.getElementsByTagName("url").item(0).getTextContent();
+			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
-		saveFile(templatePath
-				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html", fileData);
-		System.out
-				.println(count + ". Created HTML for "
-						+ eElement.getElementsByTagName("url").item(0)
-								.getTextContent());
+		saveFile(templatePath + url + ".html", fileData);
+		System.out.println(count + ". Created HTML for " + url);
 	}
 
 	public static String recepiData(String recipes_data, Element eElement, String prefix) {
