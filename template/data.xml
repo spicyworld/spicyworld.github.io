@@ -2,6 +2,21 @@
 <root>
 
    <element>
+      <title>Egg Tarka</title>
+      <type>nonVegItem</type>
+      <shortDesc>I have already posted some recipes on 'dhaba style' but the most popular and well known recipe is 'dim tarka' or 'whole moong curry with egg'. When they serve this curry with raw onion chunks, green chilies and hot roti / naan, your appetite must increase to double. From younger to elder everybody loves this dish. Make this in your own kitchen and impress your family.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of whole moong (green) lentil.&lt;/li&gt;&lt;li&gt;2 eggs.&lt;/li&gt;&lt;li&gt;Half tsp black pepper powder.&lt;/li&gt;&lt;li&gt;1 big onion finely chopped.&lt;/li&gt;&lt;li&gt;2 tsp ginger &amp; garlic paste.&lt;/li&gt;&lt;li&gt;1 big tomato finely chopped.&lt;/li&gt;&lt;li&gt;4 green chilies.&lt;/li&gt;&lt;li&gt;Spice powder (1 tsp cumin, 2 tsp coriander, 1 tsp turmeric, 1 tsp garam masala).&lt;/li&gt;&lt;li&gt;2 tsp dry fenugreek leaves.&lt;/li&gt;&lt;li&gt;1 small bowl of freshly chopped coriander leaves.&lt;/li&gt;&lt;li&gt;6 tsp of mustard oil.&lt;/li&gt;&lt;li&gt;2 tsp of white oil.&lt;/li&gt;&lt;li&gt;1 cube of butter.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <process>&lt;ul&gt;&lt;li&gt;Soak green lentil in water for 4-5 hours.&lt;/li&gt;&lt;li&gt;Half boil the lentil separately in pressure cooker with some water and salt. Keep it aside.&lt;/li&gt;&lt;li&gt;Now take a pan. Heat mustard oil.&lt;/li&gt;&lt;li&gt;Add chopped onion. Fry them till golden brown.&lt;/li&gt;&lt;li&gt;Add ginger &amp; garlic paste. Mix it for 2 minutes.&lt;/li&gt;&lt;li&gt;Add chopped tomato, green chilies and some salt. Cook this untill tomatoes become mushy.&lt;/li&gt;&lt;li&gt;Now add all of the spice powder. Mix it untill the oil starts separating. &lt;/li&gt;&lt;li&gt;Then add boiled lentil. Cook this for another 10 minutes.&lt;/li&gt;&lt;li&gt;If it becomes dry add some warm water.&lt;/li&gt;&lt;li&gt;Beat the 2 eggs along with some salt and black pepper powder and fry it like scarmble egg in another pan with 2 tsp white oil. Keep it aside.&lt;/li&gt;&lt;li&gt;Now crush the fenugreek leaves by your palms and add into the tarka. Mix it.&lt;/li&gt;&lt;li&gt;Then add chopped coriander leaves and fried eggs. Mix this very well.&lt;/li&gt;&lt;li&gt;Turn off your gas and put the butter on top.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Egg Tarka (dhaba style) is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with roti, naan ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <pic>recipeimages/egg-tarka.jpg</pic>
+      <thumb>recipeimages/egg-tarka.jpg</thumb>
+      <url>egg-tarka</url>
+      <keywords>egg tarka, egg, dim, dhaba style</keywords>
+      <tags>egg,dhaba,lunch,dinner</tags>
+   </element>
+
+   <element>
       <title>Dahi Dhuan Chicken</title>
       <type>nonVegItem</type>
       <shortDesc>It's always very hard for me to make as usual meal like 'daal, sabji' on weekend. I am sure you will get delicious aroma of spicy dishes from my kitchen almost every weekend. Last weekend 'charcoal' flavour was coming out from a new chicken preparation. Yes, its 'dahi dhuan chicken'. If you like to eat dhaba foods then you will become a fan of this dish. It has a thick rich gravy, nice crunch of onion and appetizing smokey flavour. Just close your eyes and go for it.</shortDesc>

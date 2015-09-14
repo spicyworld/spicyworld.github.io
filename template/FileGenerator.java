@@ -344,7 +344,7 @@ public class FileGenerator {
 		} catch (Exception e) {}
 		String keyword = "";
 		if (ky!=null && !"".equals(ky)) {
-			keyword = ky + ", " + title;
+			keyword = ky + " ";
 		} else {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
