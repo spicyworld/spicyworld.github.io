@@ -109,7 +109,7 @@ function getRandomInt(min, max) {
 
 function loadHomePageGraphics() {
     var count = getRandomInt(0, myData.length - 5);
-    var out = "<div><a href='" + myData[count].url + "'><img alt='"+myData[count].title+"' title='"+myData[count].title+"' style='width:225px !important;' src=\"" + myData[count].thumb + "\"/></a></div><div>Easy and Simple Recipes make your cooking faster and your food delicious.</div>";
+    var out = "<div><a href='" + myData[count].url + "'><img alt='"+myData[count].title+"' title='"+myData[count].title+"' style='width:225px !important;' src=\"" + myData[count].pic + "\"/></a></div><div>Easy and Simple Recipes make your cooking faster and your food delicious.</div>";
     document.getElementById("homeDiv").innerHTML = out;
     playHomePage();
 }
