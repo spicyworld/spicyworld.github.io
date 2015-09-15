@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+   
+   <element>
+      <completionStatement>Your mutton er laal jhol is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Serve this hot with plain rice ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Mutton 10-15 pieces.&lt;/li&gt;&lt;li&gt;2 big onion finely chopped.&lt;/li&gt;&lt;li&gt;Ginger &amp; garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;One tomato finely chopped.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Whole spices( 4 green cardemom, 4 cloves, 1 small cinnamon stick, 1 bay leaf, 5 whole black pepper )&lt;/li&gt;&lt;li&gt;Spice powder( 2 tsp turmeric, 1 tsp red chili, 1 tsp cumin, 1 tsp coriander, 1 tsp garam masala )&lt;/li&gt;&lt;li&gt;Salt &amp; sugar according to your taste.&lt;/li&gt;&lt;li&gt;2 potatoes cut into halves.&lt;/li&gt;&lt;li&gt;Mustard oil 6 tsp.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <pic>recipeimages/mutton-curry.jpg</pic>
+      <process>&lt;ul&gt;&lt;li&gt;Take a pressure cooker. Heat the mustard oil.&lt;/li&gt;&lt;li&gt;Add the potatoes. Fry this for 5 minutes. Keep aside.&lt;/li&gt;&lt;li&gt;Then add all the whole spices into remaining oil.&lt;/li&gt;&lt;li&gt;Add 2 tsp sugar and caramalize it.&lt;/li&gt;&lt;li&gt;Then add chopped onion. Fry it untill it become golden brown.&lt;/li&gt;&lt;li&gt;Then add ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/li&gt;&lt;li&gt;Add the chopped tomato and some salt. Mix it and cook this for 5 minutes in slow flame.&lt;/li&gt;&lt;li&gt;Then add all the mentioned spice powder. Mix this very well and cook this another 3 minutes.&lt;/li&gt;&lt;li&gt;Now add the mutton pieces and green chilies. Mix this with the masala very well and cook this in slow flame for 20 minutes.&lt;/li&gt;&lt;li&gt;You will see mutton will release its own juice. You have to cook this mutton in its own juice for another 10 minutes.&lt;/li&gt;&lt;li&gt;Now add 2 cups of warm water. Stir this well and pressure this till 4 whistle. Let release the pressure on its own.&lt;/li&gt;&lt;li&gt;Then add the fried potatoes and little warm water. Again pressure this for another 2 whistle.&lt;/li&gt;&lt;li&gt;After that check the seasoning and meat should become very tendor. The gravy should be semi thick.&lt;/li&gt;&lt;/ul&gt;</process>
+      <shortDesc>Traditional Bengali lunch on sunday is this mutton curry along with plain rice, raw onion chunks and green chilies. After lunch we need a long nap (bhaat ghum). There was a say that we Bengalis can not eat food without potato. It is true. You have to add potatoes to this dish because there are many people like me and my husband who likes potatoes more than mutton pieces specially in this curry.  As a Bengali its my pleasure to share this recipe with you. *Note: you must take that special bhaat ghum otherwise you will feel incomplete.</shortDesc>
+      <thumb>recipeimages/thumb/mutton-curry.jpg</thumb>
+      <title>Mutton er laal jhol (Mutton Curry)</title>
+      <type>nonVegItem</type>
+      <url>mutton-curry</url>
+      <keywords>muttton, potato, curry, bengali, lunch, spicy, indian, onion, garlic</keywords>
+      <tags>mutton,potato,curry,lunch,bengali,indian,rich gravy,spicy</tags>
+   </element>
 
    <element>
       <title>Egg Tarka</title>
@@ -590,20 +605,7 @@
       <keywords>chicken, egg, curry, spicy, main course, indian, potato, garam masala, green chili, onion</keywords>
       <tags>chicken,egg,gravy,curry,main course,spicy,potato</tags>
    </element>
-   <element>
-      <completionStatement>Your mutton er laal jhol is ready ...</completionStatement>
-      <garnishment>&lt;ul&gt;&lt;li&gt;Serve this hot with plain rice ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Mutton 10-15 pieces.&lt;/li&gt;&lt;li&gt;2 big onion finely chopped.&lt;/li&gt;&lt;li&gt;Ginger &amp; garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;One tomato finely chopped.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Whole spices( 4 green cardemom, 4 cloves, 1 small cinnamon stick, 1 bay leaf, 5 whole black pepper )&lt;/li&gt;&lt;li&gt;Spice powder( 2 tsp turmeric, 1 tsp red chili, 1 tsp cumin, 1 tsp coriander, 1 tsp garam masala )&lt;/li&gt;&lt;li&gt;Salt &amp; sugar according to your taste.&lt;/li&gt;&lt;li&gt;2 potatoes cut into halves.&lt;/li&gt;&lt;li&gt;Mustard oil 6 tsp.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-      <pic>recipeimages/mutton-curry.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Take a pressure cooker. Heat the mustard oil.&lt;/li&gt;&lt;li&gt;Add the potatoes. Fry this for 5 minutes. Keep aside.&lt;/li&gt;&lt;li&gt;Then add all the whole spices into remaining oil.&lt;/li&gt;&lt;li&gt;Add 2 tsp sugar and caramalize it.&lt;/li&gt;&lt;li&gt;Then add chopped onion. Fry it untill it become golden brown.&lt;/li&gt;&lt;li&gt;Then add ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/li&gt;&lt;li&gt;Add the chopped tomato and some salt. Mix it and cook this for 5 minutes in slow flame.&lt;/li&gt;&lt;li&gt;Then add all the mentioned spice powder. Mix this very well and cook this another 3 minutes.&lt;/li&gt;&lt;li&gt;Now add the mutton pieces and green chilies. Mix this with the masala very well and cook this in slow flame for 20 minutes.&lt;/li&gt;&lt;li&gt;You will see mutton will release its own juice. You have to cook this mutton in its own juice for another 10 minutes.&lt;/li&gt;&lt;li&gt;Now add 2 cups of warm water. Stir this well and pressure this till 4 whistle. Let release the pressure on its own.&lt;/li&gt;&lt;li&gt;Then add the fried potatoes and little warm water. Again pressure this for another 2 whistle.&lt;/li&gt;&lt;li&gt;After that check the seasoning and meat should become very tendor. The gravy should be semi thick.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>Traditional Bengali lunch on sunday is this mutton curry along with plain rice, raw onion chunks and green chilies. After lunch we need a long nap (bhaat ghum). There was a say that we Bengalis can not eat food without potato. It is true. You have to add potatoes to this dish because there are many people like me and my husband who likes potatoes more than mutton pieces specially in this curry.  As a Bengali its my pleasure to share this recipe with you. *Note: you must take that special bhaat ghum otherwise you will feel incomplete.</shortDesc>
-      <thumb>recipeimages/thumb/mutton-curry.jpg</thumb>
-      <title>Mutton er laal jhol (Mutton Curry)</title>
-      <type>nonVegItem</type>
-      <url>mutton-curry</url>
-      <keywords>muttton, potato, curry, bengali, lunch, spicy, indian, onion, garlic</keywords>
-      <tags>mutton,potato,curry,lunch,bengali,indian,rich gravy,spicy</tags>
-   </element>
+
    <element>
       <completionStatement>Your banana smoothie is ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this as summer pleasure ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
