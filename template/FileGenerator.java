@@ -32,6 +32,7 @@ public class FileGenerator {
 	public static String buildNo = "?sessionId=110";
 
 	public static void main(String[] args) {
+		createImage("/Users/vghosam/Downloads/chicken-chaap.jpg", "/Users/vghosam/Downloads/chicken-chaap1.jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/FileGenerator.java";
