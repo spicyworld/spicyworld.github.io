@@ -1,3 +1,12 @@
+.header .title a {
+	text-decoration: none;
+	font-size: 36px;
+	font-family: fantasy;
+	float: left;
+	color: red;
+	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
+}
+
 .disqus_thread_class {
 	clear: both;
 	overflow: scroll;
@@ -155,10 +164,6 @@
 	float: left;
 	color: red;
 	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
-}
-
-.header .title a:hover{ 
- color: #5d3a52;
 }
 
 .header .right{
