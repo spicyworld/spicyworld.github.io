@@ -314,4 +314,9 @@ body {
 	font-family: fantasy;
 }
 
+.internalLI {
+	list-style: none;
+    margin-left: -19px;
+    font-weight: bold;
+}
 
