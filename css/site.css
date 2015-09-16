@@ -1,6 +1,8 @@
 .disqus_thread_class {
 	clear: both;
-	padding-top: 8px;
+	overflow: scroll;
+    height: 200px;
+    padding: 20px;
 }
 
 .commentHeader {
