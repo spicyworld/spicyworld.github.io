@@ -1,3 +1,15 @@
+.disqus_thread_class {
+	clear: both;
+	padding-top: 8px;
+}
+
+.commentHeader {
+	font-size: 20px;
+	float: left;
+	border-bottom: 1px solid grey;
+	width: 100%;
+}
+
 .headerLogo {
     position: absolute;
     top: 25px;
