@@ -4,7 +4,7 @@
 }
 
 .commentHeader {
-	font-size: 20px;
+	font-size: 18px;
 	float: left;
 	border-bottom: 1px solid grey;
 	width: 100%;
@@ -286,6 +286,15 @@ body {
 
 .imagesPage {
 	float: left;
+}
+
+.tagContent {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tagContent .heading {
+	font-weight: bold;
 }
 
 .imagesPage a, .tagContent a, .footer a{
