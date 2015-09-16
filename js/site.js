@@ -14,3 +14,12 @@ function startTagPage() {
 		"shape" : "circle"
 	});
 }
+
+function initFancy() {
+	$("a.group1").fancybox();
+}
+
+
+function initFancyAll() {
+	$("a.group1").fancybox();
+}
