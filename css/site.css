@@ -42,10 +42,10 @@
 
 .middleTop .left .data { 
 	font-size: 20px;
-	text-align: center;
-	padding-top: 10%;
-	width: 50%;
-	padding-left: 25%;
+    text-align: left;
+    padding-top: 7%;
+    width: 80%;
+    padding-left: 8%;
 }
 
 
@@ -308,6 +308,10 @@ body {
 
 .clear {
 	clear:both;
+}
+
+.data p {
+	font-family: fantasy;
 }
 
 
