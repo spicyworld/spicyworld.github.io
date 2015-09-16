@@ -286,11 +286,13 @@ body {
 
 .imagesPage img {
 	height: 120px;
-    padding: 2px;
-    border: 2px solid grey;
-    box-shadow: 0 0 10px #ccc;
     margin: 10px;
     text-decoration: none;
+    box-shadow: 9px 8px 5px #888888;
+}
+
+.group1 img {
+	box-shadow: 9px 8px 5px #888888;
 }
 
 .desc {
