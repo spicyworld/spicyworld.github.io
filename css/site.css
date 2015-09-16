@@ -261,11 +261,11 @@ body {
 	float: left;
 }
 
-.imagesPage a, .tagContent a{
+.imagesPage a, .tagContent a, .footer a{
 	color: #3598cf;
 }
 
-.imagesPage a:hover, .tagContent a:hover {
+.imagesPage a:hover, .tagContent a:hover, .footer a:hover {
 	color: #5d3a52;
 }
 
