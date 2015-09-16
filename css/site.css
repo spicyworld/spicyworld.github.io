@@ -1,15 +1,15 @@
 .headerLogo {
     position: absolute;
-    top: 28px;
-    left: 157px;
+    top: 25px;
+    left: 160px;
     z-index: -1;
-    -ms-transform: rotate(-7deg); /* IE 9 */
-    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-7deg);
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Chrome, Safari, Opera */
+    transform: rotate(-10deg);
 }
 
 .headerLogo img {
-	width: 100px;
+	width: 110px;
 }
 
 .wordcloud {
