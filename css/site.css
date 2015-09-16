@@ -1,3 +1,14 @@
+.headerLogo {
+	position: absolute;
+    top: 12px;
+    left: 180px;
+    z-index: -1;
+}
+
+.headerLogo img {
+	width: 100px;
+}
+
 .wordcloud {
   height: 540px;
   margin: 10px auto;
