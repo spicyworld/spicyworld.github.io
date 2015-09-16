@@ -23,3 +23,13 @@ function initFancy() {
 function initFancyAll() {
 	$("a.group1").fancybox();
 }
+
+function loadSlideShow() {
+  jQuery(document).ready(function ($) {
+       var width = document.getElementById('slider1_container').offsetWidth;
+       document.getElementById('slider1_container').style.width = width;
+       document.getElementById('internalID').style.width = width;
+       var options = { $AutoPlay: true };
+       var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+   });
+}
