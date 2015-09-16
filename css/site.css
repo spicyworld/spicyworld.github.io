@@ -1,7 +1,7 @@
 .header .title a, .header .title a:hover {
 	text-decoration: none;
 	font-size: 36px;
-	font-family: fantasy, "sans-serif";
+	font-family: fantasy, v;
 	float: left;
 	color: red;
 	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
@@ -160,7 +160,7 @@
 
 .header .title{
 	font-size: 36px;
-	font-family: fantasy, "sans-serif";
+	font-family: fantasy, v;
 	float: left;
 	color: red;
 	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
@@ -356,7 +356,7 @@ body {
 }
 
 .data p {
-	font-family: fantasy, "sans-serif";
+	font-family: fantasy, v;
 }
 
 .internalLI {
