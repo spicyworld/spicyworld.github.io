@@ -1,8 +1,11 @@
 .headerLogo {
-	position: absolute;
-    top: 12px;
-    left: 180px;
+    position: absolute;
+    top: 28px;
+    left: 157px;
     z-index: -1;
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
 }
 
 .headerLogo img {
@@ -136,7 +139,8 @@
 	font-size: 36px;
 	font-family: fantasy;
 	float: left;
-	color: green;
+	color: red;
+	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
 }
 
 .header .title a:hover{ 
