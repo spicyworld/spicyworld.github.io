@@ -336,7 +336,7 @@ body {
 .topPaginationData, .tagContent {
 	clear: both;
 	text-align: center;
-	width: 90%;
+	padding:10px;
 }
 
 .topPaginationData  span, .tagContent span{
