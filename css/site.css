@@ -1,3 +1,14 @@
+.adSection {
+	display:none;
+	width: 320px;
+    height: 50px;
+    position: relative;
+    background: grey;
+    top: 0px;
+    margin: auto;
+    right: 0px;
+}
+
 .header .title{
 	float: left;
 }
