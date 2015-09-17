@@ -35,5 +35,5 @@ function loadSlideShow() {
 }
 
 function enableAd () {
-	$('#adSection').show(800);
+	$('#adSection').show();
 }
