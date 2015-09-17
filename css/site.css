@@ -1,10 +1,9 @@
-.header .title a, .header .title a:hover {
-	text-decoration: none;
-	font-size: 36px;
-	font-family: fantasy;
+.header .title{
 	float: left;
-	color: red;
-	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
+}
+
+.header .title img {
+	width: 280px;
 }
 
 .disqus_thread_class {
@@ -154,16 +153,8 @@
 
 .header {
 	padding-left: 20px;
-	padding-top: 20px;
+	padding-top: 12px;
 	clear: both;
-}
-
-.header .title{
-	font-size: 36px;
-	font-family: fantasy;
-	float: left;
-	color: red;
-	text-shadow: red 1px 3px 0px, green 3px 8px 15px;
 }
 
 .header .right{
@@ -356,7 +347,7 @@ body {
 }
 
 .data p {
-	font-family: fantasy;
+	font-family: cursive;
 }
 
 .internalLI {
