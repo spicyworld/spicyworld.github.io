@@ -160,3 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', end
 table {
 	padding-top: 30px;
 }
+
+.middleBottom .left, .middleBottom .middle, .middleBottom .right {
+	padding-bottom: 30px;
+}  
