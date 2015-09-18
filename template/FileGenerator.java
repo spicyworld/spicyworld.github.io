@@ -27,31 +27,37 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
 
-public class FileGenerator {
+public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=110";
+	public static String buildNo = "?sessionId=112";
 
 	public static void main(String[] args) {
-		//createImage("/Users/vghosam/Downloads/chicken-chaap.jpg", "/Users/vghosam/Downloads/chicken-chaap1.jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/thumb/mutton-biriyani.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/mutton-biriyani.jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
-		String processor = "/Users/vghosam/Documents/workspace/test/src/FileGenerator.java";
+		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
 		String recipes_template = templatePath + "template/recipes.html";
-		String recipes_template_img = templatePath + "template/image-list.html";
-		String tags_template = templatePath + "template/tags.html";
-		String tag_data_template = templatePath + "template/tag-content.html";
+		String recipes_template_img = templatePath + "template/recipes.html";
+		String tags_template = templatePath + "template/template.html";
+		String tag_data_template = templatePath + "template/template.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
-		String homeJSON = "var myData = [";
 		String siteMapData = "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
 		String rssXMLData = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version=\"2.0\"><channel>"
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
 				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>";
 		String recipes_data_img = "", fileData = "";
-		int count = 1, perPageData = 30;
+		int count = 1, perPageData = 10;
 		List recipeDataList = new ArrayList();
 		String tags = "";
+		int homeImg = 3;
+		String carosalImg = "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\"><div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">";
+		for (int i=1; i<=homeImg; i++) {
+			carosalImg += "<div><img class=\"show\" u=\"image\" src=\"images/home/home" + i + ".jpg\" /></div>";
+		}
+		carosalImg += "</div></div>";
+		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\"><div class=\"data\"><p>Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</p><a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div><div class=\"middle\">&nbsp;</div><div class=\"right\">" + carosalImg + "</div></div><div class=\"middleBottom\">";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -77,12 +83,24 @@ public class FileGenerator {
 					recipes_data = recepiData(recipes_data, eElement, "");
 					recipes_data_img = getAllImages(recipes_data_img, eElement);
 					createItemData(templatePath, eElement, count);
-					count++;
-					if ("var myData = [".equals(homeJSON)) {
-						homeJSON += createHomeJS(eElement);
+					String classToApply = null;
+					if (count == 1) {
+						classToApply = "left";
+					} else if (count == 2) {
+						classToApply = "middle";
+					} else if (count == 3) {
+						classToApply = "right";
 					} else {
-						homeJSON = homeJSON + "," + createHomeJS(eElement);
+						classToApply = null;
 					}
+					if (classToApply!=null) {
+						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+						String url = eElement.getElementsByTagName("url").item(0).getTextContent();
+						latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a title='" + title + "' alt='" + title + "' href=\"" + url + 
+								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
+										+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
+					}
+					count++;
 					siteMapData += siteMapEntry(eElement);
 					rssXMLData += populateRSSData(eElement);
 					try {
@@ -90,35 +108,52 @@ public class FileGenerator {
 					} catch (Exception e) {}
 				}
 			}
+			latest3DataForHomePage += "</div>";
 			if (!"".equals(recipes_data)) {
 				recipeDataList.add(recipes_data_front + recipes_data + "</table>");
 				recipes_data = "";
 			}
-			homeJSON += "];";
 			
 			for (int i=0; i<recipeDataList.size(); i++) {
-				fileData = readFile(recipes_template);
+				fileData = readFile(basePath + "template/template.html");
 				recipes_data = (String) recipeDataList.get(i);
 				String pagination = getPagination(i+1, recipeDataList.size(), siteMapData);
-				fileData = fileData.replace("#PAGINATION_RECIPE#", pagination);
-				fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
+				
+				fileData = fileData.replace("##TITLE_DATA##", "My Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
+				fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
+				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-				fileData = fileData.replaceAll("##PAGE_TITLE##", "My Recipes - Page " + (i+1));
+				fileData = fileData.replaceAll("##KEYWORD_DATA##", "Recipes in Spicy World");
+				fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+				fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Here are our recipes that you might like.");
+				fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
+				fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
+				
+				
 				if (i > 0) {
+					fileData = fileData.replaceAll("##URL_DATA##", "/recipes-" + i + ".html");
 					saveFile(templatePath + "recipes-" + i + ".html", fileData);	
 					siteMapData += "<url><loc>http://spicyworld.in/recipes-" + i + ".html</loc></url>";
 				} else {
+					fileData = fileData.replaceAll("##URL_DATA##", "/recipes.html");
 					saveFile(templatePath + "recipes.html", fileData);	
 					siteMapData += "<url><loc>http://spicyworld.in/recipes.html</loc></url>";
 				}
 			}
 			
-			saveFile(templatePath + "recipes.js", homeJSON);
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
 			
-			fileData = readFile(recipes_template_img);
-			fileData = fileData.replace("##DATA_ENTRY##", recipes_data_img);
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "All Food Images | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
+			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##DESC_DATA##", "You can find all images of our Recipes in Spicy World. You can now also visit the recipe details from here by clicking the links below the images.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/all-food-images.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancyAll();enableAd();");
 			saveFile(templatePath + "all-food-images.html", fileData);
 			
 			// Create tag cloud
@@ -149,13 +184,68 @@ public class FileGenerator {
 				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey());
 				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc></url>";
 			}
-			fileData = readFile(tags_template);
-			fileData = fileData.replace("##TAG_HTML_DATA##", htmlTags);
+			
+			// Save Tags
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Tags in Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
+			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\"><script type=\"text/javascript\" src=\"js/jquery.awesomeCloud-0.2.min.js\"></script>");
+			fileData = fileData.replaceAll("##DESC_DATA##", "Tag cloud is an easy way to link multiple content and you can easily choose the content you are looking for from various tags.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home2.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/tags.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "startTagPage();enableAd();");
 			saveFile(templatePath + "tags.html", fileData);
 			
 			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
+			
+			//Save HomePage
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
+			fileData = fileData.replace("##index_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\"><script type=\"text/javascript\" src=\"js/jssor.slider.mini.js\"></script>");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Food Recipes, All Spicy Foods.");
+			fileData = fileData.replaceAll("##DESC_DATA##", "Easy and Simple Recipes make your cooking faster and your food delicious. Check out all available recipes.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "loadSlideShow();");
+			saveFile(basePath + "index.html", fileData);
+			
+			
+			//Save Feedback Page
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Feedback to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>");
+			fileData = fileData.replace("##feedback_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Feedback to Spicy World, Leave your comment.");
+			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Please provide your feedback or your comments about our recipes.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/feedback.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			saveFile(basePath + "feedback.html", fileData);
+			
+			
+			//Save 404 Page
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Page Not Found | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div style='min-height: 550px; text-align:center;padding: 100px;'><div style='font-size:50px;'>We are Sorry !!</div>"
+					+ "<div style='background-color: lightgrey;padding: 20px;font-size: 21px;'>This is a custom 404 (Page Not found) page.<br/><br/>Please click Home or any other tabs from the header menu to navigate within the website.</div>"
+					+ "</div>");
+			fileData = fileData.replace("##indexss_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\">");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, This is a custom 404 Page by Spicy World.");
+			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. This is a custom 404 page (Page Not found). Please click Home or any other tabs from header menu to navigate within the website.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/404.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			saveFile(basePath + "404.html", fileData);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -166,7 +256,7 @@ public class FileGenerator {
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
-		String recipes_data = "<table class=\"dataTable\">", tagData = null;
+		String recipes_data = "<div class='recipePage'><table class=\"dataTable\">", tagData = null;
 		try {
 			for (int temp = 0; temp < nList.getLength(); temp++) {
 
@@ -185,20 +275,28 @@ public class FileGenerator {
 				}
 			}
 		} catch (Exception e) {}
-		recipes_data += "</table>";
+		recipes_data += "</table></div>";
+		
+		//Save Tag Page
 		String fileData = readFile(templatePath);
+		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " - Tag | Arpita's Kitchen");
+		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
+		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		fileData = fileData.replace("##DATA_ENTRY##", recipes_data);
-		fileData = fileData.replaceAll("##PAGE_TITLE##", tagDataStr.toUpperCase());
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">");
+		fileData = fileData.replaceAll("##KEYWORD_DATA##", "Contents, Tags for " + tagData.toUpperCase());
+		fileData = fileData.replaceAll("##DESC_DATA##", "Recipes related to " + tagData.toUpperCase() + " tag in Spicy World.");
+		fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
+		fileData = fileData.replaceAll("##URL_DATA##", "/" + tag + "-tag.html");
+		fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
 		saveFile(baseTemplatePath + tag + "-tag.html", fileData);
-		System.out.println(count + ". Creating Tag Page for " + tagDataStr);
 	}
 	
 	private static String getPagination(int currentPage, int totalPage, String siteMapData) {
 		String data = "";
 		for (int i=1; i<=totalPage; i++) {
 			if (i == currentPage) {
-				data += "<div class=\"selected\">" + i + "</div>";
+				data += "<span class=\"selected\">" + i + "</span>";
 			} else {
 				String pageURL = "", pageTitle = "";
 				if (i == 1) {
@@ -208,17 +306,17 @@ public class FileGenerator {
 					pageURL = "recipes-" + (i-1) + ".html";
 					pageTitle = "My Recipes - Page " + i;
 				}
-				data += "<div><a title='" + pageTitle + "' href='" + pageURL + "'>" + i + "</a></div>";
+				data += "<span><a title='" + pageTitle + "' href='" + pageURL + "'>" + i + "</a></span>";
 			}
 		}
 		return data;
 	}
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
-		recipes_data += "<div><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
-				+ "'><img style=\"width: 200px !important;\" src=\""
+		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "'><img style=\"width: 212px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
-				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:200px;height:70px\"><a style=\"color:white;\" href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
+				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
 	}
 	
@@ -243,13 +341,6 @@ public class FileGenerator {
 		siteMapDataEntry = "<url><loc>http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html</loc></url>";
 		return siteMapDataEntry;
 	}
-
-	public static String createHomeJS(Element eElement) {
-		String homeJSON = null;
-		homeJSON = "{\"title\":\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\",\"pic\":\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\",\"url\":\"" + eElement.getElementsByTagName("url").item(0).getTextContent()
-		+ ".html\"}";
-		return homeJSON;
-	}
 	
 	public static void createItemData(String templatePath, Element eElement, int count) {
 		String out = "";
@@ -264,9 +355,9 @@ public class FileGenerator {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
-		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 25px;display: inline;float:left\">"
+		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
 				+ title
-				+ "</h1><div style=\"float:left\">&nbsp;("
+				+ "</h1><div style=\"clear:both;font-size: 20px;margin-bottom:10px;\">("
 				+ itemType
 				+ ")</div></div><div style=\"clear:both\">"
 				// Pinterest Starts
@@ -282,12 +373,12 @@ public class FileGenerator {
 				// Email Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
 				+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + "\n Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
-				+ "<img style='height:21px;' src='img/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
+				+ "<img style='height:21px;' src='images/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
 				// Email Ends
 				// Google Plus Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Share in Google Plus' title='Share in Google Plus' "
 				+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html', '" + title + "','resizable,height=400,width=550');return false;\">"
-				+ "<img style='height:21px;' src='img/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
+				+ "<img style='height:21px;' src='images/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
 				// Google Plus Ends
 				// Linked In Starts
 				//+ "<div style=\"float:left;padding-left:10px;\">"
@@ -304,11 +395,11 @@ public class FileGenerator {
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' width='100%'/></a><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div><br/>"
+				+ "' width='100%'/></a><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>"
-				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div><br/>"
+				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
 				+ eElement.getElementsByTagName("process").item(0)
 						.getTextContent()
 				+ "<br/><div class='complete'>"
@@ -321,28 +412,24 @@ public class FileGenerator {
 		
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
-			String tags = "<div class=\"tagContent\"><div class=\"heading\">Tags:</div>";
+			String tags = "<div class=\"tagContent\"><span class=\"heading\">Tags:</span>";
 			if (tagData!=null) {
 				String ss[] = tagData.split(",");
 				for (int i=0; i<ss.length; i++) {
 					String tg = ss[i];
-					tags += "<div><a href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></div>";
+					tags += "<span><a href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></span>";
 				}
 			}
 			tags += "</div>";
 			out += tags;
 		} catch (Exception e) {} 
 		
-		String fileData = readFile(templatePath + "template/food-item.html");
-		fileData = fileData.replace("##DATA_ENTRY##", out);
-		fileData = fileData.replaceAll("##TITLE_DATA##", title + " Recipe | Spicy World | Arpita's Kitchen");
-		fileData = fileData.replace("##URL_DATA##", url + ".html");
-		fileData = fileData.replace("##DESC_DATA##", desc);
-		fileData = fileData.replace("##IMG_DATA##", eElement
-				.getElementsByTagName("pic").item(0).getTextContent() + buildNo);
-		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		/*String keyword = Utility.getKeyword(title 
-				+ " " + eElement.getElementsByTagName("shortDesc").item(0).getTextContent());*/
+		out += "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div class='commentHeader'>Leave Your Comments</div>"
+		+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div></div>";
+		
+		
+		String fileData = readFile(templatePath + "template/template.html");
+		
 		String ky = null;
 		try {
 			ky = eElement.getElementsByTagName("keywords").item(0).getTextContent();
@@ -353,7 +440,18 @@ public class FileGenerator {
 		} else {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
+		
+		fileData = fileData.replace("##TITLE_DATA##", title + " Recipe | Spicy World | Arpita's Kitchen");
+		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
+		fileData = fileData.replace("##recipes_sel##", "selected");
+		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">");
+		fileData = fileData.replaceAll("##DESC_DATA##", desc);
+		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
+		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
+		fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancy();enableAd();");
+		
 		saveFile(templatePath + url + ".html", fileData);
 		System.out.println(count + ". Created HTML for " + url);
 	}
@@ -368,26 +466,23 @@ public class FileGenerator {
 			itemTypeClass = "vegItem-1";
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div style='clear:both;width:750px'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 220px\">"
-				+ "<a alt=\""+ eElement.getElementsByTagName("title").item(0).getTextContent() +"\" "
-						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" href=\""
-				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\"><img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 30%\">"
+				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
-				+ "\"/></a></div><div style=\"float:left;width:480px\">"
-				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
-						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
-				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\"><div class=\"title\"><div style=\"float:left;\" class=\""
+				+ "\"/></div><div style=\"float:left;width:60%\">"
+				+ "<div class=\"title\"><div style=\"float:left;\" class=\""
 				+ eElement.getElementsByTagName("type").item(0)
 						.getTextContent()
 				+ "\">&nbsp;</div><div style=\"float:left;width:90%\">"
-				+ eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</div></div><div class=\"desc\">"
+				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
+						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
+				+ eElement.getElementsByTagName("url").item(0).getTextContent()
+				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
+				+ "</a></div></div><div class=\"desc\">"
 				+ eElement.getElementsByTagName("shortDesc").item(0)
-						.getTextContent() + "</div></a></div></div></td>";
+						.getTextContent() + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
 	}
