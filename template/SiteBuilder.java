@@ -250,7 +250,7 @@ public class SiteBuilder {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		selfCopy(templatePath + "template/FileGenerator.java", processor);
+		selfCopy(templatePath + "template/SiteBuilder.java", processor);
 		System.out.println("Processed ...");
 		//getAllImages(basePath + "recipeimages");
 	}
