@@ -56,7 +56,8 @@ var criteriaData = '';
 
 function successXML(xmlData) {
 	var $element = $(xmlData).find('title').filter(function() {
-	    return (($(this).text()).toLowercase().indexOf(unescape(criteriaData).toLowercase()) > -1);
+		var data = ($(this).text()).toLowercase();
+	    return (data.indexOf(criteriaData) > -1);
 	}).closest('element');	
 	var htmlForm = '<div class="recipePage"><table class="dataTable">';
 	if ($element.length > 0) {
@@ -109,7 +110,8 @@ function searchForRecipe() {
 	var dataURL = getQueryVariable('criteria').trim();
 	if (dataURL != '') {
 		$('#searchBox').placeholder = dataURL;
-		criteriaData = dataURL;
+		criteriaData = unescape(dataURL)
+		criteriaData = criteriaData.toLowercase();
 		readXML();
 	} else {
 		$('#searchMdl').addClass('f30px');
