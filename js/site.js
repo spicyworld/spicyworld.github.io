@@ -56,7 +56,7 @@ var criteriaData = '';
 
 function successXML(xmlData) {
 	var $element = $(xmlData).find('title').filter(function() {
-		var data = ($(this).text()).toLowercase();
+		var data = ($(this).text()).toLowerCase();
 	    return (data.indexOf(criteriaData) > -1);
 	}).closest('element');	
 	var htmlForm = '<div class="recipePage"><table class="dataTable">';
