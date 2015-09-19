@@ -58,7 +58,17 @@ function successXML(xmlData) {
 	    return ($(this).text().indexOf("marination") > -1);
 	}).closest('element');
 	console.log($element);
-	var url = $('url', $element).text();
-	var pic = $('pic', $element).text();
+	if ($element.length > 0) {
+		for (var i=0; i<$element.length; i++) {
+			populateSearchResult($element[i]);
+		}
+	} else {
+		populateSearchResult($element);
+	}
+}
+
+function populateSearchResult(elementData) {
+	var url = $('url', elementData).text();
+	var pic = $('pic', elementData).text();
 	console.log(url + " " + pic);
 }
