@@ -1,3 +1,36 @@
+.pad50px {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.searchPlace input {
+    margin-top: 1px;
+    height: 28px;
+    width: 180px;
+}
+
+.searchPlace {
+    clear: both;
+    height: 80px;
+}
+
+
+.searchPlace a {
+	background: grey;
+    padding: 10 20 10 20;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    border: 1px grey;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.searchPlace a:hover {
+	background: silver;
+}
+
 .adSection {
 	width: 320px;
     height: 50px;
@@ -18,7 +51,7 @@
 }
 
 .middleTop .data a {
-    background: silver;
+    background: grey;
     padding: 10 20 10 20;
     color: white;
     font-size: 18px;
@@ -27,6 +60,10 @@
     border-radius: 25px;
     text-align: center;
     text-decoration: none;
+}
+
+.middleTop .data a:hover {
+	background: silver;
 }
 
 .middleBottom {

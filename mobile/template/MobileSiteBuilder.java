@@ -169,6 +169,18 @@ public class MobileSiteBuilder {
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
 			saveFile(basePath + "index.html", fileData);
 			
+			
+			//Save Search Page
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Search in Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div id='searchMiddle'><img width='40px' style='padding-top:50px' src=\"../images/loading.gif\"/><div style='padding-bottom:50px' >Searching for related recipes, please wait ...</div></div>");
+			fileData = fileData.replace("##indexss_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, NOFOLLOW\">");
+			fileData = fileData.replaceAll("##URL_DATA##", "");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "searchForRecipe();");
+			saveFile(basePath + "search.html", fileData);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
