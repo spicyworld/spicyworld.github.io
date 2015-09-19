@@ -56,15 +56,17 @@ var criteriaData = '';
 
 function successXML(xmlData) {
 	var $element = $(xmlData).find('title').filter(function() {
-	    return ($(this).text().indexOf(criteriaData) > -1);
+	    return ($(this).text().toLowercase().indexOf(unescape(criteriaData).toLowercase()) > -1);
 	}).closest('element');	
-	$('#searchMdl').html('');
-	console.log(criteriaData);
+	var htmlForm = '<div class="recipePage"><table class="dataTable">';
 	if ($element.length > 0) {
 		for (var i=0; i<$element.length; i++) {
-			populateSearchResult($element[i]);
+			htmlForm += populateSearchResult($element[i]);
 		}
+		htmlForm += '</table></div>';
+		$('.middleData').html(htmlForm);
 	} else {
+		$('#searchMdl').html('');
 		$('#searchMdl').addClass('f30px');
 		$('#searchMdl').html('No results found, please try again with different criteria.');
 	}
@@ -73,8 +75,11 @@ function successXML(xmlData) {
 function populateSearchResult(elementData) {
 	var url = $('url', elementData).text();
 	var title = $('title', elementData).text();
-	console.log(url + " " + title);
-	$('#searchMdl').html($('#searchMdl').html() + '<br/><a href="' + url + '.html">' + title + '</a>')
+	var thumb = $('thumb', elementData).text();
+	var desc = $('shortDesc', elementData).text();
+	var type = $('type', elementData).text();
+	var template = '<tr class=""><td><div style="clear:both;width:100%"><div class="leftitem" style="padding-right: 20px;float:left;width: 30%"><img title="##TITLE##" alt="##TITLE##" src="##PIC##"></div><div style="float:left;width:60%"><div class="title"><div style="float:left;" class="##TYPE##">&nbsp;</div><div style="float:left;width:90%"><a alt="#TITLE##" title="##TITLE##" class="noStyle" href="##URL##.html">##TITLE##</a></div></div><div class="desc">##DESC#</div></div></div></td></tr><tr class="blankTR"></tr>';
+	return template.replace('##TITLE##', title).replace('##DESC##', desc).replace('##TYPE##', type).replace('##PIC##', thumb).replace('##URL##', url);
 }
 
 function enterPressCheck(B){
