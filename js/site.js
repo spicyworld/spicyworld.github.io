@@ -52,6 +52,12 @@ function readXML() {
     }
 }
 
-function successXML(xml) {
-	console.log(xml);
+function successXML(xmlData) {
+	var $element = $(xmlData).find('process').filter(function() {
+	    return $(this).text() == "refrigarator";
+	}).closest('element');
+
+	var url = $('url', $element).text();
+	var pic = $('pic', $element).text();
+	console.log(url + " " + pic);
 }
