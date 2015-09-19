@@ -58,7 +58,7 @@ function successXML(xmlData) {
 	var $element = $(xmlData).filter(function() {
 	    return ($(this).text().indexOf(criteriaData) > -1);
 	}).closest('element');	
-	
+	$('#searchMdl').html('');
 	if ($element.length > 0) {
 		for (var i=0; i<$element.length; i++) {
 			populateSearchResult($element[i]);
