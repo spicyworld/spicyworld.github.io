@@ -55,7 +55,7 @@ function readXML() {
 var criteriaData = '';
 
 function successXML(xmlData) {
-	var $element = $(xmlData).filter(function() {
+	var $element = $(xmlData).find('title').filter(function() {
 	    return ($(this).text().indexOf(criteriaData) > -1);
 	}).closest('element');	
 	$('#searchMdl').html('');
@@ -64,7 +64,8 @@ function successXML(xmlData) {
 			populateSearchResult($element[i]);
 		}
 	} else {
-		populateSearchResult($element);
+		$('#searchMdl').addClass('f30px');
+		$('#searchMdl').html('No results found, please try again with different criteria.');
 	}
 }
 
@@ -100,6 +101,7 @@ function searchData(){
 function searchForRecipe() {
 	var dataURL = getQueryVariable('criteria').trim();
 	if (dataURL != '') {
+		$('#searchBox').placeholder = dataURL;
 		criteriaData = dataURL;
 		readXML();
 	} else {
