@@ -1,3 +1,44 @@
+#searchMdl {
+	min-height: 550px;
+	text-align:center;
+	padding: 100px;
+	padding-top:20px;
+}
+
+.f30px {
+	font-size:30px;
+}
+
+.searchTxt {
+	float:left;
+	font-size:30px;
+	padding-left:15px;
+}
+
+.searchPlace {
+	clear: both;
+	padding-top:10px;
+}
+
+.searchPlace a {
+	background: silver;
+    padding: 6 12 6 12;
+    color: white;
+    font-size: 15px;
+    width: 70px;
+    border: 2px;
+    border-radius: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.searchPlace input {
+	margin-top: 1px;
+	height: 28px;
+	width: 180px;
+}
+
 .adSection {
 	display:none;
 	width: 320px;
@@ -170,6 +211,10 @@
 }
 
 .header .right{
+	float: right;
+}
+
+.header .right a{
 	float: right;
 }
 

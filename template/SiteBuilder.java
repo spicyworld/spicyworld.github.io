@@ -247,6 +247,22 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
 			saveFile(basePath + "404.html", fileData);
 			
+			
+			//Save Search Page
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "Search Recipes | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div id='searchMdl'><div style='float:left'><img width='40px' src=\"images/loading.gif\"/></div><div class='searchTxt'>Searching for related recipes, please wait ...</div>"
+					+ "</div>");
+			fileData = fileData.replace("##indexss_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Search recipes, recipe search, specific recipes, search foods");
+			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Search recipes from our library of all recipes.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/search.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "searchForRecipe();");
+			saveFile(basePath + "search.html", fileData);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -52,12 +52,13 @@ function readXML() {
     }
 }
 
+var criteriaData = '';
+
 function successXML(xmlData) {
-	console.log(xmlData);
-	var $element = $(xmlData).find('process').filter(function() {
-	    return ($(this).text().indexOf("refrigarator") > -1);
-	}).closest('element');
-	console.log($element);
+	var $element = $(xmlData).filter(function() {
+	    return ($(this).text().indexOf(criteriaData) > -1);
+	}).closest('element');	
+	
 	if ($element.length > 0) {
 		for (var i=0; i<$element.length; i++) {
 			populateSearchResult($element[i]);
@@ -69,6 +70,52 @@ function successXML(xmlData) {
 
 function populateSearchResult(elementData) {
 	var url = $('url', elementData).text();
-	var pic = $('pic', elementData).text();
-	console.log(url + " " + pic);
+	var title = $('title', elementData).text();
+	$('#searchMdl').html($('#searchMdl').html() + '<br/><a href="' + url + '.html">' + title + '</a>')
+}
+
+function enterPressCheck(B){
+	var A;
+	if(window.event){
+		A=window.event.keyCode;
+	}else{
+		A=B.which;
+	}
+	if(A==13){
+		searchData();
+	}else{
+		return"false";
+	}
+}
+
+function searchData(){
+	var data = $('#searchBox').val().trim();
+	if (data != '') {
+		location.href = 'search.html?criteria=' + data;
+	} else {
+		$('#searchBox').placeholder = 'Search recipes ...';
+	}
+}
+
+function searchForRecipe() {
+	var dataURL = getQueryVariable('criteria').trim();
+	if (dataURL != '') {
+		criteriaData = dataURL;
+		readXML();
+	} else {
+		$('#searchMdl').addClass('f30px');
+		$('#searchMdl').html('Incorrect search critera, please try again.');
+	}
+}
+
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+    var pair = vars[i].split("=");
+    if (pair[0] == variable) {
+      return pair[1];
+    }
+  } 
+  return "";
 }
