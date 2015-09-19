@@ -53,8 +53,9 @@ function readXML() {
 }
 
 function successXML(xmlData) {
+	console.log(xmlData);
 	var $element = $(xmlData).find('process').filter(function() {
-	    return $(this).text() == "refrigarator";
+	    return ($(this).text().indexOf("refrigarator") > -1);
 	}).closest('element');
 
 	var url = $('url', $element).text();
