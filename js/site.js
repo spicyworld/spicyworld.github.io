@@ -59,6 +59,7 @@ function successXML(xmlData) {
 	    return ($(this).text().indexOf(criteriaData) > -1);
 	}).closest('element');	
 	$('#searchMdl').html('');
+	console.log(criteriaData);
 	if ($element.length > 0) {
 		for (var i=0; i<$element.length; i++) {
 			populateSearchResult($element[i]);
@@ -72,6 +73,7 @@ function successXML(xmlData) {
 function populateSearchResult(elementData) {
 	var url = $('url', elementData).text();
 	var title = $('title', elementData).text();
+	console.log(url + " " + title);
 	$('#searchMdl').html($('#searchMdl').html() + '<br/><a href="' + url + '.html">' + title + '</a>')
 }
 
