@@ -111,7 +111,7 @@ function searchForRecipe() {
 	if (dataURL != '') {
 		$('#searchBox').placeholder = dataURL;
 		criteriaData = unescape(dataURL)
-		criteriaData = criteriaData.toLowercase();
+		criteriaData = criteriaData.toLowerCase();
 		readXML();
 	} else {
 		$('#searchMdl').addClass('f30px');
