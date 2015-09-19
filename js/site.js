@@ -90,7 +90,7 @@ function populateSearchResult(elementData) {
 
 function replaceAll(find, rep, str) {
 	var re = new RegExp(find, 'g');
-	str = str.replace(re, res);
+	str = str.replace(re, rep);
 	return str;
 }
 
