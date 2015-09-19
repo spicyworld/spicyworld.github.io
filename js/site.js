@@ -55,7 +55,7 @@ function readXML() {
 function successXML(xmlData) {
 	console.log(xmlData);
 	var $element = $(xmlData).find('process').filter(function() {
-	    return ($(this).text().indexOf("marination") > -1);
+	    return ($(this).text().indexOf("refrigarator") > -1);
 	}).closest('element');
 	console.log($element);
 	if ($element.length > 0) {
