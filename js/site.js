@@ -80,7 +80,18 @@ function populateSearchResult(elementData) {
 	var desc = $('shortDesc', elementData).text();
 	var type = $('type', elementData).text();
 	var template = '<tr class=""><td><div style="clear:both;width:100%"><div class="leftitem" style="padding-right: 20px;float:left;width: 30%"><img title="##TITLE##" alt="##TITLE##" src="##PIC##"></div><div style="float:left;width:60%"><div class="title"><div style="float:left;" class="##TYPE##">&nbsp;</div><div style="float:left;width:90%"><a alt="#TITLE##" title="##TITLE##" class="noStyle" href="##URL##.html">##TITLE##</a></div></div><div class="desc">##DESC#</div></div></div></td></tr><tr class="blankTR"></tr>';
-	return template.replace('##TITLE##', title).replace('##DESC##', desc).replace('##TYPE##', type).replace('##PIC##', thumb).replace('##URL##', url);
+	template = replaceAll('##TITLE##', title, template);
+	template = replaceAll('##DESC##', desc, template);
+	template = replaceAll('##TYPE##', type, template);
+	template = replaceAll('##PIC##', thumb, template);
+	template = replaceAll('##URL##', url, template);
+	return template;
+}
+
+function replaceAll(find, rep, str) {
+	var re = new RegExp(find, 'g');
+	str = str.replace(re, res);
+	return str;
 }
 
 function enterPressCheck(B){
