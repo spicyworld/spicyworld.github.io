@@ -57,7 +57,7 @@ function successXML(xmlData) {
 	var $element = $(xmlData).find('process').filter(function() {
 	    return ($(this).text().indexOf("marination") > -1);
 	}).closest('element');
-
+	console.log($element);
 	var url = $('url', $element).text();
 	var pic = $('pic', $element).text();
 	console.log(url + " " + pic);
