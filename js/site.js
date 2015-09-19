@@ -56,7 +56,7 @@ var criteriaData = '';
 
 function successXML(xmlData) {
 	var $element = $(xmlData).find('title').filter(function() {
-	    return ($(this).text().toLowercase().indexOf(unescape(criteriaData).toLowercase()) > -1);
+	    return (($(this).text()).toLowercase().indexOf(unescape(criteriaData).toLowercase()) > -1);
 	}).closest('element');	
 	var htmlForm = '<div class="recipePage"><table class="dataTable">';
 	if ($element.length > 0) {
