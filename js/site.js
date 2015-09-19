@@ -55,9 +55,14 @@ function readXML() {
 var criteriaData = '';
 
 function successXML(xmlData) {
+	var cri = criteriaData.split(" ");
 	var $element = $(xmlData).find('title').filter(function() {
 		var data = ($(this).text()).toLowerCase();
-	    return (data.indexOf(criteriaData) > -1);
+		for (var i=0; i<cri.length; i++) {
+			if (data.indexOf(cri[0]) > -1) {
+				return true;
+			}
+		}
 	}).closest('element');	
 	var htmlForm = '<div class="recipePage"><table class="dataTable">';
 	if ($element.length > 0) {
