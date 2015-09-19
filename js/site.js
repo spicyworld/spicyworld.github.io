@@ -37,3 +37,21 @@ function loadSlideShow() {
 function enableAd () {
 	$('#adSection').show();
 }
+
+function readXML() {
+	try {
+        var xmlPath = "template/data.xml";
+        $.ajax({
+            type: "GET",
+            url: xmlPath,
+            dataType: "xml",
+            success: successXML
+        });
+    } catch (e) {
+        alert("Error while reading XML; Description – " + e.description);
+    }
+}
+
+function successXML(xml) {
+	console.log(xml);
+}
