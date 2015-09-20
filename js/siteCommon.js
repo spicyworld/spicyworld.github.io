@@ -88,18 +88,20 @@ function searchData(){
     }
 }
 
-function highlight(word, element, className) {
-    var rgxp = new RegExp(new RegExp( "(" + regtakeCare( word ) + ")" , 'gi'));
-    var repl = '<span class="' + className + '">' + word + '</span>';
+function highlight(word, element) {
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
             var html = element[i].innerHTML;
-            element.innerHTML = html.replace(rgxp, repl);
+            element.innerHTML = highlightText(html, word);
         }
     } else {
         var html = element.html();
-        element.html(html.replace(rgxp, repl));
+        element.html(highlightText(html, word));
     }
+}
+
+function highlightText( data, search ) {
+    return data.replace( new RegExp( "(" + regtakeCare( search ) + ")" , 'gi' ), "<span class='highlight'>$1</span>" );
 }
 
 function regtakeCare(dataStr) {
