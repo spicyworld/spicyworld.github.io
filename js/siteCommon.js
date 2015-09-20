@@ -89,7 +89,7 @@ function searchData(){
 }
 
 function highlight(word, element, className) {
-    var rgxp = new RegExp(word, 'g');
+    var rgxp = new RegExp("(" + RegExp.escape(word) + ")", "gi");
     var repl = '<span class="' + className + '">' + word + '</span>';
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
