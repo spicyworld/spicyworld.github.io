@@ -26,6 +26,19 @@ function readXML() {
     }
 }
 
+function successXML(xmlData) {
+    var cri = criteriaData.split(" ");
+    var $element = $(xmlData).find('title').filter(function() {
+        var data = ($(this).text()).toLowerCase();
+        for (var i=0; i<cri.length; i++) {
+            if (data.indexOf(cri[0]) > -1) {
+                return true;
+            }
+        }
+    }).closest('element');  
+    populateData($element);
+}
+
 function populateSearchResult(elementData) {
     var url = $('url', elementData).text();
     var title = $('title', elementData).text();
@@ -64,19 +77,6 @@ function replaceAll(find, rep, str) {
     var re = new RegExp(find, 'g');
     str = str.replace(re, rep);
     return str;
-}
-
-function successXML(xmlData) {
-    var cri = criteriaData.split(" ");
-    var $element = $(xmlData).find('title').filter(function() {
-        var data = ($(this).text()).toLowerCase();
-        for (var i=0; i<cri.length; i++) {
-            if (data.indexOf(cri[0]) > -1) {
-                return true;
-            }
-        }
-    }).closest('element');  
-    populateData($element);
 }
 
 function searchData(){
