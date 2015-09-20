@@ -101,9 +101,5 @@ function highlight(word, element) {
 }
 
 function highlightText( data, search ) {
-    return data.replace( new RegExp( "(" + regtakeCare( search ) + ")" , 'gi' ), "<span class='highlight'>$1</span>" );
-}
-
-function regtakeCare(dataStr) {
-    return (dataStr + '').replace(/([\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:])/g, "\\$1");
+    return data.replace( new RegExp( "(" + search + ")" , 'gi' ), "<span class='highlight'>$1</span>" );
 }
