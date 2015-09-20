@@ -1,3 +1,7 @@
+.highlight {
+    color: violet;
+}
+
 #searchMdl {
 	min-height: 550px;
 	text-align:center;
