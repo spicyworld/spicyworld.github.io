@@ -89,7 +89,7 @@ function searchData(){
 }
 
 function highlight(word, element, className) {
-    var rgxp = new RegExp( new RegExp( "(" + preg_quote( word ) + ")" , 'gi' );
+    var rgxp = new RegExp( new RegExp( "(" + regtakeCare( word ) + ")" , 'gi' );
     var repl = '<span class="' + className + '">' + word + '</span>';
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
@@ -102,6 +102,6 @@ function highlight(word, element, className) {
     }
 }
 
-function preg_quote(dataStr) {
+function regtakeCare(dataStr) {
     return (dataStr + '').replace(/([\\\.\+\*\?\[\^\]\$\(\)\{\}\=\!\<\>\|\:])/g, "\\$1");
 }
