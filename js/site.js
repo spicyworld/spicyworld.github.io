@@ -51,7 +51,7 @@ function populateData(dataElement) {
 		}
 		htmlForm += '</table></div>';
 		$('.middleData').html(htmlForm);
-		highlight(criteriaData, $('.middleData'), 'highlight');
+		highlight(criteriaData, $('.desc'), 'highlight');
 	} else {
 		$('#searchMdl').html('');
 		$('#searchMdl').addClass('f30px');

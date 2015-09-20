@@ -91,6 +91,13 @@ function searchData(){
 function highlight(word, element, className) {
     var rgxp = new RegExp(word, 'g');
     var repl = '<span class="' + className + '">' + word + '</span>';
-    var html = element.html();
-    element.html(html.replace(rgxp, repl));
+    if (element.length > 0) {
+        for (var i=0; i<element.length; i++) {
+            var html = element[i].html();
+            element.html(html[i].replace(rgxp, repl));
+        }
+    } else {
+        var html = element.html();
+        element.html(html.replace(rgxp, repl));
+    }
 }
