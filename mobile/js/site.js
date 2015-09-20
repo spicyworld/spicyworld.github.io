@@ -19,8 +19,10 @@ function callMe(url) {
 	location.href = url;
 }
 
+// Search Code Starts
 var criteriaData = '';
 var globalTemplate = '<tr class=""><td><div style="clear:both;width:100%"><div class="leftitem" style=""><a href="##URL##.html"><img title="##TITLE##" alt="##TITLE##" src="##PIC##"/></a></div><div class="rightitem"><div class="title"><div><a alt="##TITLE##" title="##TITLE##" class="noStyle" href="##URL##.html">##TITLE##</a>&nbsp;(##TYPE_DESC##)</div></div><div class="desc">##DESC##</div></div></div></td></tr><tr class="blankTR"></tr>';
+var dataFile = '../';
 
 function populateData(dataElement) {
 	var htmlForm = '<div class="recipePage"><table class="dataTable">';
@@ -48,3 +50,4 @@ function searchForRecipe() {
 		$('#searchMiddle').html('Incorrect search critera, please try again.');
 	}
 }
+// Search Code Ends

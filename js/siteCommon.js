@@ -14,7 +14,7 @@ function enterPressCheck(B){
 
 function readXML() {
 	try {
-        var xmlPath = "template/data.xml";
+        var xmlPath = dataFile + "template/data.xml";
         $.ajax({
             type: "GET",
             url: xmlPath,
