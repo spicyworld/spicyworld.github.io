@@ -93,8 +93,8 @@ function highlight(word, element, className) {
     var repl = '<span class="' + className + '">' + word + '</span>';
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
-            var html = element[i].html();
-            element.html(html[i].replace(rgxp, repl));
+            var html = element[i].innerHTML;
+            element.innerHTML(html.replace(rgxp, repl));
         }
     } else {
         var html = element.html();
