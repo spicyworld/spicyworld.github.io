@@ -483,11 +483,12 @@ public class SiteBuilder {
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 30%\">"
-				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
+						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
-				+ "\"/></div><div style=\"float:left;width:60%\">"
+				+ "\"/></a></div><div style=\"float:left;width:60%\">"
 				+ "<div class=\"title\"><div style=\"float:left;\" class=\""
 				+ eElement.getElementsByTagName("type").item(0)
 						.getTextContent()

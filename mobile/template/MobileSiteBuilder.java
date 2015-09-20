@@ -337,11 +337,12 @@ public class MobileSiteBuilder {
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"\">"
-				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "<a href='" +eElement.getElementsByTagName("url").item(0).getTextContent()  + ".html'>"
+						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
-				+ "\"/></div><div class=\"rightitem\">"
+				+ "\"/></a></div><div class=\"rightitem\">"
 				+ "<div class=\"title\"><div>"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
 						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
