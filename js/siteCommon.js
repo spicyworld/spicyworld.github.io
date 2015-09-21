@@ -88,9 +88,9 @@ function searchData(){
     }
 }
 
-function highlight(word, element, className) {
+function highlight(word, element) {
     var rgxp = new RegExp(word, 'g');
-    var repl = '<span class="' + className + '">' + word + '</span>';
+    var repl = '<span class="highlight">' + word + '</span>';
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
             var html = element[i].innerHTML;
