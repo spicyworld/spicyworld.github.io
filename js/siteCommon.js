@@ -89,7 +89,7 @@ function searchData(){
 }
 
 function highlight(word, element) {
-    var rgxp = new RegExp(word, 'g');
+    var rgxp = new RegExp(word, 'ig');
     var repl = '<span class="highlight">' + word + '</span>';
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
