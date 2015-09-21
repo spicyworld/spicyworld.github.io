@@ -1,5 +1,6 @@
 .highlight {
     color: violet;
+    text-transform: uppercase;
 }
 
 #searchMdl {
