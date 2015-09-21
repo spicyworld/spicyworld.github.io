@@ -94,7 +94,7 @@ function highlight(word, element) {
     if (element.length > 0) {
         for (var i=0; i<element.length; i++) {
             var html = element[i].innerHTML;
-            element.innerHTML = html.replace(rgxp, repl);
+            element[i].innerHTML = html.replace(rgxp, repl);
         }
     } else {
         var html = element.html();
