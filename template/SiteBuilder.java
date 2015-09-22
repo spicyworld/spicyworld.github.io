@@ -32,7 +32,7 @@ public class SiteBuilder {
 	public static String buildNo = "?sessionId=120";
 
 	public static void main(String[] args) {
-		//createImage("/Volumes/Pearson/spicyworld/recipeimages/fish-rezala.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/fish-rezala.jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/mutton-biritani.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/mutton-biritani.jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -268,7 +268,7 @@ public class SiteBuilder {
 		}
 		selfCopy(templatePath + "template/SiteBuilder.java", processor);
 		System.out.println("Processed ...");
-		//getAllImages(basePath + "recipeimages");
+		getAllImages(basePath + "recipeimages");
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
@@ -595,7 +595,7 @@ public class SiteBuilder {
         try {
             BufferedImage bufimage = ImageIO.read(image);
 
-            BufferedImage bISmallImage = Scalr.resize(bufimage, 220); // after this line my dimensions in bISmallImage are correct!
+            BufferedImage bISmallImage = Scalr.resize(bufimage, 330); // after this line my dimensions in bISmallImage are correct!
             ImageIO.write(bISmallImage, "png", smallImage); // but my smallImage has the same dimension as the original foto
         } catch (Exception e) {
             System.out.println(e.getMessage()); // FORNOW: added just to be sure
