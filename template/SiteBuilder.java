@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=120";
+	public static String buildNo = "?sessionId=121";
 
 	public static void main(String[] args) {
 		//createImage("/Volumes/Pearson/spicyworld/recipeimages/mutton-biritani.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/mutton-biritani.jpg");
@@ -482,7 +482,7 @@ public class SiteBuilder {
 			itemTypeClass = "vegItem-1";
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 30%\">"
+		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
 						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
