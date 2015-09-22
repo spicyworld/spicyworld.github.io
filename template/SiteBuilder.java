@@ -268,7 +268,7 @@ public class SiteBuilder {
 		}
 		selfCopy(templatePath + "template/SiteBuilder.java", processor);
 		System.out.println("Processed ...");
-		getAllImages(basePath + "recipeimages");
+		//getAllImages(basePath + "recipeimages");
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
