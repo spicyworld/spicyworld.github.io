@@ -187,7 +187,7 @@ public class SiteBuilder {
 			
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Tags in Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Tagged Recipes | Spicy World | Arpita's Kitchen");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -203,7 +203,7 @@ public class SiteBuilder {
 			
 			//Save HomePage
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "HOME | Welcome to Spicy World | Arpita's Kitchen");
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -295,7 +295,7 @@ public class SiteBuilder {
 		
 		//Save Tag Page
 		String fileData = readFile(templatePath);
-		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " - Tag | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " Recipes | Tags | Arpita's Kitchen");
 		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);

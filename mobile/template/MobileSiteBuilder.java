@@ -212,7 +212,7 @@ public class MobileSiteBuilder {
 		
 		//Save Tag Page
 		String fileData = readFile(templatePath);
-		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " - Tag | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " Recipes | Tags | Arpita's Kitchen");
 		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
