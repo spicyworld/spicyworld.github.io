@@ -2,6 +2,21 @@
 <root>
    
    <element>
+      <title>Fish Rezala</title>
+      <type>nonVegItem</type>
+      <shortDesc>'Rezala' means we all know white, creamy, velvety gravy. In restaurants chicken or mutton rezala is very popular. But here is the recipe of mouth watering 'fish rezala' which I ate one of my sister's wedding. There were plenty of delicious items in buffet but 'fish rezala' was the most crowded stall. That was really finger licking good. Recipe is the same as usual 'rezala' type, I just made it with fish. It goes very well with plain rice, jeera rice or pulaao. Try this in your own kitchen and let me know how it turns out.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;4 with bone fish pieces (rohu / katla / vetki / any fresh fish).&lt;/li&gt;&lt;li&gt;5 tsp of poppy seeds.&lt;/li&gt;&lt;li&gt;10 cashews.&lt;/li&gt;&lt;li&gt;1 cup thinly sliced onion.&lt;/li&gt;&lt;li&gt;4 tsp hung curd.&lt;/li&gt;&lt;li&gt;6 tsp milk.&lt;/li&gt;&lt;li&gt;1 tablespoon garam masala powder.&lt;/li&gt;&lt;li&gt;5 green cardamoms.&lt;/li&gt;&lt;li&gt;5 cloves.&lt;/li&gt;&lt;li&gt;1 bay leaf.&lt;/li&gt;&lt;li&gt;8 black pepper corns.&lt;/li&gt;&lt;li&gt;4 dry red chilies.&lt;/li&gt;&lt;li&gt;6 tablespoons white oil.&lt;/li&gt;&lt;li&gt;2 tsp ghee.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <process>&lt;ul&gt;&lt;li&gt;First dry roast the poppy seeds and cashews in a pan for 6-7 minutes. Keep aside.&lt;/li&gt;&lt;li&gt;Then again dry roast the onion for 7-8 minutes. Do not make it too much dark. Then make a smooth paste of roasted poppy seeds, cashews, onion and little water. This is the 'white paste' and keep aside.&lt;/li&gt;&lt;li&gt;Wash the fish pieces and marinate with some salt for 10 minutes.&lt;/li&gt;&lt;li&gt;Heat white oil and fry the fish pieces both side till golden color. Keep aside.&lt;/li&gt;&lt;li&gt;In the same oil add ghee.&lt;/li&gt;&lt;li&gt;After a minute add green cardamoms, cloves, bay leaf and black pepper corns. Saute for a minute.&lt;/li&gt;&lt;li&gt;Take 6 tsp of that white paste, hung curd and milk in a bowl. Mix it very well and add in the oil. Cook this in slow flame for 10 minutes. You will get a nice aroma from the gravy and oil will float over.&lt;/li&gt;&lt;li&gt;Then add the fried fish pieces and garam masala powder. Mix it very gently.&lt;/li&gt;&lt;li&gt;Add salt, sugar, dry red chilies and a cup of warm water. Cook this for 8 minutes.&lt;/li&gt;&lt;li&gt;Then turn off the heat and add 1 tsp ghee on top.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Fish rezala is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this yummy dish with hot plain rice, pulaao or jeera rice ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <thumb>recipeimages/thumb/fish-rezala.jpg</thumb>
+      <pic>recipeimages/fish-rezala.jpg</pic>
+      <url>fish-rezala</url>
+      <keywords> fish, rezala, curd, dahi, indian, gravy, rich, onion, dry red chilies, garam masala, fish rezala recipe</keywords>
+      <tags>fish,rezala,curd,gravy,indian,dahi</tags>
+   </element>
+
+   <element>
       <title>Chicken Chaap</title>
       <type>nonVegItem</type>
       
