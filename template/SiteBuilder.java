@@ -51,13 +51,14 @@ public class SiteBuilder {
 		int count = 1, perPageData = 10;
 		List recipeDataList = new ArrayList();
 		String tags = "";
-		int homeImg = 3;
-		String carosalImg = "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\"><div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">";
-		for (int i=1; i<=homeImg; i++) {
-			carosalImg += "<div><img class=\"show\" u=\"image\" src=\"images/home/home" + i + ".jpg\" /></div>";
-		}
-		carosalImg += "</div></div>";
-		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\"><div class=\"data\"><p>Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</p><a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div><div class=\"middle\">&nbsp;</div><div class=\"right\">" + carosalImg + "</div></div><div class=\"middleBottom\">";
+		String carosalImg = "";
+		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
+				+ "<div class=\"data\"><p>Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</p>"
+				+ "<a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
+				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
+				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
+				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
+				+ "</div></div></div><div class=\"middleBottom\">";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -100,6 +101,10 @@ public class SiteBuilder {
 								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
 										+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 					}
+					if (count > 3 && count < 7) {
+						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+						carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
+					}
 					count++;
 					siteMapData += siteMapEntry(eElement);
 					rssXMLData += populateRSSData(eElement);
@@ -109,6 +114,7 @@ public class SiteBuilder {
 				}
 			}
 			latest3DataForHomePage += "</div>";
+			latest3DataForHomePage = latest3DataForHomePage.replace("##HOME_IMAGE_TOP##", carosalImg);
 			if (!"".equals(recipes_data)) {
 				recipeDataList.add(recipes_data_front + recipes_data + "</table>");
 				recipes_data = "";
