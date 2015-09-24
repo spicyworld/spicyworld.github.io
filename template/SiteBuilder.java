@@ -32,7 +32,7 @@ public class SiteBuilder {
 	public static String buildNo = "?sessionId=121";
 
 	public static void main(String[] args) {
-		createImage("/Volumes/Pearson/spicyworld/recipeimages/chicken-chutney-kabab.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/chicken-chutney-kabab.jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/chicken-chutney-kabab.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/chicken-chutney-kabab.jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -101,7 +101,7 @@ public class SiteBuilder {
 								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
 										+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 					}
-					if (count > 3 && count < 7) {
+					if (count > 3 && count < 10) {
 						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 						carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
 					}
