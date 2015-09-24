@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+
+   <element>
+      <title>Chicken Chutney Kabab</title>
+      <type>nonVegItem</type>
+      <shortDesc>Last weekend I made a jar of coriander-mint chutney and kept in for fridge for future purposes. Yesterday 'he' wanted some snacks in the evening and also wanted something new. Usually we serve kababs along with green chutney but I used that green chutney for the marination of the chicken. Believe me it was worth trying and that's the reason I named it 'chutney kabab'.The texture and taste came out so good that he insisted me to share the recipe with you. Try this at your home and let me know about your story.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li class='internalLI'&gt;For chutney :&lt;/li&gt;&lt;li&gt;10 mint leaves.&lt;/li&gt;&lt;li&gt;A bunch of fresh coriander leaves.&lt;/li&gt;&lt;li&gt;2 cloves of garlic.&lt;/li&gt;&lt;li&gt;6 cashews.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 tsp roasted cumin powder.&lt;/li&gt;&lt;li&gt;3 tsp lemon juice.&lt;/li&gt;&lt;li&gt;1 tsp chat masala.&lt;/li&gt;&lt;li&gt;1 tsp white oil.&lt;/li&gt;&lt;li&gt;Salt to taste.&lt;/li&gt;&lt;li&gt;Little water.&lt;/li&gt;&lt;li class='internalLI'&gt;For chicken :&lt;/li&gt;&lt;li&gt;15 boneless chicken cubes.&lt;/li&gt;&lt;li&gt;Some onion cubes.&lt;/li&gt;&lt;li&gt;Some tomato cubes.&lt;/li&gt;&lt;li&gt;4 table spoons hung curd.&lt;/li&gt;&lt;li&gt;1 tsp roasted coriander powder.&lt;/li&gt;&lt;li&gt;Half tsp ginger paste.&lt;/li&gt;&lt;li&gt;4 tsp heavy cream.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1 tsp corn flour.&lt;/li&gt;&lt;li&gt;Mustard oil.&lt;/li&gt;&lt;li&gt;Butter for basting.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <process>&lt;ul&gt;&lt;li&gt;Add all the ingredients for chutney in a blender. Blend it like a smooth paste. Check the seasoning. You can call it 'green chutney'.&lt;/li&gt;&lt;li&gt;Now marinate the chicken pieces with 5 table spoons of chutney, hung curd, coriander powder, ginger paste, heavy cream, corn flour, salt and little mustard oil. Mix the chicken with all the ingredients very well and keep it in the refrigerator for 5 hours.&lt;/li&gt;&lt;li&gt;Preheat your oven in the highest temperature for 15 minutes.&lt;/li&gt;&lt;li&gt;Put the chicken into skewers along with onion and tomato cubes.&lt;/li&gt;&lt;li&gt;Place it on the upper rack of the oven for 20 minutes in 450F.&lt;/li&gt;&lt;li&gt;Then bast the chicken with some butter and turn the other side. Repeat the same process.&lt;/li&gt;&lt;li&gt;After that let it rest in the oven for another 5 minutes and then serve.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Chicken chutney kabab is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this kabab with some onion rings ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <thumb>recipeimages/thumb/chicken-chutney-kabab.jpg</thumb>
+      <pic>recipeimages/chicken-chutney-kabab.jpg</pic>
+      <url>chicken-chutney-kabab</url>
+      <keywords>chicken, chutney, kabab, grill, charcoal, oven, starter, indian, onion, spicy</keywords>
+      <tags>chicken,chutney,kabab,charcoal,grill,starter,indian,spicy</tags>
+   </element>
    
    <element>
       <title>Fish Rezala</title>
@@ -12,8 +27,8 @@
       <thumb>recipeimages/thumb/fish-rezala.jpg</thumb>
       <pic>recipeimages/fish-rezala.jpg</pic>
       <url>fish-rezala</url>
-      <keywords> fish, rezala, curd, dahi, indian, gravy, rich, onion, dry red chilies, garam masala, fish rezala recipe</keywords>
-      <tags>fish,rezala,curd,gravy,indian,dahi,main course, rich</tags>
+      <keywords>fish, rezala, curd, dahi, indian, gravy, rich, onion, dry red chilies, garam masala, fish rezala recipe</keywords>
+      <tags>fish,rezala,curd,gravy,indian,dahi,main course,rich</tags>
    </element>
 
    <element>

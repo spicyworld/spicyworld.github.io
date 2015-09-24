@@ -32,7 +32,7 @@ public class SiteBuilder {
 	public static String buildNo = "?sessionId=121";
 
 	public static void main(String[] args) {
-		//createImage("/Volumes/Pearson/spicyworld/recipeimages/mutton-biritani.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/mutton-biritani.jpg");
+		createImage("/Volumes/Pearson/spicyworld/recipeimages/chicken-chutney-kabab.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/chicken-chutney-kabab.jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
