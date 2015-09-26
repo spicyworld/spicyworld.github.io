@@ -145,7 +145,7 @@
 
 
 .middleTop .left .data a {
-    background: silver;
+    background: grey;
     padding: 10 20 10 20;
     color: white;
     font-size: 18px;
@@ -157,7 +157,7 @@
 }
 
 .middleTop .left .data a:hover {
-	background: grey;
+	background: #3598cf;
 }
 
 .middleTop .middle {
@@ -247,13 +247,13 @@ body {
 }
 
 .middleBottom .title {
-	padding-top: 8px;
+	padding-top: 13px;
 	height: 80px;
 }
 
 .middleBottom .title  a{
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px;
 	color: #3598cf;
 }
 
@@ -411,6 +411,7 @@ body {
 
 .data p {
 	font-family: cursive;
+	font-size: 22px;
 }
 
 .internalLI {
