@@ -151,7 +151,7 @@ public class SiteBuilder {
 			
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "All Food Images | Spicy World | Arpita's Kitchen");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>All Food Images in Spicy World</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>All Our Recipe Images</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
 			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World");
