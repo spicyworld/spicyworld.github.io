@@ -151,7 +151,7 @@ public class SiteBuilder {
 			
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "All Food Images | Spicy World | Arpita's Kitchen");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>All Food Images in Spicy World</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
 			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World");
@@ -187,7 +187,8 @@ public class SiteBuilder {
 				data = data.replace(" ", "-");
 				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
-				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey());
+				String h1Tag = "<h1 class='headerFont'>Recipes related to <i>" + entry.getKey() + "</i></h1>";
+				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
 				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc></url>";
 			}
 			
@@ -277,7 +278,7 @@ public class SiteBuilder {
 		//getAllImages(basePath + "recipeimages");
 	}
 	
-	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
+	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr, String h1Tag) {
 		String recipes_data = "<div class='recipePage'><table class=\"dataTable\">", tagData = null;
 		try {
 			for (int temp = 0; temp < nList.getLength(); temp++) {
@@ -302,7 +303,7 @@ public class SiteBuilder {
 		//Save Tag Page
 		String fileData = readFile(templatePath);
 		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " Recipes | Tags | Arpita's Kitchen");
-		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
+		fileData = fileData.replace("##MIDDLE_DATA##", h1Tag + recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">");
