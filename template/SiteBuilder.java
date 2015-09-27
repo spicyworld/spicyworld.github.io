@@ -125,13 +125,13 @@ public class SiteBuilder {
 				recipes_data = (String) recipeDataList.get(i);
 				String pagination = getPagination(i+1, recipeDataList.size(), siteMapData);
 				
-				fileData = fileData.replace("##TITLE_DATA##", "My Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
-				fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
+				fileData = fileData.replace("##TITLE_DATA##", "Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
+				fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>Spicy World Recipes - Page " + (i+1) + "</h1><div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
 				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 				fileData = fileData.replaceAll("##KEYWORD_DATA##", "Recipes in Spicy World");
 				fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
-				fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Here are our recipes that you might like.");
+				fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Here are our recipes (page number " + (i+1) + ") that you might like.");
 				fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 				fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
 				

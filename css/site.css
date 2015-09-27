@@ -1,3 +1,7 @@
+.headerFont {
+	font-size: 24px;
+    margin: 0px;
+}
 .highlight {
     color: white;
     text-transform: uppercase;
