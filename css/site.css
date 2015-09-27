@@ -26,8 +26,12 @@
 	padding-top:10px;
 }
 
+.searchPlace a:hover { 
+	background: #3598cf;
+}
+
 .searchPlace a {
-	background: silver;
+	background: grey;
     padding: 6 12 6 12;
     color: white;
     font-size: 15px;
