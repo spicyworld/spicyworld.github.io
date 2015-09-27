@@ -125,8 +125,8 @@ public class SiteBuilder {
 				recipes_data = (String) recipeDataList.get(i);
 				String pagination = getPagination(i+1, recipeDataList.size(), siteMapData);
 				
-				fileData = fileData.replace("##TITLE_DATA##", "Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
-				fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>Spicy World Recipes - Page " + (i+1) + "</h1><div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
+				fileData = fileData.replace("##TITLE_DATA##", "Our Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
+				fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>Our Recipes - Page " + (i+1) + "</h1><div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
 				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 				fileData = fileData.replaceAll("##KEYWORD_DATA##", "Recipes in Spicy World");
