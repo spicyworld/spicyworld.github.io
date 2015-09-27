@@ -150,11 +150,11 @@ public class SiteBuilder {
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
 			
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "All Food Images | Spicy World | Arpita's Kitchen");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>All Our Recipe Images</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
+			fileData = fileData.replace("##TITLE_DATA##", "Our Food Images | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>Our Food Images</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
 			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World, Our food images");
 			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
 			fileData = fileData.replaceAll("##DESC_DATA##", "You can find all images of our Recipes in Spicy World. You can now also visit the recipe details from here by clicking the links below the images.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
