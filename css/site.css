@@ -32,7 +32,7 @@
 }
 
 .searchPlace a:hover { 
-	background: #3598cf;
+	background: green;
 }
 
 .searchPlace a {
@@ -166,7 +166,7 @@
 }
 
 .middleTop .left .data a:hover {
-	background: #3598cf;
+	background: green;
 }
 
 .middleTop .middle {
@@ -208,7 +208,7 @@
 	font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #3598cf;
+    color: green;
 } 
 
 .headerMenu ul li a.selected {
@@ -263,7 +263,7 @@ body {
 .middleBottom .title  a{
 	text-decoration: none;
 	font-size: 18px;
-	color: #3598cf;
+	color: green;
 }
 
 .middleBottom .title  a:hover{
@@ -336,7 +336,7 @@ body {
 }
 
 .title a{
-	color: #3598cf;
+	color: green;
 	text-decoration: none;
 }
 
@@ -368,7 +368,7 @@ body {
 }
 
 .imagesPage a, .tagContent a, .footer a{
-	color: #3598cf;
+	color: green;
 }
 
 .imagesPage a:hover, .tagContent a:hover, .footer a:hover {
@@ -411,7 +411,7 @@ body {
 
 .topPaginationData  span a{
 	font-size: 16px;
-	color: #3598cf;
+	color: green;
 }
 
 .clear {
