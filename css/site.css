@@ -1,6 +1,7 @@
 .headerFont {
 	font-size: 24px;
     margin: 0px;
+    font-weight: normal;
 }
 .highlight {
     color: white;
