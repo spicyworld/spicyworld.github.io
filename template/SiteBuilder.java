@@ -187,7 +187,7 @@ public class SiteBuilder {
 				data = data.replace(" ", "-");
 				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
-				String h1Tag = "<h1 class='headerFont'>Recipes related to <i>" + entry.getKey() + "</i></h1>";
+				String h1Tag = "<h1 class='headerFont'>Recipes tagged as <i>'" + entry.getKey() + "'</i></h1>";
 				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
 				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc></url>";
 			}
