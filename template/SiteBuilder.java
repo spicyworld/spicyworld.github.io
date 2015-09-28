@@ -33,7 +33,7 @@ public class SiteBuilder {
 
 	public static void main(String[] args) {
 		String img = "butter-chicken";
-		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -43,7 +43,7 @@ public class SiteBuilder {
 		String tag_data_template = templatePath + "template/template.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
-		String siteMapData = "<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">";
+		String siteMapData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
 		String rssXMLData = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version=\"2.0\"><channel>"
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
@@ -131,20 +131,27 @@ public class SiteBuilder {
 				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 				fileData = fileData.replaceAll("##KEYWORD_DATA##", "Recipes in Spicy World");
-				fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
 				fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Here are our recipes (page number " + (i+1) + ") that you might like.");
 				fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 				fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
 				
 				
 				if (i > 0) {
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
+							+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes-" + i + ".html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes-" + i + ".html");
 					saveFile(templatePath + "recipes-" + i + ".html", fileData);	
-					siteMapData += "<url><loc>http://spicyworld.in/recipes-" + i + ".html</loc></url>";
+					siteMapData += "<url><loc>http://spicyworld.in/recipes-" + i + ".html</loc>"
+							+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/recipes-" + i + ".html\" />"
+							+ "</url>";
 				} else {
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
+							+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes.html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes.html");
 					saveFile(templatePath + "recipes.html", fileData);	
-					siteMapData += "<url><loc>http://spicyworld.in/recipes.html</loc></url>";
+					siteMapData += "<url><loc>http://spicyworld.in/recipes.html</loc>"
+							+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/recipes.html\" />"
+							+ "</url>";
 				}
 			}
 			
@@ -190,7 +197,9 @@ public class SiteBuilder {
 				count++;
 				String h1Tag = "<h1 class='headerFont'>Recipes tagged as <i>'" + entry.getKey() + "'</i></h1>";
 				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
-				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc></url>";
+				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc>"
+						+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/" + data + "-tag.html\" />"
+						+ "</url>";
 			}
 			
 			// Save Tags
@@ -200,7 +209,9 @@ public class SiteBuilder {
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\"><script type=\"text/javascript\" src=\"js/jquery.awesomeCloud-0.2.min.js\"></script>");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
+					+ "<script type=\"text/javascript\" src=\"js/jquery.awesomeCloud-0.2.min.js\"></script>"
+					+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/tags.html' >");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Tag cloud is an easy way to link multiple content and you can easily choose the content you are looking for from various tags.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home2.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/tags.html");
@@ -215,7 +226,9 @@ public class SiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\"><script type=\"text/javascript\" src=\"js/jssor.slider.mini.js\"></script>");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
+					+ "<script type=\"text/javascript\" src=\"js/jssor.slider.mini.js\"></script>"
+					+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/index.html' >");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Food Recipes, All Spicy Foods.");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Easy and Simple Recipes make your cooking faster and your food delicious. Check out all available recipes.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
@@ -307,7 +320,8 @@ public class SiteBuilder {
 		fileData = fileData.replace("##MIDDLE_DATA##", h1Tag + recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
+				+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + tag + "-tag.html' >");
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", "Contents, Tags for " + tagData.toUpperCase());
 		fileData = fileData.replaceAll("##DESC_DATA##", "Recipes related to " + tagData.toUpperCase() + " tag in Spicy World.");
 		fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
@@ -345,12 +359,15 @@ public class SiteBuilder {
 	}
 	
 	public static String staticEntriesSiteMap() {
-		return "<url><loc>http://spicyworld.in</loc></url>"
+		return "<url><loc>http://spicyworld.in</loc>"
+				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/index.html\" /></url>"
 				+ "<url><loc>http://spicyworld.in/feedback.html</loc></url>"
 				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>"
-				+ "<url><loc>http://spicyworld.in/tags.html</loc></url>";
+				+ "<url><loc>http://spicyworld.in/tags.html</loc>"
+				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/tags.html\" />"
+				+ "</url>";
 	}
 	
 	public static String populateRSSData(Element eElement) {
@@ -362,7 +379,9 @@ public class SiteBuilder {
 	
 	public static String siteMapEntry(Element eElement) {
 		String siteMapDataEntry = null;
-		siteMapDataEntry = "<url><loc>http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html</loc></url>";
+		siteMapDataEntry = "<url><loc>http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html</loc>"
+				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" />"
+				+ "</url>";
 		return siteMapDataEntry;
 	}
 	
@@ -470,7 +489,8 @@ public class SiteBuilder {
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
+				+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + url + ".html' >");
 		fileData = fileData.replaceAll("##DESC_DATA##", desc);
 		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
