@@ -107,7 +107,7 @@ public class SiteBuilder {
 						carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
 					}
 					count++;
-					//siteMapData += siteMapEntry(eElement);
+					siteMapData += siteMapEntry(eElement);
 					rssXMLData += populateRSSData(eElement);
 					try {
 						tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
