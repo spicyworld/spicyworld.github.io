@@ -28,9 +28,13 @@ import org.w3c.tidy.Tidy;
 
 public class MobileSiteBuilder {
 	
-	public static String buildNo = "?sessionId=112";
+	public static String buildNo = "?sessionId=113";
 
 	public static void main(String[] args) {
+		mobileSiteBuilder();
+	}
+	
+	public static void mobileSiteBuilder() {
 		String basePath = "/Volumes/Pearson/spicyworld/mobile/";
 		String dataXML = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
