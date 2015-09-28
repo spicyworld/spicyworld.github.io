@@ -32,7 +32,8 @@ public class SiteBuilder {
 	public static String buildNo = "?sessionId=122";
 
 	public static void main(String[] args) {
-		//createImage("/Volumes/Pearson/spicyworld/recipeimages/makhmali-sondesh.jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/makhmali-sondesh.jpg");
+		String img = "butter-chicken";
+		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";

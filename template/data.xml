@@ -2,6 +2,21 @@
 <root>
 
    <element>
+      <title>Butter Chicken</title>
+      <type>nonVegItem</type>
+      <shortDesc>I have someone in my house who ofently demands to eat 'homemade-restaurant style' dinner in weekend ☺️. That's why last Sunday I made 'butter chicken' along with 'butter naan'. Nowadays 'butter chicken' is famous in all over the world. In Indian restaurants this is the mostly ordered dish. It has a tomato based, nice, rich, velvety gravy and tandoori flavoured chicken pieces. The combination was a total hit but you can also serve this with 'jeera rice', 'pulaao' or 'fried rice'.  In this dish you will need tandoori chicken, I have already posted the recipe. Try this in your kitchen and serve a 'restaurant style dinner' to your family.</shortDesc>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;2 big legs of tandoori chicken.&lt;/li&gt;&lt;li&gt;3 big tomatoes.&lt;/li&gt;&lt;li&gt;1 tsp ginger and garlic paste.&lt;/li&gt;&lt;li&gt;1 tsp cumin seeds.&lt;/li&gt;&lt;li&gt;Spice powder (2 tsp red chili powder, 1 tsp turmeric powder, 1 tsp cumin powder, 2 tsp coriander powder, 1 tsp garam masala powder).&lt;/li&gt;&lt;li&gt;2 tablespoons of dry fenugreek leaves.&lt;/li&gt;&lt;li&gt;4 tablespoons of butter.&lt;/li&gt;&lt;li&gt;6 tsp white oil.&lt;/li&gt;&lt;li&gt;Half cup of heavy cream.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <process>&lt;ul&gt;&lt;li&gt;Put the tomatoes in some boiling water for 2 minutes. Drain the water and peel the skin of the tomatoes. Then blend it in a smooth paste.&lt;/li&gt;&lt;li&gt;Heat oil and butter in a pan.&lt;/li&gt;&lt;li&gt;Add cumin seeds and 1 tablespoon of crushed dry fenugreek leaves in hot oil. Saute for a minute.&lt;/li&gt;&lt;li&gt;Then add ginger and garlic paste and all of the above mentioned spice powder. Cook this for 2 minutes in medium flame.&lt;/li&gt;&lt;li&gt;Add tomato paste in the pan along with some salt and 1 tsp of sugar. Mix this for 5 minutes.&lt;/li&gt;&lt;li&gt;Then add some warm water and cook it for 15 minutes.&lt;/li&gt;&lt;li&gt;After that add the tandoori chicken pieces into the gravy. Mix it very well and cook it for another 10 minutes.&lt;/li&gt;&lt;li&gt;Check the seasoning and add the remaining fenugreek leaves, heavy cream. Mix it for 3 minutes.&lt;/li&gt;&lt;li&gt;Turn off your gas and let it rest for 5 minutes.&lt;/li&gt;&lt;/ul&gt;</process>
+      <completionStatement>Your Butter chicken is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with butter naan/ jeera rice/ pulaao ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <thumb>recipeimages/thumb/butter-chicken.jpg</thumb>
+      <pic>recipeimages/butter-chicken.jpg</pic>
+      <url>butter-chicken</url>
+      <keywords>chicken, butter, maincourse, indian, spicy, rich, gravy, tomato, garlic</keywords>
+      <tags>chicken,butter,grill,indian,maincourse,spicy,gravy,rich</tags>
+   </element>
+
+   <element>
       <title>Chicken Chutney Kabab</title>
       <type>nonVegItem</type>
       <shortDesc>Last weekend I made a jar of coriander-mint chutney and kept in for fridge for future purposes. Yesterday 'he' wanted some snacks in the evening and also wanted something new. Usually we serve kababs along with green chutney but I used that green chutney for the marination of the chicken. Believe me it was worth trying and that's the reason I named it 'chutney kabab'.The texture and taste came out so good that he insisted me to share the recipe with you. Try this at your home and let me know about your story.</shortDesc>
