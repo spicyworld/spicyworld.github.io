@@ -16,7 +16,11 @@ function getRandomColor(inp) {
 }
 
 function callMe(url) {
-	location.href = url;
+	if (appFlag == 'Y') {
+		location.href = url + "?isApp=Y";
+	} else {
+		location.href = url;
+	}
 }
 
 // Search Code Starts
