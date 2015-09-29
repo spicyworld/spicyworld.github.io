@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=123";
+	public static String buildNo = "?sessionId=124";
 
 	public static void main(String[] args) {
 		String img = "butter-chicken";
@@ -290,6 +290,7 @@ public class SiteBuilder {
 		selfCopy(templatePath + "template/SiteBuilder.java", processor);
 		System.out.println("Processed ...");
 		//getAllImages(basePath + "recipeimages");
+		MobileSiteBuilder.buildNo = buildNo;
 		MobileSiteBuilder.mobileSiteBuilder();
 	}
 	
