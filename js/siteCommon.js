@@ -31,6 +31,11 @@ function successXML(xmlData) {
     var cri = criteriaData.split(" ");
     var $element = $(xmlData).find('element').filter(function() {
         var data = ($(this).text()).toLowerCase();
+        // Full Text search
+        if (data.indexOf(criteriaData) > -1) {
+            return true;
+        }
+        // Tokenized search
         for (var i=0; i<cri.length; i++) {
             if (data.indexOf(cri[0]) > -1) {
                 return true;
