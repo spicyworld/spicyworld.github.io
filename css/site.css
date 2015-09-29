@@ -7,7 +7,7 @@
     display:none;
 }
 
-.descp a {
+.descp a, .desc a {
 	color: green;
 }
 
