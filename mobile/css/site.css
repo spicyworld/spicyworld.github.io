@@ -1,3 +1,6 @@
+.descp a {
+	font-size: 17px;
+}
 .hideMobileLink {
 	display: none;
 	font-size: 17px !important;
@@ -88,6 +91,7 @@
 
 .tagContent span {
 	padding-left: 10px;
+	display: inline-block;
 }
 
 .posLeft ul li, .div3Pos li {

@@ -1,3 +1,7 @@
+.descp a {
+	color: green;
+}
+
 .headerFont {
 	font-size: 24px;
     margin: 0px;
@@ -402,6 +406,7 @@ body {
 
 .topPaginationData  span, .tagContent span{
 	padding-right: 10px;
+	display: inline-block;
 }
 
 .topPaginationData  span.selected{
