@@ -36,6 +36,7 @@ function loadSlideShow() {
 
 function enableAd () {
 	$('#adSection').show();
+	$('#rightAddSection').show();
 }
 
 // Search Code Starts
