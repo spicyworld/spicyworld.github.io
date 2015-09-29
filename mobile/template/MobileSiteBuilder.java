@@ -115,13 +115,11 @@ public class MobileSiteBuilder {
 				
 				
 				if (i > 0) {
-					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
-							+ "<link rel='canonical' href='http://spicyworld.in/recipes-" + i + ".html' >");
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/recipes-" + i + ".html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes-" + i + ".html");
 					saveFile(templatePath + "recipes-" + i + ".html", fileData);	
 				} else {
-					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
-							+ "<link rel='canonical' href='http://spicyworld.in/recipes.html' >");
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/recipes.html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes.html");
 					saveFile(templatePath + "recipes.html", fileData);	
 				}
@@ -161,8 +159,7 @@ public class MobileSiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">" 
-					+ "<link rel='canonical' href='http://spicyworld.in/tags.html' >");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/tags.html' >");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "startTagPage();");
 			saveFile(templatePath + "tags.html", fileData);
 			
@@ -172,8 +169,7 @@ public class MobileSiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-					+ "<link rel='canonical' href='http://spicyworld.in' >");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in' >");
 			fileData = fileData.replaceAll("##URL_DATA##", "");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
 			saveFile(basePath + "index.html", fileData);
@@ -185,7 +181,7 @@ public class MobileSiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div id='searchMiddle'><img width='40px' style='padding-top:50px' src=\"../images/loading.gif\"/><div style='padding-bottom:50px' >Searching for related recipes, please wait ...</div></div>");
 			fileData = fileData.replace("##indexss_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, NOFOLLOW\">");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##URL_DATA##", "");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "searchForRecipe();");
 			saveFile(basePath + "search.html", fileData);
@@ -225,8 +221,7 @@ public class MobileSiteBuilder {
 		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-				+ "<link rel='canonical' href='http://spicyworld.in/" + tag + "-tag.html' >");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/" + tag + "-tag.html' >");
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + tag + "-tag.html");
 		fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
 		saveFile(baseTemplatePath + tag + "-tag.html", fileData);
@@ -327,12 +322,11 @@ public class MobileSiteBuilder {
 		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-				+ "<link rel='canonical' href='http://spicyworld.in/" + url + ".html' >");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/" + url + ".html' >");
 		fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
 		
 		saveFile(templatePath + url + ".html", fileData);
-		System.out.println(count + ". Created HTML for " + url);
+		System.out.println(count + ". Created Mobile HTML for " + url);
 	}
 
 	public static String recepiData(String recipes_data, Element eElement, String prefix) {

@@ -137,16 +137,14 @@ public class SiteBuilder {
 				
 				
 				if (i > 0) {
-					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
-							+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes-" + i + ".html' >");
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes-" + i + ".html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes-" + i + ".html");
 					saveFile(templatePath + "recipes-" + i + ".html", fileData);	
 					siteMapData += "<url><loc>http://spicyworld.in/recipes-" + i + ".html</loc>"
 							+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/recipes-" + i + ".html\" />"
 							+ "</url>";
 				} else {
-					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">"
-							+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes.html' >");
+					fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/recipes.html' >");
 					fileData = fileData.replaceAll("##URL_DATA##", "/recipes.html");
 					saveFile(templatePath + "recipes.html", fileData);	
 					siteMapData += "<url><loc>http://spicyworld.in/recipes.html</loc>"
@@ -163,7 +161,7 @@ public class SiteBuilder {
 			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "All images, images in Spicy World, Our food images");
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##DESC_DATA##", "You can find all images of our Recipes in Spicy World. You can now also visit the recipe details from here by clicking the links below the images.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/all-food-images.html");
@@ -209,8 +207,7 @@ public class SiteBuilder {
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-					+ "<script type=\"text/javascript\" src=\"js/jquery.awesomeCloud-0.2.min.js\"></script>"
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<script type=\"text/javascript\" src=\"js/jquery.awesomeCloud-0.2.min.js\"></script>"
 					+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/tags.html' >");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Tag cloud is an easy way to link multiple content and you can easily choose the content you are looking for from various tags.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home2.jpg");
@@ -226,8 +223,7 @@ public class SiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-					+ "<script type=\"text/javascript\" src=\"js/jssor.slider.mini.js\"></script>"
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<script type=\"text/javascript\" src=\"js/jssor.slider.mini.js\"></script>"
 					+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/index.html' >");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Food Recipes, All Spicy Foods.");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Easy and Simple Recipes make your cooking faster and your food delicious. Check out all available recipes.");
@@ -243,7 +239,7 @@ public class SiteBuilder {
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>");
 			fileData = fileData.replace("##feedback_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Feedback to Spicy World, Leave your comment.");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Please provide your feedback or your comments about our recipes.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
@@ -260,7 +256,7 @@ public class SiteBuilder {
 					+ "</div>");
 			fileData = fileData.replace("##indexss_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, NOFOLLOW\">");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, This is a custom 404 Page by Spicy World.");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. This is a custom 404 page (Page Not found). Please click Home or any other tabs from header menu to navigate within the website.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
@@ -276,7 +272,7 @@ public class SiteBuilder {
 					+ "</div>");
 			fileData = fileData.replace("##recipes_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\">");
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "Spicy World, Arpita's Kitchen, Search recipes, recipe search, specific recipes, search foods");
 			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Search recipes from our library of all recipes.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
@@ -322,8 +318,7 @@ public class SiteBuilder {
 		fileData = fileData.replace("##MIDDLE_DATA##", h1Tag + recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-				+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + tag + "-tag.html' >");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + tag + "-tag.html' >");
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", "Contents, Tags for " + tagData.toUpperCase());
 		fileData = fileData.replaceAll("##DESC_DATA##", "Recipes related to " + tagData.toUpperCase() + " tag in Spicy World.");
 		fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
@@ -491,15 +486,14 @@ public class SiteBuilder {
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
-		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<META NAME=\"ROBOTS\" CONTENT=\"INDEX, FOLLOW\">"
-				+ "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + url + ".html' >");
+		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + url + ".html' >");
 		fileData = fileData.replaceAll("##DESC_DATA##", desc);
 		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
 		fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancy();enableAd();");
 		
 		saveFile(templatePath + url + ".html", fileData);
-		System.out.println(count + ". Created HTML for " + url);
+		System.out.println(count + ". Created Web HTML for " + url);
 	}
 
 	public static String recepiData(String recipes_data, Element eElement, String prefix) {
