@@ -1,3 +1,4 @@
+var appFlag = 'N';
 function enterPressCheck(B){
     var A;
     if(window.event){
@@ -82,7 +83,11 @@ function replaceAll(find, rep, str) {
 function searchData(){
     var data = $('#searchBox').val().trim();
     if (data != '') {
-        location.href = 'search.html?criteria=' + data;
+        if (appFlag == 'Y') {
+            location.href = 'search.html?isApp=Y&criteria=' + data;
+        } else {
+            location.href = 'search.html?criteria=' + data;
+        }
     } else {
         $('#searchBox').placeholder = 'Search recipes ...';
     }

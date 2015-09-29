@@ -58,6 +58,7 @@ function judgeFullSite() {
 		$('#hideMobileLink').show();
 	} else {
 		$('a').each(function() {
+		  appFlag = 'Y';
 		  this.href += (/\?/.test(this.href) ? '&' : '?') + 'isApp=Y';
 		});
 	}
