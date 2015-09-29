@@ -56,6 +56,9 @@ function judgeFullSite() {
 	var isApp = getQueryVariable('isApp');
 	if (isApp != 'Y') {
 		$('#hideMobileLink').show();
+	} else {
+		$('a').each(function() {
+		  this.href += (/\?/.test(this.href) ? '&' : '?') + 'isApp=Y';
+		});
 	}
-	console.log(isApp);
 }
