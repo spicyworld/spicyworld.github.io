@@ -59,7 +59,11 @@ function judgeFullSite() {
 	} else {
 		$('a').each(function() {
 		  appFlag = 'Y';
-		  this.href += (/\?/.test(this.href) ? '&' : '?') + 'isApp=Y';
+		  if (this.href.indexOf('javascript') > -1) {
+		  	// Do nothing
+		  } else {
+		  	this.href += (/\?/.test(this.href) ? '&' : '?') + 'isApp=Y';
+		  }
 		});
 	}
 }
