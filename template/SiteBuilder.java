@@ -33,7 +33,7 @@ public class SiteBuilder {
 
 	public static void main(String[] args) {
 		String img = "egg-roll";
-		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -277,7 +277,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Search recipes from our library of all recipes.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/search.html");
-			fileData = fileData.replaceAll("##ONLOAD_CALL##", "searchForRecipe();");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();searchForRecipe();");
 			saveFile(basePath + "search.html", fileData);
 			
 		} catch (Exception e) {
