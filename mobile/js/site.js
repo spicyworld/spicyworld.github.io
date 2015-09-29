@@ -59,7 +59,7 @@ function searchForRecipe() {
 function judgeFullSite() {
 	var isApp = getQueryVariable('isApp');
 	if (isApp != 'Y') {
-		$('#hideMobileLink').show();
+		$('.hideMobileLink').show();
 	} else {
 		$('a').each(function() {
 		  appFlag = 'Y';
