@@ -51,3 +51,11 @@ function searchForRecipe() {
 	}
 }
 // Search Code Ends
+
+function judgeFullSite() {
+	var isApp = getQueryVariable('isApp');
+	if (isApp != 'Y') {
+		$('#hideMobileLink').show();
+	}
+	console.log(isApp);
+}

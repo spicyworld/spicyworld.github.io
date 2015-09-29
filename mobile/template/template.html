@@ -16,10 +16,7 @@
 		##ADDITIONAL_SCRIPTS##
 		<script type="text/javascript">
 			function onLoadCall() {
-				var isApp = getQueryVariable('isApp');
-				if (isApp != 'Y') {
-					$('#hideMobileLink').show();
-				}
+				judgeFullSite();
 				##ONLOAD_CALL##
 			}
 		</script>
