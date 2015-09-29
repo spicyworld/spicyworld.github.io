@@ -16,7 +16,11 @@
 		##ADDITIONAL_SCRIPTS##
 		<script type="text/javascript">
 			function onLoadCall() {
-				alert(navigator.userAgent);
+				// isApp=Y for mobile website opening from App
+				var isApp = getQueryVariable('isApp');
+				if (isApp != 'Y') {
+					$('#hideMobileLink').show();
+				}
 				##ONLOAD_CALL##
 			}
 		</script>

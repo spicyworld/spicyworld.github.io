@@ -1,3 +1,7 @@
+#hideMobileLink {
+	display: none;
+}
+
 .headerFont {
 	font-size: 24px;
     margin: 0px;
