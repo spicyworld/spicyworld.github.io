@@ -212,7 +212,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##DESC_DATA##", "Tag cloud is an easy way to link multiple content and you can easily choose the content you are looking for from various tags.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home2.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/tags.html");
-			fileData = fileData.replaceAll("##ONLOAD_CALL##", "startTagPage();enableAd();");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "startTagPage();");
 			saveFile(templatePath + "tags.html", fileData);
 			
 			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
