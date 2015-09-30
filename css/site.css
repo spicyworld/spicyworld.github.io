@@ -101,7 +101,7 @@
 .disqus_thread_class {
 	clear: both;
 	overflow: scroll;
-    height: 200px;
+    min-height: 300px;
     padding: 20px;
 }
 
