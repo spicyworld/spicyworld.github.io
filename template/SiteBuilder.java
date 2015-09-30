@@ -395,6 +395,16 @@ public class SiteBuilder {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
+		String additionalImg = "";
+		try  {
+			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
+			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img alt='" + title 
+			+ "' title='" + title + "' src='"
+			+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+			+ "' width='100%'/></a><br/><br/></div>";
+		} catch (Exception e) {
+			additionalImg = "";
+		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
 				+ title
 				+ "</h1><div style=\"clear:both;font-size: 20px;margin-bottom:10px;\">("
@@ -438,7 +448,7 @@ public class SiteBuilder {
 				+ "' width='100%'/></a><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
-				+ "</div>"
+				+ "</div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
 				+ eElement.getElementsByTagName("process").item(0)
 						.getTextContent()
