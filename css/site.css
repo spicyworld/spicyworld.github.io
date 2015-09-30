@@ -14,8 +14,8 @@
     height: 230px;
     position: fixed;
     right: 0px;
-    top: 300px;
     display:none;
+    bottom:0px;
 }
 
 .descp a, .desc a {
