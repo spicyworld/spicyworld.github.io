@@ -266,6 +266,13 @@ public class MobileSiteBuilder {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
+		String additionalImg = "";
+		try  {
+			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
+			additionalImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + "' src='" + additionalImg + buildNo + "'></div><br/>";
+		} catch (Exception e) {
+			additionalImg = "";
+		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1>"
 				+ title
 				+ "</h1><div style=\"clear:both;font-size: 20px;margin-bottom:10px;\">("
@@ -278,7 +285,7 @@ public class MobileSiteBuilder {
 				+ "'/><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
-				+ "</div>"
+				+ "</div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
 				+ eElement.getElementsByTagName("process").item(0)
 						.getTextContent()
