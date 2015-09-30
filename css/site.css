@@ -1,3 +1,13 @@
+.paginationHeader h1 {
+	float: left;
+}
+
+.paginationHeader .topPaginationData {
+	clear: none !important;
+    text-align: right;
+    padding-right: 0px;
+}
+
 .rightAddSection {
 	width: 230px;
     height: 230px;
@@ -420,12 +430,24 @@ body {
 
 .topPaginationData  span.selected{
 	font-size: 17px;
-	color: #5d3a52;
+    color: white;
+    background-color: black;
+    padding: 7px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.topPaginationData  span a:hover {
+	background-color: black;
 }
 
 .topPaginationData  span a{
 	font-size: 16px;
-	color: green;
+    color: white;
+    background-color: grey;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .clear {
