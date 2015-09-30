@@ -400,7 +400,7 @@ public class SiteBuilder {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
 			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img alt='" + title 
 			+ "' title='" + title + "' src='"
-			+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+			+ additionalImg + buildNo
 			+ "' width='100%'/></a><br/><br/></div>";
 		} catch (Exception e) {
 			additionalImg = "";
