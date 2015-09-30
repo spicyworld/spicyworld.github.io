@@ -36,7 +36,10 @@ function loadSlideShow() {
 
 function enableAd () {
 	$('#adSection').show();
-	$('#rightAddSection').show();
+	var rightAddFlagCookie = getCookieValue('rightAddFlag');
+	if (rightAddFlagCookie != 'N') {
+		$('#rightAddSection').show();
+	}
 }
 
 // Search Code Starts
@@ -73,3 +76,8 @@ function searchForRecipe() {
 	}
 }
 // Search Code Ends
+
+function closeAdd() {
+	setCookieValue('rightAddFlag', 'N', 1);
+	$('#rightAddSection').hide(300);
+}
