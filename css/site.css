@@ -1,5 +1,6 @@
 .paginationHeader h1 {
 	float: left;
+	padding-top: 10px;
 }
 
 .paginationHeader .topPaginationData {
