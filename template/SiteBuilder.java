@@ -407,9 +407,7 @@ public class SiteBuilder {
 		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
 				+ title
-				+ "</h1><div style=\"clear:both;font-size: 20px;margin-bottom:10px;\">("
-				+ itemType
-				+ ")</div></div><div style=\"clear:both\">"
+				+ "</h1></div><div style=\"clear:both\">"
 				// Pinterest Starts
 				+ "<div style=\"float:left;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
 				+ "</div>"
