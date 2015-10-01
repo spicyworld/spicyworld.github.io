@@ -276,9 +276,7 @@ public class MobileSiteBuilder {
 		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1>"
 				+ title
-				+ "</h1><div style=\"clear:both;font-size: 20px;margin-bottom:10px;\">("
-				+ itemType
-				+ ")</div></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
+				+ "</h1></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><img alt='" + title 
 				+ "' title='" + title + "' src='"
