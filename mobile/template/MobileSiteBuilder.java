@@ -150,7 +150,8 @@ public class MobileSiteBuilder {
 				data = data.replace(" ", "-");
 				htmlTags += "<span><a class=\"data-points " + entry.getValue() + "\" href=\"" + data + "-tag.html\">" + entry.getKey() + " (" + entry.getValue() + ")</a></span>";
 				count++;
-				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey());
+				String h1Tag = "<h1 class='headerFont'>Recipes on <i><b>'" + entry.getKey() + "'</b></i></h1>";
+				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
 			}
 			
 			// Save Tags
@@ -193,7 +194,7 @@ public class MobileSiteBuilder {
 		System.out.println("Processed ...");
 	}
 	
-	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr) {
+	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr, String h1Tag) {
 		String recipes_data = "<div class='recipePage'><table class=\"dataTable\">", tagData = null;
 		try {
 			for (int temp = 0; temp < nList.getLength(); temp++) {
@@ -218,7 +219,7 @@ public class MobileSiteBuilder {
 		//Save Tag Page
 		String fileData = readFile(templatePath);
 		fileData = fileData.replace("##TITLE_DATA##", "Recipes on " + tagDataStr.toUpperCase() + " | Spicy World by Arpita");
-		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
+		fileData = fileData.replace("##MIDDLE_DATA##", h1Tag + recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='canonical' href='http://spicyworld.in/" + tag + "-tag.html' >");
