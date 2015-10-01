@@ -107,7 +107,7 @@ public class MobileSiteBuilder {
 				recipes_data = (String) recipeDataList.get(i);
 				String pagination = getPagination(i+1, recipeDataList.size());
 				
-				fileData = fileData.replace("##TITLE_DATA##", "Our Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
+				fileData = fileData.replace("##TITLE_DATA##", "Our Recipes - Page " + (i+1) + " | Spicy World by Arpita");
 				fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
 				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -155,7 +155,7 @@ public class MobileSiteBuilder {
 			
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Tagged Recipes | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Recipe Tags | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -165,7 +165,7 @@ public class MobileSiteBuilder {
 			
 			//Save HomePage
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "HOME | Welcome to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -177,7 +177,7 @@ public class MobileSiteBuilder {
 			
 			//Save Search Page
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Search Recipes | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Search Recipes | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div id='searchMiddle'><img width='40px' style='padding-top:50px' src=\"../images/loading.gif\"/><div style='padding-bottom:50px' >Searching for related recipes, please wait ...</div></div>");
 			fileData = fileData.replace("##indexss_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -217,7 +217,7 @@ public class MobileSiteBuilder {
 		
 		//Save Tag Page
 		String fileData = readFile(templatePath);
-		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " Recipes | Tags | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", "Recipes on " + tagDataStr.toUpperCase() + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -325,7 +325,7 @@ public class MobileSiteBuilder {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
 		
-		fileData = fileData.replace("##TITLE_DATA##", title + " Recipe | Spicy World | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);

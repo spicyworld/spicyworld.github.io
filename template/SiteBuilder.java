@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=130";
+	public static String buildNo = "?sessionId=131";
 
 	public static void main(String[] args) {
 		String img = "radhaballavi";
@@ -126,7 +126,7 @@ public class SiteBuilder {
 				recipes_data = (String) recipeDataList.get(i);
 				String pagination = getPagination(i+1, recipeDataList.size(), siteMapData);
 				
-				fileData = fileData.replace("##TITLE_DATA##", "Our Recipes - Page " + (i+1) + " | Spicy World | Arpita's Kitchen");
+				fileData = fileData.replace("##TITLE_DATA##", "Our Recipes - Page " + (i+1) + " | Spicy World by Arpita");
 				fileData = fileData.replace("##MIDDLE_DATA##", "<div class='paginationHeader'><h1 class='headerFont'>Our Recipes - Page " + (i+1) + "</h1><div class='topPaginationData'>" + pagination + "</div></div><div class='recipePage'>" + recipes_data + "</div><br/><div class='topPaginationData'>" + pagination + "</div><div class='clear'>&nbsp;</div>");
 				fileData = fileData.replace("##recipes_sel##", "selected");
 				fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -156,7 +156,7 @@ public class SiteBuilder {
 			saveFile(templatePath + "rss.xml", rssXMLData.replace("&", "and") + "</channel></rss>");
 			
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Our Food Images | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Our Food Images | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<h1 class='headerFont'>Our Food Images</h1><div role='main'><div id='' class='wordcloudImg'>" + recipes_data_img + "</div></div><div class=\"clear\">&nbsp;</div>");
 			fileData = fileData.replace("##all-food-images_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -202,7 +202,7 @@ public class SiteBuilder {
 			
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Tagged Recipes | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Recipe Tags | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -219,7 +219,7 @@ public class SiteBuilder {
 			
 			//Save HomePage
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "HOME | Welcome to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -235,7 +235,7 @@ public class SiteBuilder {
 			
 			//Save Feedback Page
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Feedback to Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Feedback or Comment | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>");
 			fileData = fileData.replace("##feedback_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -250,7 +250,7 @@ public class SiteBuilder {
 			
 			//Save 404 Page
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Page Not Found | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Page Not Found (404) | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div style='min-height: 550px; text-align:center;padding: 100px;'><div style='font-size:50px;'>We are Sorry !!</div>"
 					+ "<div style='background-color: lightgrey;padding: 20px;font-size: 21px;'>This is a custom 404 (Page Not found) page.<br/><br/>Please click Home or any other tabs from the header menu to navigate within the website.</div>"
 					+ "</div>");
@@ -267,7 +267,7 @@ public class SiteBuilder {
 			
 			//Save Search Page
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Search Recipes | Spicy World | Arpita's Kitchen");
+			fileData = fileData.replace("##TITLE_DATA##", "Search Recipes | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div id='searchMdl'><div style='float:left'><img width='40px' src=\"images/loading.gif\"/></div><div class='searchTxt'>Searching for related recipes, please wait ...</div>"
 					+ "</div>");
 			fileData = fileData.replace("##recipes_sel##", "selected");
@@ -314,7 +314,7 @@ public class SiteBuilder {
 		
 		//Save Tag Page
 		String fileData = readFile(templatePath);
-		fileData = fileData.replace("##TITLE_DATA##", tagDataStr.toUpperCase() + " Recipes | Tags | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", "Recipes on " + tagDataStr.toUpperCase() + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", h1Tag + recipes_data);
 		fileData = fileData.replace("##tags_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -491,7 +491,7 @@ public class SiteBuilder {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
 		
-		fileData = fileData.replace("##TITLE_DATA##", title + " Recipe | Spicy World | Arpita's Kitchen");
+		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
