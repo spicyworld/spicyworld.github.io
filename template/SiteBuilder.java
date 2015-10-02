@@ -32,8 +32,8 @@ public class SiteBuilder {
 	public static String buildNo = "?sessionId=132";
 
 	public static void main(String[] args) {
-		String img = "radhaballavi";
-		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		String img = "chicken-sandwich";
+		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -405,7 +405,7 @@ public class SiteBuilder {
 		} catch (Exception e) {
 			additionalImg = "";
 		}
-		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
+		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 id='title' style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
 				+ title
 				+ "</h1></div><div style=\"clear:both\">"
 				// Pinterest Starts
@@ -438,16 +438,16 @@ public class SiteBuilder {
 				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
 				// FB Ends
-				+ "</div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
+				+ "</div><p class=\"descp\" id='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' width='100%'/></a><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
+				+ "' width='100%'/></a><br/><br/><div><h2 id='ingredients' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>" + additionalImg
-				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
+				+ "<div class='div3Pos'><div><h2 id='steps' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
 				+ eElement.getElementsByTagName("process").item(0)
 						.getTextContent()
 				+ "<br/><div class='complete'>"
@@ -460,7 +460,7 @@ public class SiteBuilder {
 		
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
-			String tags = "<div class=\"tagContent\"><span class=\"heading\">Tags:</span>";
+			String tags = "<div id='tags' class=\"tagContent\"><span class=\"heading\">Tags:</span>";
 			if (tagData!=null) {
 				String ss[] = tagData.split(",");
 				for (int i=0; i<ss.length; i++) {
@@ -472,7 +472,7 @@ public class SiteBuilder {
 			out += tags;
 		} catch (Exception e) {} 
 		
-		out += "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div class='commentHeader'>Leave Your Comments</div>"
+		out += "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div></div>";
 		
 		
