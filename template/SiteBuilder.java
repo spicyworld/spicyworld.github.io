@@ -29,11 +29,11 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=132";
+	public static String buildNo = "?sessionId=133";
 
 	public static void main(String[] args) {
 		String img = "chicken-sandwich";
-		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
