@@ -426,7 +426,7 @@ public class SiteBuilder {
 				// Google Plus Starts
 				+ "<div style=\"float:left;padding-left:10px;\"><a  title='Share in Google Plus' title='Share in Google Plus' "
 				+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html', '" + title + "','resizable,height=400,width=550');return false;\">"
-				+ "<img style='height:18px;' src='images/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
+				+ "<img style='height:19px;' src='images/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
 				// Google Plus Ends
 				// Linked In Starts
 				//+ "<div style=\"float:left;padding-left:10px;\">"
