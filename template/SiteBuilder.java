@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=133";
+	public static String buildNo = "?sessionId=134";
 
 	public static void main(String[] args) {
 		String img = "chicken-sandwich";
@@ -434,7 +434,7 @@ public class SiteBuilder {
 				//+ "</div>" 
 				// Linked In Ends
 				// FB Starts
-				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-send\" data-href=\"https://developers.facebook.com/docs/plugins/\"></div></div>"
+				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-send\" data-href=\"http://spicyworld.in/" + url + ".html\"></div></div>"
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
 				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
