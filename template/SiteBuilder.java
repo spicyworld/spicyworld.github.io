@@ -377,6 +377,7 @@ public class SiteBuilder {
 		return "<url><loc>http://spicyworld.in</loc>"
 				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/index.html\" /></url>"
 				+ "<url><loc>http://spicyworld.in/feedback.html</loc></url>"
+				+ "<url><loc>http://spicyworld.in/about-me.html</loc></url>"
 				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>"
