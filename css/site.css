@@ -1,3 +1,10 @@
+#aboutData {
+	position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 350px;
+}
+
 .paginationHeader h1 {
 	float: left;
 	padding-top: 10px;
