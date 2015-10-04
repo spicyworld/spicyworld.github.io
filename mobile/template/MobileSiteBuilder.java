@@ -187,6 +187,18 @@ public class MobileSiteBuilder {
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "searchForRecipe();");
 			saveFile(basePath + "search.html", fileData);
 			
+			//Save About Me Page
+			fileData = readFile(basePath + "template/template.html");
+			fileData = fileData.replace("##TITLE_DATA##", "About Me | Spicy World by Arpita");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<br/><img class='aboutImg' title='Arpita' alt='Arpita' src='images/about.jpg'><br/><br/><br/>" 
+			+ SiteBuilder.aboutPageData + "<br/><br/>");
+			fileData = fileData.replace("##about_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
+			fileData = fileData.replaceAll("##URL_DATA##", "");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			saveFile(basePath + "about-me.html", fileData);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
