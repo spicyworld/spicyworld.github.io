@@ -30,6 +30,7 @@ import org.w3c.tidy.Tidy;
 public class SiteBuilder {
 	
 	public static String buildNo = "?sessionId=135";
+	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 
 	public static void main(String[] args) {
 		String img = "chicken-sandwich";
@@ -134,6 +135,7 @@ public class SiteBuilder {
 				fileData = fileData.replaceAll("##DESC_DATA##", "Welcome to Spicy World by Arpita Ghosh Das. Here are our recipes (page number " + (i+1) + ") that you might like.");
 				fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 				fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
+				fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 				
 				
 				if (i > 0) {
@@ -166,6 +168,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/all-food-images.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancyAll();enableAd();");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(templatePath + "all-food-images.html", fileData);
 			
 			// Create tag cloud
@@ -213,6 +216,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home2.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/tags.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "startTagPage();");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(templatePath + "tags.html", fileData);
 			
 			saveFile(basePath + "sitemap.xml", siteMapData + "</urlset>");
@@ -230,6 +234,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "loadSlideShow();");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(basePath + "index.html", fileData);
 			
 			
@@ -245,6 +250,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/feedback.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(basePath + "feedback.html", fileData);
 			
 			
@@ -262,6 +268,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/404.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(basePath + "404.html", fileData);
 			
 			
@@ -278,6 +285,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/search.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();searchForRecipe();");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(basePath + "search.html", fileData);
 			
 			
@@ -296,6 +304,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "/about-me.html");
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", "");
 			saveFile(basePath + "about-me.html", fileData);
 			
 		} catch (Exception e) {
@@ -342,6 +351,7 @@ public class SiteBuilder {
 		fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + tag + "-tag.html");
 		fileData = fileData.replaceAll("##ONLOAD_CALL##", "enableAd();");
+		fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 		saveFile(baseTemplatePath + tag + "-tag.html", fileData);
 	}
 	
@@ -518,6 +528,7 @@ public class SiteBuilder {
 		fileData = fileData.replaceAll("##DESC_DATA##", desc);
 		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
+		fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 		fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancy();enableAd();");
 		
 		saveFile(templatePath + url + ".html", fileData);
