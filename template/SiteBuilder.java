@@ -31,7 +31,8 @@ public class SiteBuilder {
 	
 	public static String buildNo = "?sessionId=135";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
-
+	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
+	
 	public static void main(String[] args) {
 		String img = "chicken-sandwich";
 		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
@@ -293,9 +294,7 @@ public class SiteBuilder {
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "About Me | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", "<div><img src='images/about.jpg' width='100%'/>"
-					+ "<div id='aboutData'>"
-					+ "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ..."
-					+ "</div></div>");
+					+ "<div id='aboutData'>" + aboutPageData + "</div></div>");
 			fileData = fileData.replace("##about_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
@@ -387,7 +386,9 @@ public class SiteBuilder {
 		return "<url><loc>http://spicyworld.in</loc>"
 				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/index.html\" /></url>"
 				+ "<url><loc>http://spicyworld.in/feedback.html</loc></url>"
-				+ "<url><loc>http://spicyworld.in/about-me.html</loc></url>"
+				+ "<url><loc>http://spicyworld.in/about-me.html</loc>"
+				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/about-me.html\" />"
+				+ "</url>"
 				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>"
