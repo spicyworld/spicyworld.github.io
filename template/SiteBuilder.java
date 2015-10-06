@@ -39,9 +39,6 @@ public class SiteBuilder {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
-		String recipes_template = templatePath + "template/recipes.html";
-		String recipes_template_img = templatePath + "template/recipes.html";
-		String tags_template = templatePath + "template/template.html";
 		String tag_data_template = templatePath + "template/template.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
