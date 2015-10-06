@@ -33,6 +33,11 @@ public class CookBook {
         image1.scaleAbsolute(575f, 400f);
         document.add(image1);
         
+        
+        Image image2 = Image.getInstance(path + "images/site-logo.png");
+        image2.scaleAbsolute(215f, 63f);//431 × 126
+        document.add(image2);
+        
         //document.add(new Paragraph("Hello World!"));
         document.close();
     }
