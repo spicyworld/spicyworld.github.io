@@ -532,3 +532,12 @@ body {
     margin-right: auto;
     width: 85%;
 }
+
+h2 {
+	font-weight: 400;
+}
+
+h1 {
+	float:left;
+	margin-bottom:5px;
+}

@@ -436,7 +436,7 @@ public class SiteBuilder {
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
 		}
-		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 id='title' style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
+		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 id='title'>"
 				+ title
 				+ "</h1></div><div style=\"clear:both\">"
 				// Pinterest Starts
@@ -475,11 +475,11 @@ public class SiteBuilder {
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
+				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>" + additionalImg
-				+ "<div class='div3Pos'><div><h2 id='steps' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
+				+ "<div class='div3Pos'><div><h2 id='steps'>Steps</h2></div>"
 				+ steps
 				+ "<br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
