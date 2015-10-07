@@ -235,9 +235,8 @@ table {
 }  
 
 .steps-image img {
-	width: 50%;
+	width: 70%;
     margin-top: 10px;
     margin-bottom: 20px;
     box-shadow: 9px 8px 5px #888888;
-    margin-right: 40px;
 }
