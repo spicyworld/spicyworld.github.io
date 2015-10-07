@@ -101,7 +101,13 @@
 }
 
 .posLeft ul li, .div3Pos li {
-	text-align: left;
+	text-align: center;
+	list-style: none;
+}
+
+.posLeft ul {
+	text-align: center;
+    margin-left: -40px;
 }
 
 .garnishment ul li {
