@@ -132,12 +132,19 @@ public class CookBook {
 	
 	public static void createRecipePages(Document document, Element eElement, int i) {
 		try {
+			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
-		    if (steps.contains("recipeimages")) {
+			String pic = eElement.getElementsByTagName("pic").item(0).getTextContent();
+			String img = templatePath + pic;
+			BufferedImage bimg = ImageIO.read(new File(img));
+			int width          = bimg.getWidth();
+			int height         = bimg.getHeight();
+			
+		    if (steps.contains("recipeimages") || (width < height)) {
 		    	return;
 		    }
 			document.newPage();
-			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+			
 			Paragraph heading = new Paragraph(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
 		    heading.setSpacingAfter(5f);
 		    document.add(heading);
@@ -146,11 +153,6 @@ public class CookBook {
 			desc = html2text(desc);
 			document.add(new Paragraph(desc));
 			
-			String pic = eElement.getElementsByTagName("pic").item(0).getTextContent();
-			String img = templatePath + pic;
-			BufferedImage bimg = ImageIO.read(new File(img));
-			int width          = bimg.getWidth();
-			int height         = bimg.getHeight();
 			float w = 520f;
 			float h = 0.0f;
 			if (w > width) {
