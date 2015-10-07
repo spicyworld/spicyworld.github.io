@@ -34,7 +34,7 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
 	public static void main(String[] args) {
-		String img = "chicken-biriyani";
+		String img = "grilled-cheese-sandwich";
 		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
@@ -432,6 +432,10 @@ public class SiteBuilder {
 		} catch (Exception e) {
 			additionalImg = "";
 		}
+		String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
+		if (steps.contains("recipeimages")) {
+			steps = "<div class='steps-image'>" + steps + "</div>";
+		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 id='title' style=\"font-size: 30px;display: inline;float:left;margin-bottom:5px;\">"
 				+ title
 				+ "</h1></div><div style=\"clear:both\">"
@@ -476,8 +480,7 @@ public class SiteBuilder {
 						.getTextContent()
 				+ "</div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 id='steps' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
-				+ eElement.getElementsByTagName("process").item(0)
-						.getTextContent()
+				+ steps
 				+ "<br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()

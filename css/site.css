@@ -94,7 +94,7 @@
     top: 0px;
     margin: auto;
     right: 0px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .header .title{
@@ -502,7 +502,7 @@ body {
     padding-top: 8px;
 }
 
-ul img {
+.steps-image img {
 	width: 95%;
     margin-top: 10px;
     margin-bottom: 20px;

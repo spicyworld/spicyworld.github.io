@@ -32,6 +32,22 @@
       <tags>chicken,biriyani,rice,ghee,main course,indian,spicy,curd,dahi</tags>
    </element>
 
+
+   <element>
+         <title>Grilled Cheese Sandwich</title>
+         <type>vegItem</type>
+         <shortDesc>Sandwich without cheese? - boring 😟 Cheesy gooey sandwich? - total fun 😃 Yes I am talking about grilled cheese sandwich. This one is the most easy sandwich recipe in the world. The choice of cheese is entirely upto you. You can serve this as breakfast and also as evening snack. Your little tummy will enjoy this sandwich everytime. Here, I have done something new. I have posted step by step clicks along with the recipe, so that the process become more lucid for you. Grab a sandwich and enjoy an evening with your loved ones.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;4 slices of bread.&lt;/li&gt;&lt;li&gt;2 tsps of soft butter.&lt;/li&gt;&lt;li&gt;8 tsps of shreded cheese.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Spread half tsp butter on one side of a bread.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-1.jpg" /&gt;&lt;div&gt;Put the butter side of the bread down.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-2.jpg"/&gt;&lt;div&gt;Place the shreded cheese on the other side of the bread.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-3.jpg"/&gt;&lt;div&gt;Spread half tsp butter on another bread. Keep that butter side of the bread outside and put it on the cheese.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-4.jpg"/&gt;&lt;div&gt;Place the sandwich on hot pan. Keep it for 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-5.jpg"/&gt;&lt;div&gt;Turn it to the other side and keep it for another 2 minutes. The cheese will melt properly.&lt;/div&gt;&lt;img src="recipeimages/grilled-cheese-sandwich-6.jpg"/&gt;&lt;div&gt;Then remove it from the pan, cut it to halves and serve.&lt;/div&gt;</process>
+         <completionStatement>Your grilled cheese sandwich is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with a cup of tea ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/grilled-cheese-sandwich.jpg</thumb>
+         <pic>recipeimages/grilled-cheese-sandwich.jpg</pic>
+         <url>grilled-cheese-sandwich</url>
+         <keywords>sandwich, cheese, grill, breakfast, butter</keywords>
+         <tags>sandwich,grill,breakfast</tags>
+      </element>
+
    <element>
       <title>Chicken Sandwich</title>
       <type>nonVegItem</type>

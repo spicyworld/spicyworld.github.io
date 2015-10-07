@@ -286,6 +286,10 @@ public class MobileSiteBuilder {
 		} catch (Exception e) {
 			additionalImg = "";
 		}
+		String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
+		if (steps.contains("recipeimages")) {
+			steps = "<div class='steps-image'>" + steps + "</div>";
+		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1>"
 				+ title
 				+ "</h1></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
@@ -298,8 +302,7 @@ public class MobileSiteBuilder {
 						.getTextContent()
 				+ "</div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
-				+ eElement.getElementsByTagName("process").item(0)
-						.getTextContent()
+				+ steps
 				+ "<br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()
