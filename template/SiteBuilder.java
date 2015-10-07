@@ -475,7 +475,7 @@ public class SiteBuilder {
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' width='100%'/></a><br/><br/><div><h2 id='ingredients' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
+				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients' style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>" + additionalImg
