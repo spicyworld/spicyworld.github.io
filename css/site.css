@@ -507,7 +507,7 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
     box-shadow: 9px 8px 5px #888888;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .steps-image {
@@ -520,7 +520,6 @@ body {
 }
 
 .steps-image div {
-	background: url(../images/arrow.png) no-repeat 1px 0px;
-    padding-left: 36px;
+	padding-top: 15px;
     font-size: 17px;
 }
