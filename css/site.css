@@ -91,11 +91,10 @@
 	width: 320px;
     height: 50px;
     position: relative;
-    background: grey;
     top: 0px;
     margin: auto;
     right: 0px;
-    margin-top: 100px;
+    margin-top: 25px;
 }
 
 .header .title{
@@ -325,6 +324,7 @@ body {
 
 .footer {
 	clear: both;
+	text-align: center;
 }
 
 .vegItem {
@@ -508,25 +508,4 @@ ul img {
     margin-bottom: 20px;
     box-shadow: 9px 8px 5px #888888;
     margin-right: 40px;
-}
-
-.footer .left-div {
-	float:left;
-	text-align: left;
-}
-
-.footer .right-div ul li a {
-	font-size: 15px;
-}
-
-.footer .right-div ul li {
-	padding-left: 14px;
-}
-
-.right-div {
-	float: right;
-}
-
-.right-div ul {
-	margin: 0px;
 }
