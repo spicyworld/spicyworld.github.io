@@ -230,24 +230,24 @@
 	clear: both;
 }
 
-.headerMenu ul li, .right-div ul li {
+.headerMenu ul li {
 	list-style: none;
 	padding-left: 25px;
 	float: right;
 }
 
-.headerMenu ul li a, .right-div ul li a {
+.headerMenu ul li a {
 	font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
     color: #22B5E3;
 } 
 
-.headerMenu ul li a.selected, .right-div ul li a.selected {
+.headerMenu ul li a.selected {
 	color: #5d3a52;
 }
 
-.headerMenu ul li a:hover, .right-div ul li a:hover {
+.headerMenu ul li a:hover {
 	color: #5d3a52;
 }
 
