@@ -518,3 +518,7 @@ body {
 	padding-top: 10px;
     font-weight: bold;
 }
+
+.steps-image div {
+	padding-top: 10px;
+}
