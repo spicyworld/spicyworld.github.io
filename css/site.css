@@ -503,11 +503,11 @@ body {
 }
 
 .steps-image img {
-    width: 95%;
+    width: 55%;
     margin-top: 10px;
     margin-bottom: 20px;
     box-shadow: 9px 8px 5px #888888;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 
 .steps-image {

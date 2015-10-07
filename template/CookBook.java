@@ -1,7 +1,9 @@
+import java.awt.Color;
 import java.awt.Rectangle;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.StringReader;
+import java.util.ArrayList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -13,11 +15,14 @@ import org.w3c.dom.NodeList;
 
 import com.lowagie.text.Document;
 import com.lowagie.text.Font;
+import com.lowagie.text.FontFactory;
 import com.lowagie.text.HeaderFooter;
 import com.lowagie.text.Image;
+import com.lowagie.text.PageSize;
 import com.lowagie.text.Paragraph;
 import com.lowagie.text.Phrase;
 import com.lowagie.text.html.simpleparser.HTMLWorker;
+import com.lowagie.text.html.simpleparser.StyleSheet;
 import com.lowagie.text.pdf.BaseFont;
 import com.lowagie.text.pdf.MultiColumnText;
 import com.lowagie.text.pdf.PdfContentByte;
@@ -80,7 +85,7 @@ public class CookBook {
 	}
 	
 	public static void createPdf(String filename) throws Exception {
-        Document document = new Document();
+        Document document = new Document(PageSize.A4, 30, 30, 20, 70);
         PdfWriter.getInstance(document, new FileOutputStream(templatePath + filename));
         document.open();
         /*
@@ -125,7 +130,7 @@ public class CookBook {
 	
 	public static void createRecipePages(Document document, Element eElement, int i) {
 		try {
-			 String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
+			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 		    if (steps.contains("recipeimages")) {
 		    	return;
 		    }
@@ -144,34 +149,67 @@ public class CookBook {
 	        image1.scaleAbsolute(520f, 293f);
 	        document.add(image1);
 	        
-	        heading = new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD));
+	        
+	        /*heading = new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD));
 		    heading.setSpacingAfter(4f);
 		    document.add(heading);
 		    
 		    String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
-		    MultiColumnText columns = new MultiColumnText();
-		    //float left, float right, float gutterwidth, int numcolumns
-		    columns.addRegularColumns(36f, document.getPageSize().getWidth(), 24f, 2);
-		    
+		   
 		    HTMLWorker htmlWorker = new HTMLWorker(document);
 		    htmlWorker.parse(new StringReader(ing));
 		    heading = new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD));
 		    heading.setSpacingAfter(4f);
 		    document.add(heading);
-		    htmlWorker.parse(new StringReader(steps));
+		    htmlWorker.parse(new StringReader(steps));*/
+	        multiColumnData(document, eElement);
 		    
-		    BaseFont bf_courier = BaseFont.createFont(BaseFont.COURIER, "Cp1252", false);
-		    HeaderFooter footer = new HeaderFooter(new Phrase("Page ", new Font(bf_courier)), true);
-	        footer.setBorder(com.lowagie.text.Rectangle.NO_BORDER);
-	        footer.setAlignment(com.lowagie.text.Element.ALIGN_LEFT);
-	        document.setFooter(footer);
-	        
 	        
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
 	}
+	
+	public static void multiColumnData(Document document, Element eElement) {
+		try {
+			MultiColumnText mct = new MultiColumnText();
+			mct.setColumnsRightToLeft(false);
+			mct.addRegularColumns(document.left(), document.right(), 80f, 2);
+			
+			StyleSheet styles=new StyleSheet();
+		    styles.loadTagStyle("ul","leading","14,0");
+			
+			mct.addElement(new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD)));
+			String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
+			StringReader strReader = new StringReader(ing);
+			ArrayList arrList = HTMLWorker.parseToList(strReader, styles);
+			Paragraph para = new Paragraph(); 
+			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
+			for (int k = 0; k < arrList.size(); ++k) {                   
+			    para.add((com.lowagie.text.Element)arrList.get(k)); 
+			}
+			mct.addElement(para);
+			
+			
+		    
+			mct.addElement(new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD)));
+			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
+			strReader = new StringReader(ing);
+			arrList = HTMLWorker.parseToList(strReader, styles);
+			para = new Paragraph(); 
+			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
+			for (int k = 0; k < arrList.size(); ++k) { 
+				System.out.println(k);
+				para.add((com.lowagie.text.Element)arrList.get(k)); 
+			}
+			mct.addElement(para);
+			
+			document.add(mct);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
 	
 	public static String html2text(String html) {
 	    return Jsoup.parse(html).text();
