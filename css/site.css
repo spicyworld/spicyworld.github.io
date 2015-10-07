@@ -513,3 +513,8 @@ body {
 .steps-image {
 	padding-top:20px;
 }
+
+.complete {
+	padding-top: 10px;
+    font-weight: bold;
+}
