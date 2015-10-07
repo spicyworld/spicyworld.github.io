@@ -7,12 +7,7 @@ function startTagPage() {
 }
 
 function getRandomColor(inp) {
-    var letters = '0123456789ABCDEF'.split('');
-    var color = '#';
-    for (var i = 0; i < inp; i++ ) {
-        color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
+    return '#'+Math.floor(Math.random()*16777215+inp).toString(16);
 }
 
 function callMe(url) {
