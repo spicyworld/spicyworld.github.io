@@ -1,10 +1,12 @@
 import java.awt.Color;
 import java.awt.Rectangle;
+import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
 
+import javax.imageio.ImageIO;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -145,10 +147,28 @@ public class CookBook {
 			document.add(new Paragraph(desc));
 			
 			String pic = eElement.getElementsByTagName("pic").item(0).getTextContent();
-			Image image1 = Image.getInstance(templatePath + pic);
-	        image1.scaleAbsolute(520f, 293f);
-	        document.add(image1);
-	        
+			String img = templatePath + pic;
+			BufferedImage bimg = ImageIO.read(new File(img));
+			int width          = bimg.getWidth();
+			int height         = bimg.getHeight();
+			if ((height/width) < 1.0f) {
+				Image image1 = Image.getInstance(img);
+		        image1.scaleAbsolute(520f, 293f);
+		        document.add(image1);
+			} else {
+				float w = 520f;
+				float h = 0.0f;
+				System.out.println(eElement.getElementsByTagName("title").item(0).getTextContent() + " >> " + width + " " + height);
+				if (w > width) {
+					w = width;
+				}
+				h = (height*w) / width;
+				System.out.println(eElement.getElementsByTagName("title").item(0).getTextContent() + " " + w + " " + h);
+				Image image1 = Image.getInstance(img);
+		        image1.scaleAbsolute(w, h);
+		        document.add(image1);
+			}
+			
 	        
 	        /*heading = new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD));
 		    heading.setSpacingAfter(4f);
@@ -199,7 +219,6 @@ public class CookBook {
 			para = new Paragraph(); 
 			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
 			for (int k = 0; k < arrList.size(); ++k) { 
-				System.out.println(k);
 				para.add((com.lowagie.text.Element)arrList.get(k)); 
 			}
 			mct.addElement(para);
