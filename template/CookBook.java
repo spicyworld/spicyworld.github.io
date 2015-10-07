@@ -137,8 +137,8 @@ public class CookBook {
 		    	return;
 		    }
 			document.newPage();
-			
-			Paragraph heading = new Paragraph(eElement.getElementsByTagName("title").item(0).getTextContent(), new Font(Font.HELVETICA, 15f, Font.BOLD));
+			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+			Paragraph heading = new Paragraph(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
 		    heading.setSpacingAfter(5f);
 		    document.add(heading);
 			
@@ -151,23 +151,18 @@ public class CookBook {
 			BufferedImage bimg = ImageIO.read(new File(img));
 			int width          = bimg.getWidth();
 			int height         = bimg.getHeight();
-			if ((height/width) < 1.0f) {
-				Image image1 = Image.getInstance(img);
-		        image1.scaleAbsolute(520f, 293f);
-		        document.add(image1);
-			} else {
-				float w = 520f;
-				float h = 0.0f;
-				System.out.println(eElement.getElementsByTagName("title").item(0).getTextContent() + " >> " + width + " " + height);
-				if (w > width) {
-					w = width;
-				}
-				h = (height*w) / width;
-				System.out.println(eElement.getElementsByTagName("title").item(0).getTextContent() + " " + w + " " + h);
-				Image image1 = Image.getInstance(img);
-		        image1.scaleAbsolute(w, h);
-		        document.add(image1);
+			float w = 520f;
+			float h = 0.0f;
+			if (w > width) {
+				w = width;
 			}
+			h = (height*w) / width;
+			Image image1 = Image.getInstance(img);
+			image1.setAlt(title);
+			
+			image1.scaleAbsolute(w, h);
+	        document.add(image1);
+			
 			
 	        
 	        /*heading = new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD));
