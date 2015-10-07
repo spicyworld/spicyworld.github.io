@@ -297,11 +297,11 @@ public class MobileSiteBuilder {
 				+ "<div class='div3Pos posLeft'><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "'/><br/><br/><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Ingredients</h2></div>"
+				+ "'/><br/><br/><div><h2>Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>" + additionalImg
-				+ "<div class='div3Pos'><div><h2 style=\"font-size: 23px; font-weight: normal; margin-bottom: 0px !important;padding: 0px !important;\">Steps</h2></div>"
+				+ "<div class='div3Pos'><div><h2>Steps</h2></div>"
 				+ steps
 				+ "<br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
