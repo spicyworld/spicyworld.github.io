@@ -502,3 +502,11 @@ body {
     padding-top: 8px;
 }
 
+ul img {
+	width: 95%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 9px 8px 5px #888888;
+    margin-right: 40px;
+}
+

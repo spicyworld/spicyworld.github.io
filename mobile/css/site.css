@@ -233,3 +233,11 @@ table {
 .middleBottom .left, .middleBottom .middle, .middleBottom .right {
 	padding-bottom: 30px;
 }  
+
+ul img {
+	width: 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 9px 8px 5px #888888;
+    margin-right: 40px;
+}
