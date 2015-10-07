@@ -86,6 +86,7 @@ function replaceAll(find, rep, str) {
 }
 
 function searchData(){
+    appFlag = getQueryVariable('isApp').trim();
     var data = $('#searchBox').val().trim();
     if (data != '') {
         if (appFlag == 'Y') {
