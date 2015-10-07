@@ -177,7 +177,7 @@ public class CookBook {
 			mct.addRegularColumns(document.left(), document.right(), 80f, 2);
 			
 			StyleSheet styles=new StyleSheet();
-		    styles.loadTagStyle("ul","leading","14,0");
+		    styles.loadTagStyle("ul","li","10,0");
 			
 			mct.addElement(new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD)));
 			String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
