@@ -1,4 +1,3 @@
-import java.awt.Label;
 import java.awt.Rectangle;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -20,7 +19,6 @@ import com.lowagie.text.Paragraph;
 import com.lowagie.text.Phrase;
 import com.lowagie.text.html.simpleparser.HTMLWorker;
 import com.lowagie.text.pdf.BaseFont;
-import com.lowagie.text.pdf.ColumnText;
 import com.lowagie.text.pdf.MultiColumnText;
 import com.lowagie.text.pdf.PdfContentByte;
 import com.lowagie.text.pdf.PdfGState;
@@ -37,7 +35,7 @@ public class CookBook {
 		SiteBuilder.selfCopy(templatePath + "template/CookBook.java", processor);
 		try {
 			createPdf("tmp.pdf");
-			manipulatePdf("tmp.pdf", "SpicyWorld.pdf");
+			manipulatePdf("tmp.pdf", "sp.pdf");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -48,29 +46,37 @@ public class CookBook {
 	}
 	
 	public static void manipulatePdf(String src, String dest) throws Exception {
-	    PdfReader reader = new PdfReader(templatePath + src);
-	    int n = reader.getNumberOfPages();
-	    PdfStamper stamper = new PdfStamper(reader, new FileOutputStream(templatePath + dest));
-	    // text watermark
-	    Font f = new Font(Font.HELVETICA, 10);
-	    Phrase p = new Phrase("(c) Spicy World", f);
-	    // transparency
-	    PdfGState gs1 = new PdfGState();
-	    gs1.setFillOpacity(0.5f);
-	    // properties
-	    PdfContentByte over;
-	    com.lowagie.text.Rectangle pagesize;
-	    float x, y;
-	    // loop over every page
-	    for (int i = 2; i <= n; i++) {
-	        over = stamper.getOverContent(i);
-	        over.saveState();
-	        over.setGState(gs1);
-	        ColumnText.showTextAligned(over, com.lowagie.text.Element.ALIGN_CENTER, p, 540, 10, 0);
-	       
-	        over.restoreState();
-	    }
-	    stamper.close();
+		String filePath = templatePath + src;
+		String tempFilePath = templatePath + dest;
+		PdfReader reader = new PdfReader(filePath);
+		int n = reader.getNumberOfPages();
+		PdfStamper stamper = new PdfStamper(reader, new FileOutputStream(
+				tempFilePath));
+		// watermarkText = watermarkText.toUpperCase();
+		PdfContentByte under;
+		PdfGState gstate = new PdfGState();
+		gstate.setFillOpacity(0.35f);
+		gstate.setStrokeOpacity(0.35f);
+		BaseFont font = BaseFont.createFont(BaseFont.COURIER,
+				BaseFont.WINANSI, BaseFont.NOT_EMBEDDED);
+		int fontSize = 13;
+		com.lowagie.text.Rectangle size = reader.getPageSizeWithRotation(1);
+		int i = 2;
+		while (i < n + 1) {
+			under = stamper.getOverContent(i);
+			i++;
+			under.beginText();
+
+			under.setTextRenderingMode(PdfContentByte.TEXT_RENDER_MODE_FILL);
+			under.setLineWidth(0.35f);
+			// under.setLineDash(0.3f,0.3f);
+			under.setLineDash(0.4f, 0.2f, 0.2f);
+			under.setFontAndSize(font, fontSize);
+			String lineText = "© Spicy World";
+			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 450, 35, 0);
+			under.endText();
+		}
+		stamper.close();
 	}
 	
 	public static void createPdf(String filename) throws Exception {
@@ -145,7 +151,7 @@ public class CookBook {
 		    String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
 		    MultiColumnText columns = new MultiColumnText();
 		    //float left, float right, float gutterwidth, int numcolumns
-		    columns.addRegularColumns(36f, document.getPageSize().width(), 24f, 2);
+		    columns.addRegularColumns(36f, document.getPageSize().getWidth(), 24f, 2);
 		    
 		    HTMLWorker htmlWorker = new HTMLWorker(document);
 		    htmlWorker.parse(new StringReader(ing));
