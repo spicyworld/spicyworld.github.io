@@ -547,7 +547,7 @@ public class SiteBuilder {
 		}
 		String data = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 		data = CookBook.html2text(data);
-		if (data.length() > 1000) {
+		if (data.length() > 400) {
 			data = data.substring(0, 400) + " ...";
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
