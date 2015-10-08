@@ -42,7 +42,7 @@ public class CookBook {
 		SiteBuilder.selfCopy(templatePath + "template/CookBook.java", processor);
 		try {
 			createPdf("tmp.pdf");
-			manipulatePdf("tmp.pdf", "sp.pdf");
+			waterMarkPDF("tmp.pdf", "sp.pdf");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -52,7 +52,7 @@ public class CookBook {
 		
 	}
 	
-	public static void manipulatePdf(String src, String dest) throws Exception {
+	public static void waterMarkPDF(String src, String dest) throws Exception {
 		String filePath = templatePath + src;
 		String tempFilePath = templatePath + dest;
 		PdfReader reader = new PdfReader(filePath);
@@ -147,9 +147,15 @@ public class CookBook {
 			int width          = bimg.getWidth();
 			int height         = bimg.getHeight();
 			
-		    if (steps.contains("recipeimages") || (width < height)) {
+		    if ((width < height)) {
 		    	return;
 		    }
+		    
+		    if (steps.contains("recipeimages")) {
+		    	steps = steps.replace("recipeimages", templatePath + "recipeimages");
+		    	steps = removeImage(steps);
+		    }
+		    System.out.println(steps);
 			document.newPage();
 			
 			Paragraph heading = new Paragraph(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
@@ -186,7 +192,7 @@ public class CookBook {
 		    heading.setSpacingAfter(4f);
 		    document.add(heading);
 		    htmlWorker.parse(new StringReader(steps));*/
-	        multiColumnData(document, eElement);
+	        multiColumnData(document, eElement, steps);
 		    
 	        
 		} catch (Exception e) {
@@ -194,7 +200,7 @@ public class CookBook {
 		}
 	}
 	
-	public static void multiColumnData(Document document, Element eElement) {
+	public static void multiColumnData(Document document, Element eElement, String steps) {
 		try {
 			MultiColumnText mct = new MultiColumnText();
 			mct.setColumnsRightToLeft(false);
@@ -217,7 +223,6 @@ public class CookBook {
 			
 		    
 			mct.addElement(new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD)));
-			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 			strReader = new StringReader(steps);
 			arrList = HTMLWorker.parseToList(strReader, styles);
 			para = new Paragraph(); 
@@ -236,5 +241,18 @@ public class CookBook {
 	
 	public static String html2text(String html) {
 	    return Jsoup.parse(html).text();
+	}
+	
+	public static String removeImage(String content) {
+		if(content != null) {
+			content = "<ul>" + content + "</ul>";
+			org.jsoup.nodes.Document document = org.jsoup.Jsoup.parse(content);
+		    document.select("img").remove();
+		    content = document.toString();
+		    content = content.replace("div>", "li>");
+		    content = content.substring(content.indexOf("<ul>"), content.indexOf("</ul>") + 5);
+		    content = content.replace("\n", "").replace("    ", "").replace("   ", "");
+		}
+		return content;
 	}
 }
