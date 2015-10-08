@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=144";
+	public static String buildNo = "?sessionId=145";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
@@ -444,10 +444,10 @@ public class SiteBuilder {
 				+ "</div>"
 				// Pinterest Ends
 				// Twitter Starts
-				+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
-				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + url + ".html\" data-text=\"" + title + "\" data-via=\"amitava3g\"></a>"
-				+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
-				+ "</div>"
+				//+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
+				//+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + url + ".html\" data-text=\"" + title + "\" data-via=\"amitava3g\"></a>"
+				//+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
+				//+ "</div>"
 				// Twitter Ends
 				// Email Starts
 				//+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
