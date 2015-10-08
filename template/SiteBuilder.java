@@ -35,7 +35,7 @@ public class SiteBuilder {
 	
 	public static void main(String[] args) {
 		String img = "macher-jhol";
-		createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -545,6 +545,11 @@ public class SiteBuilder {
 		} else {
 			itemTypeClass = "vegItem-1";
 		}
+		String data = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
+		data = CookBook.html2text(data);
+		if (data.length() > 1000) {
+			data = data.substring(0, 400) + " ...";
+		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
@@ -562,8 +567,7 @@ public class SiteBuilder {
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
 				+ "</a></div></div><div class=\"desc\">"
-				+ eElement.getElementsByTagName("shortDesc").item(0)
-						.getTextContent() + "</div></div></div></td>";
+				+ data + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
 	}
