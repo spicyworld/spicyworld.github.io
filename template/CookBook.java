@@ -5,6 +5,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.StringReader;
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.imageio.ImageIO;
 import javax.xml.parsers.DocumentBuilder;
@@ -15,6 +16,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.lowagie.text.Anchor;
 import com.lowagie.text.Document;
 import com.lowagie.text.Font;
 import com.lowagie.text.FontFactory;
@@ -29,27 +31,80 @@ import com.lowagie.text.pdf.BaseFont;
 import com.lowagie.text.pdf.MultiColumnText;
 import com.lowagie.text.pdf.PdfContentByte;
 import com.lowagie.text.pdf.PdfGState;
+import com.lowagie.text.pdf.PdfImportedPage;
+import com.lowagie.text.pdf.PdfPageLabels;
 import com.lowagie.text.pdf.PdfReader;
 import com.lowagie.text.pdf.PdfStamper;
 import com.lowagie.text.pdf.PdfWriter;
+import com.lowagie.text.pdf.RandomAccessFileOrArray;
 
 
 
 public class CookBook {
 	public static String templatePath = "/Volumes/Pearson/spicyworld/";
+	public static List pageMap = new ArrayList();
+	public static int waterMarkStart = 3;
+	public static int insertPageStart = 2;
 	public static void main(String[] args) {
 		String processor = "/Users/vghosam/Documents/workspace/test/src/CookBook.java";
 		SiteBuilder.selfCopy(templatePath + "template/CookBook.java", processor);
 		try {
 			createPdf("tmp.pdf");
-			waterMarkPDF("tmp.pdf", "sp.pdf");
+			generateTOC("tmp.pdf", "tmp1.pdf", 0);
+			waterMarkPDF("tmp1.pdf", "sp.pdf");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
 			File f = new File(templatePath + "tmp.pdf");
 			f.delete();
+			f = new File(templatePath + "tmp.pdf");
+			f.delete();
 		}
-		
+	}
+	
+	public static void generateTOC(String src, String dest, int start) throws Exception{
+		boolean breakFlag = true;
+		try {
+		      PdfReader reader = new PdfReader(templatePath + src);
+		      PdfStamper stamp = new PdfStamper(reader, new FileOutputStream(templatePath + dest));
+
+		      PdfContentByte over;
+		      BaseFont bf = BaseFont.createFont(BaseFont.HELVETICA, BaseFont.WINANSI, BaseFont.EMBEDDED);
+
+		      stamp.insertPage(insertPageStart, PageSize.A4);
+		      over = stamp.getOverContent(insertPageStart);
+		      over.beginText();
+		      over.setFontAndSize(bf, 11);
+		      int counter = 2;
+		      over.showTextAligned(com.lowagie.text.Element.ALIGN_MIDDLE, "Table of Contents", 265, 800, 0);
+		      for(int i=start;i<pageMap.size(); i++){
+		    	  String[] data = ((String) pageMap.get(i)).split("##");
+		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_LEFT, data[1], 40, 800 - (counter*20), 0);
+		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_RIGHT, data[0], 540, 800 - (counter*20), 0);
+		    	  if (counter == 39 && i < pageMap.size()) {
+		    		  breakFlag = false;
+			    	  over.endText();
+			      	  stamp.close();
+			      	  moveFile(templatePath + dest, templatePath + src);
+			          waterMarkStart = waterMarkStart + 1;
+			    	  insertPageStart = insertPageStart + 1;
+		    		  generateTOC(src, dest, i+1);
+		    		  break;
+		    	  }
+		    	  counter ++;
+			  }
+		      if (breakFlag) {
+		    	  over.endText();
+		      	  stamp.close();
+		      }
+		    } catch (Exception de) {
+		      de.printStackTrace();
+		    }
+    }
+	
+	private static void moveFile (String src, String dest) {
+		File afile =new File(src);
+		afile.renameTo(new File(dest));
 	}
 	
 	public static void waterMarkPDF(String src, String dest) throws Exception {
@@ -68,7 +123,7 @@ public class CookBook {
 				BaseFont.WINANSI, BaseFont.NOT_EMBEDDED);
 		int fontSize = 12;
 		com.lowagie.text.Rectangle size = reader.getPageSizeWithRotation(1);
-		int i = 2;
+		int i = waterMarkStart;
 		while (i < n + 1) {
 			under = stamper.getOverContent(i);
 			i++;
@@ -82,7 +137,7 @@ public class CookBook {
 			String lineText = "© Spicy World";
 			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 470, 20, 0);
 			//Page number
-			lineText = "Page " + (i - 2);
+			lineText = "Page " + (i - waterMarkStart);
 			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 30, 20, 0);
 			
 			under.setTextRenderingMode(PdfContentByte.LINE_JOIN_ROUND);
@@ -95,24 +150,47 @@ public class CookBook {
 	
 	public static void createPdf(String filename) throws Exception {
         Document document = new Document(PageSize.A4, 30, 30, 20, 70);
-        PdfWriter.getInstance(document, new FileOutputStream(templatePath + filename));
+        PdfWriter pdfWriter = PdfWriter.getInstance(document, new FileOutputStream(templatePath + filename));
         document.open();
-        /*
-        Image image1 = Image.getInstance(templatePath + "recipeimages/dum-aloo.jpg");
-        image1.setAbsolutePosition(10, 20);
+        
+        Image image1 = Image.getInstance("/Volumes/Pearson/sp-graphics/test.jpg");
+        image1.setAbsolutePosition(0, 770);
         //image1.scalePercent(60f);
-        image1.scaleAbsolute(575f, 400f);
+        //image1.scaleAbsolute(575f, 400f);
         document.add(image1);
-        */
         
-        Image image2 = Image.getInstance(templatePath + "images/site-logo.png");
-        image2.scaleAbsolute(215f, 63f);//431 × 126
-        //image2.setAbsolutePosition(200, 700);
-        document.add(image2);
         
-        Paragraph heading = new Paragraph("  By Arpita Ghosh Das", new Font(Font.HELVETICA, 12f, Font.ITALIC));
+        image1 = Image.getInstance("/Volumes/Pearson/sp-graphics/cbh.png");
+        image1.setAbsolutePosition(10, 10);
+        //image1.scalePercent(60f);
+        image1.scaleAbsolute(575f, 750f);
+        document.add(image1);
+        
+        
+        Font f = new Font(Font.COURIER, 25.0f, Font.HELVETICA, Color.WHITE);
+        Paragraph heading = new Paragraph(com.lowagie.text.Element.ALIGN_RIGHT, "Spicy World", f);
+        heading.setAlignment(2);
+        heading.setSpacingAfter(15f);
+        heading.setSpacingBefore(20f);
+        document.add(heading);
+        
+        f = new Font(Font.COURIER, 10.0f, Font.HELVETICA, Color.WHITE);
+        heading = new Paragraph(com.lowagie.text.Element.ALIGN_RIGHT, "By Arpita Ghosh Das", f);
+        heading.setAlignment(2);
         heading.setSpacingAfter(5f);
         document.add(heading);
+        
+        PdfContentByte cb = pdfWriter.getDirectContent(); 
+
+        cb.setLineWidth(2.0f);	// Make a bit thicker than 1.0 default 
+        cb.setGrayStroke(0.95f); // 1 = black, 0 = white 
+        float x = 0f; 
+        float y = 770f; 
+        cb.moveTo(x,         y); 
+        cb.lineTo(660, y); 
+        cb.stroke(); 
+        
+        
         
         
         // Read DATA XML
@@ -123,21 +201,19 @@ public class CookBook {
 		org.w3c.dom.Document doc = dBuilder.parse(fXmlFile);
 		doc.getDocumentElement().normalize();
 		NodeList nList = doc.getElementsByTagName("element");
+		//nList.getLength()
 		for (int temp = 0; temp < nList.getLength(); temp++) {
 			Node nNode = nList.item(temp);
 			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 				Element eElement = (Element) nNode;
-				createRecipePages(document, eElement, temp + 1);
+				createRecipePages(document, eElement, temp + 1, pdfWriter);
 			}
 		}
         
-        
-        
-        //document.add(new Paragraph("Hello World!"));
         document.close();
     }
 	
-	public static void createRecipePages(Document document, Element eElement, int i) {
+	public static void createRecipePages(Document document, Element eElement, int i, PdfWriter pdfWriter) {
 		try {
 			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
@@ -155,8 +231,8 @@ public class CookBook {
 		    	steps = steps.replace("recipeimages", templatePath + "recipeimages");
 		    	steps = removeImage(steps);
 		    }
-		    System.out.println(steps);
 			document.newPage();
+			pageMap.add(pdfWriter.getPageNumber() - 1 + "##" + title);
 			
 			Paragraph heading = new Paragraph(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
 		    heading.setSpacingAfter(5f);
@@ -178,22 +254,8 @@ public class CookBook {
 			image1.scaleAbsolute(w, h);
 	        document.add(image1);
 			
-			
 	        
-	        /*heading = new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD));
-		    heading.setSpacingAfter(4f);
-		    document.add(heading);
-		    
-		    String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
-		   
-		    HTMLWorker htmlWorker = new HTMLWorker(document);
-		    htmlWorker.parse(new StringReader(ing));
-		    heading = new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD));
-		    heading.setSpacingAfter(4f);
-		    document.add(heading);
-		    htmlWorker.parse(new StringReader(steps));*/
 	        multiColumnData(document, eElement, steps);
-		    
 	        
 		} catch (Exception e) {
 			e.printStackTrace();
