@@ -66,7 +66,7 @@ public class CookBook {
 		gstate.setStrokeOpacity(0.35f);
 		BaseFont font = BaseFont.createFont(BaseFont.COURIER,
 				BaseFont.WINANSI, BaseFont.NOT_EMBEDDED);
-		int fontSize = 13;
+		int fontSize = 12;
 		com.lowagie.text.Rectangle size = reader.getPageSizeWithRotation(1);
 		int i = 2;
 		while (i < n + 1) {
@@ -76,11 +76,18 @@ public class CookBook {
 
 			under.setTextRenderingMode(PdfContentByte.TEXT_RENDER_MODE_FILL);
 			under.setLineWidth(0.35f);
-			// under.setLineDash(0.3f,0.3f);
+			
 			under.setLineDash(0.4f, 0.2f, 0.2f);
 			under.setFontAndSize(font, fontSize);
 			String lineText = "© Spicy World";
-			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 450, 35, 0);
+			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 470, 20, 0);
+			//Page number
+			lineText = "Page " + (i - 2);
+			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, lineText, 30, 20, 0);
+			
+			under.setTextRenderingMode(PdfContentByte.LINE_JOIN_ROUND);
+			under.setFontAndSize(font, 40);
+			under.showTextAlignedKerned(com.lowagie.text.Element.ALIGN_BOTTOM, "http://spicyworld.in", 150, 220, 50);
 			under.endText();
 		}
 		stamper.close();
@@ -211,7 +218,7 @@ public class CookBook {
 		    
 			mct.addElement(new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD)));
 			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
-			strReader = new StringReader(ing);
+			strReader = new StringReader(steps);
 			arrList = HTMLWorker.parseToList(strReader, styles);
 			para = new Paragraph(); 
 			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
