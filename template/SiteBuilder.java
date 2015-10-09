@@ -40,7 +40,7 @@ public class SiteBuilder {
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
-		String recipes_data_front = "<table class=\"dataTable\">";
+		String recipes_data_front = "<table class=\"dataTable\" vocab='http://schema.org/' typeof='Recipe'>";
 		String recipes_data = "";
 		String siteMapData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
@@ -446,7 +446,7 @@ public class SiteBuilder {
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
 		}
-		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1 id='title'>"
+		out = "<div vocab='http://schema.org/' typeof='Recipe'><div class='h2Class'><div style=\"clear:both\"><h1 property='name' id='title'>"
 				+ title
 				+ "</h1></div><div style=\"clear:both\">"
 				// Pinterest Starts
@@ -480,18 +480,18 @@ public class SiteBuilder {
 				//+ url
 				//+ ".html\" data-layout=\"button_count\"></div></div>" 
 				// FB Ends
-				+ "</div><p class=\"descp\" id='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
+				+ "</div><p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
-				+ "' title='" + title + "' src='"
+				+ "' title='" + title + "' property='image' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div>"
+				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
-				+ "</div>" + additionalImg
-				+ "<div class='div3Pos'><div><h2 id='steps'>Steps</h2></div>"
+				+ "</div></div>" + additionalImg
+				+ "<div class='div3Pos'><div><h2 id='steps'>Steps</h2></div><div property='recipeInstructions'>"
 				+ steps
-				+ "<br/><div class='complete'>"
+				+ "</div><br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()
 				+ "</div>"
@@ -563,7 +563,7 @@ public class SiteBuilder {
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
-						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+						+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
@@ -573,10 +573,10 @@ public class SiteBuilder {
 						.getTextContent()
 				+ "\">&nbsp;</div><div style=\"float:left;width:90%\">"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
-						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
+						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" property='name' class='noStyle' href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</a></div></div><div class=\"desc\">"
+				+ "</a></div></div><div class=\"desc\" property='description'>"
 				+ data + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
