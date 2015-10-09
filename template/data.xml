@@ -33,6 +33,20 @@
    </element>
 
    <element>
+      <completionStatement>Your mutton kosha is ready.</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Serve this with hot plain rice, pulao, naan ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Mutton 15 pieces.&lt;/li&gt;&lt;li&gt;Potato 4 pieces.&lt;/li&gt;&lt;li&gt;One big onion chopped.&lt;/li&gt;&lt;li&gt;Ginger&amp;garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;One small tomato chopped.&lt;/li&gt;&lt;li&gt;Hunk curd 5 tsp.&lt;/li&gt;&lt;li&gt;Turmeric powder 2 tsp.&lt;/li&gt;&lt;li&gt;Red chili powder 1 tsp.&lt;/li&gt;&lt;li&gt;Coriander powder 2 tsp.&lt;/li&gt;&lt;li&gt;Cumin powder 2 tsp.&lt;/li&gt;&lt;li&gt;Mace 1 blade.&lt;/li&gt;&lt;li&gt;Nutmeg half tsp.&lt;/li&gt;&lt;li&gt;Five green cardemom.&lt;/li&gt;&lt;li&gt;Four cloves.&lt;/li&gt;&lt;li&gt;One small cinnamon stick.&lt;/li&gt;&lt;li&gt;Six black pepper corn.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Mustard oil 6 tsp.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <pic>recipeimages/mutton-kosha.jpg</pic>
+      <process>&lt;div&gt;Marinate the mutton pieces with curd and 1 tsp of ginger&amp;garlic paste. Keep aside for 2 hours.&lt;/div&gt;&lt;div&gt;Lightly fry the potatoes. Keep aside.&lt;/div&gt;&lt;div&gt;Take a pressure cooker and heat mustard oil.&lt;/div&gt;&lt;div&gt;Add 2 tsp sugar in the hot oil and caramalized it.&lt;/div&gt;&lt;div&gt;Then add bay leaf, green cardemom, black pepper, cloves, cinnamon stick. Saute it for a minute.&lt;/div&gt;&lt;div&gt;Add choppes onion. Fry this till golden brown.&lt;/div&gt;&lt;div&gt;Add 1 tsp ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/mutton-kosha-2.jpg" /&gt;&lt;div&gt;Then add chopped tomatoes. Cook this for 5 minutes.&lt;/div&gt;&lt;div&gt;Now add salt, all the powders, mace &amp; nutmeg. Mix it for 1 minute.&lt;/div&gt;&lt;div&gt;Then add the marinated mutton. Mix it very well. Then cook it in slow flame with lid for 20 minutes. Mutton will leave its own juice.&lt;/div&gt;&lt;div&gt;After that add some warm water, green chilies. Pressure this till 4 slow whistles.&lt;/div&gt;&lt;div&gt;Then add the fried potatoes and again pressure this till 3 slow whistles.&lt;/div&gt;&lt;div&gt;Mutton should have some thick gravy.&lt;/div&gt;&lt;img src="recipeimages/mutton-kosha-3.jpg" /&gt;</process>
+      <shortDesc>Its a delicious nonveg main course dish. This is a Bengali style recipe. In many gatherings they make this dish. Its a very popular item. You should try this.</shortDesc>
+      <thumb>recipeimages/thumb/mutton-kosha.jpg</thumb>
+      <title>Mutton Kosha (bengali style)</title>
+      <add-pic>recipeimages/mutton-kosha-1.jpg</add-pic>
+      <type>nonVegItem</type>
+      <url>mutton-kosha</url>
+   </element>
+
+   <element>
       <completionStatement>Your chicken biriyani is ready .... Enjoy ...!!</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with raita, gravy or any type of curry.&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Chicken leg pieces 4.&lt;/li&gt;&lt;li&gt;Basmati rice 4 cups.&lt;/li&gt;&lt;li&gt;Two small potatoes.&lt;/li&gt;&lt;li&gt;One onion sliced.&lt;/li&gt;&lt;li&gt;Ginger and garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;Curd 4 tsp.&lt;/li&gt;&lt;li&gt;Biriyani masala 4 tsp.( from any indian store).&lt;/li&gt;&lt;li&gt;Cumin seed 1 tsp.&lt;/li&gt;&lt;li&gt;Green cardemom 5.&lt;/li&gt;&lt;li&gt;Six cloves.&lt;/li&gt;&lt;li&gt;One star anis.&lt;/li&gt;&lt;li&gt;One small cinnamon stick.&lt;/li&gt;&lt;li&gt;Yellow food colour.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Clarified butter/ghee 8 tea spoons.&lt;/li&gt;&lt;li&gt;2 tea spoons kewra water.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
@@ -908,18 +922,7 @@
       <keywords>chicken, egg, chinese, starter, lollipop, wings, fry, sauce, batter, spicy</keywords>
       <tags>fry,chicken,egg,chinese,starter,sauce,spicy</tags>
    </element>
-   <element>
-      <completionStatement>Your mutton kosha is ready.</completionStatement>
-      <garnishment>&lt;ul&gt;&lt;li&gt;Serve this with hot plain rice, pulao, naan ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Mutton 15 pieces.&lt;/li&gt;&lt;li&gt;Potato 4 pieces.&lt;/li&gt;&lt;li&gt;One big onion chopped.&lt;/li&gt;&lt;li&gt;Ginger&amp;garlic paste 2 tsp.&lt;/li&gt;&lt;li&gt;One small tomato chopped.&lt;/li&gt;&lt;li&gt;Hunk curd 5 tsp.&lt;/li&gt;&lt;li&gt;Turmeric powder 2 tsp.&lt;/li&gt;&lt;li&gt;Red chili powder 1 tsp.&lt;/li&gt;&lt;li&gt;Coriander powder 2 tsp.&lt;/li&gt;&lt;li&gt;Cumin powder 2 tsp.&lt;/li&gt;&lt;li&gt;Mace 1 blade.&lt;/li&gt;&lt;li&gt;Nutmeg half tsp.&lt;/li&gt;&lt;li&gt;Five green cardemom.&lt;/li&gt;&lt;li&gt;Four cloves.&lt;/li&gt;&lt;li&gt;One small cinnamon stick.&lt;/li&gt;&lt;li&gt;Six black pepper corn.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Mustard oil 6 tsp.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-      <pic>recipeimages/mutton-kosha.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Marinate the mutton pieces with curd and 1 tsp of ginger&amp;garlic paste. Keep aside for 2 hours.&lt;/li&gt;&lt;li&gt;Lightly fry the potatoes. Keep aside.&lt;/li&gt;&lt;li&gt;Take a pressure cooker and heat mustard oil.&lt;/li&gt;&lt;li&gt;Add 2 tsp sugar in the hot oil and caramalized it.&lt;/li&gt;&lt;li&gt;Then add bay leaf, green cardemom, black pepper, cloves, cinnamon stick. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Add choppes onion. Fry this till golden brown.&lt;/li&gt;&lt;li&gt;Add 1 tsp ginger &amp; garlic paste. Cook this for 2 minutes.&lt;/li&gt;&lt;li&gt;Then add chopped tomatoes. Cook this for 5 minutes.&lt;/li&gt;&lt;li&gt;Now add salt, all the powders, mace &amp; nutmeg. Mix it for 1 minute.&lt;/li&gt;&lt;li&gt;Then add the marinated mutton. Mix it very well. Then cook it in slow flame with lid for 20 minutes. Mutton will leave its own juice.&lt;/li&gt;&lt;li&gt;After that add some warm water, green chilies. Pressure this till 4 slow whistles.&lt;/li&gt;&lt;li&gt;Then add the fried potatoes and again pressure this till 3 slow whistles.&lt;/li&gt;&lt;li&gt;Mutton should have some thick gravy.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>Its a delicious nonveg main course dish. This is a Bengali style recipe. In many gatherings they make this dish. Its a very popular item. You should try this.</shortDesc>
-      <thumb>recipeimages/thumb/mutton-kosha.jpg</thumb>
-      <title>Mutton Kosha (bengali style)</title>
-      <type>nonVegItem</type>
-      <url>mutton-kosha</url>
-   </element>
+   
    <element>
       <completionStatement>Your hot and sour soup is ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Sprinkle some spring onion and chili garlic sauce on top of the soup and enjoy ...!!!&lt;/li&gt;&lt;/ul&gt;</garnishment>
