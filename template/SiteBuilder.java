@@ -432,6 +432,16 @@ public class SiteBuilder {
 		} catch (Exception e) {
 			additionalImg = "";
 		}
+		String endImg = "";
+		try  {
+			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
+			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img alt='" + title 
+			+ "' title='" + title + "' src='"
+			+ endImg + buildNo
+			+ "' class='topImagePosition' /></a><br/><br/></div>";
+		} catch (Exception e) {
+			endImg = "";
+		}
 		String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
@@ -487,7 +497,7 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<div class='garnishment'>"
 				+ eElement.getElementsByTagName("garnishment").item(0)
-						.getTextContent() + "</div></div>" + "</div></div>";
+						.getTextContent() + "</div></div>" + "</div></div>" + endImg;
 		
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
