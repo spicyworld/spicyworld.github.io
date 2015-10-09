@@ -286,6 +286,15 @@ public class MobileSiteBuilder {
 		} catch (Exception e) {
 			additionalImg = "";
 		}
+		
+		String endImg = "";
+		try  {
+			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
+			endImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + " (Final)' src='" + endImg + buildNo + "'></div><br/><br/>";
+		} catch (Exception e) {
+			endImg = "";
+		}
+		
 		String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
@@ -309,7 +318,7 @@ public class MobileSiteBuilder {
 				+ "</div>"
 				+ "<div class='garnishment'>"
 				+ eElement.getElementsByTagName("garnishment").item(0)
-						.getTextContent() + "</div></div>" + "</div></div>";
+						.getTextContent() + "</div></div>" + "</div></div>" + endImg;
 		
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
