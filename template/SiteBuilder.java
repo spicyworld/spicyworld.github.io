@@ -40,7 +40,7 @@ public class SiteBuilder {
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
-		String recipes_data_front = "<table class=\"dataTable\" vocab='http://schema.org/' typeof='Recipe'>";
+		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
 		String siteMapData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
@@ -560,7 +560,7 @@ public class SiteBuilder {
 		if (data.length() > 400) {
 			data = data.substring(0, 400) + " ...";
 		}
-		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
+		recipes_data += "<tr  vocab='http://schema.org/' typeof='Recipe' class=\"" + itemTypeClass + "\"><td>";
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
 						+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 

@@ -57,7 +57,7 @@ public class CookBook {
 		} finally {
 			File f = new File(templatePath + "tmp.pdf");
 			f.delete();
-			f = new File(templatePath + "tmp.pdf");
+			f = new File(templatePath + "tmp1.pdf");
 			f.delete();
 		}
 	}
