@@ -300,11 +300,15 @@ body {
     font-weight: bold;
 }
 
+.cookbook a:hover {
+	background: grey;
+}
+
 .cookbook a {
 	background: darkblue;
     padding: 5 10 5 10;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
     width: 120px;
     border: 2px;
     border-radius: 25px;
