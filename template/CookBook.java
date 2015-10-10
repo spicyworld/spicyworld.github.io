@@ -293,6 +293,7 @@ public class CookBook {
 	}
 	
 	public static String html2textList(String html) {
+		html = html.replace(" class='internalLI'", "");
 		html = html.replace("<li>", "");
 		html = html.replace("</li>", "\n");
 		html = html.replace("<ul>", "").replace("</ul>", "");
