@@ -189,7 +189,7 @@ public class CookBook {
         cb.setGrayStroke(0.95f); // 1 = black, 0 = white 
         float x = 0f; 
         float y = 770f; 
-        cb.moveTo(x,         y); 
+        cb.moveTo(x, y); 
         cb.lineTo(660, y); 
         cb.stroke(); 
         
@@ -205,7 +205,7 @@ public class CookBook {
 		doc.getDocumentElement().normalize();
 		NodeList nList = doc.getElementsByTagName("element");
 		//nList.getLength()
-		for (int temp = 0; temp < nList.getLength(); temp++) {
+		for (int temp = 0; temp < 8; temp++) {
 			Node nNode = nList.item(temp);
 			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 				Element eElement = (Element) nNode;

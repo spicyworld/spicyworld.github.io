@@ -296,15 +296,19 @@ body {
     background-color: lightgray;
     margin-top: 5px;
     color: darkblue;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
 }
 
 .cookbook a:hover {
+	color: white;
+}
+
+.cookbook a.download:hover {
 	background: grey;
 }
 
-.cookbook a {
+.cookbook a.download {
 	background: darkblue;
     padding: 5 10 5 10;
     color: white;
@@ -314,7 +318,6 @@ body {
     border-radius: 25px;
     text-align: center;
     text-decoration: none;
-    margin-left: 10px;
 }
 
 
