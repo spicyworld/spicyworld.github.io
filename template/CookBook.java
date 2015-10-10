@@ -51,7 +51,8 @@ public class CookBook {
 		try {
 			createPdf("tmp.pdf");
 			generateTOC("tmp.pdf", "tmp1.pdf", 0);
-			waterMarkPDF("tmp1.pdf", "sp.pdf");
+			waterMarkPDF("tmp1.pdf", "Spicy-World-Cook-Book.pdf");
+			//embedJS("sp.pdf", "Spicy-World-Cook-Book.pdf");
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
@@ -60,6 +61,10 @@ public class CookBook {
 			f = new File(templatePath + "tmp1.pdf");
 			f.delete();
 		}
+	}
+	
+	public static void embedJS (String src, String dest) throws Exception{
+		
 	}
 	
 	public static void generateTOC(String src, String dest, int start) throws Exception{
@@ -153,21 +158,19 @@ public class CookBook {
         PdfWriter pdfWriter = PdfWriter.getInstance(document, new FileOutputStream(templatePath + filename));
         document.open();
         
+        /*
         Image image1 = Image.getInstance("/Volumes/Pearson/sp-graphics/test.jpg");
         image1.setAbsolutePosition(0, 770);
-        //image1.scalePercent(60f);
-        //image1.scaleAbsolute(575f, 400f);
+        document.add(image1);
+        */
+        
+        Image image1 = Image.getInstance("/Volumes/Pearson/sp-graphics/cover.jpg");
+        image1.setAbsolutePosition(0, 0);
+        image1.scaleAbsolute(595f, 950f);
         document.add(image1);
         
         
-        image1 = Image.getInstance("/Volumes/Pearson/sp-graphics/cbh.png");
-        image1.setAbsolutePosition(10, 10);
-        //image1.scalePercent(60f);
-        image1.scaleAbsolute(575f, 750f);
-        document.add(image1);
-        
-        
-        Font f = new Font(Font.COURIER, 25.0f, Font.HELVETICA, Color.WHITE);
+        Font f = new Font(Font.COURIER, 32.0f, Font.NORMAL, Color.WHITE);
         Paragraph heading = new Paragraph(com.lowagie.text.Element.ALIGN_RIGHT, "Spicy World", f);
         heading.setAlignment(2);
         heading.setSpacingAfter(15f);
@@ -175,7 +178,7 @@ public class CookBook {
         document.add(heading);
         
         f = new Font(Font.COURIER, 10.0f, Font.HELVETICA, Color.WHITE);
-        heading = new Paragraph(com.lowagie.text.Element.ALIGN_RIGHT, "By Arpita Ghosh Das", f);
+        heading = new Paragraph(com.lowagie.text.Element.ALIGN_RIGHT, "From Arpita's Kitchen", f);
         heading.setAlignment(2);
         heading.setSpacingAfter(5f);
         document.add(heading);
@@ -252,8 +255,11 @@ public class CookBook {
 			image1.setAlt(title);
 			
 			image1.scaleAbsolute(w, h);
-	        document.add(image1);
+			document.add(image1);
 			
+	        heading = new Paragraph("", new Font(Font.HELVETICA, 15f, Font.BOLD));
+	        heading.setSpacingAfter(10f);
+	        document.add(heading);
 	        
 	        multiColumnData(document, eElement, steps);
 	        
@@ -268,31 +274,12 @@ public class CookBook {
 			mct.setColumnsRightToLeft(false);
 			mct.addRegularColumns(document.left(), document.right(), 80f, 2);
 			
-			StyleSheet styles=new StyleSheet();
-		    styles.loadTagStyle("ul","li","10,0");
-			
 			mct.addElement(new Paragraph("Ingredients", new Font(Font.HELVETICA, 13f, Font.BOLD)));
 			String ing = eElement.getElementsByTagName("ingrediants").item(0).getTextContent();
-			StringReader strReader = new StringReader(ing);
-			ArrayList arrList = HTMLWorker.parseToList(strReader, styles);
-			Paragraph para = new Paragraph(); 
-			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
-			for (int k = 0; k < arrList.size(); ++k) {                   
-			    para.add((com.lowagie.text.Element)arrList.get(k)); 
-			}
-			mct.addElement(para);
+			mct.addElement(new Paragraph(html2textList(ing), new Font(Font.HELVETICA, 11f, Font.NORMAL)));
 			
-			
-		    
 			mct.addElement(new Paragraph("Steps", new Font(Font.HELVETICA, 13f, Font.BOLD)));
-			strReader = new StringReader(steps);
-			arrList = HTMLWorker.parseToList(strReader, styles);
-			para = new Paragraph(); 
-			para.setFont(FontFactory.getFont("Courier",10,Font.NORMAL));
-			for (int k = 0; k < arrList.size(); ++k) { 
-				para.add((com.lowagie.text.Element)arrList.get(k)); 
-			}
-			mct.addElement(para);
+			mct.addElement(new Paragraph(html2textList(steps), new Font(Font.HELVETICA, 11f, Font.NORMAL)));
 			
 			document.add(mct);
 		} catch (Exception e) {
@@ -303,6 +290,13 @@ public class CookBook {
 	
 	public static String html2text(String html) {
 	    return Jsoup.parse(html).text();
+	}
+	
+	public static String html2textList(String html) {
+		html = html.replace("<li>", "");
+		html = html.replace("</li>", "\n");
+		html = html.replace("<ul>", "").replace("</ul>", "");
+	    return html;
 	}
 	
 	public static String removeImage(String content) {

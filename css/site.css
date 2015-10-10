@@ -285,10 +285,34 @@ body {
 }
 
 .middleBottom {
-	padding-top: 20px;
+	padding-top: 5px;
 	height: 300px;
 	clear: both;
 }
+
+.cookbook {
+	padding: 10px;
+	padding-top: 11px;
+    background-color: lightgray;
+    margin-top: 5px;
+    color: darkblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cookbook a {
+	background: darkblue;
+    padding: 5 10 5 10;
+    color: white;
+    font-size: 14px;
+    width: 120px;
+    border: 2px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
 
 .middleBottom .title {
 	padding-top: 13px;

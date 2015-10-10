@@ -52,13 +52,14 @@ public class SiteBuilder {
 		List recipeDataList = new ArrayList();
 		String tags = "";
 		String carosalImg = "";
+		String notice = "<div class='cookbook'>Our recipes are now available in our CookBook. <a title='Spicy World : Cook Book'  alt='Spicy World : Cook Book' href='Spicy-World-Cook-Book.pdf' target='_blank' onclick=\"_gaq.push(['_trackEvent','Download','PDF',this.href]);\">Download CookBook</a></div>";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p>Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</p>"
 				+ "<a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
-				+ "</div></div></div><div class=\"middleBottom\">";
+				+ "</div></div></div>" + notice + "<div class=\"middleBottom\">";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -387,6 +388,7 @@ public class SiteBuilder {
 				+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/about-me.html\" />"
 				+ "</url>"
 				+ "<url><loc>http://spicyworld.in/rss.xml</loc></url>"
+				+ "<url><loc>http://spicyworld.in/Spicy-World-Cook-Book.pdf</loc></url>"
 				+ "<url><loc>http://spicyworld.in/sitemap.xml</loc></url>"
 				+ "<url><loc>http://spicyworld.in/all-food-images.html</loc></url>"
 				+ "<url><loc>http://spicyworld.in/tags.html</loc>"
