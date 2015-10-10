@@ -478,9 +478,9 @@ public class SiteBuilder {
 				// Linked In Ends
 				// FB Starts
 				//+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-send\" data-href=\"http://spicyworld.in/" + url + ".html\"></div></div>"
-				//+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
-				//+ url
-				//+ ".html\" data-layout=\"button_count\"></div></div>" 
+				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-share-button\" data-href=\"http://spicyworld.in/"
+				+ url
+				+ ".html\" data-layout=\"button_count\"></div></div>" 
 				// FB Ends
 				+ "</div><p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
