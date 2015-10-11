@@ -15,7 +15,7 @@
          <end-pic>recipeimages/kashmiri-dum-aloo-3.jpg</end-pic>
          <end-pic-style>width:55%</end-pic-style>
          <keywords>dum, aloo, veg, kashmiri, spicy, indian, maincourse, without onion, without garlic, no onion, no garlic</keywords>
-         <tags>dum,aloo,spicy,indian,maincourse</tags>
+         <tags>dum,aloo,spicy,indian,maincourse,dum aloo</tags>
    </element>
 
    <element>
@@ -46,7 +46,7 @@
       <pic>recipeimages/simple-aloor-dom.jpg</pic>
       <url>simple-aloor-dom</url>
       <keywords>potato, aloo, dom, gravy, curry, maincourse, bengali, spicy, onion, garlic, dum aloo</keywords>
-      <tags>potato,gravy,maincourse,bengali,spicy,dum aloo</tags>
+      <tags>aloo,potato,gravy,maincourse,bengali,spicy,dum aloo</tags>
    </element>
 
    <element>
