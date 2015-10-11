@@ -34,7 +34,7 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
 	public static void main(String[] args) {
-		String img = "mutton-kosha";
+		String img = "kashmiri-dum-aloo";
 		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
@@ -437,12 +437,19 @@ public class SiteBuilder {
 			additionalImg = "";
 		}
 		String endImg = "";
+		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img alt='" + title 
+			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
+			try {
+				endImgStyle = eElement.getElementsByTagName("end-pic-style").item(0).getTextContent();
+				endImg = endImg.replace("##_##", endImgStyle);
+			} catch (Exception e) {
+				endImg = endImg.replace("##_##", "");
+			}
 		} catch (Exception e) {
 			endImg = "";
 		}
