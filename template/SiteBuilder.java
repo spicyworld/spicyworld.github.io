@@ -29,13 +29,14 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=146";
+	public static String buildNo = "?sessionId=151";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
 	public static void main(String[] args) {
 		String img = "kashmiri-dum-aloo";
-		//createImage("/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg");
+		//createImage("/Volumes/Pearson/spicyworld/template/originals/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 330);
+		//createImage("/Volumes/Pearson/spicyworld/template/originals/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 1000);
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
@@ -655,40 +656,61 @@ public class SiteBuilder {
 		}
 	}
 	
-	private static List getAllImages (String destinationPath) {
+	private static List getAllImages(String destinationPath, String destFolder,
+			int destinationWidth) {
 		List listFiles = new ArrayList();
 		String src = "";
 		String dest = "";
 		try {
-	        File[] files = new File(destinationPath).listFiles();
-	        for (File file : files) {
-	            if (!file.isDirectory()) {
-	                listFiles.add(file.getCanonicalPath());
-	                src = file.getCanonicalPath();
-	                dest = destinationPath + "/thumb/" + file.getName();
-	                createImage(src, dest);
-	            }
-	        }
-	    } catch (Exception e) {
-	        e.printStackTrace();
-	    }
+			File[] files = new File(destinationPath).listFiles();
+			for (File file : files) {
+				if (!file.isDirectory()) {
+					listFiles.add(file.getCanonicalPath());
+					src = file.getCanonicalPath();
+					dest = destFolder + file.getName();
+					createImage(src, dest, destinationWidth);
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		return listFiles;
 	}
-	
-	private static void createImage (String source, String destination) {
-		File image = new File(source);
-        File smallImage = new File(destination); // FORNOW: added the file extension just to check the result a bit more easily
-        // FORNOW: added print statements just to be doubly sure where we're reading from and writing to
-        System.out.println(image.getAbsolutePath());
-        System.out.println(smallImage.getAbsolutePath());
-        try {
-            BufferedImage bufimage = ImageIO.read(image);
 
-            BufferedImage bISmallImage = Scalr.resize(bufimage, 330); // after this line my dimensions in bISmallImage are correct!
-            ImageIO.write(bISmallImage, "png", smallImage); // but my smallImage has the same dimension as the original foto
-        } catch (Exception e) {
-            System.out.println(e.getMessage()); // FORNOW: added just to be sure
-        }
+	private static void createImage(String source, String destination, int destinationWidth) {
+		try {
+			BufferedImage bimg = ImageIO.read(new File(source));
+			int width = bimg.getWidth();
+			if (width < destinationWidth && width > 0) {
+				destinationWidth = width;
+			} else if (width <= 0) {
+				System.out.println("cp " + source + " " + destination);
+			}
+			File image = new File(source);
+			File smallImage = new File(destination); // FORNOW: added the file
+														// extension just to
+														// check the result a
+														// bit more easily
+			// FORNOW: added print statements just to be doubly sure where we're
+			// reading from and writing to
+			try {
+				BufferedImage bufimage = ImageIO.read(image);
+
+				BufferedImage bISmallImage = Scalr.resize(bufimage,
+						destinationWidth); // after this line my dimensions in
+											// bISmallImage are correct!
+				ImageIO.write(bISmallImage, "jpg", smallImage); // but my
+																// smallImage
+																// has the same
+																// dimension as
+																// the original
+																// foto
+			} catch (Exception e) {
+				System.out.println(e.getMessage()); // FORNOW: added just to be
+													// sure
+			}
+		} catch (Exception e) {
+		}
 	}
 
 }
