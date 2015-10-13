@@ -14,8 +14,9 @@
       <url>ghugni</url>
       <keywords>ghugni, motor, starter, gravy, chaat, street food, indian, onion, green chilies, coriander leaves </keywords>
       <tags>ghugni,yellow peas,spicy,starter</tags>
-      <end-pic>recipeimages/ghugni.jpg</end-pic>
-      <add-pic>recipeimages/ghugni-9.jpg</add-pic>
+      <end-pic>recipeimages/ghugni-9.jpg</end-pic>
+      <end-pic-style>width:55%</end-pic-style>
+      <add-pic>recipeimages/ghugni-1.jpg</add-pic>
    </element>
 
    <element>
