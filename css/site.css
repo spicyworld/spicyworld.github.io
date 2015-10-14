@@ -3,9 +3,9 @@
 }
 
 .likePlace {
-	float: left;
-    clear: both;
-    margin-top: 10px;
+    float: left;
+    margin-top: -2px;
+    padding-left: 10px;
 }
 
 #aboutData {

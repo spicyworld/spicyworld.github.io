@@ -470,6 +470,7 @@ public class SiteBuilder {
 				+ "<div style=\"float:left;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
 				+ "</div>"
 				// Pinterest Ends
+				+ "<div class='likePlace'><div class=\"rw-ui-container\"></div></div>"
 				// Twitter Starts
 				+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
 				+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + url + ".html\" data-text=\"" + title + "\" data-via=\"amitava3g\"></a>"
@@ -498,7 +499,6 @@ public class SiteBuilder {
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
 				// FB Ends
 				+ "</div>"
-				+ "<div class='likePlace'><div class=\"rw-ui-container\"></div></div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
