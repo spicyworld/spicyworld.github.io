@@ -244,6 +244,7 @@
 	border-bottom: 2px solid grey;
 	height: 36px;
 	clear: both;
+	padding-bottom: 2px;
 }
 
 .headerMenu ul li {
