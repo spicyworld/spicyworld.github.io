@@ -241,6 +241,13 @@ table {
     box-shadow: 9px 8px 5px #888888;
 }
 
+.steps-image div {
+	text-align: left;
+    display: list-item;
+    margin-left: 1.3em;
+    margin-left: 40px;
+}
+
 h2 {
 	margin-bottom: 0px !important;
 	padding: 0px !important;
