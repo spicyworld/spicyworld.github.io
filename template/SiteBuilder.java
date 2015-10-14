@@ -35,12 +35,12 @@ public class SiteBuilder {
 	
 	public static void main(String[] args) {
 		String img = "bhatura";
-		createImage("/Volumes/Pearson/spicyworld/template/originals/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1000);
+		/*createImage("/Volumes/Pearson/spicyworld/template/originals/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1000);
 		createImage("/Volumes/Pearson/spicyworld/template/originals/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330);
 		for (int i=1;i<=13; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/originals/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1000);
-		}
+		}*/
 		//System.exit(1);
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
@@ -497,7 +497,7 @@ public class SiteBuilder {
 				+ url
 				+ ".html\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"true\" data-share=\"true\"></div></div>" 
 				// FB Ends
-				+ "</div><p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
+				+ "</div><br/><div class=\"rw-ui-container\"></div><br/><p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' property='image' src='"
