@@ -466,34 +466,41 @@ public class SiteBuilder {
 		out = "<div vocab='http://schema.org/' typeof='Recipe'><div class='h2Class'><div style=\"clear:both\"><h1 property='name' id='title'>"
 				+ title
 				+ "</h1></div><div style=\"clear:both\">"
+				
 				// Pinterest Starts
 				+ "<div style=\"float:left;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
 				+ "</div>"
 				// Pinterest Ends
+				
 				// Twitter Starts
 				//+ "<div style=\"float:left;height:10px;padding-left:10px;\">"
 				//+ "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"http://spicyworld.in/" + url + ".html\" data-text=\"" + title + "\" data-via=\"amitava3g\"></a>"
 				//+ "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>"
 				//+ "</div>"
 				// Twitter Ends
+				
 				// Rating Star Starts
 				+ "<div class='likePlace'><div class=\"rw-ui-container\"></div></div>"
 				// Rating Syar ends
+				
 				// Email Starts
 				//+ "<div style=\"float:left;padding-left:10px;\"><a  title='Send/Share via Email' title='Send/Share via Email' "
 				//+ "href=\"mailto:?subject=" + title + " Recipe at Spicy World&body=" + desc + "\n Visit Spicy World (http://spicyworld.in/" + url + ".html?emailFlag=Y) for detailed recipe.\">"
 				//+ "<img style='height:21px;' src='images/email.png' title='Send/Share via Email' title='Send/Share via Email'/></a></div>" 
 				// Email Ends
+				
 				// Google Plus Starts
 				//+ "<div style=\"float:left;padding-left:10px;\"><a  title='Share in Google Plus' title='Share in Google Plus' "
 				//+ "target='_blank' href='#' onClick=\"window.open('https://plus.google.com/share?url=http://spicyworld.in/" + url + ".html', '" + title + "','resizable,height=400,width=550');return false;\">"
 				//+ "<img style='height:19px;' src='images/google_plus.jpg' title='Share in Google Plus' title='Share in Google Plus'/></a></div>" 
 				// Google Plus Ends
+				
 				// Linked In Starts
 				//+ "<div style=\"float:left;padding-left:10px;\">"
 				//+ "<script src=\"//platform.linkedin.com/in.js\" type=\"text/javascript\"> lang: en_US</script><script type=\"IN/Share\" data-url=\"http://spicyworld.in/" + url + ".html\" data-counter=\"right\"></script>"
 				//+ "</div>" 
 				// Linked In Ends
+				
 				// FB Starts
 				//+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-send\" data-href=\"http://spicyworld.in/" + url + ".html\"></div></div>"
 				+ "<div style=\"float:left;padding-left:10px;\"><div class=\"fb-like\" data-href=\"http://spicyworld.in/"
