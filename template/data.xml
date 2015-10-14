@@ -55,6 +55,25 @@
       <add-pic>recipeimages/ghugni-1.jpg</add-pic>
    </element>
 
+
+   <element>
+         <title>Bhatura (with Yeast)</title>
+         <type>vegItem</type>
+         <shortDesc>'Chola-Bhatura' is a very popular combo in India and also in many other countries. The origin of this dish is from Punjab. But you can get this combo as street food in Delhi and many other parts of India. I ate and learnt homemade 'chola-bhatura' from my friend Monica, when I lived in New Jersy. Her 'bhatura's always came out very flakey and puffed up. There is nothing but 'super tasty' I can say about her 'chola'. I have already posted that recipe. Last night I made bhaturas with 'niramish aloo torkari' or 'spicy potato curry'. We, two, really loved and enjoyed them. Try this in your kitchen and make your dinner a special one.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;2 cups of all purpose flour / moida.&lt;/li&gt;&lt;li&gt;3 Teaspoons semolina / sooji.&lt;/li&gt;&lt;li&gt;2 Teaspoons milk powder.&lt;/li&gt;&lt;li&gt;3 Teaspoons curd / yogurt.&lt;/li&gt;&lt;li&gt;2 Teaspoons of ghee / oil.&lt;/li&gt;&lt;li&gt;1 Teaspoon yeast.&lt;/li&gt;&lt;li&gt;1 Teaspoon sugar.&lt;/li&gt;&lt;li&gt;1/2 Teaspoons salt.&lt;/li&gt;&lt;li&gt;6 Tablespoons of warm water.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Add the sugar, salt and yeast into the warm water. Cover the bowl and let it rest for 15 minutes. Remember, the water should not be hot.&lt;/div&gt;&lt;div&gt;Put the flour in a mixing bowl. Add semolina and milk powder. Mix it.&lt;/div&gt;&lt;img src="recipeimages/bhatura-2.jpg" /&gt;&lt;div&gt;Add the curd into the flour mixture. Mix it very well.&lt;/div&gt;&lt;img src="recipeimages/bhatura-3.jpg" /&gt;&lt;div&gt;Put the ghee/oil and again mix the entire thing very well.&lt;/div&gt;&lt;img src="recipeimages/bhatura-4.jpg" /&gt;&lt;div&gt;Now add the yeast water in the flour. Mix it with your hand and make a soft dough. If you need more water while mixing, add some warm water.&lt;/div&gt;&lt;img src="recipeimages/bhatura-5.jpg" /&gt;&lt;div&gt;Now knead the dough with the help of your palm for 10 minutes. It will become more smooth.&lt;/div&gt;&lt;img src="recipeimages/bhatura-6.jpg" /&gt;&lt;div&gt;Apply little oil on the surface of the dough. It will keep the dough moist.&lt;/div&gt;&lt;img src="recipeimages/bhatura-7.jpg" /&gt;&lt;div&gt;Cover the bowl with a lid and keep it in a warm place for 5 hours. During winter you need to keep it 7-8 hours.&lt;/div&gt;&lt;div&gt;After  3 hours of farmenting the dough should look like this.&lt;/div&gt;&lt;img src="recipeimages/bhatura-8.jpg" /&gt;&lt;div&gt;Knead the dough once again for 3-4 minutes and put in the same place for another 2 hours.&lt;/div&gt;&lt;img src="recipeimages/bhatura-9.jpg" /&gt;&lt;div&gt;When the dough becomes fully farmented make lemon size balls out of it.&lt;/div&gt;&lt;img src="recipeimages/bhatura-10.jpg" /&gt;&lt;div&gt;Dip one ball in dry flour and flatten it to 2-3 inches with a rolling pin. Try to make them oval in shape.&lt;/div&gt;&lt;img src="recipeimages/bhatura-11.jpg" /&gt;&lt;div&gt;Put it in very hot oil for deep fry. It will puff up. Remember, the oil should be very much hot. Fry them one by one.&lt;/div&gt;&lt;img src="recipeimages/bhatura-12.jpg" /&gt;&lt;div&gt;If the inside of the bhaturas become this net like texture, that means those are the perfect bhaturas.&lt;/div&gt;</process>
+         <completionStatement>Your bhatura is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy them hot with chola or any spicy curry.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/bhatura.jpg</thumb>
+         <pic>recipeimages/bhatura.jpg</pic>
+         <url>bhatura</url>
+         <end-pic>recipeimages/bhatura-13.jpg</end-pic>
+         <end-pic-style>width:77%</end-pic-style>
+         <add-pic>recipeimages/bhatura-1.jpg</add-pic>
+         <keywords>bhatura, fry, indian, puffed, bread, yeast, maincourse, breakfast, curd</keywords>
+         <tags>fish,daal,bengali,lunch,maincourse,ghee,party</tags>
+   </element>
+
    <element>
          <title>Kashmiri Dum Aloo</title>
          <type>vegItem</type>
