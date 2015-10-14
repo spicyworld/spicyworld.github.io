@@ -4,8 +4,11 @@
 
 .likePlace {
     float: left;
-    margin-top: -2px;
     padding-left: 10px;
+}
+
+.rw-action-area, .rw-ui-info-container {
+	margin-top: -2px !important;
 }
 
 #aboutData {
