@@ -1,3 +1,13 @@
+.rw-ui-info {
+	font-size: 12px !important;
+}
+
+.likePlace {
+	float: left;
+    clear: both;
+    margin-top: 10px;
+}
+
 #aboutData {
 	position: absolute;
     top: 200px;
