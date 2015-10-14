@@ -307,6 +307,7 @@ public class CookBook {
 		    document.select("img").remove();
 		    content = document.toString();
 		    content = content.replace("div>", "li>");
+		    content = content.replace("span>", "li>");
 		    content = content.substring(content.indexOf("<ul>"), content.indexOf("</ul>") + 5);
 		    content = content.replace("\n", "").replace("    ", "").replace("   ", "");
 		}
