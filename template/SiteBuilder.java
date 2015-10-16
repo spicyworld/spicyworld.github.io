@@ -381,7 +381,7 @@ public class SiteBuilder {
 	}
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
-		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"template/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 212px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
@@ -435,8 +435,8 @@ public class SiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img alt='" + title 
-			+ "' title='" + title + "' src='"
+			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"template/" + additionalImg + buildNo + "\"><img alt='" + title 
+			+ "' title='" + title + "' src='template/"
 			+ additionalImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 		} catch (Exception e) {
@@ -446,8 +446,8 @@ public class SiteBuilder {
 		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
-			+ "' title='" + title + "' src='"
+			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"template/" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
+			+ "' title='" + title + "' src='template/"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 			try {
@@ -505,8 +505,8 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
-				+ "' title='" + title + "' property='image' src='"
+				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"template/" + title + "\" href=\"template/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "' title='" + title + "' property='image' src='template/"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
