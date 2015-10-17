@@ -29,7 +29,7 @@ function readXML() {
 
 function successXML(xmlData) {
     var cri = criteriaData.split(" ");
-    var $element = $(xmlData).find('element').filter(function() {
+    var $element = $(xmlData).find('title').filter(function() {
         var data = ($(this).text()).toLowerCase();
         // Full Text search
         if (data.indexOf(criteriaData) > -1) {
@@ -95,7 +95,7 @@ function searchData(){
             location.href = 'search.html?criteria=' + data;
         }
     } else {
-        $('#searchBox').placeholder = 'Search recipes ...';
+        $('#searchBox').placeholder = 'Search recipes by title ...';
     }
 }
 
