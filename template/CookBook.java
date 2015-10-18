@@ -221,7 +221,7 @@ public class CookBook {
 			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 			String pic = eElement.getElementsByTagName("pic").item(0).getTextContent();
-			String img = templatePath + pic.replace("recipeimages", "template/originals");
+			String img = templatePath + pic.replace("recipeimages", "template/recipeimages");
 			BufferedImage bimg = ImageIO.read(new File(img));
 			int width          = bimg.getWidth();
 			int height         = bimg.getHeight();
