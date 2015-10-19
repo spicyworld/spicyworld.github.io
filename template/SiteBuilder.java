@@ -29,7 +29,7 @@ import org.w3c.tidy.Tidy;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=152";
+	public static String buildNo = "?sessionId=153";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
@@ -68,6 +68,7 @@ public class SiteBuilder {
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
 				+ "</div></div></div>" + notice + "<div class=\"middleBottom\">";
+		String nextAvailable = "", prevAvailable = "";
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -436,7 +437,7 @@ public class SiteBuilder {
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
 			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"template/" + additionalImg + buildNo + "\"><img alt='" + title 
-			+ "' title='" + title + "' src='template/"
+			+ "' title='" + title + "' src='"
 			+ additionalImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 		} catch (Exception e) {
@@ -447,7 +448,7 @@ public class SiteBuilder {
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
 			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"template/" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
-			+ "' title='" + title + "' src='template/"
+			+ "' title='" + title + "' src='"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 			try {
@@ -506,7 +507,7 @@ public class SiteBuilder {
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"template/" + title + "\" href=\"template/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
-				+ "' title='" + title + "' property='image' src='template/"
+				+ "' title='" + title + "' property='image' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
