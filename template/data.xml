@@ -2,6 +2,59 @@
 <root>
 
    <element>
+         <title>Aloo Fulkopi Posto (Potato and cauliflower cooked in poppy seed paste gravy)</title>
+         <type>vegItem</type>
+         <shortDesc>Bengali without posto(poppy seed)? - impossible. Bengali without aloo(potato)? - no way. I specially can't live without these two. 'Aloo posto' or 'aloo fulkopi posto' is my favourite weekday's lunch with steamed rice and hot daal. My hubby is very fond of 'fulkopi' (cauliflower), that's why I added this in the gravy. But if you don't like you can totally skip this part. The most simple and easy recipe is this one. Here is how I made it ...</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;15-20 potato cubes.&lt;/li&gt;&lt;li&gt;8-9 cauliflower cubes.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon nigella seeds(kalojeera).&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;6 Teaspoons poppy seeds.&lt;/li&gt;&lt;li&gt;8 Tablespoons of milk.&lt;/li&gt;&lt;li&gt;1 dry red chilli.&lt;/li&gt;&lt;li&gt;1 Teaspoon turmeric powder.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;8 tablespoons of mustard oil.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Soak the poppy seeds in milk/water for 2-3 hours. Then blend it with a green chilli to a very smooth paste. Keep it aside.&lt;/div&gt;&lt;img src="recipeimages/aloo-fulkopi-posto-2.jpg" /&gt;&lt;div&gt;Wash the cauliflower cubes properly.&lt;/div&gt;&lt;div&gt;Heat 2 Tablespoons mustard oil in a pan.&lt;/div&gt;&lt;div&gt;Add the cauliflower cubes, some salt and 1/2 Teaspoon turmeric powder. Mix it in high flame for 4 minutes. Then cook this in medium flame for another 5 minutes.&lt;/div&gt;&lt;div&gt;When the cauliflowers become half tendor, remove them from the pan.&lt;/div&gt;&lt;img src="recipeimages/aloo-fulkopi-posto-3.jpg" /&gt;&lt;div&gt;Heat the remaining oil.&lt;/div&gt;&lt;div&gt;Add nigella seeds and 1 dry redchilli. Saute it for 30 seconds.&lt;/div&gt;&lt;div&gt;Then add the potato cubes, pinch of salt and turmeric powder. Mix it very well for 4 minutes.&lt;/div&gt;&lt;img src="recipeimages/aloo-fulkopi-posto-4.jpg" /&gt;&lt;div&gt;After that add the half fried cauliflower. Mix it once.&lt;/div&gt;&lt;div&gt;Then add the poppy seed paste. Mix it well.&lt;/div&gt;&lt;div&gt;Then add some warm water, 1 green chilli, some salt and pinch of sugar.&lt;/div&gt;&lt;img src="recipeimages/aloo-fulkopi-posto-5.jpg" /&gt;&lt;div&gt;Cook this untill the vegetables become soft. If you need more heat, you can add more green chilies.&lt;/div&gt;</process>
+         <completionStatement>Your khatta baingan is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with plain roti or steamed rice.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/aloo-fulkopi-posto.jpg</thumb>
+         <pic>recipeimages/aloo-fulkopi-posto.jpg</pic>
+         <url>aloo-fulkopi-posto</url>
+         <end-pic>recipeimages/aloo-fulkopi-posto-6.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/aloo-fulkopi-posto-1.jpg</add-pic>
+         <keywords>eggplant, begun, curry, khatta, tangy, spicy, kashmiri, veg, maincourse, indian, onion, ginger</keywords>
+         <tags>eggplant,veg,spicy,maincourse,kashmiri,curry</tags>
+   </element>
+
+   <element>
+         <title>Sukha Chicken (Dry Chicken Curry)</title>
+         <type>nonVegItem</type>
+         <shortDesc>I always try new recipes on chicken because it is my family's favourite. Last Friday 'he' wanted to eat any dry preparation at dinner and told me 1 and 1/2 hour ago from dinner time. As I had not much time in hand, so, I thought how about marinate everything with chicken pieces and cook it. It took very less time and the taste turned out phenomenal. Believe me the end result was beyond my imagination. You have to try this in your kitchen and let me know how it turns out.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;10-15 boneless chicken pieces.&lt;/li&gt;&lt;li&gt;Half onion.&lt;/li&gt;&lt;li&gt;1 inch ginger.&lt;/li&gt;&lt;li&gt;2 cloves of garlic.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 dry red chilli.&lt;/li&gt;&lt;li&gt;1 Teaspoon lemon juice.&lt;/li&gt;&lt;li&gt;2 Teaspoons tomato ketchup.&lt;/li&gt;&lt;li&gt;Some onion chunks cut into cubes.&lt;/li&gt;&lt;li&gt;Spice powder (1 Teaspoon turmeric powder, 1/2 Teaspoon kashmiri red chilli powder, 1 Teaspoon roasted cumin and coriander powder).&lt;/li&gt;&lt;li&gt;6 Teaspoons mustard oil.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Some chopped coriander leaves.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Blend the onion, ginger, garlic and dry red chilli with some water in a blender. Make a fine paste.&lt;/div&gt;&lt;div&gt;Put the paste in a bowl. Add all the spice powder and some salt.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-1.jpg" /&gt;&lt;div&gt;Now add the chicken pieces and lemon juice. Mix it well. Keep it in refrigarator for 1 hour.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-2.jpg" /&gt;&lt;div&gt;Heat 1 Teaspoon oil in a pan. Add the onion chunks. Fry it in high flame for 3-4 minutes. Then remove it from the pan.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-3.jpg" /&gt;&lt;div&gt;After 1 hour heat mustard oil in a kadai.&lt;/div&gt;&lt;div&gt;Add the marinated chicken in hot oil. Mix it in high flame for 10 minutes.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-4.jpg" /&gt;&lt;div&gt;Then add tomato ketchup. Mix it.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-5.jpg" /&gt;&lt;div&gt;When the oil starts separating add the green chilies, salt and pinch of sugar. Mix it again.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-6.jpg" /&gt;&lt;div&gt;Then add some warm water. Cook this untill the chicken is fully cooked.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-7.jpg" /&gt;&lt;div&gt;Do not make too much gravy. Add those fried onion chunks and coriander leaves. Mix it for 2 minutes and turn off the heat.&lt;/div&gt;</process>
+         <completionStatement>Your sukha chicken is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with plain rice, roti or paratha.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/dry-chicken-curry.jpg</thumb>
+         <pic>recipeimages/dry-chicken-curry.jpg</pic>
+         <url>dry-chicken-curry</url>
+         <end-pic>recipeimages/dry-chicken-curry-8.jpg</end-pic>
+         <end-pic-style>width:55%</end-pic-style>
+         <keywords>chicken, sukha, dry, spicy, maincourse, indian, onion, garlic</keywords>
+         <tags>chicken,spicy,maincourse,indian</tags>
+   </element>
+
+   <element>
+         <title>Khatta Baingan (khatta begun)</title>
+         <type>vegItem</type>
+         <shortDesc>'Khatta' means tangy/sour and 'baingan' means eggplant/begun. Most probably this dish is from Kashmiri cuisin. I do not have much knowledge about this cuisin but I can assure you that you will never forget this eggplant recipe. Last wednesday we both wanted to eat veg in dinner and I had an eggplant(begun) in my fridge. So, I googled for some spicy veg recipes made with eggplant, and my eyes got stuck to this one. The recipe is simple and very easy to make. I just made a little change, as 'he' doesn't like tamarind (tetul/imli) in his food, I had to use yogurt instead of it. Believe me the taste came out really delicious. It goes very well with steamed rice or plain roti. Try this in your kitchen and share your story with us.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;8-10 big cubes of eggplant.&lt;/li&gt;&lt;li&gt;1 cup thinly sliced onion.&lt;/li&gt;&lt;li&gt;1 Teaspoon ginger and garlic paste.&lt;/li&gt;&lt;li&gt;1 green chilli.&lt;/li&gt;&lt;li&gt;Whole spices(1 Teaspoon cumin seeds, 2 bay leaf, 3 green cardamoms).&lt;/li&gt;&lt;li&gt;Spice powder(1 Teaspoon turmeric powder, 1 Teaspoon red chilli powder, 1 Teaspoon garam masala powder).&lt;/li&gt;&lt;li&gt;4-5 Tablespoons of beaten yogurt / curd.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;5 Teaspoons mustard oil.&lt;/li&gt;&lt;li&gt;White oil for deep fry the eggplant cubes.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Wash the eggplant cubes very well and pat dry.&lt;/div&gt;&lt;div&gt;Deep fry the cubes in white oil till golden brown.&lt;/div&gt;&lt;div&gt;After frying remove them in a paper towel.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-2.jpg" /&gt;&lt;div&gt;Heat mustard oil in a pan.&lt;/div&gt;&lt;div&gt;Add the whole spices in hot oil. Saute it for a minute.&lt;/div&gt;&lt;div&gt;Add the onion slices and pinch of salt. Fry it till golden in color.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-3.jpg" /&gt;&lt;div&gt;Put all the spice powder in a bowl.&lt;/div&gt;&lt;div&gt;Add 3-4 Teaspoons water. Mix it.&lt;/div&gt;&lt;div&gt;When the oil starts separating from onion, add this spice mix water. Mix it in high flame for 2-4 minutes.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-4.jpg" /&gt;&lt;div&gt;Add the ginger and garlic paste. Mix it for 1 minute.&lt;/div&gt;&lt;div&gt;Then add the beaten curd (you can add 3-4 Teaspoons tamarind pulp instead of curd), 1 Teaspoon sugar and salt. Mix it very well for 4 minutes.&lt;/div&gt;&lt;div&gt;Add some warm water and green chilli. Cook this till the oil separates.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-5.jpg" /&gt;&lt;div&gt;Now add the fried eggplant cubes. Mix it gently with the masala for 3 minutes. Try not to mash the eggplants while mixing.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-6.jpg" /&gt;&lt;div&gt;After that add little warm water. Cook this for 4-5 minutes. The gravy should become thick.&lt;/div&gt;&lt;img src="recipeimages/khatta-baingan-7.jpg" /&gt;&lt;div&gt;Check the seasoning. The taste should be tangy, spicy and sweet.&lt;/div&gt;</process>
+         <completionStatement>Your khatta baingan is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with plain roti or steamed rice.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/khatta-baingan.jpg</thumb>
+         <pic>recipeimages/khatta-baingan.jpg</pic>
+         <url>khatta-baingan</url>
+         <end-pic>recipeimages/khatta-baingan-8.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/khatta-baingan-1.jpg</add-pic>
+         <keywords>eggplant, begun, curry, khatta, tangy, spicy, kashmiri, veg, maincourse, indian, onion, ginger</keywords>
+         <tags>eggplant,veg,spicy,maincourse,kashmiri,curry</tags>
+   </element>
+
+   <element>
       <completionStatement>Your mughlai keema paratha is ready.</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some potato curry or ketchup ...!!!&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li class='internalLI'&gt;For chicken&lt;/li&gt;&lt;li&gt;2 cups of minced chicken.&lt;/li&gt;&lt;li&gt;1 cup finely chopped onion.&lt;/li&gt;&lt;li&gt;1 Teaspoon chopped ginger.&lt;/li&gt;&lt;li&gt;1 Teaspoon chopped garlic.&lt;/li&gt;&lt;li&gt;1 Teaspoon turmeric powder.&lt;/li&gt;&lt;li&gt;1 Teaspoon red chilli powder.&lt;/li&gt;&lt;li&gt;1 Teaspoon garam masala powder.&lt;/li&gt;&lt;li&gt;5 Teaspoons white oil.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li class='internalLI'&gt;For paratha&lt;/li&gt;&lt;li&gt;1 cup of flour / maida.&lt;/li&gt;&lt;li&gt;3 Teaspoons white oil.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;2 eggs.&lt;/li&gt;&lt;li&gt;6 Teaspoons chopped onion.&lt;/li&gt;&lt;li&gt;2 chopped green chilies.&lt;/li&gt;&lt;li&gt;Some chopped coriander leaves.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
@@ -35,23 +88,6 @@
       <add-pic>recipeimages/chicken-lollipop-1.jpg</add-pic>
       <keywords>chicken, egg, chinese, starter, lollipop, wings, fry, sauce, batter, spicy</keywords>
       <tags>fry,chicken,egg,chinese,starter,sauce,spicy</tags>
-   </element>
-
-   <element>
-         <title>Sukha Chicken (Dry Chicken Curry)</title>
-         <type>nonVegItem</type>
-         <shortDesc>I always try new recipes on chicken because it is my family's favourite. Last Friday 'he' wanted to eat any dry preparation at dinner and told me 1 and 1/2 hour ago from dinner time. As I had not much time in hand, so, I thought how about marinate everything with chicken pieces and cook it. It took very less time and the taste turned out phenomenal. Believe me the end result was beyond my imagination. You have to try this in your kitchen and let me know how it turns out.</shortDesc>
-         <ingrediants>&lt;ul&gt;&lt;li&gt;10-15 boneless chicken pieces.&lt;/li&gt;&lt;li&gt;Half onion.&lt;/li&gt;&lt;li&gt;1 inch ginger.&lt;/li&gt;&lt;li&gt;2 cloves of garlic.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 dry red chilli.&lt;/li&gt;&lt;li&gt;1 Teaspoon lemon juice.&lt;/li&gt;&lt;li&gt;2 Teaspoons tomato ketchup.&lt;/li&gt;&lt;li&gt;Some onion chunks cut into cubes.&lt;/li&gt;&lt;li&gt;Spice powder (1 Teaspoon turmeric powder, 1/2 Teaspoon kashmiri red chilli powder, 1 Teaspoon roasted cumin and coriander powder).&lt;/li&gt;&lt;li&gt;6 Teaspoons mustard oil.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Some chopped coriander leaves.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-         <process>&lt;div&gt;Blend the onion, ginger, garlic and dry red chilli with some water in a blender. Make a fine paste.&lt;/div&gt;&lt;div&gt;Put the paste in a bowl. Add all the spice powder and some salt.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-1.jpg" /&gt;&lt;div&gt;Now add the chicken pieces and lemon juice. Mix it well. Keep it in refrigarator for 1 hour.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-2.jpg" /&gt;&lt;div&gt;Heat 1 Teaspoon oil in a pan. Add the onion chunks. Fry it in high flame for 3-4 minutes. Then remove it from the pan.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-3.jpg" /&gt;&lt;div&gt;After 1 hour heat mustard oil in a kadai.&lt;/div&gt;&lt;div&gt;Add the marinated chicken in hot oil. Mix it in high flame for 10 minutes.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-4.jpg" /&gt;&lt;div&gt;Then add tomato ketchup. Mix it.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-5.jpg" /&gt;&lt;div&gt;When the oil starts separating add the green chilies, salt and pinch of sugar. Mix it again.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-6.jpg" /&gt;&lt;div&gt;Then add some warm water. Cook this untill the chicken is fully cooked.&lt;/div&gt;&lt;img src="recipeimages/dry-chicken-curry-7.jpg" /&gt;&lt;div&gt;Do not make too much gravy. Add those fried onion chunks and coriander leaves. Mix it for 2 minutes and turn off the heat.&lt;/div&gt;</process>
-         <completionStatement>Your sukha chicken is ready ...</completionStatement>
-         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with plain rice, roti or paratha.&lt;/li&gt;&lt;/ul&gt;</garnishment>
-         <thumb>recipeimages/thumb/dry-chicken-curry.jpg</thumb>
-         <pic>recipeimages/dry-chicken-curry.jpg</pic>
-         <url>dry-chicken-curry</url>
-         <end-pic>recipeimages/dry-chicken-curry-8.jpg</end-pic>
-         <end-pic-style>width:55%</end-pic-style>
-         <keywords>chicken, sukha, dry, spicy, maincourse, indian, onion, garlic</keywords>
-         <tags>chicken,spicy,maincourse,indian</tags>
    </element>
    
    <element>

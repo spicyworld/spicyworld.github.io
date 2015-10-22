@@ -1,3 +1,9 @@
+import java.awt.AlphaComposite;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics2D;
+import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -34,13 +40,13 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"Spicy World\" ...";
 	
 	public static void main(String[] args) {
-		String img = "mughlai-keema-paratha";
+		/*String img = "aloo-fulkopi-posto";
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1000);
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330);
-		for (int i=1;i<=8; i++) {
+		for (int i=1;i<=6; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1000);
-		}
+		}*/
 		//System.exit(1);
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
@@ -382,7 +388,7 @@ public class SiteBuilder {
 	}
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
-		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"template/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 212px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
@@ -436,7 +442,7 @@ public class SiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"template/" + additionalImg + buildNo + "\"><img alt='" + title 
+			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ additionalImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -447,7 +453,7 @@ public class SiteBuilder {
 		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"template/" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
+			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -506,7 +512,7 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"template/" + title + "\" href=\"template/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' property='image' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
@@ -706,6 +712,21 @@ public class SiteBuilder {
 			// reading from and writing to
 			try {
 				BufferedImage bufimage = ImageIO.read(image);
+				
+				
+				// Watermark Starts
+				Graphics2D g2d = (Graphics2D) bufimage.getGraphics();
+		        // initializes necessary graphic properties
+		        AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.6f);
+		        g2d.setComposite(alphaChannel);
+		        g2d.setColor(Color.WHITE);
+		        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
+		        FontMetrics fontMetrics = g2d.getFontMetrics();
+		        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
+		        int centerY = bufimage.getHeight() - 40;
+		        g2d.drawString("\u00a9 spicy world", 30, centerY);
+		        // Watermark Ends
+				
 
 				BufferedImage bISmallImage = Scalr.resize(bufimage,
 						destinationWidth); // after this line my dimensions in
@@ -716,6 +737,7 @@ public class SiteBuilder {
 																// dimension as
 																// the original
 																// foto
+				g2d.dispose();
 			} catch (Exception e) {
 				System.out.println(e.getMessage()); // FORNOW: added just to be
 													// sure
