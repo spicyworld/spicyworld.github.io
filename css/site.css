@@ -1,9 +1,28 @@
+#specialHome {
+	background: url(../images/bij.jpg) center center fixed no-repeat !important;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+#specialHomeContainer {
+	background: white;
+    padding: 20px !important;
+    box-shadow: 9px 8px 5px lightgrey;
+}
+
 #aboutData {
 	position: absolute;
-    top: 200px;
+    top: 250px;
     left: 50px;
-    width: 350px;
-    font-size: 16px;
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    font-weight: normal;
 }
 
 .paginationHeader h1 {
