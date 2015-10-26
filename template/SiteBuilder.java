@@ -306,7 +306,7 @@ public class SiteBuilder {
 			//About Me Page
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "About Me | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div><img src='images/about.jpg' width='100%'/>"
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div><img src='images/about.jpg" + buildNo + "'  width='100%'/>"
 					+ "<div id='aboutData'>" + aboutPageData + "</div></div>");
 			fileData = fileData.replace("##about_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);

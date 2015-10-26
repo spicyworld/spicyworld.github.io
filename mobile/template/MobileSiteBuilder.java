@@ -190,7 +190,7 @@ public class MobileSiteBuilder {
 			//Save About Me Page
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "About Me | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<br/><img class='aboutImg' title='Arpita' alt='Arpita' src='images/about.jpg'><br/><br/><br/>" 
+			fileData = fileData.replace("##MIDDLE_DATA##", "<br/><img class='aboutImg' title='Arpita' alt='Arpita' src='images/about.jpg" + buildNo + "'><br/><br/><br/>" 
 			+ SiteBuilder.aboutPageData + "<br/><br/>");
 			fileData = fileData.replace("##about_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
