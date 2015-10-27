@@ -2,6 +2,24 @@
 <root>
 
    <element>
+         <title>Chicken Hakka Noodles</title>
+         <type>nonVegItem</type>
+         <shortDesc>It is almost impossible to find them who doesn't love chinese food, specially 'hakka noodles'. I think, this is the most frequently ordered dish in any indo-chinese restaurant. I, personally don't like any side dish with hakka noodles because this chinese dish has its own magic. I made this noodles in dinner and the taste turned out exceptionally good, the flavour was same like restaurants. Try this in your kitchen and share your 'noodles story' with me ...</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 pack of Hakka noodles.&lt;/li&gt;&lt;li&gt;10-15 chicken strips.&lt;/li&gt;&lt;li&gt;2 Teaspoons of beaten egg.&lt;/li&gt;&lt;li&gt;1 Teaspoon of cornflour.&lt;/li&gt;&lt;li&gt;1 cup onion slices.&lt;/li&gt;&lt;li&gt;Mix veg slices (capsicum, mushroom, carrots, french beans).&lt;/li&gt;&lt;li&gt;2 green chilies sliced.&lt;/li&gt;&lt;li&gt;1 clove garlic chopped.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Black pepper 2 Teaspoons.&lt;/li&gt;&lt;li&gt;Msg 1 Teaspoon.&lt;/li&gt;&lt;li&gt;Vinegar 1 Teaspoon.&lt;/li&gt;&lt;li&gt;2 Teaspoons soy sauce.&lt;/li&gt;&lt;li&gt;3 Teaspoons chilli sauce.&lt;/li&gt;&lt;li&gt;White oil 5 Teaspoons.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;Some chopped spring onion.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Boil the noodles (for 2 person) in water untill it becomes firm to bite.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-2.jpg" /&gt;&lt;div&gt;Drain the water and wash the noodles with cold water immediately. Keep aside.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-3.jpg" /&gt;&lt;div&gt;Add 2 Teaspoons of beaten egg, 1 Teaspoon cornflour and pinch of salt. Mix it very well.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-4.jpg" /&gt;&lt;div&gt;Now take a wok. Heat 3 Teaspoons oil.&lt;/div&gt;&lt;div&gt;Add the chicken strips one by one. Fry it for 5 minutes. Then remove them from the pan.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-5.jpg" /&gt;&lt;div&gt;Add  the remaining oil in the pan.&lt;/div&gt;&lt;div&gt;Add chopped garlic. Saute it for a minute.&lt;/div&gt;&lt;div&gt;Add sliced onion and pinch of salt. Mix it for 4 minutes.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-6.jpg" /&gt;&lt;div&gt;Then add mix veg slices and green chilies. Fry it for 5-6 minutes in high flame.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-7.jpg" /&gt;&lt;div&gt;After that add msg, black pepper powder and some more salt. Mix it.&lt;/div&gt;&lt;div&gt;Add the chicken strips. Mix it for 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-8.jpg" /&gt;&lt;div&gt;Then add the boiled noodles. Mix it very well.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-9.jpg" /&gt;&lt;div&gt;Now add soy sauce, chilli sauce and vinegar. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-10.jpg" /&gt;&lt;div&gt;Adjust the salt, heat and dont make the vegetables soggy.&lt;/div&gt;&lt;div&gt;Lastly add some chopped spring onion. Turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/chicken-hakka-noodles-11.jpg" /&gt;</process>
+         <completionStatement>Your chicken hakka noodle is ready.</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with any side dish of your choice.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/chicken-hakka-noodles.jpg</thumb>
+         <pic>recipeimages/chicken-hakka-noodles.jpg</pic>
+         <url>chicken-hakka-noodles</url>
+         <end-pic>recipeimages/chicken-hakka-noodles-12.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/chicken-hakka-noodles-1.jpg</add-pic>
+         <keywords>chicken, hakka, noodles, chinese, maincourse, spicy, onion, garlic, vegetables</keywords>
+         <tags>chicken,noodles,chinese,maincourse,spicy</tags>
+   </element>
+
+   <element>
          <title>Aloo Fulkopi Posto (Potato and cauliflower cooked in poppy seed paste gravy)</title>
          <type>vegItem</type>
          <shortDesc>Bengali without posto(poppy seed)? - impossible. Bengali without aloo(potato)? - no way. I specially can't live without these two. 'Aloo posto' or 'aloo fulkopi posto' is my favourite weekday's lunch with steamed rice and hot daal. My hubby is very fond of 'fulkopi' (cauliflower), that's why I added this in the gravy. But if you don't like you can totally skip this part. The most simple and easy recipe is this one. Here is how I made it ...</shortDesc>
@@ -14,6 +32,7 @@
          <url>aloo-fulkopi-posto</url>
          <end-pic>recipeimages/aloo-fulkopi-posto-6.jpg</end-pic>
          <end-pic-style>width:70%</end-pic-style>
+         <add-pic-style>width:70%</add-pic-style>
          <add-pic>recipeimages/aloo-fulkopi-posto-1.jpg</add-pic>
          <keywords>aloo, potato, fulkopi, cauliflower, veg, posto, poppy seeds, green chilli, curry, lunch, bengali, spicy, maincourse</keywords>
          <tags>potato,posto,lunch,bengali,spicy,maincourse</tags>
