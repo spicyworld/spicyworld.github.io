@@ -15,6 +15,7 @@
          <end-pic>recipeimages/chicken-hakka-noodles-12.jpg</end-pic>
          <end-pic-style>width:70%</end-pic-style>
          <add-pic>recipeimages/chicken-hakka-noodles-1.jpg</add-pic>
+         <add-pic-style>width:70%</add-pic-style>
          <keywords>chicken, hakka, noodles, chinese, maincourse, spicy, onion, garlic, vegetables</keywords>
          <tags>chicken,noodles,chinese,maincourse,spicy</tags>
    </element>
@@ -32,7 +33,6 @@
          <url>aloo-fulkopi-posto</url>
          <end-pic>recipeimages/aloo-fulkopi-posto-6.jpg</end-pic>
          <end-pic-style>width:70%</end-pic-style>
-         <add-pic-style>width:70%</add-pic-style>
          <add-pic>recipeimages/aloo-fulkopi-posto-1.jpg</add-pic>
          <keywords>aloo, potato, fulkopi, cauliflower, veg, posto, poppy seeds, green chilli, curry, lunch, bengali, spicy, maincourse</keywords>
          <tags>potato,posto,lunch,bengali,spicy,maincourse</tags>

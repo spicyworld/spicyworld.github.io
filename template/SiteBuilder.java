@@ -450,7 +450,7 @@ public class SiteBuilder {
 			try {
 				addImgStyle = eElement.getElementsByTagName("add-pic-style").item(0).getTextContent();
 				System.out.println(additionalImg);
-				additionalImg = additionalImg.replaceAll("####", addImgStyle);
+				additionalImg = additionalImg.replace("####", addImgStyle);
 			} catch (Exception e) {
 				additionalImg = additionalImg.replace("####", "");
 			}
