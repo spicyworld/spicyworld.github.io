@@ -17,16 +17,21 @@
 #aboutData {
 	position: absolute;
 	font-family: cursive;
-    top: 250px;
-    left: 50px;
-    width: 300px;
+    top: 220px;
+    left: 40px;
+    width: 330px;
     font-size: 18px;
     color: white;
-    line-height: 26px;
+    line-height: 28px;
     font-weight: normal;
-    background: rgba(32,32,32,0.5);
+    background: rgba(32,32,32,0.4);
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(132,132,182,0.5);
+}
+
+#aboutData a{
+	color: white;
+	text-decoration: none;
 }
 
 .paginationHeader h1 {
