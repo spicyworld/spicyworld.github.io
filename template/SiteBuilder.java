@@ -3,6 +3,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
 import java.awt.Graphics2D;
+import java.awt.Image;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
@@ -23,6 +24,11 @@ import java.util.List;
 import java.util.Map;
 
 import javax.imageio.ImageIO;
+import javax.imageio.ImageReader;
+import javax.imageio.ImageWriteParam;
+import javax.imageio.ImageWriter;
+import javax.imageio.metadata.IIOMetadata;
+import javax.imageio.stream.FileImageInputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
@@ -32,6 +38,10 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.w3c.tidy.Tidy;
+
+import com.sun.image.codec.jpeg.JPEGCodec;
+import com.sun.image.codec.jpeg.JPEGEncodeParam;
+import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 public class SiteBuilder {
 	
@@ -711,7 +721,8 @@ public class SiteBuilder {
 			} else if (width <= 0) {
 				System.out.println("cp " + source + " " + destination);
 			}
-			File image = new File(source);
+			dpiIncrease(source, destination, destinationWidth);
+			/*File image = new File(source);
 			File smallImage = new File(destination); // FORNOW: added the file
 														// extension just to
 														// check the result a
@@ -735,23 +746,95 @@ public class SiteBuilder {
 		        g2d.drawString("\u00a9 spicy world", 30, centerY);
 		        // Watermark Ends
 				
-
+		        
 				BufferedImage bISmallImage = Scalr.resize(bufimage,
-						destinationWidth); // after this line my dimensions in
-											// bISmallImage are correct!
-				ImageIO.write(bISmallImage, "jpeg", smallImage); // but my
-																// smallImage
-																// has the same
-																// dimension as
-																// the original
-																// foto
+						destinationWidth); 
+				ImageIO.write(bISmallImage, "jpeg", smallImage); 
+				
 				g2d.dispose();
 			} catch (Exception e) {
 				System.out.println(e.getMessage()); // FORNOW: added just to be
 													// sure
-			}
+			}*/
 		} catch (Exception e) {
 		}
 	}
+	
+	public static void dpiIncrease(String in, String out, int destinationWidth) {
+	try {
+		File infile = new File(in);
+        File outfile = new File(out);
+	ImageReader reader = ImageIO.getImageReadersByFormatName("jpeg").next();
+    reader.setInput(new FileImageInputStream(infile), true, false);
+    IIOMetadata data = reader.getImageMetadata(0);
+    BufferedImage image = reader.read(0);
+     
+    int w = destinationWidth, h = -1;
+     Image rescaled = image.getScaledInstance(w, h, Image.SCALE_AREA_AVERAGING);
+     BufferedImage output = toBufferedImage(infile, BufferedImage.TYPE_INT_RGB, ImageIO.read(infile).getHeight());
+      
+    Element tree = (Element) data.getAsTree("javax_imageio_jpeg_image_1.0");
+    Element jfif = (Element) tree.getElementsByTagName("app0JFIF").item(0);
+    for (int i = 0; i < jfif.getAttributes().getLength(); i++) {
+        Node attribute = jfif.getAttributes().item(i);
+    }
+    FileOutputStream fos = new FileOutputStream(outfile);
+    JPEGImageEncoder jpegEncoder = JPEGCodec.createJPEGEncoder(fos);
+    JPEGEncodeParam jpegEncodeParam = jpegEncoder.getDefaultJPEGEncodeParam(output);
+    jpegEncodeParam.setDensityUnit(JPEGEncodeParam.DENSITY_UNIT_DOTS_INCH);
+    jpegEncodeParam.setXDensity(1000);
+    jpegEncodeParam.setYDensity(1000);
+    jpegEncoder.encode(output, jpegEncodeParam);
+    fos.close();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+    }
+
+  public static BufferedImage toBufferedImage(File image, int type, int height) {
+	  BufferedImage bufimage = null;
+	  try {
+	  bufimage = ImageIO.read(image);
+	  // Watermark Starts
+	  Graphics2D g2d = (Graphics2D) bufimage.getGraphics();
+      // initializes necessary graphic properties
+      AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.6f);
+      g2d.setComposite(alphaChannel);
+      g2d.setColor(Color.WHITE);
+      g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
+      FontMetrics fontMetrics = g2d.getFontMetrics();
+      Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
+      int centerY = bufimage.getHeight() - 40;
+      g2d.drawString("\u00a9 spicy world", 30, centerY);
+      // Watermark Ends  
+	  } catch (Exception e){
+		  e.printStackTrace();
+	  }
+	  return bufimage;
+	  
+	  /*int w = image.getWidth(null);
+        int h = image.getHeight(null);
+        BufferedImage result = new BufferedImage(w, h, type);
+        Graphics2D g = result.createGraphics();
+        
+        // Watermark Starts
+	    AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 1f);
+        g.setComposite(alphaChannel);
+        g.setColor(Color.WHITE);
+        g.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
+        FontMetrics fontMetrics = g.getFontMetrics();
+        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g);
+        int centerY = height - 40;
+        g.drawString("\u00a9 spicy world", 30, centerY);
+        // Watermark Ends
+        
+        
+        g.drawImage(image, 0, 0, null);
+        g.dispose();
+        
+        
+        
+        return result;*/
+    }
 
 }
