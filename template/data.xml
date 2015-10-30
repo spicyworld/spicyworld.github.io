@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Dhaniya Chicken / Coriander Chicken / Dhonepata Chicken</title>
+         <type>nonVegItem</type>
+         <shortDesc>When I was in college, I loved to do some cooking with my mom. 'Dhaniya Chicken' was one of my teenage speciality dish. Dhaniya / dhonepata means coriander leaves. I only prefer to use garlic and don't like to use whole spices for this dish. According to me, the strong aroma of whole spices dominate the flavour of fresh coriander leaves. After a long time, last night I made 'dhonepata chicken' along with some steamed rice and enjoyed every moment of prepping, cooking and eating just like those college days 😊. Try this in your kitchen and share some of your teenage story with me.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;2 big chicken legs.&lt;/li&gt;&lt;li&gt;1 cup of onion slices.&lt;/li&gt;&lt;li&gt;3 cups of chopped coriander leaves.&lt;/li&gt;&lt;li&gt;2-3 cloves of garlic.&lt;/li&gt;&lt;li&gt;2-3 green chilies.&lt;/li&gt;&lt;li&gt;6 tbsp of curd / yogurt.&lt;/li&gt;&lt;li&gt;3 tsp of heavy cream.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Half tsp of garam masala powder.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;5 tbsp of white oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Always use fresh coriander leaves for this dish. Cut the stems and wash those properly.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-2.jpg" /&gt;&lt;div&gt;Put the coriander leaves, garlic and green chilies into a blender. Add a dash of water and make a smooth paste.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-3.jpg" /&gt;&lt;div&gt;Add this green paste and yogurt in a mixing bowl. Mix it well with your hand. Put the chicken pieces into the marination and keep it for 1-2 hours.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-4.jpg" /&gt;&lt;div&gt;Now heat oil in a pan. Add the slices of onion with pinch of salt. Fry those till become golden in color.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-5.jpg" /&gt;&lt;div&gt;After that shake off some marination from the chicken legs and put it in the hot oil. Fry both sides for 5 minutes in high flame.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-6.jpg" /&gt;&lt;div&gt;Then add rest of the marination, some salt and 1 tsp sugar into the chicken. Mix it and cook it in medium flame for 15 minutes.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-7.jpg" /&gt;&lt;div&gt;When the oil starts separating, reduce the flame and again cook this for 15-20 minutes. If the gravy becomes dry you can add little water.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-8.jpg" /&gt;&lt;div&gt;Now add some warm water and cook it till the chicken becomes fully tendor.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-9.jpg" /&gt;&lt;div&gt;Always make the gravy thick for this dish. When the chicken is totally cooked add the cream. Mix it and check the seasoning. Adjust it according to your taste.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-10.jpg" /&gt;&lt;div&gt;Lastly add some garam masala powder, mix it for one more time and turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/dhaniya-chicken-11.jpg" /&gt;</process>
+         <completionStatement>Your Dhaniya chicken is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with steamed plain rice or roti ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/dhaniya-chicken.jpg</thumb>
+         <pic>recipeimages/dhaniya-chicken.jpg</pic>
+         <url>dhaniya-chicken</url>
+         <end-pic>recipeimages/dhaniya-chicken-12.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/dhaniya-chicken-1.jpg</add-pic>
+         <add-pic-style>width:70%</add-pic-style>
+         <keywords>chicken, coriander, dhaniya, dhonepata, curry, maincourse, spicy, indian, garlic, onion, green chilies</keywords>
+         <tags>chicken,dhaniya,dhonepata,gravy,maincourse,spicy,indian</tags>
+   </element>
+
+   <element>
          <title>Chicken Hakka Noodles</title>
          <type>nonVegItem</type>
          <shortDesc>It is almost impossible to find them who doesn't love chinese food, specially 'hakka noodles'. I think, this is the most frequently ordered dish in any indo-chinese restaurant. I, personally don't like any side dish with hakka noodles because this chinese dish has its own magic. I made this noodles in dinner and the taste turned out exceptionally good, the flavour was same like restaurants. Try this in your kitchen and share your 'noodles story' with me ...</shortDesc>
