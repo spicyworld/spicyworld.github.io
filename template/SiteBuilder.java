@@ -56,10 +56,10 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...";
 	
 	public static void main(String[] args) {
-		/*String img = "khatta-baingan";
+		/*String img = "aloo-fulkopi-posto";
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
-		for (int i=1;i<=8; i++) {
+		for (int i=1;i<=6; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
 		}*/
@@ -736,7 +736,7 @@ public class SiteBuilder {
 			if (destinationWidth == 330) { 
 				alpha = 1f;
 			} else {
-				alpha = 0.7f;
+				alpha = 0.6f;
 			}
 			File image = new File(source);
 			File smallImage = new File(destination);
@@ -749,14 +749,14 @@ public class SiteBuilder {
 			        AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha);
 			        g2d.setComposite(alphaChannel);
 			        g2d.setColor(Color.WHITE);
-			        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
+			        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 80));
 			        FontMetrics fontMetrics = g2d.getFontMetrics();
 			        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
-			        int centerY = bufimage.getHeight() - 40;
-			        g2d.drawString("\u00a9 spicy world", 30, centerY);
+			        int centerY = bufimage.getHeight() - 50;
+			        g2d.drawString("\u00a9 spicy world", 50, centerY);
 				}
 		        // Watermark Ends
-				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.BALANCED, destinationWidth, Scalr.OP_ANTIALIAS); 
+				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.AUTOMATIC, Mode.AUTOMATIC, destinationWidth, 0, Scalr.OP_BRIGHTER);
 				if (destinationWidth == 330) {
 					ImageIO.write(bISmallImage, "png", smallImage);
 					System.out.println(destination);
@@ -771,6 +771,45 @@ public class SiteBuilder {
 													// sure
 			}
 		} catch (Exception e) {
+		}
+	}
+	
+	private static void resImg(String file, String output, int destinationWidth) {
+		try {
+			// Take the width,height as 2,3 args
+	        int w = destinationWidth;
+	        int h= -1;
+	       
+	        // Get the BufferedImage object by reading the image
+	        // from the given input stream
+	        BufferedImage bim=ImageIO.read(new FileInputStream(file));
+	       
+	        // I am using fast scaling
+	        Image resizedImg=bim.getScaledInstance(w,h,Image.SCALE_FAST);
+	       
+	        // Create a BufferedImage object of w,h width and height
+	        // and of the bim type
+	        BufferedImage rBimg=new BufferedImage(w,h,bim.getType());
+	       
+	        // Create Graphics object
+	        Graphics2D g=rBimg.createGraphics();
+	       
+	        // Draw the resizedImg from 0,0 with no ImageObserver
+	        g.drawImage(resizedImg,0,0,null);
+	       
+	        // Dispose the Graphics object, we no longer need it
+	        g.dispose();
+	       
+	        // Now, what? Just write to another file
+	       
+	        // The first argument is the resized image object
+	        // The second argument is the image file type, So i got the
+	        // extension of the output file and passed it
+	        // The next argument is the FileOutputStream to where the resized
+	        // image is to be written.
+	        ImageIO.write(rBimg,output.substring(output.indexOf(".")+1),new FileOutputStream(output));
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 }
