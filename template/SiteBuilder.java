@@ -9,12 +9,14 @@ import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -23,16 +25,20 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import javax.imageio.IIOImage;
 import javax.imageio.ImageIO;
 import javax.imageio.ImageReader;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.FileImageInputStream;
+import javax.imageio.stream.ImageOutputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.imgscalr.Scalr;
+import org.imgscalr.Scalr.Method;
+import org.imgscalr.Scalr.Mode;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -50,13 +56,13 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...";
 	
 	public static void main(String[] args) {
-		String img = "dhaniya-chicken";
-		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1000);
-		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330);
-		for (int i=1;i<=12; i++) {
+		/*String img = "khatta-baingan";
+		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
+		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
+		for (int i=1;i<=8; i++) {
 			String limg = img + "-" + i;
-			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1000);
-		}
+			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
+		}*/
 		//System.exit(1);
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		String templatePath = basePath;
@@ -713,6 +719,12 @@ public class SiteBuilder {
 	}
 
 	private static void createImage(String source, String destination, int destinationWidth) {
+		createImage(source, destination, destinationWidth, false);
+	}
+	
+	private static void createImage(String source, String destination, int destinationWidth, boolean waterMarkFlag) {
+		Graphics2D g2d = null;
+		float alpha = 1f;
 		try {
 			BufferedImage bimg = ImageIO.read(new File(source));
 			int width = bimg.getWidth();
@@ -721,120 +733,44 @@ public class SiteBuilder {
 			} else if (width <= 0) {
 				System.out.println("cp " + source + " " + destination);
 			}
-			dpiIncrease(source, destination, destinationWidth);
-			/*File image = new File(source);
-			File smallImage = new File(destination); // FORNOW: added the file
-														// extension just to
-														// check the result a
-														// bit more easily
-			// FORNOW: added print statements just to be doubly sure where we're
-			// reading from and writing to
+			if (destinationWidth == 330) { 
+				alpha = 1f;
+			} else {
+				alpha = 0.7f;
+			}
+			File image = new File(source);
+			File smallImage = new File(destination);
 			try {
 				BufferedImage bufimage = ImageIO.read(image);
 				
-				
 				// Watermark Starts
-				Graphics2D g2d = (Graphics2D) bufimage.getGraphics();
-		        // initializes necessary graphic properties
-		        AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.6f);
-		        g2d.setComposite(alphaChannel);
-		        g2d.setColor(Color.WHITE);
-		        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
-		        FontMetrics fontMetrics = g2d.getFontMetrics();
-		        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
-		        int centerY = bufimage.getHeight() - 40;
-		        g2d.drawString("\u00a9 spicy world", 30, centerY);
+				if (waterMarkFlag) {
+					g2d = (Graphics2D) bufimage.getGraphics();
+			        AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha);
+			        g2d.setComposite(alphaChannel);
+			        g2d.setColor(Color.WHITE);
+			        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
+			        FontMetrics fontMetrics = g2d.getFontMetrics();
+			        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
+			        int centerY = bufimage.getHeight() - 40;
+			        g2d.drawString("\u00a9 spicy world", 30, centerY);
+				}
 		        // Watermark Ends
-				
-		        
-				BufferedImage bISmallImage = Scalr.resize(bufimage,
-						destinationWidth); 
-				ImageIO.write(bISmallImage, "jpeg", smallImage); 
-				
-				g2d.dispose();
+				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.BALANCED, destinationWidth, Scalr.OP_ANTIALIAS); 
+				if (destinationWidth == 330) {
+					ImageIO.write(bISmallImage, "png", smallImage);
+					System.out.println(destination);
+				} else {
+					ImageIO.write(bISmallImage, "jpg", smallImage);
+				}
+				if (waterMarkFlag) {
+					g2d.dispose();
+				}
 			} catch (Exception e) {
 				System.out.println(e.getMessage()); // FORNOW: added just to be
 													// sure
-			}*/
+			}
 		} catch (Exception e) {
 		}
 	}
-	
-	public static void dpiIncrease(String in, String out, int destinationWidth) {
-	try {
-		File infile = new File(in);
-        File outfile = new File(out);
-	ImageReader reader = ImageIO.getImageReadersByFormatName("jpeg").next();
-    reader.setInput(new FileImageInputStream(infile), true, false);
-    IIOMetadata data = reader.getImageMetadata(0);
-    BufferedImage image = reader.read(0);
-     
-    int w = destinationWidth, h = -1;
-     Image rescaled = image.getScaledInstance(w, h, Image.SCALE_AREA_AVERAGING);
-     BufferedImage output = toBufferedImage(infile, BufferedImage.TYPE_INT_RGB, ImageIO.read(infile).getHeight());
-      
-    Element tree = (Element) data.getAsTree("javax_imageio_jpeg_image_1.0");
-    Element jfif = (Element) tree.getElementsByTagName("app0JFIF").item(0);
-    for (int i = 0; i < jfif.getAttributes().getLength(); i++) {
-        Node attribute = jfif.getAttributes().item(i);
-    }
-    FileOutputStream fos = new FileOutputStream(outfile);
-    JPEGImageEncoder jpegEncoder = JPEGCodec.createJPEGEncoder(fos);
-    JPEGEncodeParam jpegEncodeParam = jpegEncoder.getDefaultJPEGEncodeParam(output);
-    jpegEncodeParam.setDensityUnit(JPEGEncodeParam.DENSITY_UNIT_DOTS_INCH);
-    jpegEncodeParam.setXDensity(1000);
-    jpegEncodeParam.setYDensity(1000);
-    jpegEncoder.encode(output, jpegEncodeParam);
-    fos.close();
-	} catch (Exception e) {
-		e.printStackTrace();
-	}
-    }
-
-  public static BufferedImage toBufferedImage(File image, int type, int height) {
-	  BufferedImage bufimage = null;
-	  try {
-	  bufimage = ImageIO.read(image);
-	  // Watermark Starts
-	  Graphics2D g2d = (Graphics2D) bufimage.getGraphics();
-      // initializes necessary graphic properties
-      AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 0.6f);
-      g2d.setComposite(alphaChannel);
-      g2d.setColor(Color.WHITE);
-      g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
-      FontMetrics fontMetrics = g2d.getFontMetrics();
-      Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
-      int centerY = bufimage.getHeight() - 40;
-      g2d.drawString("\u00a9 spicy world", 30, centerY);
-      // Watermark Ends  
-	  } catch (Exception e){
-		  e.printStackTrace();
-	  }
-	  return bufimage;
-	  
-	  /*int w = image.getWidth(null);
-        int h = image.getHeight(null);
-        BufferedImage result = new BufferedImage(w, h, type);
-        Graphics2D g = result.createGraphics();
-        
-        // Watermark Starts
-	    AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, 1f);
-        g.setComposite(alphaChannel);
-        g.setColor(Color.WHITE);
-        g.setFont(new Font("Lucida Blackletter", Font.PLAIN, 70));
-        FontMetrics fontMetrics = g.getFontMetrics();
-        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g);
-        int centerY = height - 40;
-        g.drawString("\u00a9 spicy world", 30, centerY);
-        // Watermark Ends
-        
-        
-        g.drawImage(image, 0, 0, null);
-        g.dispose();
-        
-        
-        
-        return result;*/
-    }
-
 }
