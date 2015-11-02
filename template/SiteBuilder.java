@@ -688,8 +688,8 @@ public class SiteBuilder {
 		if (data.length() > 400) {
 			data = data.substring(0, 400) + " ...";
 		}
-		recipes_data += "<tr  vocab='http://schema.org/' typeof='Recipe' class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
+		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
+		recipes_data += "<div vocab='http://schema.org/' typeof='Recipe' style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
 						+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
