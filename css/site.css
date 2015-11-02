@@ -185,8 +185,10 @@
 
 .relatedRecipesData { 
 	padding: 20px;
-    height: 400px;
+    height: 420px;
     background: lightgrey;
+    font-family: cursive;
+    box-shadow: 5px 5px 5px rgba(132,132,182,0.5);
 }
 
 .relatedRecipesData .imagesPage a {
@@ -562,11 +564,12 @@ body {
 }
 
 .imagesPage img {
-	height: 120px;
+	height: 150px;
     margin: 10px;
     text-decoration: none;
     box-shadow: 9px 8px 5px #888888;
 }
+
 
 .group1 img {
 	box-shadow: 9px 8px 5px #888888;

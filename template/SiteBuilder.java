@@ -449,7 +449,7 @@ public class SiteBuilder {
 	}
 	
 	private static String bottomRelated(String recipes_data, Element eElement) {
-		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div class='imagesPage'><div><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 280px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:280px;height:70px\"><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
