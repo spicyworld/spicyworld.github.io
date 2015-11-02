@@ -51,7 +51,7 @@ function populateData(dataElement) {
 			htmlForm += populateSearchResult(dataElement[i]);
 		}
 		htmlForm += '</table></div>';
-		$('.middleData').html(htmlForm);
+		$('#middleDataSearchSection').html(htmlForm);
 		highlight(criteriaData, $('.desc'));
 	} else {
 		$('#searchMdl').html('');
