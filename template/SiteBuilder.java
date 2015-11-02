@@ -56,10 +56,10 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/>Arpita is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...";
 	
 	public static void main(String[] args) {
-		/*String img = "aloo-fulkopi-posto";
+		/*String img = "chicken-hakka-noodles";
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
-		for (int i=1;i<=6; i++) {
+		for (int i=1;i<=1; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
 		}*/
@@ -734,15 +734,20 @@ public class SiteBuilder {
 		float alpha = 1f;
 		try {
 			BufferedImage bimg = ImageIO.read(new File(source));
-			int width = bimg.getWidth();
+			int width = bimg.getWidth(), height = 0;
+			System.out.println(width);
 			if (width < destinationWidth && width > 0) {
 				destinationWidth = width;
 			} else if (width <= 0) {
 				System.out.println("cp " + source + " " + destination);
 			}
+			System.out.println(destinationWidth);
 			if (destinationWidth == 330) { 
 				alpha = 1f;
 			} else {
+				if (destinationWidth < 1500) {
+					height = (bimg.getHeight()/width) * destinationWidth;
+				}
 				alpha = 0.6f;
 			}
 			File image = new File(source);
@@ -763,7 +768,7 @@ public class SiteBuilder {
 			        g2d.drawString("\u00a9 spicy world", 50, centerY);
 				}
 		        // Watermark Ends
-				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.AUTOMATIC, Mode.AUTOMATIC, destinationWidth, 0, Scalr.OP_BRIGHTER);
+				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.AUTOMATIC, Mode.AUTOMATIC, destinationWidth, height, Scalr.OP_BRIGHTER);
 				if (destinationWidth == 330) {
 					ImageIO.write(bISmallImage, "png", smallImage);
 					System.out.println(destination);
