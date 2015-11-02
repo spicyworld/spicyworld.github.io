@@ -121,6 +121,7 @@ public class SiteBuilder {
 					recipeDataList.add(recipes_data_front + recipes_data + "</table>");
 					recipes_data = "";
 				}
+				String relatedRecipes = relatedRecipes(elementList, i);
 				recipes_data = recepiData(recipes_data, eElement, "");
 				recipes_data_img = getAllImages(recipes_data_img, eElement);
 				if (i > 0) {
@@ -129,7 +130,7 @@ public class SiteBuilder {
 				if (i < (elementList.size()-1)) {
 					nextElement = (Element) elementList.get(i+1);
 				}
-				createItemData(templatePath, eElement, count, nextElement, prevElement);
+				createItemData(templatePath, eElement, count, nextElement, prevElement, relatedRecipes);
 				String classToApply = null;
 				if (count == 1) {
 					classToApply = "left";
@@ -417,11 +418,47 @@ public class SiteBuilder {
 		return data;
 	}
 	
+	private static String relatedRecipes(List eElements, int position) {
+		String retData = "";
+		int totalCount = 6;
+		int total = eElements.size();
+		if (position == 0) {
+			for (int i=1; i < (totalCount + 1); i++) {
+				retData = bottomRelated(retData, (Element) eElements.get(i));
+			}
+		} else if (position == (total - 1)) {
+			for (int i=(totalCount-1); i<position; i++) {
+				retData = bottomRelated(retData, (Element) eElements.get(i));
+			}
+		} else {
+			if (position >= totalCount) {
+				for (int i=0; i<totalCount; i++) {
+					retData = bottomRelated(retData, (Element) eElements.get(i));
+				}
+			} else {
+				for (int i=0; i<(totalCount + 1); i++) {
+					if(i != position) {
+						retData = bottomRelated(retData, (Element) eElements.get(i));
+					}
+				}
+			}
+		}
+		return retData;
+	}
+	
+	private static String bottomRelated(String recipes_data, Element eElement) {
+		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "'><img style=\"width: 292px !important;\" src=\""
+				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
+				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:292px;height:70px\"><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
+		return recipes_data;
+	}
+	
 	public static String getAllImages(String recipes_data, Element eElement) {
 		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 212px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
-				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
+				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
 	}
 	
@@ -456,7 +493,7 @@ public class SiteBuilder {
 		return siteMapDataEntry;
 	}
 	
-	public static void createItemData(String templatePath, Element eElement, int count, Element nextElement, Element prevElement) {
+	public static void createItemData(String templatePath, Element eElement, int count, Element nextElement, Element prevElement, String relatedRecipes) {
 		String out = "";
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
@@ -598,7 +635,10 @@ public class SiteBuilder {
 			tags += "</div>";
 			out += tags;
 		} catch (Exception e) {} 
-		out += "<div class='botNextPrev'>" + oldNew + "</div><div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
+		if (relatedRecipes!=null && relatedRecipes.length()>0) {
+			relatedRecipes = "<div id='relatedRecipes' class='relatedRecipes'>You may also like</div><div class='clear relatedRecipesData'>" + relatedRecipes + "</div>";
+		}
+		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes + "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div></div>";
 		
 		

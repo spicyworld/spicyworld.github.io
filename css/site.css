@@ -170,10 +170,21 @@
 }
 
 .commentHeader {
-	font-size: 18px;
+	font-size: 17px;
 	float: left;
 	border-bottom: 1px solid grey;
 	width: 100%;
+}
+
+.relatedRecipes {
+	font-size: 17px;
+	float: left;
+	padding: 10px 0px;
+	width: 100%;
+}
+
+.relatedRecipesData { 
+	margin: 0px auto;
 }
 
 .headerLogo {
