@@ -272,15 +272,15 @@
 	font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #22B5E3;
+    color: #330066;
 } 
 
 .headerMenu ul li a.selected {
-	color: #5d3a52;
+	color: #22B5E3;
 }
 
 .headerMenu ul li a:hover {
-	color: #5d3a52;
+	color: #22B5E3;
 }
 
 .header {
@@ -304,6 +304,10 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", Tahoma, sans-serif;
 	font-size: 15px;
 	padding-top: 15px;
+
+	background-image: url('../images/home-bg.png');
+    background-repeat: no-repeat; 
+    background-position: top right; 
 }
 
 .centerContent {
