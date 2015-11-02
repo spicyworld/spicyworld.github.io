@@ -374,8 +374,8 @@ body {
 }
 
 .middleBottom {
-	padding-top: 5px;
-	height: 300px;
+	padding-top: 12px;
+	height: 550px;
 	clear: both;
 }
 
@@ -383,7 +383,7 @@ body {
 	padding: 10px;
 	padding-top: 11px;
     background-color: lightgray;
-    margin-top: 5px;
+    margin-top: 12px;
     color: darkblue;
     font-size: 14px;
     font-weight: bold;
@@ -429,7 +429,7 @@ body {
 	float: left;
 	width: 30%;
 	text-align: center;
-	height: 300px;
+	height: 250px;
 }
 
 .middleBottom .left img, .middleBottom .middle img, .middleBottom .right img {
