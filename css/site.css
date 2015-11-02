@@ -305,9 +305,10 @@ body {
 	font-size: 15px;
 	padding-top: 15px;
 
-	background-image: url('../images/home-bg.png');
+	background-image: url('../images/home-bg.jpg');
     background-repeat: no-repeat; 
     background-position: top right; 
+    background-size: 40% 20%;
 }
 
 .centerContent {
