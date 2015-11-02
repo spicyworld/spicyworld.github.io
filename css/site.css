@@ -272,15 +272,15 @@
 	font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #330066;
+    color: #22B5E3;
 } 
 
 .headerMenu ul li a.selected {
-	color: #22B5E3;
+	color: #330066;
 }
 
 .headerMenu ul li a:hover {
-	color: #22B5E3;
+	color: #330066;
 }
 
 .header {
