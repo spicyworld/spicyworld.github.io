@@ -546,7 +546,7 @@ public class SiteBuilder {
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' property='image' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "' class='topImagePosition'/></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
+				+ "' class='topImagePosition' /></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div></div>" + additionalImg
@@ -627,7 +627,7 @@ public class SiteBuilder {
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
-				+ "\"/></a></div><div style=\"float:left;width:60%\">"
+				+ "\" /></a></div><div style=\"float:left;width:60%\">"
 				+ "<div class=\"title\"><div style=\"float:left;\" class=\""
 				+ eElement.getElementsByTagName("type").item(0)
 						.getTextContent()
