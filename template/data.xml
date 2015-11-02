@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Chicken Soup (Desi Style)</title>
+         <type>nonVegItem</type>
+         <shortDesc>You know winter is coming and all you need is a bowl of warm soup. You can put many vegetables and protiens in it. Soup is very healthy meal for kids. It is also very helpful for sick people. Specially in winter, you can get many varieties of vegetables from grocery store. Then why not make some soup? This one is a very simple and easy recipe. I mentioned 'desi' style because i used some whole spices (indian) for aroma. Try this in your kitchen and make your winter morning a happy one.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of minced chicken.&lt;/li&gt;&lt;li&gt;2 cups of mix vegetables like (onion, capsicum, carrots, mushrooms, beans, corn etc.)&lt;/li&gt;&lt;li&gt;Whole spices (2 bay leaves, 6 black peppercorn, 5 cloves).&lt;/li&gt;&lt;li&gt;1 Teaspoon chopped garlic.&lt;/li&gt;&lt;li&gt;1 Teaspoon black pepper powder.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon vinegar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;4 Teaspoons white oil.&lt;/li&gt;&lt;li&gt;Some chopped spring onion.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Put the chicken, mix vegetables, pinch of salt and a glass of water in a pressure cooker.&lt;/div&gt;&lt;img src="recipeimages/chicken-soup-2.jpg" /&gt;&lt;div&gt;Give it pressure for 15-20 minutes. Everything should be cooked well.&lt;/div&gt;&lt;img src="recipeimages/chicken-soup-3.jpg" /&gt;&lt;div&gt;Heat oil in a pan.&lt;/div&gt;&lt;div&gt;Add the whole spices and chopped garlic in hot oil. Saute them for 30 secs.&lt;/div&gt;&lt;img src="recipeimages/chicken-soup-4.jpg" /&gt;&lt;div&gt;Then add the boiled soup, vinegar, salt and black pepper powder into the oil. Cook this for 10 minutes or untill you get desired consistency.&lt;/div&gt;&lt;img src="recipeimages/chicken-soup-5.jpg" /&gt;&lt;div&gt;Adjust the salt and heat according to your taste.&lt;/div&gt;&lt;div&gt;Lastly add some chopped spring onion. Cook this for 3 minutes and turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/chicken-soup-6.jpg" /&gt;</process>
+         <completionStatement>Your Chicken Soup is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some butter toasted bread ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/chicken-soup.jpg</thumb>
+         <pic>recipeimages/chicken-soup.jpg</pic>
+         <url>chicken-soup</url>
+         <end-pic>recipeimages/chicken-soup-7.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/chicken-soup-1.jpg</add-pic>
+         <add-pic-style>width:70%</add-pic-style>
+         <keywords>chicken, soup, vegetables, indian, spicy, garlic, starter</keywords>
+         <tags>chicken,soup,starter,indian,spicy</tags>
+   </element>
+
+   <element>
          <title>Dhaniya Chicken / Coriander Chicken / Dhonepata Chicken</title>
          <type>nonVegItem</type>
          <shortDesc>When I was in college, I loved to do some cooking with my mom. 'Dhaniya Chicken' was one of my teenage speciality dish. Dhaniya / dhonepata means coriander leaves. I only prefer to use garlic and don't like to use whole spices for this dish. According to me, the strong aroma of whole spices dominate the flavour of fresh coriander leaves. After a long time, last night I made 'dhonepata chicken' along with some steamed rice and enjoyed every moment of prepping, cooking and eating just like those college days 😊. Try this in your kitchen and share some of your teenage story with me.</shortDesc>
