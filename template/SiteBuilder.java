@@ -426,14 +426,16 @@ public class SiteBuilder {
 			for (int i=1; i < (totalCount + 1); i++) {
 				retData = bottomRelated(retData, (Element) eElements.get(i));
 			}
-		} else if (position == (total - 1)) {
+		} else if (position == (total - 1) || total - position <= (totalCount/2)) {
 			for (int i=(totalCount-1); i<position; i++) {
 				retData = bottomRelated(retData, (Element) eElements.get(i));
 			}
 		} else {
 			if (position >= totalCount) {
-				for (int i=0; i<totalCount; i++) {
-					retData = bottomRelated(retData, (Element) eElements.get(i));
+				for (int i=position - (totalCount/2); i<= position + (totalCount/2); i++) {
+					if(i != position) {
+						retData = bottomRelated(retData, (Element) eElements.get(i));
+					}
 				}
 			} else {
 				for (int i=0; i<(totalCount + 1); i++) {
