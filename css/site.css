@@ -190,6 +190,10 @@
 }
 
 .relatedRecipesData .imagesPage a {
+	color: black;
+}
+
+.relatedRecipesData .imagesPage a:hover {
 	color: white;
 }
 
