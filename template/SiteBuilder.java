@@ -115,6 +115,7 @@ public class SiteBuilder {
 			}
 			
 			for (int i=0;i<elementList.size();i++) {
+				Element nextElement = null, prevElement = null;
 				Element eElement = (Element) elementList.get(i);
 				if (count % perPageData == 0) {
 					recipeDataList.add(recipes_data_front + recipes_data + "</table>");
@@ -122,7 +123,13 @@ public class SiteBuilder {
 				}
 				recipes_data = recepiData(recipes_data, eElement, "");
 				recipes_data_img = getAllImages(recipes_data_img, eElement);
-				createItemData(templatePath, eElement, count);
+				if (i > 0) {
+					prevElement = (Element) elementList.get(i-1);
+				}
+				if (i < (elementList.size()-1)) {
+					nextElement = (Element) elementList.get(i+1);
+				}
+				createItemData(templatePath, eElement, count, nextElement, prevElement);
 				String classToApply = null;
 				if (count == 1) {
 					classToApply = "left";
@@ -449,7 +456,7 @@ public class SiteBuilder {
 		return siteMapDataEntry;
 	}
 	
-	public static void createItemData(String templatePath, Element eElement, int count) {
+	public static void createItemData(String templatePath, Element eElement, int count, Element nextElement, Element prevElement) {
 		String out = "";
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
@@ -560,6 +567,24 @@ public class SiteBuilder {
 				+ eElement.getElementsByTagName("garnishment").item(0)
 						.getTextContent() + "</div></div>" + "</div></div>" + endImg;
 		
+
+		//Next Previous Link Starts
+		String prev = "", next = "";
+		if (prevElement != null) {
+			String prevTitle = "Latest Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
+			prev = "<a title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Latest Recipe</a>";
+		} else {
+			prev = "<span class='prevLinkD'>&nbsp;Latest Recipe</span>";
+		}
+		if (nextElement != null) {
+			String nextTitle = "Older Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
+			next = "<a title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Older Recipe&nbsp;</a>";
+		} else {
+			next = "<span class='netxLinkD'>Older Recipe&nbsp;</span>";
+		}
+		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + prev+ "</div><div class='fright'>" + next + "</div></div>";
+		//Next Previous Link Ends
+		
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\"><span class=\"heading\">Tags:</span>";
@@ -573,7 +598,7 @@ public class SiteBuilder {
 			tags += "</div>";
 			out += tags;
 		} catch (Exception e) {} 
-		out += "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
+		out += "<br/>" + oldNew + "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div></div>";
 		
 		
@@ -590,8 +615,9 @@ public class SiteBuilder {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
 		
+		
 		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
-		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
+		fileData = fileData.replace("##MIDDLE_DATA##", oldNew + "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
 		fileData = fileData.replace("##recipes_sel##", "selected");
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);

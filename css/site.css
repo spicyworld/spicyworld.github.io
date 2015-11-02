@@ -1,3 +1,15 @@
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
 .middleTop .left .data h1 {
 	margin: 0px;
     font-size: 22px;
@@ -462,8 +474,14 @@ body {
 	padding-top: 20px;
 }
 
-.wordcloud, .wordcloudImg, .recipeDataPage {
+.wordcloud, .wordcloudImg {
 	padding-top: 20px;
+	min-height: 550px;
+	clear: both;
+}
+
+.recipeDataPage {
+	padding-top: 0px;
 	min-height: 550px;
 	clear: both;
 }
@@ -481,8 +499,25 @@ body {
 	font-weight: bold;
 }
 
-.imagesPage a, .tagContent a, .footer a{
+.imagesPage a, .tagContent a, .footer a, .linkColor a{
 	color: #22B5E3;
+	text-decoration: none;
+}
+
+.prevLink:before {
+	content: url(../images/arrow-left.png);
+}
+
+.netxLink:after{
+	content: url(../images/arrow-right.png);
+}
+
+.prevLinkD:before {
+	content: url(../images/arrow-left-disabled.png);
+}
+
+.netxLinkD:after{
+	content: url(../images/arrow-right-disabled.png);
 }
 
 .imagesPage a:hover, .tagContent a:hover, .footer a:hover {
