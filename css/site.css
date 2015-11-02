@@ -184,7 +184,17 @@
 }
 
 .relatedRecipesData { 
-	margin: 0px auto;
+	padding: 20px;
+    height: 400px;
+    background: lightgrey;
+}
+
+.relatedRecipesData .imagesPage a {
+	color: white;
+}
+
+.relatedRecipesData .imagesPage {
+	height: 220px;
 }
 
 .headerLogo {
