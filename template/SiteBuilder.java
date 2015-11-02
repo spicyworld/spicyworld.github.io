@@ -91,6 +91,7 @@ public class SiteBuilder {
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
 				+ "</div></div></div>" + notice + "<div class=\"middleBottom\">";
 		String nextAvailable = "", prevAvailable = "";
+		List elementList = new ArrayList();
 		try {
 
 			File fXmlFile = new File(templatePath + "template/data.xml");
@@ -109,42 +110,48 @@ public class SiteBuilder {
 
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element eElement = (Element) nNode;
-					if (count % perPageData == 0) {
-						recipeDataList.add(recipes_data_front + recipes_data + "</table>");
-						recipes_data = "";
-					}
-					recipes_data = recepiData(recipes_data, eElement, "");
-					recipes_data_img = getAllImages(recipes_data_img, eElement);
-					createItemData(templatePath, eElement, count);
-					String classToApply = null;
-					if (count == 1) {
-						classToApply = "left";
-					} else if (count == 2) {
-						classToApply = "middle";
-					} else if (count == 3) {
-						classToApply = "right";
-					} else {
-						classToApply = null;
-					}
-					if (classToApply!=null) {
-						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
-						String url = eElement.getElementsByTagName("url").item(0).getTextContent();
-						latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a title='" + title + "' alt='" + title + "' href=\"" + url + 
-								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
-										+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
-					}
-					if (count > 3 && count < 10) {
-						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
-						carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
-					}
-					count++;
-					siteMapData += siteMapEntry(eElement);
-					rssXMLData += populateRSSData(eElement);
-					try {
-						tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
-					} catch (Exception e) {}
+					elementList.add(eElement);
 				}
 			}
+			
+			for (int i=0;i<elementList.size();i++) {
+				Element eElement = (Element) elementList.get(i);
+				if (count % perPageData == 0) {
+					recipeDataList.add(recipes_data_front + recipes_data + "</table>");
+					recipes_data = "";
+				}
+				recipes_data = recepiData(recipes_data, eElement, "");
+				recipes_data_img = getAllImages(recipes_data_img, eElement);
+				createItemData(templatePath, eElement, count);
+				String classToApply = null;
+				if (count == 1) {
+					classToApply = "left";
+				} else if (count == 2) {
+					classToApply = "middle";
+				} else if (count == 3) {
+					classToApply = "right";
+				} else {
+					classToApply = null;
+				}
+				if (classToApply!=null) {
+					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+					String url = eElement.getElementsByTagName("url").item(0).getTextContent();
+					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a title='" + title + "' alt='" + title + "' href=\"" + url + 
+							".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
+									+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
+				}
+				if (count > 3 && count < 10) {
+					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
+					carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
+				}
+				count++;
+				siteMapData += siteMapEntry(eElement);
+				rssXMLData += populateRSSData(eElement);
+				try {
+					tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
+				} catch (Exception e) {}
+			}
+			
 			latest3DataForHomePage += "</div>";
 			latest3DataForHomePage = latest3DataForHomePage.replace("##HOME_IMAGE_TOP##", carosalImg);
 			if (!"".equals(recipes_data)) {
@@ -626,10 +633,10 @@ public class SiteBuilder {
 						.getTextContent()
 				+ "\">&nbsp;</div><div style=\"float:left;width:90%\">"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
-						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" property='name' class='noStyle' href=\""
+						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</a></div></div><div class=\"desc\" property='description'>"
+				+ ".html\"><div property='name'>" + eElement.getElementsByTagName("title").item(0).getTextContent()
+				+ "</div></a></div></div><div class=\"desc\" property='description'>"
 				+ data + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
