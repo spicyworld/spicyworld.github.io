@@ -1,3 +1,15 @@
+ .title .siteLogoHdr{
+ 	font-size: 60px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow: -2px 2px 3px grey;
+    color: black;
+}
+
+ .title .siteLogoHdr:hover{
+ 	color: black;
+ }
+
 .fleft {
 	float: left;
 }
@@ -156,6 +168,15 @@
 
 .header .title{
 	float: left;
+	margin-top: -5px;
+	padding-left: 10px;
+}
+
+.header {
+	background-image: url('../images/home-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100px 70px;
+    height: 70px;
 }
 
 .header .title img {
@@ -313,10 +334,15 @@
 	padding-top: 2px;
 	margin-bottom: 10px;
 	border-bottom: 2px solid grey;
-	height: 36px;
+	height: 28px;
 	clear: both;
 	padding-bottom: 2px;
 }
+
+.headerMenu ul {
+	margin-top: 5px;
+}
+
 
 .headerMenu ul li {
 	list-style: none;
@@ -341,7 +367,7 @@
 
 .header {
 	padding-left: 20px;
-	padding-top: 12px;
+	padding-top: 7px;
 	clear: both;
 }
 
@@ -360,10 +386,6 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", Tahoma, sans-serif;
 	font-size: 15px;
 	padding-top: 15px;
-
-	background-image: url('../images/home-bg.jpg');
-    background-repeat: no-repeat; 
-    background-position: top right; 
 }
 
 .centerContent {
