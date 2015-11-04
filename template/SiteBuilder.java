@@ -449,7 +449,7 @@ public class SiteBuilder {
 	}
 	
 	private static String bottomRelated(String recipes_data, Element eElement) {
-		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'links', this.href);\"";
+		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'bottom_links', this.href);\"";
 		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 280px !important;\" src=\""
 				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
