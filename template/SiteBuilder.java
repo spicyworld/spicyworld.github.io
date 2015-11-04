@@ -113,10 +113,16 @@ public class SiteBuilder {
 					elementList.add(eElement);
 				}
 			}
-			
+			String blogTable = "";
 			for (int i=0;i<elementList.size();i++) {
 				Element nextElement = null, prevElement = null;
 				Element eElement = (Element) elementList.get(i);
+				if (i<5) {
+				blogTable += "<br/><br/><div><img style='box-shadow: 9px 8px 5px #888888;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
+						.getTextContent() + "'/></div>"
+						+ "<div style='padding-top:10px'><a style='font-size: 20px;color: #22B5E3;' href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>" + eElement.getElementsByTagName("title").item(0).getTextContent()+ "</a></div>"
+								+ "<div>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()).substring(100) + " ..." + "</div>";
+				}
 				if (count % perPageData == 0) {
 					recipeDataList.add(recipes_data_front + recipes_data + "</table>");
 					recipes_data = "";
@@ -159,6 +165,7 @@ public class SiteBuilder {
 					tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
 				} catch (Exception e) {}
 			}
+			System.out.println(blogTable);
 			
 			latest3DataForHomePage += "</div>";
 			latest3DataForHomePage = latest3DataForHomePage.replace("##HOME_IMAGE_TOP##", carosalImg);

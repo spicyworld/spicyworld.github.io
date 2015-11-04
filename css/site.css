@@ -1,4 +1,9 @@
- .title .siteLogoHdr{
+.topFixedPosition {
+	/*position: absolute;
+	width: 100%;*/
+}
+
+.title .siteLogoHdr{
  	font-size: 60px;
     font-family: "Comic Sans MS", sans-serif;
     font-weight: normal;
