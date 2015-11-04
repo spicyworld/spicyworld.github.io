@@ -609,17 +609,17 @@ public class SiteBuilder {
 		
 
 		//Next Previous Link Starts
-		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev', 'link', this.href);\"";
+		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev', 'link_#POS#', this.href);\"";
 		String prev = "", next = "";
 		if (prevElement != null) {
 			String prevTitle = "Latest Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
-			prev = "<a " + gaCode + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Latest Recipe</a>";
+			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Latest Recipe</a>";
 		} else {
 			prev = "<span class='prevLinkD'>&nbsp;Latest Recipe</span>";
 		}
 		if (nextElement != null) {
 			String nextTitle = "Older Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
-			next = "<a " + gaCode + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Older Recipe&nbsp;</a>";
+			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Older Recipe&nbsp;</a>";
 		} else {
 			next = "<span class='netxLinkD'>Older Recipe&nbsp;</span>";
 		}
