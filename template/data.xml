@@ -2,6 +2,25 @@
 <root>
 
    <element>
+      <completionStatement>Your basanti pulao is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with any type of gravy.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Kalijira (gobindovog) rice 1 cup.&lt;/li&gt;&lt;li&gt;Some green peas.&lt;/li&gt;&lt;li&gt;Some cashews and raisins.&lt;/li&gt;&lt;li&gt;Clarified butter / ghee 2 Teaspoons.&lt;/li&gt;&lt;li&gt;3 Teaspoons white oil.&lt;/li&gt;&lt;li&gt;Green cardemom 5.&lt;/li&gt;&lt;li&gt;One small cinnamon stick.&lt;/li&gt;&lt;li&gt;Four cloves.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;Yellow food color.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <pic>recipeimages/basonti-pulaao.jpg</pic>
+      <process>&lt;div&gt;Wash and soak the rice in 1/4th cup of cold water for 30 minutes. Do not drain the water because my mom always tells me that the water soaks the flvour of the rice. That's why soak the rice in very little water.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-2.jpg" /&gt;&lt;div&gt;Take a pan. Heat oil.&lt;/div&gt;&lt;div&gt;Now add green cardemom cloves, bay leaf, cinnamon stick, cashews and raisins. Saute it for a minute.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-3.jpg" /&gt;&lt;div&gt;Then add the soaked rice along with the water. Mix it for 4 minutes.&lt;/div&gt;&lt;div&gt;Now add yellow food color, 3 Teaspoons of salt and 2-3 Teaspoons of sugar. The water should taste enough salty. Mix it very well.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-4.jpg" /&gt;&lt;div&gt;Add the green peas. Again mix it.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-5.jpg" /&gt;&lt;div&gt;Now add 2 Teaspoons of ghee. Mix it once.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-6.jpg" /&gt;&lt;div&gt;Immediately add 2 cups of water.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-7.jpg" /&gt;&lt;div&gt;Cover the pan and let it boil in high flame for 2-3 minutes.&lt;/div&gt;&lt;img src="recipeimages/basonti-pulaao-8.jpg" /&gt;&lt;div&gt;Then bring the flame to low and cook it for another 20 minutes.&lt;/div&gt;&lt;div&gt;First you can find the rice a bit sticky. Don't panik!!&lt;/div&gt;&lt;div&gt;Switch off the heat and let it rest for another 20-25 minutes with the lid on.&lt;/div&gt;</process>
+      <shortDesc>This is a traditional bengali dish. 'Basanti' means yellow colour. You can also call this Sweet (mishti) Pulao. My mom make this in many parties along with &lt;a href='macher-kalia.html'&gt;Macher Kalia&lt;/a&gt; or &lt;a href='mutton-kosha.html'&gt;Mutton Kosha&lt;/a&gt;. I have literally no words about the combination. This is the must combination 'he' wants on his birthday dinner. Give it a try.</shortDesc>
+      <thumb>recipeimages/thumb/basonti-pulaao.jpg</thumb>
+      <title>Basonti Pulao / Holud Pulao / Mishti Pulao</title>
+      <type>vegItem</type>
+      <url>basonti-pulaao</url>
+      <end-pic>recipeimages/basonti-pulaao-9.jpg</end-pic>
+      <end-pic-style>width:70%</end-pic-style>
+      <add-pic>recipeimages/basonti-pulaao-1.jpg</add-pic>
+      <add-pic-style>width:70%</add-pic-style>
+      <keywords>pulao, rice, main course, bengali, yellow, sweet, ghee, whole spice, cashew, raisin</keywords>
+      <tags>pulao,rice,sweet,bengali,main course,ghee</tags>
+   </element>
+
+   <element>
       <completionStatement>Your chicken korma is ready .... Enjoy ...!!</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with biriyani, naan, pulao.&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Chicken legs 2 pieces.&lt;/li&gt;&lt;li&gt;1 cup thinly sliced onion.&lt;/li&gt;&lt;li&gt;Ginger and garlic paste 2 Teaspoons.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Hung curd 1 cup.&lt;/li&gt;&lt;li&gt;One cinnamon stick.&lt;/li&gt;&lt;li&gt;Five green cardemoms.&lt;/li&gt;&lt;li&gt;Four cloves.&lt;/li&gt;&lt;li&gt;One star anis.&lt;/li&gt;&lt;li&gt;5-6 black pepper corns.&lt;/li&gt;&lt;li&gt;Turmeric powder 2 Teaspoons.&lt;/li&gt;&lt;li&gt;Coriander powder 1 Teaspoon.&lt;/li&gt;&lt;li&gt;Cumin powder 1 Teaspoon.&lt;/li&gt;&lt;li&gt;Nutmeg powder ½ Teaspoon.&lt;/li&gt;&lt;li&gt;Mace powder ½ Teaspoon.&lt;/li&gt;&lt;li&gt;Red chili powder 2 Teaspoons.&lt;/li&gt;&lt;li&gt;1 Teaspoons garam masala powder.&lt;/li&gt;&lt;li&gt;Clarified butter/ ghee 6 Teaspoons.&lt;/li&gt;&lt;li&gt;White oil 2 Teaspoons.&lt;/li&gt;&lt;li&gt;Kewra water ½ Teaspoon.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
@@ -1138,21 +1157,6 @@
       <keywords>chicken, sandwich, curd, bread, mayonaise, salad, breakfast, dahi</keywords>
       <tags>chicken,dahi,sandwich,curd</tags>
    </element>
-   <element>
-      <completionStatement>Your basanti pulao is ready ...</completionStatement>
-      <garnishment>&lt;ul&gt;&lt;li&gt;Serve hot with any type of gravy.&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Kalijira (gobindovog) rice 2 cups.&lt;/li&gt;&lt;li&gt;Finely chopped some (carrot, capsicum, french beans).&lt;/li&gt;&lt;li&gt;Some green peas.&lt;/li&gt;&lt;li&gt;8 cashews.&lt;/li&gt;&lt;li&gt;8 raisins.&lt;/li&gt;&lt;li&gt;Two green chilies.&lt;/li&gt;&lt;li&gt;Clarified butter / ghee 7 Teaspoon.&lt;/li&gt;&lt;li&gt;Green cardemom 5.&lt;/li&gt;&lt;li&gt;One small cinnamon stick.&lt;/li&gt;&lt;li&gt;Four cloves.&lt;/li&gt;&lt;li&gt;One bay leaf.&lt;/li&gt;&lt;li&gt;Yellow food color.&lt;/li&gt;&lt;li&gt;Salt &amp; sugar.&lt;/li&gt;&lt;li&gt;Milk 6 Teaspoon.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-      <pic>recipeimages/basonti-pulaao.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Soak the rice in cold water for 30 minutes.&lt;/li&gt;&lt;li&gt;Take a pan. Heat ghee.&lt;/li&gt;&lt;li&gt;Now add green cardemom cloves, bay leaf, cinnamon stick. Saute it for a minute.&lt;/li&gt;&lt;li&gt;Add all the vegetables, cashews and raisins. Fry it for 3 minutes.&lt;/li&gt;&lt;li&gt;Then add the soaked rice. Saute it for 2 minutes.&lt;/li&gt;&lt;li&gt;Now add yellow food color, 5 cups of warm water, 3 Teaspoons of salt and 6 Teaspoons of sugar. (Adjust this as per your taste) Mix it very well.&lt;/li&gt;&lt;li&gt;Add the green chilies and milk. Again mix it.&lt;/li&gt;&lt;li&gt;Cover the pan with a tight lid. Keep it in slow flame for 25 minutes.&lt;/li&gt;&lt;li&gt;Check the rice. Switch of the gas and keep it another 20 minutes with the lid on.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>This is a traditional bengali dish. "Basanti" means yellow colour. You can also call this 'sweet (mishti) pulao'. My mom make this in many parties along with 'macher kaliya' or 'mutton kosha'. I have literally no words about the combination. This is the must combination 'he' wants on his birthday dinner. Give it a try./</shortDesc>
-      <thumb>recipeimages/thumb/basonti-pulaao.jpg</thumb>
-      <title>Basonti Pulaao</title>
-      <type>vegItem</type>
-      <url>basonti-pulaao</url>
-      <keywords>pulao, rice, main course, bengali, yellow, sweet, ghee, whole spice, cashew, raisin</keywords>
-      <tags>pulao,rice,sweet,bengali,main course,ghee</tags>
-   </element>
-   
    
    <element>
       <completionStatement>Your hot and sour soup is ready ...</completionStatement>
