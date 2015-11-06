@@ -83,6 +83,8 @@ public class SiteBuilder {
 		String notice = "<div class='cookbook'>Our recipes are now available in form of CookBook. "
 				+ "<a class='download' title='Spicy World : Cook Book'  alt='Spicy World : Cook Book' href='Spicy-World-Cook-Book.pdf' target='_blank' onclick=\"ga('send', 'event', 'PDF', 'download', this.href);\">Download CookBook</a>"
 				+ "&nbsp;&nbsp;To get the full CookBook, please follow our <a target='_blank' href='https://www.facebook.com/spicyworldrecipes' onclick=\"ga('send', 'event', 'Facebook', 'Website Cook Book', this.href);\">Facebook Page</a>.</div>";
+			
+		//String notice = "";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
 				+ "<a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
