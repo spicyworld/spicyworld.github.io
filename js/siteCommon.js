@@ -1,7 +1,6 @@
 var appFlag = 'N';
 function homeImg() {
-    var cooData - getCookieValue('homeimg');
-    console.log(cooData);
+    var cooData = getCookieValue('homeimg');
     if (cooData == 'done') {
         return;
     }
@@ -140,10 +139,10 @@ function highlight(word, element) {
 function setCookieValue(name, value) {
     var d = new Date();
     // Expire cookiw in 1 day, expDay = 1
+    var expDay = 1;
     d.setTime(d.getTime() + (expDay*24*60*60*1000));
     var expires = "expires="+d.toUTCString();
-    //document.cookie = name + "=" + value + "; " + expires + "; path=/";
-    document.cookie = name + "=" + value + "; path=/";
+    document.cookie = name + "=" + value + "; " + expires + "; path=/";
 }
 
 function getCookieValue (cname) {
