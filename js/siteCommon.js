@@ -1,7 +1,7 @@
 var appFlag = 'N';
 function homeImg() {
     var cooData = getCookieValue('homeimg');
-    if (cooData == 'done') {
+    if (cooData == 'donee') {
         return;
     }
     $t = $(".specialHome");
@@ -18,7 +18,7 @@ function homeImg() {
 }
 
 function closeSpecialHome() {
-    setCookieValue('homeimg', 'done');
+    setCookieValue('homeimg', 'donee');
     $("#overlay").fadeOut();
 }
 
