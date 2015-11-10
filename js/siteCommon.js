@@ -11,7 +11,7 @@ function homeImg() {
       height  : $t1.outerHeight()
     });
     $("#img-load-link").css({
-      top     : $t.outerHeight() - 70
+      top     : $t.outerHeight() - 80
     });
     $("#overlay").fadeIn();
 }
