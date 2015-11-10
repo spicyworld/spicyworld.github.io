@@ -288,7 +288,7 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##DESC_DATA##", "Easy and Simple Recipes make your cooking faster and your food delicious. Check out all available recipes.");
 			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home1.jpg");
 			fileData = fileData.replaceAll("##URL_DATA##", "");
-			fileData = fileData.replaceAll("##ONLOAD_CALL##", "homeImg();loadSlideShow();");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "loadSlideShow();homeImg();");
 			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(basePath + "index.html", fileData);
 			
