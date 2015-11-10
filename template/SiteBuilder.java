@@ -679,7 +679,7 @@ public class SiteBuilder {
 		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
 		fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
-		fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancy();enableAd();");
+		fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancy();enableAd();homeImg();");
 		
 		saveFile(templatePath + url + ".html", fileData);
 		System.out.println(count + ". Created Web HTML for " + url);
