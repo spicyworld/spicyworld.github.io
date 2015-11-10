@@ -11,10 +11,11 @@ function homeImg() {
       width   : $t.outerWidth(),
       height  : $t1.outerHeight()
     });
-    $("#img-load-link").css({
-      top     : $t.outerHeight() - 80
-    });
+
     $("#overlay").fadeIn();
+    $("#img-load-link").css({
+      top     : document.getElementById('img-load').offsetTop + ($('#img-load').height() / 2) + 20
+    });
 }
 
 function closeSpecialHome() {
