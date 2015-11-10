@@ -1,4 +1,26 @@
 var appFlag = 'N';
+function homeImg() {
+    if (getCookieValue('homeimg') == 'done') {
+        return;
+    }
+    $t = $(".specialHome");
+    $t1 = $(".specialHomeContainer");
+    $("#overlay").css({
+      top     : 0,
+      width   : $t.outerWidth(),
+      height  : $t1.outerHeight()
+    });
+    $("#img-load-link").css({
+      top     : $t.outerHeight() - 60
+    });
+    $("#overlay").fadeIn();
+}
+
+function closeSpecialHome() {
+    $("#overlay").fadeOut();
+    setCookieValue('homeimg', 'done');
+}
+
 function enterPressCheck(B){
     var A;
     if(window.event){
@@ -113,12 +135,13 @@ function highlight(word, element) {
     }
 }
 
-function setCookieValue(name, value, expDay) {
+function setCookieValue(name, value) {
     var d = new Date();
     // Expire cookiw in 1 day, expDay = 1
     d.setTime(d.getTime() + (expDay*24*60*60*1000));
     var expires = "expires="+d.toUTCString();
-    document.cookie = name + "=" + value + "; " + expires + "; path=/";
+    //document.cookie = name + "=" + value + "; " + expires + "; path=/";
+    document.cookie = name + "=" + value + "; path=/";
 }
 
 function getCookieValue (cname) {
