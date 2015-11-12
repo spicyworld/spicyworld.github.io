@@ -20,7 +20,7 @@ function homeImg() {
 
 function closeSpecialHome() {
     setCookieValue('homeimg', 'donee');
-    $("#overlay").fadeOut();
+    $("#overlay").fadeOut(700);
 }
 
 function enterPressCheck(B){
