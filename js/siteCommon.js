@@ -1,6 +1,6 @@
 var appFlag = 'N';
 function homeImg() {
-    var cooData = getCookieValue('homeimg');
+    /*var cooData = getCookieValue('homeimg');
     if (cooData == 'donee') {
         return;
     }
@@ -15,7 +15,7 @@ function homeImg() {
     $("#overlay").fadeIn();
     $("#img-load-link").css({
       top     : document.getElementById('img-load').offsetTop + ($('#img-load').height() / 2) + 20
-    });
+    });*/
 }
 
 function closeSpecialHome() {
