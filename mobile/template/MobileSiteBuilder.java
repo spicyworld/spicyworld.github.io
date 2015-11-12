@@ -29,6 +29,7 @@ import org.w3c.tidy.Tidy;
 public class MobileSiteBuilder {
 	
 	public static String buildNo = "?sessionId=113";
+	public static String recipeImageBase = "../";
 
 	public static void main(String[] args) {
 		mobileSiteBuilder();
@@ -41,13 +42,14 @@ public class MobileSiteBuilder {
 		String processor = "/Users/vghosam/Documents/workspace/test/src/MobileSiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
+		
 		String recipes_data = "";
 		String fileData = "";
 		int count = 1, perPageData = 10;
 		List recipeDataList = new ArrayList();
 		String tags = "";
 		int homeImg = 3;
-		copyFolder(dataXML + "recipeimages", basePath + "recipeimages");
+		//copyFolder(dataXML + "recipeimages", basePath + "recipeimages");
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"data\"><p>Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</p><br/><a href=\"recipes.html\">Recipes</a></div></div><div class=\"middleBottom\">";
 		try {
 
@@ -87,7 +89,7 @@ public class MobileSiteBuilder {
 						String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 						String url = eElement.getElementsByTagName("url").item(0).getTextContent();
 						latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a title='" + title + "' alt='" + title + "' href=\"" + url + 
-								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
+								".html\"><img title='" + title + "' alt='" + title + "' src=\"" + recipeImageBase + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
 										+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 					}
 					count++;
@@ -190,7 +192,7 @@ public class MobileSiteBuilder {
 			//Save About Me Page
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "About Me | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<br/><img class='aboutImg' title='Arpita' alt='Arpita' src='images/about.jpg" + buildNo + "'><br/><br/><br/>" 
+			fileData = fileData.replace("##MIDDLE_DATA##", "<br/><img class='aboutImg' title='Arpita' alt='Arpita' src='" + recipeImageBase + "images/about.jpg" + buildNo + "'><br/><br/><br/>" 
 			+ SiteBuilder.aboutPageData + "<br/><br/>");
 			fileData = fileData.replace("##about_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -282,7 +284,7 @@ public class MobileSiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + "' src='" + additionalImg + buildNo + "'></div><br/>";
+			additionalImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + "' src='" + recipeImageBase + additionalImg + buildNo + "'></div><br/>";
 		} catch (Exception e) {
 			additionalImg = "";
 		}
@@ -290,7 +292,7 @@ public class MobileSiteBuilder {
 		String endImg = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + " (Final)' src='" + endImg + buildNo + "'></div><br/><br/>";
+			endImg = "<br/><div class=\"div3Pos posLeft\"><img alt='" + title + "' title='" + title + " (Final)' src='" + recipeImageBase + endImg + buildNo + "'></div><br/><br/>";
 		} catch (Exception e) {
 			endImg = "";
 		}
@@ -301,17 +303,17 @@ public class MobileSiteBuilder {
 		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1>"
 				+ title
-				+ "</h1></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
+				+ "</h1></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc.replace("recipeimages/", recipeImageBase + "recipeimages/") + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><img alt='" + title 
 				+ "' title='" + title + "' src='"
-				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+				+ recipeImageBase + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "'/><br/><br/><div><h2>Ingredients</h2></div>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2>Steps</h2></div>"
-				+ steps
+				+ steps.replace("recipeimages/", recipeImageBase + "recipeimages/")
 				+ "<br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()
@@ -375,7 +377,7 @@ public class MobileSiteBuilder {
 				+ "<a href='" +eElement.getElementsByTagName("url").item(0).getTextContent()  + ".html'>"
 						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
-				+ prefix + eElement.getElementsByTagName("thumb").item(0)
+				+ recipeImageBase + prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
 				+ "\"/></a></div><div class=\"rightitem\">"
 				+ "<div class=\"title\"><div>"
