@@ -280,7 +280,6 @@ public class MobileSiteBuilder {
 		}
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
-		desc = CookBook.html2text(desc);
 		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
 		String additionalImg = "";
 		try  {
@@ -387,8 +386,8 @@ public class MobileSiteBuilder {
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
 				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
 				+ "</a>&nbsp;(" + vegNonVegTag + ")</div></div><div class=\"desc\">"
-				+ eElement.getElementsByTagName("shortDesc").item(0)
-						.getTextContent() + "</div></div></div></td>";
+				+ CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0)
+						.getTextContent()) + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
 	}
