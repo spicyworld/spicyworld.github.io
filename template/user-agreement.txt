@@ -15,13 +15,13 @@ Not to use the Site for any commercial purpose without the prior written consent
 <p><b>User Conduct.</b><br/>While you are using the site you are agreeing with:</p>
 <ul>
 <li>Not to make personal comment which can offend others.</li>
-<li>Not to post content or initiate communications which are unlawful, defamatory, abusive, obscene, indecent, lewd, pornographic, violent, threatening, discriminatory, or otherwise objectionable.</li>
+<li>Not to post content or initiate communications which are obscene, unlawful, threatening, abusive, indecent, lewd, pornographic, violent, discriminatory, or otherwise objectionable.</li>
 <li>Not to collect personal information about individuals.</li>
 </ul>
 
-<p><b>Monitoring and Enforcement.</b><br/>We reserve the right to monitor all content and activity on this Site, but we are not obligated to do so. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
+<p><b>Monitoring and Enforcement.</b><br/>We reserve the right to monitor all content and activities on this Site, but we are not obligated to do that. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
 
-<p><b>Accuracy, Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coincidence that is/was/will not be intentional.</p>
+<p><b>Accuracy and Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coincidence that is/was/will not be intentional.</p>
 
 <p><b>Rights</b><br/>All images are assets of Spicy World, any use of the assets without proper written concent is a violation. Social media sharing of content is allowed provided the copyright information and source link is mentioned.</p>
 
