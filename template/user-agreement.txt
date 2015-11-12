@@ -1,5 +1,5 @@
 <div class="uspage">
-<p><b>Purpose of This Site.</b><br/>The Site is an online recipe and food photography site to help and spread our home-made cooking recipes and photos across the foodies and cooks.</p>
+<p><b>Purpose of This Site.</b><br/>The Site is an online recipe and food photography site to help and spread our home-made cooking recipes and photos across the foodies and cooks. This User Agreement is also applicable for the mobile version of the website.</p>
 
 <p><b>Prohibited Uses of This Site.</b><br/>As a user of this site you are agreeing not to use this Site for any purpose that is unlawful or prohibited by this User Agreement and that can cause or herm any personal or organization or community or any mass. Further, you agree to follow:<br/></p>
 <ul>
@@ -21,9 +21,9 @@ Not to use the Site for any commercial purpose without the prior written consent
 
 <p><b>Monitoring and Enforcement.</b><br/>We reserve the right to monitor all content and activity on this Site, but we are not obligated to do so. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
 
-<p><b>Accuracy, Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coninsidence that is/was/will not be intentional.</p>
+<p><b>Accuracy, Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coincidence that is/was/will not be intentional.</p>
 
-<p><b>Rights</b><br/>All images are assets of Spicy World, any use of the assets without proper written concent is a violation. Social media sharing of links are ok but copy paste of content or images are not allowed.</p>
+<p><b>Rights</b><br/>All images are assets of Spicy World, any use of the assets without proper written concent is a violation. Social media sharing of content is allowed provided the copyright information and source link is mentioned.</p>
 
 <p><b>Cookies</b><br/>We use cookies in our website, while using our website and agreeing to this policy, you allow us to use cookie in the website. We do not store user information or personal data into cookie.</p>
 <b>How we use cookie?</b>
