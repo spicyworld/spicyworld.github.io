@@ -360,6 +360,23 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", "");
 			saveFile(basePath + "about-me.html", fileData);
 			
+			
+			//Save User Agreement Page
+			fileData = readFile(basePath + "template/template.html");
+			String uaData = readFile(basePath + "template/user-agreement.txt");
+			fileData = fileData.replace("##TITLE_DATA##", "User Agreement | Spicy World by Arpita");
+			fileData = fileData.replace("##MIDDLE_DATA##", uaData);
+			fileData = fileData.replace("##indexss_sel##", "selected");
+			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
+			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
+			fileData = fileData.replaceAll("##KEYWORD_DATA##", "User Agreement, Cookie, Terms of Use");
+			fileData = fileData.replaceAll("##DESC_DATA##", "User Agreement to use Spicy World.");
+			fileData = fileData.replaceAll("##IMG_DATA##", "images/home/home3.jpg");
+			fileData = fileData.replaceAll("##URL_DATA##", "/user-agreement.html");
+			fileData = fileData.replaceAll("##ONLOAD_CALL##", "");
+			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", "");
+			saveFile(basePath + "user-agreement.html", fileData);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,40 @@
+<div class="uspage">
+<p><b>Purpose of This Site.</b><br/>The Site is an online recipe and food photography site to help and spread our home-made cooking recipes and photos across the foodies and cooks.</p>
+
+<p><b>Prohibited Uses of This Site.</b><br/>As a user of this site you are agreeing not to use this Site for any purpose that is unlawful or prohibited by this User Agreement and that can cause or herm any personal or organization or community or any mass. Further, you agree to follow:<br/></p>
+<ul>
+<li>Not to distribute in any medium or any part of the Site, including anything under copyright of Spicy World.</li>
+<li>
+Not to modify, distribute, transmit, perform, broadcast, publish, license, reverse engineer, transfer or sell any material, information, software, products or services obtained from the Site without written approval from the Site owner (Spicy World).
+</li>
+<li>
+Not to use the Site for any commercial purpose without the prior written consent from Spicy World.
+</li>
+</ul>
+
+<p><b>User Conduct.</b><br/>While you are using the site you are agreeing with:</p>
+<ul>
+<li>Not to make personal comment which can offend others.</li>
+<li>Not to post content or initiate communications which are unlawful, defamatory, abusive, obscene, indecent, lewd, pornographic, violent, threatening, discriminatory, or otherwise objectionable.</li>
+<li>Not to collect personal information about individuals.</li>
+</ul>
+
+<p><b>Monitoring and Enforcement.</b><br/>We reserve the right to monitor all content and activity on this Site, but we are not obligated to do so. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
+
+<p><b>Accuracy, Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coninsidence that is/was/will not be intentional.</p>
+
+<p><b>Rights</b><br/>All images are assets of Spicy World, any use of the assets without proper written concent is a violation. Social media sharing of links are ok but copy paste of content or images are not allowed.</p>
+
+<p><b>Cookies</b><br/>We use cookies in our website, while using our website and agreeing to this policy, you allow us to use cookie in the website. We do not store user information or personal data into cookie.</p>
+<b>How we use cookie?</b>
+<ul>
+<li>To track user navigation in the website.</li>
+<li>Enable and disable javascript based features of the website.</li>
+<li>For better usability of the website.</li>
+<li>You can block cookies from browser settings, that will not have any adverse effect in website usage, few navigation and feature enable/disable will not work.</li>
+</ul>
+
+<p><b>Changes to This User Agreement.</b><br/>We reserve the right, we are the sole owner of this User Agreement, we can revise the terms any time and post to the website. It is your responsibility to check this page for any changes we make. Any previous agreement will be void with the launch of new agreement at any given point of time. Your continuous visit to our website means you are agreeing with the changes in this Agreement.</p>
+</div>
+
+

@@ -1,3 +1,22 @@
+.uspage {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.uspage, .uspage ul li {
+	font-size: 12px;
+}
+
+.uspage ul {
+	margin: 5px;
+}
+
+.uspage b {
+	margin-bottom: 8px;
+}
+
 #overlay { 
   display:none; 
   position:absolute; 
