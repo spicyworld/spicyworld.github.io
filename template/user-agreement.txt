@@ -5,7 +5,7 @@
 <ul>
 <li>Not to distribute in any medium or any part of the Site, including anything under copyright of Spicy World.</li>
 <li>
-Not to modify, distribute, transmit, perform, broadcast, publish, license, reverse engineer, transfer or sell any material, information, software, products or services obtained from the Site without written approval from the Site owner (Spicy World).
+Not to modify, distribute, transmit, perform, broadcast, publish, license, reverse engineer, transfer or sell any material, information obtained from the Site without written approval from the Site owner (Spicy World).
 </li>
 <li>
 Not to use the Site for any commercial purpose without the prior written consent from Spicy World.
@@ -17,9 +17,10 @@ Not to use the Site for any commercial purpose without the prior written consent
 <li>Not to make personal comment which can offend others.</li>
 <li>Not to post content or initiate communications which are obscene, unlawful, threatening, abusive, indecent, lewd, pornographic, violent, discriminatory, or otherwise objectionable.</li>
 <li>Not to collect personal information about individuals.</li>
+<li>We are not responsible for any attacks or hacks that can cause or create risk to end users.</li>
 </ul>
 
-<p><b>Monitoring and Enforcement.</b><br/>We reserve the right to monitor all content and activities on this Site, but we are not obligated to do that. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
+<p><b>Monitoring of Content and Personal Information.</b><br/>We reserve the right to monitor all content and activities on this Site, but we are not obligated to do that. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
 
 <p><b>Accuracy and Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coincidence that is/was/will not be intentional.</p>
 
