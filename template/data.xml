@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+   <element>
+         <title>Pulled Chicken Burger</title>
+         <type>nonVegItem</type>
+         <shortDesc>Here in Texas, one of the famous burger is 'pulled pork burger'. Everyone is a big fan of this burger. Last weekend I had some buns in my kitchen and some boneless chicken in my fridge. Then I thought to replace pork with chicken and some delicious 'pulled chicken burger's along with coke came out from my kitchen. I really love to make different types of burger but this one is my first posting on burger. I will post others soon. Try this easy peasy burger in your kitchen and make your weekend dinner a easy special one.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;3 breast pieces of chicken.&lt;/li&gt;&lt;li&gt;4 burger buns.&lt;/li&gt;&lt;li&gt;Some onion rings.&lt;/li&gt;&lt;li&gt;1 jalapeño (optional).&lt;/li&gt;&lt;li&gt;1 Teaspoon of chopped garlic.&lt;/li&gt;&lt;li&gt;1 Teaspoon paprika powder.&lt;/li&gt;&lt;li&gt;2 Teaspoons black pepper powder.&lt;/li&gt;&lt;li&gt;4 tablespoons of tomato sauce.&lt;/li&gt;&lt;li&gt;4 tablespoons of chilli sauce.&lt;/li&gt;&lt;li&gt;Some italian seasoning.&lt;/li&gt;&lt;li&gt;Shredded cheese.&lt;/li&gt;&lt;li&gt;3 to 4 Teaspoons of white oil.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Boil the chicken with a cup of water in a pressure cooker untill it becomes fully tendor.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-2.jpg" /&gt;&lt;div&gt;Let it cool down a bit.&lt;/div&gt;&lt;div&gt;Place only the chicken pieces in a plate and with the help of two forks, finely shred the chicken. Because of this shredding process, they named it 'pulled'.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-3.jpg" /&gt;&lt;div&gt;Heat oil in a pan.&lt;/div&gt;&lt;div&gt;Add chopped garlic, paprika and black pepper powder. Mix it for a while.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-4.jpg" /&gt;&lt;div&gt;Then add some chicken stock.mix it.&lt;/div&gt;&lt;div&gt;Let it boil.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-5.jpg" /&gt;&lt;div&gt;Add the shredded chicken and some salt. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-6.jpg" /&gt;&lt;div&gt;Then add italian seasoning, tomato and chilli sauce. Mix them really well.&lt;/div&gt;&lt;div&gt;Adjust salt and heat according to your taste.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-7.jpg" /&gt;&lt;div&gt;Turn off the gas.&lt;/div&gt;&lt;div&gt;Don't make the filling too runny. It should be little juicy.&lt;/div&gt;&lt;div&gt;Now heat another pan with little oil.&lt;/div&gt;&lt;div&gt;Put the onion rings and jalapeño in hot pan. Toast them from both sides.&lt;/div&gt;&lt;div&gt;Then keep them aside.&lt;div&gt;Put some more oil and toast the burger buns from both sides well.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-8.jpg" /&gt;&lt;div&gt;Now its time to arrange some burgers ...&lt;/div&gt;&lt;div&gt;First put some grilled onion, then some hot chicken mixture, then shredded cheese and lastly put 2-3 jalapeño.&lt;/div&gt;&lt;div&gt;Close them with another bun and take a bite.&lt;/div&gt;&lt;img src="recipeimages/pulled-burger-9.jpg" /&gt;</process>
+         <completionStatement>Your pulled chicken burger is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some french fries and coke ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/pulled-burger.jpg</thumb>
+         <pic>recipeimages/pulled-burger.jpg</pic>
+         <url>pulled-chicken-burger</url>
+         <end-pic>recipeimages/pulled-burger-10.jpg</end-pic>
+         <end-pic-style>width:76%</end-pic-style>
+         <add-pic>recipeimages/pulled-burger-1.jpg</add-pic>
+         <add-pic-style>width:75%</add-pic-style>
+         <keywords>chicken, burger, pulled, saucy, spicy, onion, cheese, buns</keywords>
+         <tags>chicken,burger,spicy,cheese</tags>
+   </element>
+
      <element>
          <title>Baked Spicy Chicken Pasta</title>
          <type>nonVegItem</type>
