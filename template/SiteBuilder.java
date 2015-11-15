@@ -366,7 +366,7 @@ public class SiteBuilder {
 			String uaData = readFile(basePath + "template/user-agreement.txt");
 			fileData = fileData.replace("##TITLE_DATA##", "User Agreement | Spicy World by Arpita");
 			fileData = fileData.replace("##MIDDLE_DATA##", uaData);
-			fileData = fileData.replace("##indexss_sel##", "selected");
+			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", "User Agreement, Cookie, Terms of Use");
