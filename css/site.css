@@ -1,3 +1,8 @@
+.footerLinksSpecial a {
+	color:darkblue !important;
+	font-size: 13px !important;
+}
+
 .uspage {
 	padding-left: 40px;
 	padding-right: 40px;
