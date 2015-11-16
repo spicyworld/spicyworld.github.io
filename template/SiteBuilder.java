@@ -56,13 +56,13 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top'>contact@spicyworld.in</a></u>";
 	
 	public static void main(String[] args) {
-		String img = "bhapa-posto";
+		/*String img = "bhapa-posto";
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
 		for (int i=1;i<=10; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
-		}
+		}*/
 		//System.exit(1);
 		
 		String basePath = "/Volumes/Pearson/spicyworld/";
@@ -638,18 +638,18 @@ public class SiteBuilder {
 		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev', 'link_#POS#', this.href);\"";
 		String prev = "", next = "";
 		if (prevElement != null) {
-			String prevTitle = "Latest Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
-			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Latest Recipe</a>";
+			String prevTitle = "Next Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
+			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='netxLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Next Recipe&nbsp;</a>";
 		} else {
-			prev = "<span class='prevLinkD'>&nbsp;Latest Recipe</span>";
+			prev = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
 		}
 		if (nextElement != null) {
-			String nextTitle = "Older Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
-			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Older Recipe&nbsp;</a>";
+			String nextTitle = "Previous Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
+			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='prevLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Previous Recipe</a>";
 		} else {
-			next = "<span class='netxLinkD'>Older Recipe&nbsp;</span>";
+			next = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
 		}
-		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + prev+ "</div><div class='fright'>" + next + "</div></div>";
+		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + next+ "</div><div class='fright'>" + prev + "</div></div>";
 		//Next Previous Link Ends
 		
 		try {
