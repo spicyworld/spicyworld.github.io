@@ -651,7 +651,9 @@ public class SiteBuilder {
 		}
 		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + next+ "</div><div class='fright'>" + prev + "</div></div>";
 		//Next Previous Link Ends
-		
+		if (url.indexOf("paneer-makhani") > -1) {
+			System.out.println("TEST");
+		}
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\">";
@@ -670,7 +672,7 @@ public class SiteBuilder {
 		}
 		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes + "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		//+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>"
-		+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
+		+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.github.io/" + url + ".html\" data-numposts=\"5\"></div>" 
 		+ "</div>";
 		
 		
