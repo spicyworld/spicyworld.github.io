@@ -666,10 +666,15 @@ public class SiteBuilder {
 		if (relatedRecipes!=null && relatedRecipes.length()>0) {
 			relatedRecipes = "<div id='relatedRecipes' class='relatedRecipes'>You may also like</div><div class='clear relatedRecipesData'>" + relatedRecipes + "</div>";
 		}
-		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes + "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
-		//+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>"
-		+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
-		+ "</div>";
+		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes
+		// For comment section
+		+ "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
+		// For Disqus
+		+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>"
+		// Facebook
+		//+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
+		+ "</div>"
+				+"";
 		
 		
 		String fileData = readFile(templatePath + "template/template.html");
