@@ -453,8 +453,8 @@ public class SiteBuilder {
 			for (int i=1; i < (totalCount + 1); i++) {
 				retData = bottomRelated(retData, (Element) eElements.get(i));
 			}
-		} else if (position == (total - 1) || total - position <= (totalCount/2)) {
-			for (int i=(totalCount-1); i<position; i++) {
+		} else if (position == (total - 1) || (total - position) <= (totalCount/2)) {
+			for (int i=(position - totalCount); i<position; i++) {
 				retData = bottomRelated(retData, (Element) eElements.get(i));
 			}
 		} else {
@@ -650,10 +650,6 @@ public class SiteBuilder {
 			next = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
 		}
 		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + next+ "</div><div class='fright'>" + prev + "</div></div>";
-		//Next Previous Link Ends
-		if (url.indexOf("paneer-makhani") > -1) {
-			System.out.println("TEST");
-		}
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\">";
