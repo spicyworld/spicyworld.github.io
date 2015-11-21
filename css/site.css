@@ -98,20 +98,21 @@
     font-family: cursive;
 }
 
-#specialHome {
-	background: url(../images/bij.jpg) center center fixed no-repeat !important;
-    
+.specialHome {
+	/*background: url(../images/bij.jpg) center center fixed no-repeat !important;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: auto;
+    height: auto;*/
+    background-color: whitesmoke;
 }
 
-#specialHomeContainer {
+.specialHomeContainer {
 	background: white;
-    padding: 20px !important;
-    box-shadow: 9px 8px 5px lightgrey;
+    padding: 10px 20px 20px 20px !important;
+    /*box-shadow: 9px 8px 9px 1px lightgrey;*/
+    border-radius: 10px;
 }
 
 #aboutData {
