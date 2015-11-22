@@ -639,17 +639,17 @@ public class SiteBuilder {
 		String prev = "", next = "";
 		if (prevElement != null) {
 			String prevTitle = "Next Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
-			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='netxLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Next Recipe&nbsp;</a>";
+			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Previous Recipe</a>";
 		} else {
-			prev = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
+			prev = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
 		}
 		if (nextElement != null) {
 			String nextTitle = "Previous Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
-			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='prevLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Previous Recipe</a>";
+			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Next Recipe&nbsp;</a>";
 		} else {
-			next = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
+			next = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
 		}
-		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + next+ "</div><div class='fright'>" + prev + "</div></div>";
+		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\">";
