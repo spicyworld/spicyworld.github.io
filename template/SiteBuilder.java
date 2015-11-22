@@ -77,7 +77,7 @@ public class SiteBuilder {
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
 				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>";
 		String recipes_data_img = "", fileData = "";
-		int count = 1, perPageData = 10;
+		int count = 1, perPageData = 15;
 		List recipeDataList = new ArrayList();
 		String tags = "";
 		String carosalImg = "";
