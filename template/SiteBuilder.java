@@ -667,6 +667,9 @@ public class SiteBuilder {
 			relatedRecipes = "<div id='relatedRecipes' class='relatedRecipes'>You may also like</div><div class='clear relatedRecipesData'>" + relatedRecipes + "</div>";
 		}
 		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes
+		+ "<br/>"
+		// Bottom Ad section
+		+ "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\" data-ad-client=\"ca-pub-7901069235725761\" data-ad-slot=\"1981019539\"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>"
 		// For comment section
 		+ "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		// For Disqus
