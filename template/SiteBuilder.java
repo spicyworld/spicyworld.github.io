@@ -669,7 +669,7 @@ public class SiteBuilder {
 		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes
 		+ "<br/>"
 		// Bottom Ad section
-		+ "<div class='margin-left: auto;margin-right: auto;'><script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\" data-ad-client=\"ca-pub-7901069235725761\" data-ad-slot=\"1981019539\"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>"
+		+ "<div class='margin-left: auto;margin-right: auto;text-align: center;'><script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script><ins class=\"adsbygoogle\" style=\"display:inline-block;width:728px;height:90px\" data-ad-client=\"ca-pub-7901069235725761\" data-ad-slot=\"1981019539\"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>"
 		// For comment section
 		+ "<div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		// For Disqus
