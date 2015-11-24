@@ -141,11 +141,11 @@ public class SiteBuilder {
 				}
 				createItemData(templatePath, eElement, count, nextElement, prevElement, relatedRecipes);
 				String classToApply = null;
-				if (count == 1 || count == 4) {
+				if (count == 1 || count == 4 || count == 7) {
 					classToApply = "left";
-				} else if (count == 2 || count == 5) {
+				} else if (count == 2 || count == 5 || count == 8) {
 					classToApply = "middle";
-				} else if (count == 3 || count == 6) {
+				} else if (count == 3 || count == 6 || count == 9) {
 					classToApply = "right";
 				} else {
 					classToApply = null;
@@ -157,7 +157,7 @@ public class SiteBuilder {
 							".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
 									+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 				}
-				if (count > 6 && count < 12) {
+				if (count > 9 && count < 15) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 					carosalImg += "<div><img title='" + title + "' alt='" + title + "' class=\"show\" u=\"image\" src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\" /></div>";
 				}
