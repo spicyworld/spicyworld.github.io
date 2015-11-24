@@ -624,7 +624,7 @@ public class SiteBuilder {
 						.getTextContent()
 				+ "</div></div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 id='steps'>Steps</h2></div><div property='recipeInstructions'>"
-				+ steps
+				+ steps.replace(".jpg", ".jpg" + buildNo)
 				+ "</div><br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()

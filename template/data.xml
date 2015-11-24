@@ -13,9 +13,9 @@
       <type>vegItem</type>
       <url>paneer</url>
       <add-pic>recipeimages/paneer-5.jpg</add-pic>
-      <add-pic-style>width:55%</add-pic-style>
+      <add-pic-style>width:50%</add-pic-style>
       <end-pic>recipeimages/paneer-6.jpg</end-pic>
-      <end-pic-style>width:55%</end-pic-style>
+      <end-pic-style>width:40%</end-pic-style>
       <keywords>paneer, chana, cottage cheese, milk, lemon, indian</keywords>
       <tags>paneer,indian cottage cheese,milk,lemon</tags>
    </element>
