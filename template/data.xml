@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+   <element>
+         <title>Matar Kachori / Peas Kachori</title>
+         <type>nonVegItem</type>
+         <shortDesc>Last tuesday 'he' gave me a call from office at 5:00 pm and requested me to make some 'chatpata' snacks which will go very well with tea. So, I had exactly 1 hour in my hand to make something. Don't know why, but suddenly a thought of spending evening time in India, came in my mind. My grandpa used to bring different kinds of snacks like 'samosa', 'nimki', 'vegetable chop', 'kachori', 'beguni' etc and with all our family members we enjoyed those with a cup of tea and some puffed rice (muri). Those are kind of evenings, which I will miss rest of my life. After so many thoughts, I planned to make 'matar kachori' / peas kachori because I had some frozen peas in my kitchen. The recipe is very easy, simple and tasty. All of my 'kachori'-s came out perfectly and his expression was like 👌👌👌. Try this in your kitchen and enjoy a lovely evening with your loved ones.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;2 cups of peas.&lt;/li&gt;&lt;li&gt;1 cup of flour (maida).&lt;/li&gt;&lt;li&gt;3-4 tablespoons of oil / ghee as 'moyan'.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;1 Teaspoon crushed coriander seeds.&lt;/li&gt;&lt;li&gt;1 Teaspoon cumin seeds.&lt;/li&gt;&lt;li&gt;1 Teaspoon each (gram flour (besan), garam masala powder, red chilli powder, amchur (dry mango) powder).&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;White oil for deep fry.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Take the flour (maida) in a mixing bowl.&lt;/div&gt;&lt;div&gt;Add 3 - 4 tablespoons of oil / ghee. Mix it with your hand very well for 2-3 minutes.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-2.jpg" /&gt;&lt;div&gt;Then add little by little water and form a dough.&lt;/div&gt;&lt;div&gt;The dough should be semi soft. &lt;/div&gt;&lt;div&gt;Cover the dough and keep it for 20 minutes.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-3.jpg" /&gt;&lt;div&gt;If you are using frozen peas like me, then thawed them properly. Or if you are using fresh peas then half boil them and drain all the water.&lt;/div&gt;&lt;div&gt;Now heat 2 tablespoons of white oil in a pan.&lt;/div&gt;&lt;div&gt;Add cumin seeds and crushed coriander seeds. Saute them for 30 seconds.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-4.jpg" /&gt;&lt;div&gt;Then add 1 Teaspoon besan / gram flour. Mix it for a minute.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-5.jpg" /&gt;&lt;div&gt;Then add the green peas. Mix it.&lt;/div&gt;&lt;div&gt;Add salt and all the above mentioned powder one by one. Mix them all in high flame.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-6.jpg" /&gt;&lt;div&gt;After that with the help of your spatula, smash the peas a bit. Do not make it mushy.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-7.jpg" /&gt;&lt;div&gt;After cooking them turn off the heat and let them cool down completely.&lt;/div&gt;&lt;div&gt;Add 2 Teaspoons sugar to the cold mixture and mix them. If you add sugar when the peas were hot, sugar will release water.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-8.jpg" /&gt;&lt;div&gt;Now take a small portion from the flour mixture.&lt;/div&gt;&lt;div&gt;First make it a ball and then flatten it.&lt;/div&gt;&lt;div&gt;Put 1 Teaspoon of peas mixture.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-9.jpg" /&gt;&lt;div&gt;Seal the edges properly and give a round shape. Do not put loads of mixture into one ball.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-10.jpg" /&gt;&lt;div&gt;Make all the kachori-s from the dough and peas mixture.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-11.jpg" /&gt;&lt;div&gt;Now put them in medium hot oil. Oil should not be boiling hot or not cold either.&lt;/div&gt;&lt;img src="recipeimages/matar-kachori-12.jpg" /&gt;&lt;div&gt;Fry them golden in color. It will take time. &lt;/div&gt;&lt;img src="recipeimages/matar-kachori-13.jpg" /&gt;&lt;div&gt;After frying them, keep them on a paper towel.&lt;/div&gt;</process>
+         <completionStatement>Your matar kachoriiiiis are ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy them hot with a cup of tea ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/chingrir-chop.jpg</thumb>
+         <pic>recipeimages/matar-kachori.jpg</pic>
+         <url>matar-kachori</url>
+         <end-pic>recipeimages/matar-kachori-14.jpg</end-pic>
+         <end-pic-style>width:70%</end-pic-style>
+         <add-pic>recipeimages/matar-kachori-1.jpg</add-pic>
+         <add-pic-style>width:55%</add-pic-style>
+         <keywords>peas, matar, koraishuti, kachori, kochuri, fry, veg, starter, tangy, indian</keywords>
+         <tags>peas,starter,veg,indian</tags>
+   </element>
+
     <element>
          <title>Chingrir Chop / Shrimp Croquettes</title>
          <type>nonVegItem</type>
