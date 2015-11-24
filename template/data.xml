@@ -2,6 +2,25 @@
 <root>
 
    <element>
+      <completionStatement>Your paneer is ready ...</completionStatement>
+      <garnishment>&lt;ul&gt;&lt;li&gt;Cook this paneer with any gravy or as appetizer ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+      <ingrediants>&lt;ul&gt;&lt;li&gt;Full fat milk 2 lt.&lt;/li&gt;&lt;li&gt;2 - 3 lemon's juice.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+      <pic>recipeimages/paneer.jpg</pic>
+      <process>&lt;div&gt;Take a vessel, pour the milk. Bring it to boil. Stir with a spatula occasionally.&lt;/div&gt;&lt;div&gt;When it starts boiling add the lemon juice. You can add beaten curd / vinegar also instead of lemon juice.&lt;/div&gt;&lt;div&gt;Turn of the gas. Stir 1/2 times. Do not stir frequently.&lt;/div&gt;&lt;div&gt;When the milk curdles strain the water.&lt;/div&gt;&lt;img src="recipeimages/paneer-1.jpg" /&gt;&lt;div&gt;Wash the curdled milk in cold water for 2-3 minutes. Again strain the water.&lt;/div&gt;&lt;div&gt;Put the curdled milk in a thin cloth. Squeeze the excess water with the pressure of your hand.&lt;/div&gt;&lt;img src="recipeimages/paneer-2.jpg" /&gt;&lt;div&gt;Then put the entire thing under a pressure like a big glass bowl with water for 2 hours.&lt;/div&gt;&lt;div&gt;For this pressure the curdled milk will set as paneer.&lt;/div&gt;&lt;img src="recipeimages/paneer-3.jpg" /&gt;&lt;div&gt;Then remove the pressure and cloth. Cut the paneer in cubes or any shape of your choice.&lt;/div&gt;&lt;img src="recipeimages/paneer-4.jpg" /&gt;</process>
+      <shortDesc>In vegetarian world 'paneer' plays a very important role. But in nonvegrtarian world it also offers various special dishes. Homemade paneer has its own frshness and taste. There is no comparison between homemade and store bought. I always use homemade fresh 'paneer' in my cooking. You can make several dishes with this. So, try this in your kitchen and I can give you guarantee that you will never buy from store again.</shortDesc>
+      <thumb>recipeimages/thumb/paneer.jpg</thumb>
+      <title>Paneer (Indian Cottage Cheese)</title>
+      <type>vegItem</type>
+      <url>paneer</url>
+      <add-pic>recipeimages/paneer-5.jpg</add-pic>
+      <add-pic-style>width:55%</add-pic-style>
+      <end-pic>recipeimages/paneer-6.jpg</end-pic>
+      <end-pic-style>width:55%</end-pic-style>
+      <keywords>paneer, chana, cottage cheese, milk, lemon, indian</keywords>
+      <tags>paneer,indian cottage cheese,milk,lemon</tags>
+   </element>
+
+   <element>
          <title>Matar Kachori / Peas Kachori</title>
          <type>vegItem</type>
          <shortDesc>Last tuesday 'he' gave me a call from office at 5:00 pm and requested me to make some 'chatpata' snacks which will go very well with tea. So, I had exactly 1 hour in my hand to make something. Don't know why, but suddenly a thought of spending evening time in India, came in my mind. My grandpa used to bring different kinds of snacks like 'samosa', 'nimki', 'vegetable chop', 'kachori', 'beguni' etc and with all our family members we enjoyed those with a cup of tea and some puffed rice (muri). Those are kind of evenings, which I will miss rest of my life. After so many thoughts, I planned to make 'matar kachori' / peas kachori because I had some frozen peas in my kitchen. The recipe is very easy, simple and tasty. All of my 'kachori'-s came out perfectly and his expression was like 👌👌👌. Try this in your kitchen and enjoy a lovely evening with your loved ones.</shortDesc>
@@ -1188,20 +1207,7 @@
       <keywords>paneer, cottage cheese, kadai, karai, masala, gravy, onion, capsicum, indian, main course, cream</keywords>
       <tags>paneer,masala,main course,rich gravy</tags>
    </element>
-   <element>
-      <completionStatement>Your paneer is ready ...</completionStatement>
-      <garnishment>&lt;ul&gt;&lt;li&gt;Cook this paneer with any gravy or as appetizer ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
-      <ingrediants>&lt;ul&gt;&lt;li&gt;Full fat milk 2 lt.&lt;/li&gt;&lt;li&gt;One small bowl lemon juice.&lt;/li&gt;&lt;li&gt;Hunk beaten curd 5 Teaspoon.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-      <pic>recipeimages/paneer.jpg</pic>
-      <process>&lt;ul&gt;&lt;li&gt;Take a vessel, pour the milk. Bring it to boil. Stir with a spatula occasionally.&lt;/li&gt;&lt;li&gt;When it starts boiling add the lemon juice and beaten curd. &lt;/li&gt;&lt;li&gt;Turn of the gas. Stir ½ times.&lt;/li&gt;&lt;li&gt;When the milk curdles strain the water.&lt;/li&gt;&lt;li&gt;Wash the curdled milk in cold water for 2-3 minutes. Again strain the water.&lt;/li&gt;&lt;li&gt;Put the curdled milk in a thin cloth. Squeeze the excess water with the pressure of your hand.&lt;/li&gt;&lt;li&gt;Then put the entire thing under a pressure like a big glass bowl with water for 2 hours.&lt;/li&gt;&lt;li&gt;For this pressure the curdled milk will set as paneer.&lt;/li&gt;&lt;li&gt;Then remove the pressure and cloth. Cut the paneer in cubes or any shape of your choice.&lt;/li&gt;&lt;/ul&gt;</process>
-      <shortDesc>In vegetarian world PANEER plays a very important role. We, nonveg lovers are also become fan of paneer. There is nothing like fresh homemade paneer. It has its own frshness and taste. You can make many kinds of starter, main course and dessert dishes with it. Believe me after trying this recipe you will never go to shop for paneer.</shortDesc>
-      <thumb>recipeimages/thumb/paneer.jpg</thumb>
-      <title>Paneer (Indian Cottage Cheese)</title>
-      <type>vegItem</type>
-      <url>paneer</url>
-      <keywords>paneer, chana, cottage cheese, milk, lemon, indian</keywords>
-      <tags>paneer,indian cottage cheese,milk,lemon</tags>
-   </element>
+   
    <element>
       <completionStatement>Your Beguni (Eggplant fritters) are ready ...</completionStatement>
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy the crispiness of these fritters with some puffed rice or tea ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
