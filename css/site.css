@@ -118,8 +118,6 @@ height:auto;
 .specialHomeContainer {
 	background: white;
     padding: 10px 20px 20px 20px !important;
-    /*box-shadow: 9px 8px 9px 1px lightgrey;*/
-    border-radius: 10px;
 }
 
 #aboutData {
@@ -465,13 +463,22 @@ height:auto;
 	float: right;
 }
 
+.vegTopLine {
+	border-bottom: 2px solid green;
+    height: 120px;
+}
+
+.nonVegTopLine {
+	border-bottom: 2px solid red;
+    height: 120px;
+}
 
 body {
 	height: 100%;
 	margin: 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", Tahoma, sans-serif;
 	font-size: 15px;
-	padding-top: 15px;
+	padding-top: 5px;
 }
 
 .centerContent {
@@ -635,6 +642,10 @@ body {
 
 .tagContent .heading {
 	font-weight: bold;
+}
+
+.topNextPrevNavLinks {
+	padding-top: 10px;
 }
 
 .imagesPage a, .footer a, .linkColor a{

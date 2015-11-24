@@ -649,7 +649,7 @@ public class SiteBuilder {
 		} else {
 			next = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
 		}
-		String oldNew = "<div class='clear linkColor'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
+		String oldNew = "<div class='clear linkColor topNextPrevNavLinks'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\">";
@@ -691,6 +691,12 @@ public class SiteBuilder {
 			keyword = ky + " ";
 		} else {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
+		}
+		
+		if ("nonVegItem".equals(type)) {
+			fileData = fileData.replace("##recipe_type##", "nonVegTopLine");
+		} else {
+			fileData = fileData.replace("##recipe_type##", "vegTopLine");
 		}
 		
 		
