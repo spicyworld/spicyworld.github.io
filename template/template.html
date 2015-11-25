@@ -71,8 +71,8 @@
 						<div class="searchPlace">
 							<div class="searchLeft">
 								<label style="display:none" for="searchBox">Search Recipes</label>
-						    	<input onkeypress="enterPressCheck(event)" type="text" id="searchBox" class=".searchBox" placeholder="Search recipes by title ..."/>
-						    	<a href="javascript:searchData()">Search</a>
+						    	<input onkeypress="enterPressCheck(event);" type="text" id="searchBox" class=".searchBox" placeholder="Search recipes by title ..."/>
+						    	<a onclick="ga('send', 'event', 'Site Search', 'Btn Click', this.href);" href="javascript:searchData()">Search</a>
 					    	</div>
 					    	<div class="searchRight">
 								<a href="https://www.facebook.com/spicyworldrecipes" target="_blank" onclick="ga('send', 'event', 'Facebook', 'Website Header', this.href);"><img src="images/fb.jpg" width="85px" alt="Follow us on Facebook" title="Follow us on Facebook"/>
