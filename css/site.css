@@ -3,6 +3,7 @@
 }
 .titleright {
 	float: right;
+	padding-top:30px;
 }
 .footerLinksSpecial a {
 	color:darkblue !important;
