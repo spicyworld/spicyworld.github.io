@@ -25,16 +25,16 @@
       <garnishment>&lt;ul&gt;&lt;li&gt;Cook this paneer with any gravy or as appetizer ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <ingrediants>&lt;ul&gt;&lt;li&gt;Full fat milk 2 lt.&lt;/li&gt;&lt;li&gt;2 - 3 lemon's juice.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
       <pic>recipeimages/paneer.jpg</pic>
-      <process>&lt;div&gt;Take a vessel, pour the milk. Bring it to boil. Stir with a spatula occasionally.&lt;/div&gt;&lt;div&gt;When it starts boiling add the lemon juice. You can add beaten curd / vinegar also instead of lemon juice.&lt;/div&gt;&lt;div&gt;Turn of the gas. Stir 1/2 times. Do not stir frequently.&lt;/div&gt;&lt;div&gt;When the milk curdles strain the water.&lt;/div&gt;&lt;img src="recipeimages/paneer-1.jpg" /&gt;&lt;div&gt;Wash the curdled milk in cold water for 2-3 minutes. Again strain the water.&lt;/div&gt;&lt;div&gt;Put the curdled milk in a thin cloth. Squeeze the excess water with the pressure of your hand.&lt;/div&gt;&lt;img src="recipeimages/paneer-2.jpg" /&gt;&lt;div&gt;Then put the entire thing under a pressure like a big glass bowl with water for 2 hours.&lt;/div&gt;&lt;div&gt;For this pressure the curdled milk will set as paneer.&lt;/div&gt;&lt;img src="recipeimages/paneer-3.jpg" /&gt;&lt;div&gt;Then remove the pressure and cloth. Cut the paneer in cubes or any shape of your choice.&lt;/div&gt;&lt;img src="recipeimages/paneer-4.jpg" /&gt;</process>
+      <process>&lt;div&gt;Take a vessel, pour the milk. Bring it to boil. Stir with a spatula occasionally.&lt;/div&gt;&lt;div&gt;When it starts boiling add the lemon juice. You can add beaten curd / vinegar also instead of lemon juice.&lt;/div&gt;&lt;div&gt;Turn of the gas. Stir 1/2 times. Do not stir frequently.&lt;/div&gt;&lt;div&gt;When the milk curdles strain the water.&lt;/div&gt;&lt;img src="recipeimages/paneer-2.jpg" /&gt;&lt;div&gt;Wash the curdled milk in cold water for 2-3 minutes. Again strain the water.&lt;/div&gt;&lt;div&gt;Put the curdled milk in a thin cloth. Squeeze the excess water with the pressure of your hand.&lt;/div&gt;&lt;img src="recipeimages/paneer-3.jpg" /&gt;&lt;div&gt;Then put the entire thing under a pressure like a big glass bowl with water for 2 hours.&lt;/div&gt;&lt;div&gt;For this pressure the curdled milk will set as paneer.&lt;/div&gt;&lt;img src="recipeimages/paneer-4.jpg" /&gt;&lt;div&gt;Then remove the pressure and cloth. Cut the paneer in cubes or any shape of your choice.</process>
       <shortDesc>In vegetarian world 'paneer' plays a very important role. But in nonvegrtarian world it also offers various special dishes. Homemade paneer has its own frshness and taste. There is no comparison between homemade and store bought. I always use homemade fresh 'paneer' in my cooking. You can make several dishes with this. So, try this in your kitchen and I can give you guarantee that you will never buy from store again.</shortDesc>
       <thumb>recipeimages/thumb/paneer.jpg</thumb>
       <title>Paneer (Indian Cottage Cheese)</title>
       <type>vegItem</type>
       <url>paneer</url>
-      <add-pic>recipeimages/paneer-5.jpg</add-pic>
-      <add-pic-style>width:50%</add-pic-style>
-      <end-pic>recipeimages/paneer-6.jpg</end-pic>
-      <end-pic-style>width:40%</end-pic-style>
+      <add-pic>recipeimages/paneer-1.jpg</add-pic>
+      <add-pic-style>width:70%</add-pic-style>
+      <end-pic>recipeimages/paneer-5.jpg</end-pic>
+      <end-pic-style>width:30%</end-pic-style>
       <keywords>paneer, chana, cottage cheese, milk, lemon, indian</keywords>
       <tags>paneer,indian cottage cheese,milk,lemon</tags>
    </element>
