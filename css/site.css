@@ -1,3 +1,9 @@
+.titleleft {
+	width: 700px;
+}
+.titleright {
+	float: right;
+}
 .footerLinksSpecial a {
 	color:darkblue !important;
 	font-size: 13px !important;

@@ -574,9 +574,12 @@ public class SiteBuilder {
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
 		}
-		out = "<div vocab='http://schema.org/' typeof='Recipe'><div class='h2Class'><div style=\"clear:both\"><h1 property='name' id='title'>"
+		
+		String googleTranslator = "<div id=\"google_translate_element\"></div><script type=\"text/javascript\">function googleTranslateElementInit() {  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');}</script><script type=\"text/javascript\" src=\"//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit\"></script>";
+		
+		out = "<div vocab='http://schema.org/' typeof='Recipe'><div class='h2Class'><div style=\"clear:both\"><h1 class='titleleft' property='name' id='title'>"
 				+ title
-				+ "</h1></div><div style=\"clear:both\">"
+				+ "</h1><div class='titleright'>" + googleTranslator + "</div></div><div style=\"clear:both\">"
 				
 				// Pinterest Starts
 				+ "<div style=\"float:left;\"><a href=\"//www.pinterest.com/pin/create/button/\" data-pin-do=\"buttonBookmark\"  data-pin-color=\"red\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png\" /></a><script type=\"text/javascript\" async defer src=\"//assets.pinterest.com/js/pinit.js\"></script>"	 
