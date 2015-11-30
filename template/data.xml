@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+<element>
+         <title>Paneer Kofta / Fried Cottage Cheese Balls</title>
+         <type>nonVegItem</type>
+         <shortDesc>'Kofta' is a very flexible food item, you can serve them as starter or you can soak them in gravy and serve as maincourse also. This was my very first attempt on 'kofta' and from the beginning I was a bit nervous because I often heard that while frying them, kofta has a chance to break. But I carefully maintained the proportion of ingredients and taaddaaa ...!! All of my 'kofta's came out perfectly and they were scrumptious. Try this in your kitchen and let me know how it turns out.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;2 cups of paneer chunks.&lt;/li&gt;&lt;li&gt;1 small boiled potato (shredded).&lt;/li&gt;&lt;li&gt;5 tablespoons of finely chopped onion.&lt;/li&gt;&lt;li&gt;1 Teaspoon of finely chopped green chilies.&lt;/li&gt;&lt;li&gt;6 tablespoons of finely chopped carrots and bell peppers.&lt;/li&gt;&lt;li&gt;2 Teaspoons of chopped coriander leaves.&lt;/li&gt;&lt;li&gt;2 Teaspoons cornflour.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon red chilli powder.&lt;/li&gt;&lt;li&gt;2 Teaspoons garam masala powder.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon dry mango powder (amchoor).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Lots of raisins.&lt;/li&gt;&lt;li&gt;White oil for deep frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;First shred the paneer cubes finely.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-2.jpg" /&gt;&lt;div&gt;Then heat a pan.&lt;/div&gt;&lt;div&gt;Add the chopped carrots and bell peppers. Don't add oil. Saute them for 2-3 minutes, all of their water will dry out.&lt;/div&gt;&lt;div&gt;Remove them from the pan and add in the paneer.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-3.jpg" /&gt;&lt;div&gt;Now add rest of the ingredients one by one except raisins, salt and sugar.&lt;/div&gt;&lt;div&gt;Mix them first, then add salt and pinch of sugar. Again mix it very well with your hand.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-4.jpg" /&gt;&lt;div&gt;Now make a lemon sized ball from the mixture. Put 2-3 raisins (or chopped dry fruits) in the center, seal the edges and again roll it gently.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-5.jpg" /&gt;&lt;div&gt;Make all the balls from the rest of the mixture.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-6.jpg" /&gt;&lt;div&gt;Now for safety put a small portion of the mixture in the medium hot oil first. If it came out perfectly then add rest of the paneer balls.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-7.jpg" /&gt;&lt;div&gt;Oil should be medium hot, not cold or smoking hot.&lt;/div&gt;&lt;div&gt;Fry them till becomes golden in color.&lt;/div&gt;&lt;img src="recipeimages/paneer-kofta-8.jpg" /&gt;&lt;div&gt;Remove the kofta-s from the oil and keep them on a tissue paper.&lt;/div&gt;</process>
+         <completionStatement>Your paneer kofta is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Serve them hot with tea ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/paneer-kofta.jpg</thumb>
+         <pic>recipeimages/paneer-kofta.jpg</pic>
+         <url>paneer-kofta</url>
+         <add-pic>recipeimages/paneer-kofta-1.jpg</add-pic>
+         <add-pic-style>width:55%</add-pic-style>
+         <keywords>paneer, kofta, fry, cheese, balls, starter, indian, veg, oil</keywords>
+         <tags>paneer,starter,veg,indian</tags>
+   </element>
+
    <element>
          <title>Chicken Kosha</title>
          <type>nonVegItem</type>
@@ -14,6 +31,8 @@
          <url>chicken-kosha</url>
          <add-pic>recipeimages/chicken-kosha-1.jpg</add-pic>
          <add-pic-style>width:55%</add-pic-style>
+         <end-pic>recipeimages/paneer-makhani-11.jpg</end-pic>
+      <end-pic-style>width:50%</end-pic-style>
       <keywords>lunch, chicken, dinner, kasha, kosha, curry, spicy, maincourse, bengali</keywords>
       <tags>lunch,chicken,dinner,kasha,kosha,curry,spicy,maincourse,bengali</tags>
    </element>
