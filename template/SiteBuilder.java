@@ -51,7 +51,7 @@ import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=184";
+	public static String buildNo = "?sessionId=185";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Btn Click', this.href);\">contact@spicyworld.in</a></u>";
 	
@@ -720,10 +720,13 @@ public class SiteBuilder {
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
 		String itemTypeClass = "";
+		String text = "";
 		if ("nonVegItem".equals(type)) {
 			itemTypeClass = "nonVegItem-1";
+			text = "Nonveg Recipe";
 		} else {
 			itemTypeClass = "vegItem-1";
+			text = "Veg Recipe";
 		}
 		String data = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 		data = CookBook.html2text(data);
@@ -731,17 +734,15 @@ public class SiteBuilder {
 			data = data.substring(0, 400) + " ...";
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div vocab='http://schema.org/' typeof='Recipe' style='clear:both;width:100%'><div class='leftitem' style=\"padding-right: 20px;float:left;width: 35%\">"
+		recipes_data += "<div vocab='http://schema.org/' typeof='Recipe' style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
+				+ "<div class='" + type + " itemTypeLabel'>" + text + "</div>"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
-						+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
-				+ "\" /></a></div><div style=\"float:left;width:60%\">"
-				+ "<div class=\"title\"><div style=\"float:left;\" class=\""
-				+ eElement.getElementsByTagName("type").item(0)
-						.getTextContent()
-				+ "\">&nbsp;</div><div style=\"float:left;width:90%\">"
+				+ "\" /></a></div><div style='float:left;width:3%'>&nbsp;</div><div style=\"float:left;width:60%;\">"
+				+ "<div class=\"title\"><div style=\"float:left;width:90%\">"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
 						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
