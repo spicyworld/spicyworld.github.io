@@ -13,7 +13,9 @@
          <pic>recipeimages/paneer-kofta.jpg</pic>
          <url>paneer-kofta</url>
          <add-pic>recipeimages/paneer-kofta-1.jpg</add-pic>
-         <add-pic-style>width:75%</add-pic-style>
+         <add-pic-style>width:65%</add-pic-style>
+         <end-pic>recipeimages/paneer-kofta-9.jpg</end-pic>
+         <end-pic-style>width:75%</end-pic-style>
          <keywords>paneer, kofta, fry, cheese, balls, starter, indian, veg, oil</keywords>
          <tags>paneer,starter,veg,indian</tags>
    </element>
