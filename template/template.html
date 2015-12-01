@@ -52,7 +52,7 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<div class="centerContent specialHomeContainer">
-			<div class="topFixedPosition ##recipe_type##">
+			<div class="topFixedPosition">
 				<div class="header">
 					<div class="title">
 						<a class="siteLogoHdr" title="Spicy World" alt="Spicy World" href="http://spicyworld.in">Spicy World</a>
@@ -70,8 +70,7 @@
 						</div>
 						<div class="searchPlace">
 							<div class="searchLeft">
-								<label style="display:none" for="searchBox">Search Recipes</label>
-						    	<input onkeypress="enterPressCheck(event);" type="text" id="searchBox" class=".searchBox" placeholder="Search recipes by title ..."/>
+								<input onkeypress="enterPressCheck(event);" type="text" id="searchBox" class=".searchBox" placeholder="Search recipes by title ..."/>
 						    	<a onclick="ga('send', 'event', 'Site Search', 'Btn Click', this.href);" href="javascript:searchData()">Search</a>
 					    	</div>
 					    	<div class="searchRight">
@@ -91,6 +90,7 @@
 						<li><a href="index.html" class="##index_sel##" alt="Home" title="Home">Home</a></li>
 					</ul>
 				</div>
+				<div class="##recipe_type## defaultTopLine">&nbsp;</div>
 			</div>
 			<div class="middleData">
 				<div id="middleDataSearchSection">
