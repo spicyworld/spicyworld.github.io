@@ -1,3 +1,36 @@
+.topNextPrevNavLinks {
+	padding: 10px;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.imagesPage a, .footer a, .linkColor a{
+	color: #22B5E3;
+	text-decoration: none;
+}
+
+.prevLink:before {
+	content: url(../../images/arrow-left.png);
+}
+
+.netxLink:after{
+	content: url(../../images/arrow-right.png);
+}
+
+.prevLinkD:before {
+	content: url(../../images/arrow-left-disabled.png);
+}
+
+.netxLinkD:after{
+	content: url(../../images/arrow-right-disabled.png);
+}
+
 .vegTopLine {
 	border-bottom: 2px solid green;
     height: 0px !important;

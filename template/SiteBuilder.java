@@ -634,22 +634,8 @@ public class SiteBuilder {
 						.getTextContent() + "</div></div>" + "</div></div>" + endImg;
 		
 
-		//Next Previous Link Starts
-		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev', 'link_#POS#', this.href);\"";
-		String prev = "", next = "";
-		if (prevElement != null) {
-			String prevTitle = "Next Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
-			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Previous Recipe</a>";
-		} else {
-			prev = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
-		}
-		if (nextElement != null) {
-			String nextTitle = "Previous Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
-			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Next Recipe&nbsp;</a>";
-		} else {
-			next = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
-		}
-		String oldNew = "<div class='clear linkColor topNextPrevNavLinks'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
+		
+		String oldNew = SiteBuilder.nextPreviousPagination(prevElement, nextElement, "");
 		try {
 			String tagData = eElement.getElementsByTagName("tags").item(0).getTextContent();
 			String tags = "<div id='tags' class=\"tagContent\">";
@@ -935,5 +921,24 @@ public class SiteBuilder {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+	
+	public static String nextPreviousPagination (Element prevElement, Element nextElement, String deviceType) {
+		//Next Previous Link Starts
+		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev" + deviceType + "', 'link_#POS#', this.href);\"";
+		String prev = "", next = "";
+		if (prevElement != null) {
+			String prevTitle = "Next Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
+			prev = "<a " + gaCode.replace("#POS#", "left") + " title='" + prevTitle + "' alt='" + prevTitle + "' class='prevLink' href='" + prevElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>&nbsp;Previous Recipe</a>";
+		} else {
+			prev = "<span class='prevLinkD'>&nbsp;Previous Recipe</span>";
+		}
+		if (nextElement != null) {
+			String nextTitle = "Previous Recipe: " + nextElement.getElementsByTagName("title").item(0).getTextContent();
+			next = "<a " + gaCode.replace("#POS#", "right") + " title='" + nextTitle + "' alt='" + nextTitle + "' class='netxLink' href='" + nextElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>Next Recipe&nbsp;</a>";
+		} else {
+			next = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
+		}
+		return "<div class='clear linkColor topNextPrevNavLinks'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
 	}
 }

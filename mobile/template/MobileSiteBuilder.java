@@ -74,7 +74,19 @@ public class MobileSiteBuilder {
 						recipes_data = "";
 					}
 					recipes_data = recepiData(recipes_data, eElement, "");
-					createItemData(templatePath, eElement, count);
+					Element prevElement = null;
+					Element nextElement = null;
+					try {
+						prevElement = (Element) nList.item(temp - 1);
+					} catch (Exception e) {
+						prevElement = null;
+					}
+					try {
+						nextElement = (Element) nList.item(temp + 1);
+					} catch (Exception e) {
+						nextElement = null;
+					}
+					createItemData(templatePath, eElement, count, prevElement, nextElement);
 					String classToApply = null;
 					if (count == 1) {
 						classToApply = "left";
@@ -268,7 +280,7 @@ public class MobileSiteBuilder {
 		return siteMapDataEntry;
 	}
 	
-	public static void createItemData(String templatePath, Element eElement, int count) {
+	public static void createItemData(String templatePath, Element eElement, int count, Element prevElement, Element nextElement) {
 		String out = "";
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
@@ -355,6 +367,10 @@ public class MobileSiteBuilder {
 		} else {
 			fileData = fileData.replace("##recipe_type##", "vegTopLine");
 		}
+		
+		String oldNew = SiteBuilder.nextPreviousPagination(prevElement, nextElement, " (Mobile)");
+		out = oldNew + "<br/>" + out + oldNew;
+		
 		
 		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
