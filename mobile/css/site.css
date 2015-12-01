@@ -172,6 +172,10 @@
 	clear: both;
 }
 
+.lineBreakBottom {
+	border: 1px solid grey;
+}
+
 .title img {
 	width: 45%;
 }
