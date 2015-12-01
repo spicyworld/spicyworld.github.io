@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Jali Kabab / Net Kabab (Kebab)</title>
+         <type>nonVegItem</type>
+         <shortDesc>I guess many people are not familiar with this name, believe me, I was also not. 'He' is a big fan of kababs, that's why I always try to find new recipes for kababs. This year, on his birthday, I made these 'jali' kababs. The concept and taste were totally new to us. But luckily 'net kabab' brought a big smile on his face and that was my real satisfaction. 'Jali' means net and they have net like texture. You can make this with mutton / beef / chicken. After trying this I can tell you one thing that you will be finding excuses to make these kababs.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;3 cups of minced meat.&lt;/li&gt;&lt;li&gt;2 - 3 breads soaked into water.&lt;/li&gt;&lt;li&gt;1 small onion finely chopped.&lt;/li&gt;&lt;li&gt;2 Teaspoons chopped ginger and garlic.&lt;/li&gt;&lt;li&gt;3 Teaspoons chopped green chilies.&lt;/li&gt;&lt;li&gt;4 - 5 Teaspoons chopped coriander leaves.&lt;/li&gt;&lt;li&gt;2 Teaspoons of tomato ketchup.&lt;/li&gt;&lt;li&gt;3 Teaspoons of chilli sauce.&lt;/li&gt;&lt;li&gt;1 Teaspoons black pepper powder.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1 egg.&lt;/li&gt;&lt;li&gt;Some bread crumbs.&lt;/li&gt;&lt;li&gt;While oil for deep frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Take a mixing bowl.&lt;/div&gt;&lt;div&gt;Add minced meat, soaked bread (binding element), salt, black pepper powder, onion, ginger, garlic, green chilies, coriander leaves, tomato ketchup and chilli sauce.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-2.jpg" /&gt;&lt;div&gt;Mix the entire thing very well with your hand.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-3.jpg" /&gt;&lt;div&gt;Now divide the mixture into similar portions of kababs.&lt;/div&gt;&lt;div&gt;All of them will be very fragile, so carefully coat them in bread crumbs and give them oval shape.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-4.jpg" /&gt;&lt;div&gt;Now beat an egg.&lt;/div&gt;&lt;div&gt;Dip one coated kabab in this beaten egg and place it in the hot oil.&lt;/div&gt;&lt;div&gt;Repeat the same process with all of them.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-5.jpg" /&gt;&lt;div&gt;Fry them from both sides till golden in color.&lt;/div&gt;&lt;div&gt;This frying process will take time.&lt;/div&gt;&lt;div&gt;Before removing from the pan, sprinkle some more beaten egg on the kababs and fry them for just 1-2 minutes.&lt;/div&gt;&lt;div&gt;By this process the kababs will get 'net' like texture.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-6.jpg" /&gt;&lt;div&gt;Then keep them on a tissue paper to absorb the extra oil.&lt;/div&gt;&lt;img src="recipeimages/jali-kabab-7.jpg" /&gt;</process>
+         <completionStatement>Your jali kabab is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Serve them hot with ketchup or chilli sauce ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/jali-kabab.jpg</thumb>
+         <pic>recipeimages/jali-kabab.jpg</pic>
+         <url>jali-kabab</url>
+         <add-pic>recipeimages/jali-kabab-1.jpg</add-pic>
+         <add-pic-style>width:65%</add-pic-style>
+         <end-pic>recipeimages/jali-kabab-8.jpg</end-pic>
+         <end-pic-style>width:75%</end-pic-style>
+         <keywords>chicken, mutton, beef, kabab, jali, net, egg, fry, starter, spicy, party.</keywords>
+         <tags>kabab,starter,spicy</tags>
+   </element>
+
+   <element>
          <title>Paneer Kofta Curry / Fried Cottage cheese balls curry</title>
          <type>vegItem</type>
          <shortDesc>Last weekend I wanted to make something new veg maincourse, thats why I chose this 'paneer kofta curry' and it was just delicious. You can make kofta curry with raw banana, jack fruit, chicken, fish, mutton etc. They all tastes really good. I made it with &lt;a href='paneer-kofta.html'&gt;paneer kofta&lt;/a&gt;, you can see how good looking they are and by clicking the picture below you can see how it's prepared.&lt;br/&gt;&lt;br/&gt;&lt;a href='paneer-kofta.html'&gt;&lt;img class='topImagePosition' style='width:85%;box-shadow: 9px 8px 5px #888888;' src='recipeimages/paneer-kofta-curry-1.jpg' /&gt;&lt;/a&gt;&lt;br/&gt;&lt;br/&gt;I served this curry with plain rice but you can also serve with naan, kulcha, pulaao, jeera rice or even with paratha. Every combo will make your meal a special one. There are several ways you can make this curry, here is how I made it.</shortDesc>
