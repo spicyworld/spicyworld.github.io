@@ -369,7 +369,7 @@ public class MobileSiteBuilder {
 		}
 		
 		String oldNew = SiteBuilder.nextPreviousPagination(prevElement, nextElement, " (Mobile)");
-		out = oldNew + "<br/>" + out + oldNew;
+		out = oldNew + "<br/>" + out + "<br/>" + oldNew;
 		
 		
 		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
@@ -415,65 +415,19 @@ public class MobileSiteBuilder {
 	}
 
 	public static String readFile(String fileName) {
-		String line = null;
-		String fileData = "";
-		try {
-			// FileReader reads text files in the default encoding.
-			FileReader fileReader = new FileReader(fileName);
-
-			// Always wrap FileReader in BufferedReader.
-			BufferedReader bufferedReader = new BufferedReader(fileReader);
-
-			while ((line = bufferedReader.readLine()) != null) {
-				fileData += line;
-			}
-
-			// Always close files.
-			bufferedReader.close();
-		} catch (FileNotFoundException ex) {
-			System.out.println("Unable to open file '" + fileName + "'");
-		} catch (IOException ex) {
-			System.out.println("Error reading file '" + fileName + "'");
-		}
-		return fileData;
+		return SiteBuilder.readFile(fileName);
 	}
 
 	public static void saveHTMLFile(String outPath, String fileData) {
-	try {
-		Tidy tidy = new Tidy();
-		tidy.setXHTML(true);
-		InputStream stream = new ByteArrayInputStream(fileData.getBytes(StandardCharsets.UTF_8));
-		File file = new File(outPath);
-		FileOutputStream fop = new FileOutputStream(file);
-		tidy.parse(stream, fop);
-		fop.flush();
-		fop.close();
-		stream.close();
-	} catch (Exception e) {
-		e.printStackTrace();
-	}
+		SiteBuilder.saveHTMLFile(outPath, fileData);
 	}
 	
 	public static void saveFile(String outPath, String fileData) {
-		try {
-			File newTextFile = new File(outPath);
-			FileWriter fw = new FileWriter(newTextFile);
-			fw.write(fileData);
-			fw.close();
-		} catch (IOException iox) {
-			iox.printStackTrace();
-		}
+		SiteBuilder.saveFile(outPath, fileData);
 	}
 
 	public static void selfCopy(String dest, String processor) {
-		File srcf = new File(processor);
-		File destf = new File(dest);
-		destf.delete();
-		try {
-			Files.copy(srcf.toPath(), destf.toPath());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		SiteBuilder.selfCopy(dest, processor);
 	}
 	
 	private static void copyFolder(String src, String dest) {
