@@ -1,3 +1,17 @@
+.vegTopLine {
+	border-bottom: 2px solid green;
+    height: 0px !important;
+    top: -6px;
+    position: relative;
+}
+
+.nonVegTopLine {
+	border-bottom: 2px solid red;
+    height: 0px !important;
+    top: -6px;
+    position: relative;
+}
+
 .aboutImg {
 	width: 80%;
     box-shadow: 9px 8px 5px #888888;

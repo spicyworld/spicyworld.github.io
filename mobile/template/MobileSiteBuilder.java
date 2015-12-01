@@ -350,6 +350,12 @@ public class MobileSiteBuilder {
 			keyword = title + ", Arpita, kitchen, Spicy World, World of Spices, Spice, Food, Recipes, " + url;
 		}
 		
+		if ("nonVegItem".equals(type)) {
+			fileData = fileData.replace("##recipe_type##", "nonVegTopLine");
+		} else {
+			fileData = fileData.replace("##recipe_type##", "vegTopLine");
+		}
+		
 		fileData = fileData.replace("##TITLE_DATA##", "How to cook " + title + " | Spicy World by Arpita");
 		fileData = fileData.replace("##MIDDLE_DATA##", "<div class='recipeDataPage'>" + out + "</div><div class=\"clear\">&nbsp;</div>");
 		fileData = fileData.replace("##recipes_sel##", "selected");
