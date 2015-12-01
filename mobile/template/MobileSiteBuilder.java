@@ -45,7 +45,7 @@ public class MobileSiteBuilder {
 		
 		String recipes_data = "";
 		String fileData = "";
-		int count = 1, perPageData = 10;
+		int count = 1, perPageData = 18;
 		List recipeDataList = new ArrayList();
 		String tags = "";
 		int homeImg = 3;
