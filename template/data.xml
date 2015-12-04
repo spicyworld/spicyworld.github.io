@@ -15,7 +15,7 @@
          <add-pic>recipeimages/mutton-dopyaza-1.jpg</add-pic>
          <add-pic-style>width:85%</add-pic-style>
          <end-pic>recipeimages/mutton-dopyaza-8.jpg</end-pic>
-         <end-pic-style>width:75%</end-pic-style>
+         <end-pic-style>width:85%</end-pic-style>
          <keywords>mutton, dopyaza, onion, gravy, curry, spicy, indian, maincourse, party</keywords>
          <tags>mutton,maincourse,indian,spicy</tags>
    </element>
@@ -34,7 +34,7 @@
          <add-pic>recipeimages/chinese-fried-rice-1.jpg</add-pic>
          <add-pic-style>width:85%</add-pic-style>
          <end-pic>recipeimages/chinese-fried-rice-6.jpg</end-pic>
-         <end-pic-style>width:75%</end-pic-style>
+         <end-pic-style>width:85%</end-pic-style>
          <keywords>chinese, fried, rice, maincourse, veg, spicy, onion, garlic</keywords>
          <tags>chinese,maincourse,veg</tags>
    </element>
@@ -53,7 +53,7 @@
          <add-pic>recipeimages/jali-kabab-1.jpg</add-pic>
          <add-pic-style>width:85%</add-pic-style>
          <end-pic>recipeimages/jali-kabab-8.jpg</end-pic>
-         <end-pic-style>width:75%</end-pic-style>
+         <end-pic-style>width:85%</end-pic-style>
          <keywords>chicken, mutton, beef, kabab, jali, net, egg, fry, starter, spicy, party</keywords>
          <tags>kabab,starter,spicy</tags>
    </element>
