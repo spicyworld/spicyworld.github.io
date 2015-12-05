@@ -56,10 +56,10 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Btn Click', this.href);\">contact@spicyworld.in</a></u>";
 	
 	public static void main(String[] args) {
-		/*String img = "mutton-dopyaza";
+		/*String img = "khara-masala-mutton";
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
 		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
-		for (int i=1;i<=8; i++) {
+		for (int i=1;i<=10; i++) {
 			String limg = img + "-" + i;
 			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
 		}*/
