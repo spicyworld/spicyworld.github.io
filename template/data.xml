@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+    <element>
+         <title>Tortilla</title>
+         <type>vegItem</type>
+         <shortDesc>After coming to Texas I was familiar with the name of 'tortilla'. Here maxican food is very famous. 'Tortilla' plays a big role in mexican cuisin. They make various dishes with this tortilla and many of them tastes really delicious. With tortilla you can make 'taco', 'burrito', 'quesedilla', 'enchilada' etc. I really love each of them and that's why I want to make tortilla in my own kitchen. Usually they use vegetable lard for the dough, as I didn't have that in my home, I used lots of vegetable oil. You can use olive oil also. So, here is how I made my tortillas ...</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of all purpose flour / maida.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon baking powder.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon salt.&lt;/li&gt;&lt;li&gt;4 Tablespoons of vegetable oil.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Put the flour, baking powder and salt in a mixing bowl.&lt;/div&gt;&lt;div&gt;Mix the dry ingredients first with your hand.&lt;/div&gt;&lt;img src="recipeimages/tortilla-2.jpg" /&gt;&lt;div&gt;Then add the oil. Mix this with flour very well.&lt;/div&gt;&lt;img src="recipeimages/tortilla-3.jpg" /&gt;&lt;div&gt;Gradually add warm water and make a soft dough.&lt;/div&gt;&lt;div&gt;Knead the dough for 6 minutes properly.&lt;/div&gt;&lt;div&gt;Then cover the dough with a damp tissue or cloth for 20 minutes.&lt;/div&gt;&lt;img src="recipeimages/tortilla-4.jpg" /&gt;&lt;div&gt;Now make a lemon size ball out of the dough.&lt;/div&gt;&lt;div&gt;Roll the ball in dry flour once.&lt;/div&gt;&lt;img src="recipeimages/tortilla-5.jpg" /&gt;&lt;div&gt;Flatten the ball to 2-3 inches with the help of a rolling pin.&lt;/div&gt;&lt;img src="recipeimages/tortilla-6.jpg" /&gt;&lt;div&gt;Place it on a medium hot tawa. Keep it for 1-2 minute.&lt;/div&gt;&lt;div&gt;When you will see some bubbles flip it to the other side.&lt;/div&gt;&lt;div&gt;Again keep the other side for 1-2 minutes.&lt;/div&gt;&lt;img src="recipeimages/tortilla-7.jpg" /&gt;&lt;div&gt;Remove it from the pan.&lt;/div&gt;&lt;div&gt;If you will use the tortillas later, then keep them in a air tight container or ziplock bag. No need to refrigarate.&lt;/div&gt;</process>
+         <completionStatement>Your warm, fresh tortillas are ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Use them as taco shell, wrap etc.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/tortilla.jpg</thumb>
+         <pic>recipeimages/tortilla.jpg</pic>
+         <url>tortilla</url>
+         <add-pic>recipeimages/tortilla-1.jpg</add-pic>
+         <add-pic-style>width:55%</add-pic-style>
+         <end-pic>recipeimages/tortilla-8.jpg</end-pic>
+         <end-pic-style>width:75%</end-pic-style>
+         <keywords>tortilla, flour, mexican, flatten bread, oil</keywords>
+         <tags>flour,veg,tortilla,mexican food,bread</tags>
+   </element>
 
    <element>
          <title>Biulir Daal / Urad daal (Pure bengali style) / Kolier Daal</title>
