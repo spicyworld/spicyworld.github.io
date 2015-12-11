@@ -3,10 +3,10 @@
 
 
    <element>
-         <title>Biulir daal / Urad daal (Pure bengali style)</title>
+         <title>Biulir Daal / Urad daal (Pure bengali style) / Kolier Daal</title>
          <type>vegItem</type>
          <shortDesc>Soul food means the food which you can enjoy from the bottom of your heart while eating. Being a bengali I always face a common question- 'fish and posto(poppy seeds) are your soul food, right?'. And my answer is always 'oh, hell yaa' ... 😉 Today I will talk about vegetarian food. We always make 'biulir daal' / 'urad daal' with posto. The combo is nothing but heavenly. There is a must ingredient we use in our urad daal is 'hing' / asafoetida. Many bengalis also enjoy this meal with fried eggplant / begunvaja. The recipe is very simple and easy. It is a no onion and no garlic dish. Try this in your kitchen and make your lunch a traditional one.</shortDesc>
-         <ingrediants>&lt;ul&gt;&lt;li&gt;1/2 cup of urad daal.&lt;/li&gt;&lt;li&gt;1 cup of water.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon of hing / asafoetida.&lt;/li&gt;&lt;li&gt;1 Teaspoon crushed fennel seeds / mouri.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon ginger paste.&lt;/li&gt;&lt;li&gt;1 dry red chilli.&lt;/li&gt;&lt;li&gt;3 green chilies.&lt;/li&gt;&lt;li&gt;1 bay leaf.&lt;/li&gt;&lt;li&gt;1 Teaspoon turmeric powder.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;2 Tablespoons of mustard oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1/2 cup of urad daal.&lt;/li&gt;&lt;li&gt;1 cup of water.&lt;/li&gt;&lt;li&gt;2 pinches of hing / asafoetida.&lt;/li&gt;&lt;li&gt;1 Teaspoon crushed fennel seeds / mouri.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon ginger paste.&lt;/li&gt;&lt;li&gt;1 dry red chilli.&lt;/li&gt;&lt;li&gt;3 green chilies.&lt;/li&gt;&lt;li&gt;1 bay leaf.&lt;/li&gt;&lt;li&gt;1 Teaspoon turmeric powder.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;2 Tablespoons of mustard oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
          <process>&lt;div&gt;Dry roast the urad daal for 6 minutes in a pan.&lt;/div&gt;&lt;div&gt;Remove the daal from pan and wash thoroughly with water.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-2.jpg" /&gt;&lt;div&gt;Add the washed daal and a cup of water in a pressure cooker. Give it pressure for 15 minutes or untill the lentils become soft.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-3.jpg" /&gt;&lt;div&gt;Heat mustard oil in a pan.&lt;/div&gt;&lt;div&gt;Add bay leaf and dry red chilli in hot oil.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-4.jpg" /&gt;&lt;div&gt;Then add crushed fennel seeds, hing and turmeric powder. Mix it for 15 seconds.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-5.jpg" /&gt;&lt;div&gt;Immediately add green chilies and ginger paste. Mix them for 20 seconds.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-6.jpg" /&gt;&lt;div&gt;Then add the boiled daal and salt. Cook it for 5 minutes and mash the daal with your spatula a bit. The consistency will become thick.&lt;/div&gt;&lt;img src="recipeimages/biuli-daal-7.jpg" /&gt;&lt;div&gt;Check the seasoning and adjust it according to your taste.&lt;/div&gt;&lt;div&gt;Then turn off the heat.&lt;/div&gt;</process>
          <completionStatement>Your biulir daal is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Serve this hot with plain rice, posto or fried eggplant.&lt;/li&gt;&lt;/ul&gt;</garnishment>
@@ -17,8 +17,8 @@
          <add-pic-style>width:55%</add-pic-style>
          <end-pic>recipeimages/biuli-daal-8.jpg</end-pic>
          <end-pic-style>width:75%</end-pic-style>
-         <keywords>biuli, urad, dal, veg, bengali, maincourse, spicy, no onion, no garlic, hing</keywords>
-         <tags>veg,bengali,maincourse,lunch,spicy</tags>
+         <keywords>biuli, urad, dal, veg, bengali, maincourse, spicy, no onion, no garlic, hing, Kolier Daal</keywords>
+         <tags>veg,bengali,maincourse,lunch,spicy,kolier</tags>
    </element>
 
    <element>
