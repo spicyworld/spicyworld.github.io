@@ -180,7 +180,7 @@ public class MobileSiteBuilder {
 			
 			//Save HomePage
 			fileData = readFile(basePath + "template/template.html");
-			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World by Arpita");
+			fileData = fileData.replace("##TITLE_DATA##", "Welcome to Spicy World by Arpita - Mobile Friendly Website of Spicy World");
 			fileData = fileData.replace("##MIDDLE_DATA##", latest3DataForHomePage);
 			fileData = fileData.replace("##index_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
