@@ -617,7 +617,7 @@ public class SiteBuilder {
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
-				+ "' title='" + title + "' property='image' src='"
+				+ "' title='" + title + "' property='contentUrl' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition' /></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
@@ -723,7 +723,7 @@ public class SiteBuilder {
 		recipes_data += "<div vocab='http://schema.org/' typeof='Recipe' style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
 				+ "<div class='" + type + " itemTypeLabel'>" + text + "</div>"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
-				+ "<img property='image' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "<img property='contentUrl' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("thumb").item(0)
 						.getTextContent() + buildNo
