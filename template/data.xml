@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
 
+   <element>
+         <title>Tandoori Chicken Wraps</title>
+         <type>nonVegItem</type>
+         <shortDesc>Last week, from Monday to Friday, I was very lazy and didn't do much innovative cooking. We really got bored of eating usual meals. So, I thought to do something simple but new in the weekend. I had some boneless chicken and homemade &lt;a href='tortilla.html'&gt;tortillas&lt;/a&gt; in my kitchen. Suddenly planned to make some wraps. But then I was wondering about the flavour of the filling. 'He' suggested to give 'tandoori' flavour and I did it. You will not believe that those were the best wraps I have ever made. They were really scrumptious and will make them soon again. Try this in your kitchen and you will love them too.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;4 medium sized tortillas.&lt;/li&gt;&lt;li&gt;4 chicken breast pieces.&lt;/li&gt;&lt;li&gt;1 cup of finely chopped onion.&lt;/li&gt;&lt;li&gt;1 Teaspoon chopped garlic.&lt;/li&gt;&lt;li&gt;3 green chilies, finely chopped.&lt;/li&gt;&lt;li&gt;4 tablespoons of finely chopped tomato.&lt;/li&gt;&lt;li&gt;Some chopped cilantro/coriander leaves.&lt;/li&gt;&lt;li&gt;3 Teaspoons of tandoori chicken masala.&lt;/li&gt;&lt;li&gt;4 Teaspoons tomato ketchup.&lt;/li&gt;&lt;li&gt;Few drops of lemon juice.&lt;/li&gt;&lt;li&gt;1 Teaspoon Salt + 1 Teaspoon black pepper powder + 1 Teaspoon red chilli powder.&lt;/li&gt;&lt;li&gt;5 Tablespoons of white oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Marinate the chicken pieces with salt, black pepper and red chilli powder. Adjust the heat according to your taste. Keep it in the fridge for 1 hour.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-2.jpg" /&gt;&lt;div&gt;Heat 2 Tablespoons of oil in pan.&lt;/div&gt;&lt;div&gt;Place the marinated chicken pieces and cook them from both sides for 15-20 minutes.&lt;/div&gt;&lt;div&gt;Then remove them from the pan and let the chicken cool down a bit.&lt;/div&gt;&lt;div&gt;After that chop them into bite size pieces.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-3.jpg" /&gt;&lt;div&gt;Heat the remaining oil in a pan.&lt;/div&gt;&lt;div&gt;Add chopped onion (keep 4 Teaspoons aside), garlic and green chilies. Cook it for 5-6 minutes or untill the raw flavour of everything in gone.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-4.jpg" /&gt;&lt;div&gt;Then add chopped tomato and pinch of salt. Cook this for 3-4 minutes.&lt;/div&gt;&lt;div&gt;You can also add some chopped vegetables of you choice.&lt;/div&gt;&lt;div&gt;Add tandoori chicken masala. Mix it very well.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-5.jpg" /&gt;&lt;div&gt;Then add the chopped chicken pieces. Mix this with the masala very well.&lt;/div&gt;&lt;div&gt;Check the seasoning and turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-6.jpg" /&gt;&lt;div&gt;Now its time to assemble some wraps !!&lt;/div&gt;&lt;div&gt;First warm up the tortilla little bit in a pan.&lt;/div&gt;&lt;div&gt;Then put some filling, 1 Teaspoon chopped onion, some chopped cilantro, a Teaspoon ketchup and few drops of lemon juice.&lt;/div&gt;&lt;img src="recipeimages/chicken-wrap-7.jpg" /&gt;&lt;div&gt;After that you can wrap it in a paper or you can fold the edges and seal the wrap with a toothpick.&lt;/div&gt;</process>
+         <completionStatement>Your tandoori chicken wraps are ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Serve them warm with chilled cokes.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <thumb>recipeimages/thumb/chicken-wrap.jpg</thumb>
+         <pic>recipeimages/chicken-wrap.jpg</pic>
+         <url>chicken-wrap</url>
+         <add-pic>recipeimages/chicken-wrap-1.jpg</add-pic>
+         <add-pic-style>width:55%</add-pic-style>
+         <end-pic>recipeimages/chicken-wrap-8.jpg</end-pic>
+         <end-pic-style>width:75%</end-pic-style>
+         <keywords>tandoori, chicken, wrap, roll, tortillas, spicy, maincourse, Tandoori Chicken Wrap</keywords>
+         <tags>tandoori,chicken,tortillas,spicy</tags>
+   </element>
+
     <element>
          <title>Tortilla</title>
          <type>vegItem</type>
