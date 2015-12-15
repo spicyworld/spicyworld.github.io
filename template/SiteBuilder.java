@@ -692,7 +692,7 @@ public class SiteBuilder {
 		fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 		fileData = fileData.replaceAll("##KEYWORD_DATA##", keyword);
 		fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "<link rel='alternate' media='only screen and (max-width: 640px)' href='http://spicyworld.in/mobile/" + url + ".html' >");
-		fileData = fileData.replaceAll("##DESC_DATA##", desc);
+		fileData = fileData.replaceAll("##DESC_DATA##", CookBook.html2text(desc));
 		fileData = fileData.replaceAll("##IMG_DATA##", eElement.getElementsByTagName("pic").item(0).getTextContent());
 		fileData = fileData.replaceAll("##URL_DATA##", "/" + url + ".html");
 		fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
