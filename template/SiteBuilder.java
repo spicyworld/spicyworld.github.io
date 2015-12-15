@@ -720,7 +720,7 @@ public class SiteBuilder {
 			data = data.substring(0, 400) + " ...";
 		}
 		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div vocab='http://schema.org/' typeof='Recipe' style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
+		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
 				+ "<div class='" + type + " itemTypeLabel'>" + text + "</div>"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
 				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
@@ -732,8 +732,8 @@ public class SiteBuilder {
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
 						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\"><div property='name'>" + eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</div></a></div></div><div class=\"desc\" property='description'>"
+				+ ".html\"><div>" + eElement.getElementsByTagName("title").item(0).getTextContent()
+				+ "</div></a></div></div><div class=\"desc\">"
 				+ data + "</div></div></div></td>";
 		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
 		return recipes_data;
