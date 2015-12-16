@@ -1,3 +1,15 @@
+.steps-image div.descheader {
+ margin-left: 20px !important;
+ display: block;
+ font-weight: bold;
+}
+
+.padtopbottomimg {
+	width: 75% !important;
+	margin-top: 35px !important;
+	margin-bottom: 30px !important;
+}
+
 .footerLinksSpecial a {
 	color:darkblue !important;
 	font-size: 13px !important;
