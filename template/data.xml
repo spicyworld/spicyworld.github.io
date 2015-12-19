@@ -13,9 +13,9 @@
          <pic>recipeimages/potato-stew.jpg</pic>
          <url>potato-stew</url>
          <add-pic>recipeimages/potato-stew-1.jpg</add-pic>
-         <add-pic-style>width:65%</add-pic-style>
+         <add-pic-style>width:45%</add-pic-style>
          <end-pic>recipeimages/potato-stew-7.jpg</end-pic>
-         <end-pic-style>width:75%</end-pic-style>
+         <end-pic-style>width:45%</end-pic-style>
          <keywords>potato, veg, spicy, maincourse, stew, curry, ghee, black pepper, morich</keywords>
          <tags>potato,veg,stew,ghee</tags>
    </element>
