@@ -837,14 +837,15 @@ public class SiteBuilder {
 			BufferedImage bimg = ImageIO.read(new File(source));
 			double width = bimg.getWidth(), height = bimg.getHeight();
 			BufferedImage image = ImageIO.read(new File(source));
-	        BufferedImage overlay = ImageIO.read(new File(basePath + "/images/site-icon.png"));
+	        BufferedImage overlay = ImageIO.read(new File(basePath + "/images/water-mark.png"));
+	        
 
 	        // create the new image, canvas size is the max. of both image sizes
 	        BufferedImage combined = new BufferedImage(convertToNearestInt(width), convertToNearestInt(height), BufferedImage.TYPE_INT_BGR);
 	        // paint both images, preserving the alpha channels
 	        Graphics g = combined.getGraphics();
 	        g.drawImage(image, 0, 0, null);
-	        g.drawImage(overlay, 15, convertToNearestInt(height) - 85, null);
+	        g.drawImage(overlay, 20, convertToNearestInt(height) - 115, null);
 	        ImageIO.write(combined, "jpg", new File(destination));
 	        
 	        
