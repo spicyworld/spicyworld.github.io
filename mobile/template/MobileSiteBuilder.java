@@ -399,7 +399,7 @@ public class MobileSiteBuilder {
 				+ "<a href='" +eElement.getElementsByTagName("url").item(0).getTextContent()  + ".html'>"
 						+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
-				+ recipeImageBase + prefix + eElement.getElementsByTagName("thumb").item(0)
+				+ recipeImageBase + prefix + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + buildNo
 				+ "\"/></a></div><div class=\"rightitem\">"
 				+ "<div class=\"title\"><div>"

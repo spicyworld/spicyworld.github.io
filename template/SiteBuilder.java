@@ -5,6 +5,7 @@ import java.awt.FontMetrics;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
+import java.awt.RenderingHints;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
@@ -33,6 +34,7 @@ import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.metadata.IIOMetadata;
 import javax.imageio.stream.FileImageInputStream;
+import javax.imageio.stream.FileImageOutputStream;
 import javax.imageio.stream.ImageOutputStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -59,10 +61,9 @@ public class SiteBuilder {
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		
-		/*String img = "matar-kachori";
+		/*String img = "potato-stew";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/thumb/" + img + ".jpg", 330, true, basePath);
-		for (int i=1;i<=14; i++) {
+		for (int i=1;i<=7; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
@@ -482,7 +483,7 @@ public class SiteBuilder {
 		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'bottom_links', this.href);\"";
 		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 280px !important;\" src=\""
-				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
+				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:280px;height:70px\"><a " + gaCode + " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
 	}
@@ -490,7 +491,7 @@ public class SiteBuilder {
 	public static String getAllImages(String recipes_data, Element eElement) {
 		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 212px !important;\" src=\""
-				+ eElement.getElementsByTagName("thumb").item(0).getTextContent() + buildNo
+				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
 	}
@@ -726,9 +727,9 @@ public class SiteBuilder {
 		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
 				+ "<div class='" + type + " itemTypeLabel'>" + text + "</div>"
 				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
-				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+				+ "<img width='330px' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
-				+ prefix + eElement.getElementsByTagName("thumb").item(0)
+				+ prefix + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + buildNo
 				+ "\" /></a></div><div style='float:left;width:3%'>&nbsp;</div><div style=\"float:left;width:60%;\">"
 				+ "<div class=\"title\"><div style=\"float:left;width:90%\">"
@@ -856,48 +857,35 @@ public class SiteBuilder {
 	}
 	
 	private static void reduceImageFileSize (String filePath, double destinationWidth) {
-		double height, width;
 		try {
-            BufferedImage originalImage = ImageIO.read(new File(filePath));
-            height = originalImage.getHeight();
-            width = originalImage.getWidth();
-            int type = originalImage.getType() == 0 ? BufferedImage.TYPE_INT_ARGB : originalImage.getType();
-            
-            BufferedImage resizeImageBmp = resizeImage(originalImage, type, convertToNearestInt((destinationWidth*height)/width), convertToNearestInt(destinationWidth));
-            ImageIO.write(resizeImageBmp, "jpg", new File(filePath));
-       
+		String srcPath = filePath;
+		String destPath = filePath;
+		float quality = 0.8f;
 
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-        }
+		Iterator iter = ImageIO.getImageWritersByFormatName("jpeg");
+
+		ImageWriter writer = (ImageWriter)iter.next();
+
+		ImageWriteParam iwp = writer.getDefaultWriteParam();
+
+		iwp.setCompressionMode(ImageWriteParam.MODE_EXPLICIT);
+
+		iwp.setCompressionQuality(quality);
+
+		File file = new File(destPath);
+		FileImageOutputStream output = new FileImageOutputStream(file);
+		writer.setOutput(output);
+
+		FileInputStream inputStream = new FileInputStream(srcPath);
+		BufferedImage originalImage = ImageIO.read(inputStream);
+
+		IIOImage image = new IIOImage(originalImage, null, null);
+		writer.write(null, image, iwp);
+		writer.dispose();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
-	
-	 private static BufferedImage resizeImage(BufferedImage originalImage, int type, int height, int width) {
-	        BufferedImage resizedImage = new BufferedImage(width, height, type);
-	        Graphics2D g = resizedImage.createGraphics();
-	        g.drawImage(originalImage, 0, 0, width, height, null);
-	        g.dispose();
-	        return resizedImage;
-	    }/*
-
-	    private static BufferedImage resizeImageWithHint(BufferedImage originalImage, int type) {
-
-	        BufferedImage resizedImage = new BufferedImage(IMG_WIDTH, IMG_CLAHEIGHT, type);
-	        Graphics2D g = resizedImage.createGraphics();
-	        g.drawImage(originalImage, 0, 0, IMG_WIDTH, IMG_CLAHEIGHT, null);
-	        g.dispose();
-	        g.setComposite(AlphaComposite.Src);
-
-	        g.setRenderingHint(RenderingHints.KEY_INTERPOLATION,
-	                RenderingHints.VALUE_INTERPOLATION_BILINEAR);
-	        g.setRenderingHint(RenderingHints.KEY_RENDERING,
-	                RenderingHints.VALUE_RENDER_QUALITY);
-	        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
-	                RenderingHints.VALUE_ANTIALIAS_ON);
-
-	        return resizedImage;
-	    }*/
-	
 	
 	
 	private static int convertToNearestInt (double ff) {
