@@ -832,100 +832,28 @@ public class SiteBuilder {
 		createImage(source, destination, destinationWidth, false, basePath);
 	}
 	
-	private static void createImage(String source, String destination, float destinationWidth, boolean waterMarkFlag, String basePath) {
-		/*Graphics2D g2d = null;
-		float alpha = 1f;
+	private static void createImage(String source, String destination, double destinationWidth, boolean waterMarkFlag, String basePath) {
 		try {
 			BufferedImage bimg = ImageIO.read(new File(source));
-			int width = bimg.getWidth(), height = 0;
-			if (width < destinationWidth && width > 0) {
-				destinationWidth = width;
-			} else if (width <= 0) {
-				System.out.println("cp " + source + " " + destination);
-			}
-			if (destinationWidth == 330) { 
-				alpha = 1f;
-			} else {
-				System.out.println(destinationWidth);
-				height = (bimg.getHeight()/width) * destinationWidth;
-				alpha = 0.6f;
-			}
-			System.out.println(height);
-			File image = new File(source);
-			File smallImage = new File(destination);
-			try {
-				BufferedImage bufimage = ImageIO.read(image);
-				
-				// Watermark Starts
-				if (waterMarkFlag) {
-					g2d = (Graphics2D) bufimage.getGraphics();
-			        AlphaComposite alphaChannel = AlphaComposite.getInstance(AlphaComposite.SRC_OVER, alpha);
-			        g2d.setComposite(alphaChannel);
-			        g2d.setColor(Color.WHITE);
-			        g2d.setFont(new Font("Lucida Blackletter", Font.PLAIN, 80));
-			        FontMetrics fontMetrics = g2d.getFontMetrics();
-			        Rectangle2D rect = fontMetrics.getStringBounds("\u00a9 spicy world", g2d);
-			        int centerY = bufimage.getHeight() - 50;
-			        g2d.drawString("\u00a9 spicy world", 50, centerY);
-				}
-		        // Watermark Ends
-				BufferedImage bISmallImage = Scalr.resize(bufimage, Method.AUTOMATIC, Mode.AUTOMATIC, destinationWidth, height, Scalr.OP_BRIGHTER);
-				if (destinationWidth == 330) {
-					ImageIO.write(bISmallImage, "png", smallImage);
-				} else {
-					ImageIO.write(bISmallImage, "jpg", smallImage);
-				}
-				if (waterMarkFlag) {
-					g2d.dispose();
-				}
-			} catch (Exception e) {
-				System.out.println(e.getMessage()); // FORNOW: added just to be
-													// sure
-			}
-		} catch (Exception e) {
-		}*/
-		
-		
-		try {
-			
-			BufferedImage bimg = ImageIO.read(new File(source));
-			float width = bimg.getWidth(), height = 0;
-			if (width < destinationWidth && width > 0) {
-				destinationWidth = width;
-			} else if (width <= 0) {
-				System.out.println("cp " + source + " " + destination);
-			}
-			if (destinationWidth == 330) { 
-			} else {
-				System.out.println(destinationWidth);
-				height = (bimg.getHeight()/width) * destinationWidth;
-			}
-			
-			
-	        BufferedImage image = ImageIO.read(new File(source));
+			double width = bimg.getWidth(), height = bimg.getHeight();
+			BufferedImage image = ImageIO.read(new File(source));
 	        BufferedImage overlay = ImageIO.read(new File(basePath + "/images/site-icon.png"));
 
 	        // create the new image, canvas size is the max. of both image sizes
-	        //BufferedImage combined = new BufferedImage(destinationWidth, height, BufferedImage.TYPE_INT_ARGB);
-	        BufferedImage combined = Scalr.resize(image, Method.AUTOMATIC, Mode.AUTOMATIC, convertToNearestInt(destinationWidth), convertToNearestInt(height), Scalr.OP_BRIGHTER);
-
+	        BufferedImage combined = new BufferedImage(convertToNearestInt(width), convertToNearestInt(height), BufferedImage.TYPE_INT_BGR);
 	        // paint both images, preserving the alpha channels
 	        Graphics g = combined.getGraphics();
 	        g.drawImage(image, 0, 0, null);
-	        if (height == 0) {
-	        	System.out.println("bimg.getHeight()" + bimg.getHeight());
-	        	height = (bimg.getHeight()/bimg.getWidth()) * destinationWidth;
-	        	System.out.println("height " + height);
-	        }
 	        g.drawImage(overlay, 15, convertToNearestInt(height) - 85, null);
-
 	        ImageIO.write(combined, "jpg", new File(destination));
+	        
+	        
 	    } catch (IOException e) {
 	        e.printStackTrace();
 	    }
 	}
 	
-	private static int convertToNearestInt (float ff) {
+	private static int convertToNearestInt (double ff) {
 		int i = 0;
 		i = (int) ff;
 		return i;
