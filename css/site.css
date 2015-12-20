@@ -71,10 +71,54 @@
 
 .title .siteLogoHdr{
  	font-size: 44pt;
-    font-family: "Comic Sans MS", sans-serif;
-    font-weight: normal;
-    text-shadow: -2px 2px 3px grey;
+    font-family: Quintessential, "Comic Sans MS", sans-serif;
     color: black;
+}
+
+.title .siteLogoHdr .leftplace {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-size: 48px;
+    font-family: "Joti One";
+}
+
+.title .siteLogoHdr .leftplace label { 
+	font-size: 60px;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    color: red;
+}
+
+.title .siteLogoHdr .leftplace span {
+    color: green;
+}
+
+.specialLogoLine {
+	position: absolute;
+    border-bottom: 2px solid green;
+    width: 164px;
+    top: 60px;
+    left: 47px;
+}
+
+.specialLogoArrow {
+    width: 0px;
+    height: 0px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 15px solid red;
+    position: absolute;
+    left: 204px;
+    top: 57px;
+}
+
+.title .siteLogoHdr .rightplace {
+    padding-top: 29px;
+    padding-left: 44px;
+    position: absolute;
+    font-size: 46px;
 }
 
  .title .siteLogoHdr:hover{
@@ -273,10 +317,7 @@ height:auto;
 }
 
 .header {
-	background-image: url('../images/home-bg.png');
-    background-repeat: no-repeat;
-    background-size: 100px 70px;
-    height: 70px;
+	height: 70px;
 }
 
 .header .title img {
