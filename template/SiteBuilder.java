@@ -2,6 +2,7 @@ import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.FontMetrics;
+import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Image;
 import java.awt.geom.Rectangle2D;
@@ -56,16 +57,17 @@ public class SiteBuilder {
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievment.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Btn Click', this.href);\">contact@spicyworld.in</a></u>";
 	
 	public static void main(String[] args) {
-		/*String img = "potato-stew";
-		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + img + ".jpg", 1500, true);
-		createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + img + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/thumb/" + img + ".jpg", 330, true);
+		String basePath = "/Volumes/Pearson/spicyworld/";
+		String img = "potato-stew";
+		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
+		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/thumb/" + img + ".jpg", 330, true, basePath);
 		for (int i=1;i<=7; i++) {
 			String limg = img + "-" + i;
-			createImage("/Volumes/Pearson/spicyworld/template/recipeimages/" + limg + ".jpg", "/Volumes/Pearson/spicyworld/recipeimages/" + limg + ".jpg", 1500, true);
-		}*/
+			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
+		}
 		//System.exit(1);
 		
-		String basePath = "/Volumes/Pearson/spicyworld/";
+		
 		String templatePath = basePath;
 		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
@@ -806,7 +808,7 @@ public class SiteBuilder {
 	}
 	
 	private static List getAllImages(String destinationPath, String destFolder,
-			int destinationWidth) {
+			int destinationWidth, String basePath) {
 		List listFiles = new ArrayList();
 		String src = "";
 		String dest = "";
@@ -817,7 +819,7 @@ public class SiteBuilder {
 					listFiles.add(file.getCanonicalPath());
 					src = file.getCanonicalPath();
 					dest = destFolder + file.getName();
-					createImage(src, dest, destinationWidth);
+					createImage(src, dest, destinationWidth, basePath);
 				}
 			}
 		} catch (Exception e) {
@@ -826,12 +828,12 @@ public class SiteBuilder {
 		return listFiles;
 	}
 
-	private static void createImage(String source, String destination, int destinationWidth) {
-		createImage(source, destination, destinationWidth, false);
+	private static void createImage(String source, String destination, int destinationWidth, String basePath) {
+		createImage(source, destination, destinationWidth, false, basePath);
 	}
 	
-	private static void createImage(String source, String destination, int destinationWidth, boolean waterMarkFlag) {
-		Graphics2D g2d = null;
+	private static void createImage(String source, String destination, float destinationWidth, boolean waterMarkFlag, String basePath) {
+		/*Graphics2D g2d = null;
 		float alpha = 1f;
 		try {
 			BufferedImage bimg = ImageIO.read(new File(source));
@@ -881,7 +883,52 @@ public class SiteBuilder {
 													// sure
 			}
 		} catch (Exception e) {
-		}
+		}*/
+		
+		
+		try {
+			
+			BufferedImage bimg = ImageIO.read(new File(source));
+			float width = bimg.getWidth(), height = 0;
+			if (width < destinationWidth && width > 0) {
+				destinationWidth = width;
+			} else if (width <= 0) {
+				System.out.println("cp " + source + " " + destination);
+			}
+			if (destinationWidth == 330) { 
+			} else {
+				System.out.println(destinationWidth);
+				height = (bimg.getHeight()/width) * destinationWidth;
+			}
+			
+			
+	        BufferedImage image = ImageIO.read(new File(source));
+	        BufferedImage overlay = ImageIO.read(new File(basePath + "/images/site-icon.png"));
+
+	        // create the new image, canvas size is the max. of both image sizes
+	        //BufferedImage combined = new BufferedImage(destinationWidth, height, BufferedImage.TYPE_INT_ARGB);
+	        BufferedImage combined = Scalr.resize(image, Method.AUTOMATIC, Mode.AUTOMATIC, convertToNearestInt(destinationWidth), convertToNearestInt(height), Scalr.OP_BRIGHTER);
+
+	        // paint both images, preserving the alpha channels
+	        Graphics g = combined.getGraphics();
+	        g.drawImage(image, 0, 0, null);
+	        if (height == 0) {
+	        	System.out.println("bimg.getHeight()" + bimg.getHeight());
+	        	height = (bimg.getHeight()/bimg.getWidth()) * destinationWidth;
+	        	System.out.println("height " + height);
+	        }
+	        g.drawImage(overlay, 15, convertToNearestInt(height) - 85, null);
+
+	        ImageIO.write(combined, "jpg", new File(destination));
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
+	}
+	
+	private static int convertToNearestInt (float ff) {
+		int i = 0;
+		i = (int) ff;
+		return i;
 	}
 	
 	private static void resImg(String file, String output, int destinationWidth) {
