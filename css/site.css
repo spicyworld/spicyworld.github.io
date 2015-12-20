@@ -65,11 +65,11 @@
 }
 
 .topFixedPosition {
-	/*position: fixed;*/
+	/*position: fixed;
     width: 960px;
     z-index: 100000;
     background: white;
-    top: 0px;
+    top: 0px;*/
 }
 
 .title .siteLogoHdr{
