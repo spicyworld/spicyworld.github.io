@@ -848,11 +848,56 @@ public class SiteBuilder {
 	        g.drawImage(overlay, 20, convertToNearestInt(height) - 115, null);
 	        ImageIO.write(combined, "jpg", new File(destination));
 	        
-	        
+	        reduceImageFileSize(destination, destinationWidth);
 	    } catch (IOException e) {
 	        e.printStackTrace();
 	    }
 	}
+	
+	private static void reduceImageFileSize (String filePath, double destinationWidth) {
+		double height, width;
+		try {
+            BufferedImage originalImage = ImageIO.read(new File(filePath));
+            height = originalImage.getHeight();
+            width = originalImage.getWidth();
+            int type = originalImage.getType() == 0 ? BufferedImage.TYPE_INT_ARGB : originalImage.getType();
+            
+            BufferedImage resizeImageBmp = resizeImage(originalImage, type, convertToNearestInt((destinationWidth*height)/width), convertToNearestInt(destinationWidth));
+            ImageIO.write(resizeImageBmp, "jpg", new File(filePath));
+       
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+	}
+	
+	 private static BufferedImage resizeImage(BufferedImage originalImage, int type, int height, int width) {
+	        BufferedImage resizedImage = new BufferedImage(width, height, type);
+	        Graphics2D g = resizedImage.createGraphics();
+	        g.drawImage(originalImage, 0, 0, width, height, null);
+	        g.dispose();
+	        return resizedImage;
+	    }/*
+
+	    private static BufferedImage resizeImageWithHint(BufferedImage originalImage, int type) {
+
+	        BufferedImage resizedImage = new BufferedImage(IMG_WIDTH, IMG_CLAHEIGHT, type);
+	        Graphics2D g = resizedImage.createGraphics();
+	        g.drawImage(originalImage, 0, 0, IMG_WIDTH, IMG_CLAHEIGHT, null);
+	        g.dispose();
+	        g.setComposite(AlphaComposite.Src);
+
+	        g.setRenderingHint(RenderingHints.KEY_INTERPOLATION,
+	                RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+	        g.setRenderingHint(RenderingHints.KEY_RENDERING,
+	                RenderingHints.VALUE_RENDER_QUALITY);
+	        g.setRenderingHint(RenderingHints.KEY_ANTIALIASING,
+	                RenderingHints.VALUE_ANTIALIAS_ON);
+
+	        return resizedImage;
+	    }*/
+	
+	
 	
 	private static int convertToNearestInt (double ff) {
 		int i = 0;
