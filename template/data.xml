@@ -2,6 +2,24 @@
 <root>
 
    <element>
+         <title>Koraishutir Kochuri / Green peas Kachori</title>
+         <type>vegItem</type>
+         <shortDesc>According to me, winter is incomplete without 'green peas'. Am I right ?? We Bengalis love to eat 'koraishutir kochuri' during winter. In my home nobody brings this kochuri from shop. My mom always makes this at home with 'aloo dom' , 'payesh' and everybody loves it. Nowadays we don't need to wait till winter for green peas because now almost everywhere frozen peas are available. I very much enjoy the combination of fennel, asafoetida (hing) and green peas. This kochuri goes very well with 'dum aloo'. Try this in your kitchen and share some of your winter stories with me.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of green peas.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 inch ginger.&lt;/li&gt;&lt;li&gt;2 pinches of hing / asafoetida.&lt;/li&gt;&lt;li&gt;Bhaja masala (1 Teaspoon cumin seeds, 1 Teaspoon fennel seeds, 1 Teaspoon coriander seeds, 1 dry red chilli).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Dough (1 cup maida/flour, pinch of salt, 1 Tablespoon of white oil, some warm water).&lt;/li&gt;&lt;li&gt;Oil for deep frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;First dry roast the cumin, fennel, coriander seeds and dry red chilli in a pan for 5 - 7 minutes.&lt;/div&gt;&lt;div&gt;Then put them in a blender and grind it to powder (bhaja masala).&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-2.jpg" /&gt;&lt;div&gt;Now put all the ingredients for the dough in a mixing bowl except water.&lt;/div&gt;&lt;div&gt;Mix the dry ingredients first with your hand and gradually add water and make semi soft dough.&lt;/div&gt;&lt;div&gt;Knead the dough very well, apply some oil on top and keep it aside in a bowl with cover for 20 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-3.jpg" /&gt;&lt;div&gt;Now put green peas, green chilies and ginger in a blender with very little water.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-4.jpg" /&gt;&lt;div&gt;Make a smooth paste. If the paste become coarse, the 'kachori's will not be puffed up properly.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-5.jpg" /&gt;&lt;div&gt;Heat 2 Teaspoons oil in a pan.&lt;/div&gt;&lt;div&gt;Add pinch of hing.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-6.jpg" /&gt;&lt;div&gt;Then add the paste, salt and 1/2 Teaspoon sugar. Mix it very well for 5 - 7 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-7.jpg" /&gt;&lt;div&gt;Then add 1 yo 2 Teaspoons bhaja masal or dry roasted powder. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-8.jpg" /&gt;&lt;div&gt;When the mixture will leave the pan properly, remove it from the pan.&lt;/div&gt;&lt;div&gt;The filling is ready and let it cool down a bit.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-9.jpg" /&gt;&lt;div&gt;Take a small portion from the dough and make a lemon size ball.&lt;/div&gt;&lt;div&gt;Then flatten it with your fingers and place 1 Teaspoon filling in the center.&lt;/div&gt;&lt;div&gt;Seal the edges properly and again flatten it.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-10.jpg" /&gt;&lt;div&gt;Put the flatten ball in little oil and spread it to 2 - 3 inches with rolling pin.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-11.jpg" /&gt;&lt;div&gt;Heat white oil in a kadai for deep frying.&lt;/div&gt;&lt;div&gt;Put the flatten bread in hot oil.&lt;/div&gt;&lt;div&gt;Press it gently with the spatula, it will puff up.&lt;/div&gt;&lt;div&gt;Then flip it and fry for 10 seconds.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-12.jpg" /&gt;</process>
+         <completionStatement>Your koraishutir kochuri is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy them hot with dum aloo or simle potato curry.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/peas-kachori.jpg</pic>
+         <url>peas-kachori</url>
+         <add-pic>recipeimages/peas-kachori-1.jpg</add-pic>
+         <add-pic-style>width:85%</add-pic-style>
+         <end-pic>recipeimages/peas-kachori-13.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
+         <keywords>fry, bread, breakfast, bengali, indian, greenpeas, koraishuti</keywords>
+         <tags>fry, breakfast, bread, indian, veg</tags>
+   </element>
+
+   <element>
          <title>Crispy Fried Calamari (Squid)</title>
          <type>nonVegItem</type>
          <shortDesc>During bachelor life in USA, 'he' went on a trip to Connecticut and had there 'calamari' twice. He just fell in love with the dish. After marriage 'he' insisted me to have fried calamari in a restaurant and I really was not sure about the taste before, so just picked one and put it in my mouth. After that, I, myself finished half of the plate within few seconds. They were that tasty. I wanted to make this calamari for long time, but never got the courage. Last weekend 'he' bought squid from market and cleaned them properly by seeing you tube and told me to make fried calamari. I was really nervous at first but then the end result really satisfied both of us. If you are also a squid lover person like us, please try this in your kitchen and I am sure you will enjoy them too.</shortDesc>
@@ -12,9 +30,9 @@
          <pic>recipeimages/crispy-squid.jpg</pic>
          <url>crispy-squid</url>
          <add-pic>recipeimages/crispy-squid-1.jpg</add-pic>
-         <add-pic-style>width:45%</add-pic-style>
-         <end-pic>recipeimages/crispy-squid-7.jpg</end-pic>
-         <end-pic-style>width:45%</end-pic-style>
+         <add-pic-style>width:85%</add-pic-style>
+         <end-pic>recipeimages/crispy-squid-8.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
          <keywords>fish, seafood, fry, starter, tasty, flour, squid</keywords>
          <tags>seafood,fry,starter</tags>
    </element>
