@@ -2,6 +2,24 @@
 <root>
 
    <element>
+         <title>Crispy Fried Calamari (Squid)</title>
+         <type>nonVegItem</type>
+         <shortDesc>During bachelor life in USA, 'he' went on a trip to Connecticut and had there 'calamari' twice. He just fell in love with the dish. After marriage 'he' insisted me to have fried calamari in a restaurant and I really was not sure about the taste before, so just picked one and put it in my mouth. After that, I, myself finished half of the plate within few seconds. They were that tasty. I wanted to make this calamari for long time, but never got the courage. Last weekend 'he' bought squid from market and cleaned them properly by seeing you tube and told me to make fried calamari. I was really nervous at first but then the end result really satisfied both of us. If you are also a squid lover person like us, please try this in your kitchen and I am sure you will enjoy them too.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of squid, cut into thin rings.&lt;/li&gt;&lt;li&gt;1 cup of flour.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1 Teaspoon black pepper powder.&lt;/li&gt;&lt;li&gt;1 Teaspoon red chilli powder.&lt;/li&gt;&lt;li&gt;Oil for deep frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Wash the squids very well in water.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-2.jpg" /&gt;&lt;div&gt;Then take half cup of flour, salt, 2 Teaspoon oil and some water in a mixing bowl.&lt;/div&gt;&lt;div&gt;Mix them well and make a thick batter.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-3.jpg" /&gt;&lt;div&gt;Put the remaining flour in another bowl along with salt, black pepper and red chilli powder. Mix the dry Ingredients very well.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-4.jpg" /&gt;&lt;div&gt;Dip one ring in the flour batter first. Coat it well.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-5.jpg" /&gt;&lt;div&gt;Then coat it in dry flour mixture.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-6.jpg" /&gt;&lt;div&gt;Put the coated squid ring in hot oil.&lt;/div&gt;&lt;div&gt;Oil should be really hot.&lt;/div&gt;&lt;div&gt;Fry them till golden in color. It will take 2 - 3 minutes.&lt;/div&gt;&lt;img src="recipeimages/crispy-squid-7.jpg" /&gt;&lt;div&gt;Then remove them from oil and place on a tissue paper.&lt;/div&gt;</process>
+         <completionStatement>Your fried Calamari is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Serve them hot with any choice of your sauce ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/crispy-squid.jpg</pic>
+         <url>crispy-squid</url>
+         <add-pic>recipeimages/crispy-squid-1.jpg</add-pic>
+         <add-pic-style>width:45%</add-pic-style>
+         <end-pic>recipeimages/crispy-squid-7.jpg</end-pic>
+         <end-pic-style>width:45%</end-pic-style>
+         <keywords>fish, seafood, fry, starter, tasty, flour, squid</keywords>
+         <tags>seafood,fry,starter</tags>
+   </element>
+
+   <element>
          <title>Ghee Moricher torkari / Ghee and Black pepper curry / Potato Stew</title>
          <type>vegItem</type>
          <shortDesc>From childhood, whenever I got attacked by cough and cold, my mom used to feed me this 'ghee moricher torkari' along with some puffed rice / 'muri'. Its nothing but a simple potato curry with mild flavors of 'ghee' and 'morich' / black pepper. According to my mom, the heat of black pepper goes well against cold and cough. Magically my neck always felt better after finishing this mom-made curry. The recipe is very simple but it tastes delicious. Specially you will enjoy this curry during winter along with some luchi (poori) or parathas.</shortDesc>
