@@ -15,6 +15,16 @@
 	font-size: 13px !important;
 }
 
+.homeTagLine {
+	position: absolute;
+    top: 81px;
+    left: 194px;
+    font-size: 13px;
+    font-family: serif;
+    line-height: 16px;
+    color: darkgreen;
+}
+
 .uspage {
 	padding-left: 40px;
 	padding-right: 40px;
