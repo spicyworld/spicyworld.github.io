@@ -61,12 +61,14 @@ public class SiteBuilder {
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		
-		/*String img = "khara-masala-mutton";
+		/*String img = "paneer-kofta";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=10; i++) {
+		for (int i=1;i<=9; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
+		
+		//transformAllImages(basePath);
 		//System.exit(1);
 		
 		
@@ -389,6 +391,52 @@ public class SiteBuilder {
 		//getAllImages(basePath + "recipeimages");
 		MobileSiteBuilder.buildNo = buildNo;
 		MobileSiteBuilder.mobileSiteBuilder();
+	}
+	
+	
+	private static void transformAllImages (String basePath) {
+		String title = null;
+		try {
+			File fXmlFile = new File(basePath + "template/data.xml");
+			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
+					.newInstance();
+			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+			Document doc = dBuilder.parse(fXmlFile);
+	
+			doc.getDocumentElement().normalize();
+	
+			NodeList nList = doc.getElementsByTagName("element");
+	
+			for (int temp = 0; temp < nList.getLength(); temp++) {
+	
+				Node nNode = nList.item(temp);
+	
+				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+					Element eElement = (Element) nNode;
+					title = eElement.getElementsByTagName("url").item(0).getTextContent();
+					if ("chicken-tandoori".equals(title)) {
+						break;
+					}
+					String img = title;
+					createImage(basePath + "template/recipeimages/" + img + ".jpg", basePath + "recipeimages/" + img + ".jpg", 1500, true, basePath);
+					System.out.println(basePath + "template/recipeimages/" + img + ".jpg");
+					int i = 1;
+					while (true) {
+						String limg = img + "-" + i;
+						File f = new File(basePath + "template/recipeimages/" + limg + ".jpg");
+						if (f.exists()) {
+							System.out.println(basePath + "template/recipeimages/" + limg + ".jpg");
+							createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "recipeimages/" + limg + ".jpg", 1500, true, basePath);
+							i++;
+						} else {
+							break;
+						}
+					}
+				}
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 	private static void generateTagHTML(String tag, String templatePath, NodeList nList, String baseTemplatePath, int count, String tagDataStr, String h1Tag) {
