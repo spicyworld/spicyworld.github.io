@@ -72,7 +72,7 @@ function successXML(xmlData) {
 function populateSearchResult(elementData) {
     var url = $('url', elementData).text();
     var title = $('title', elementData).text();
-    var thumb = $('thumb', elementData).text();
+    var pic = $('pic', elementData).text();
     var desc = $('shortDesc', elementData).text();
     var type = $('type', elementData).text();
     var typeDesc = '';
