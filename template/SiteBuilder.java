@@ -61,9 +61,9 @@ public class SiteBuilder {
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		
-		/*String img = "crispy-squid";
+		/*String img = "sooji-halwa";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=9; i++) {
+		for (int i=1;i<=11; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
@@ -908,9 +908,8 @@ public class SiteBuilder {
 		try {
 		String srcPath = filePath;
 		String destPath = filePath;
-		float quality = 0.8f;
-
-		Iterator iter = ImageIO.getImageWritersByFormatName("jpeg");
+		float quality = 0.25f;
+		Iterator iter = ImageIO.getImageWritersByFormatName("jpg");
 
 		ImageWriter writer = (ImageWriter)iter.next();
 
