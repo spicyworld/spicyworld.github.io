@@ -85,7 +85,7 @@ function populateSearchResult(elementData) {
     template = replaceAll('##TITLE##', title, template);
     template = replaceAll('##DESC##', desc, template);
     template = replaceAll('##TYPE##', type, template);
-    template = replaceAll('##PIC##', thumb, template);
+    template = replaceAll('##PIC##', pic, template);
     template = replaceAll('##URL##', url, template);
     template = replaceAll('##TYPE_DESC##', typeDesc, template);
     return template;
