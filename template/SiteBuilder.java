@@ -567,11 +567,11 @@ public class SiteBuilder {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String pubDate = null;
 		try {
-			pubDate = "<pubDate>" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</pubDate>";
+			pubDate = "<pubDate>" + eElement.getElementsByTagName("pubDate").item(0).getTextContent() + "</pubDate>";
 		} catch (Exception e) {
 			pubDate = "";
 		}
-		homeJSON = "<item><guid>http://www.spicyworld.in/" + url + ".html</guid><author>Spicy World by Arpita (http://spicyworld.in)</author>" + pubDate
+		homeJSON = "<item><guid>http://www.spicyworld.in/" + url + ".html</guid><author>contact@spicyworld.in (Spicy World by Arpita)</author>" + pubDate
 				+ "<title>" + title + "</title><link>http://www.spicyworld.in/" + url
 		+ ".html</link><description><![CDATA[<img src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "' alt='" + title + "' title='" + title + "' />" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "]]></description></item>";
 		return homeJSON;
