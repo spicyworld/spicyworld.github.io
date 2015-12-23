@@ -1,3 +1,8 @@
+.descCSSStyle {
+	width:90%;
+	box-shadow: 9px 8px 5px #888888;
+}
+
 .steps-image div.descheader {
  margin-left: 20px !important;
  display: block;
