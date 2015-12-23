@@ -580,6 +580,7 @@ public class SiteBuilder {
 	}
 	
 	private static String getDate(String inDate) {
+		System.out.println(inDate);
 		Date dd = new Date(inDate);
 		SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z");
         String dt[] = dd.toString().split(" ");
