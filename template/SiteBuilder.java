@@ -562,8 +562,9 @@ public class SiteBuilder {
 	
 	public static String populateRSSData(Element eElement) {
 		String homeJSON = null;
-		homeJSON = "<item><title>" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</title><link>http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent()
-		+ ".html</link><description>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()) + "</description></item>";
+		String url = eElement.getElementsByTagName("url").item(0).getTextContent();
+		homeJSON = "<item><guid>" + url + "</guid><title>" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</title><link>http://www.spicyworld.in/" + url
+		+ ".html</link><description><![CDATA[" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "]]></description></item>";
 		return homeJSON;
 	}
 	
