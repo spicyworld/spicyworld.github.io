@@ -21,7 +21,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -567,7 +569,7 @@ public class SiteBuilder {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String pubDate = null;
 		try {
-			pubDate = "<pubDate>" + eElement.getElementsByTagName("pubDate1").item(0).getTextContent() + "</pubDate>";
+			pubDate = "<pubDate>" + getDate(eElement.getElementsByTagName("pubDate").item(0).getTextContent()) + "</pubDate>";
 		} catch (Exception e) {
 			pubDate = "";
 		}
@@ -575,6 +577,13 @@ public class SiteBuilder {
 				+ "<title>" + title + "</title><link>http://www.spicyworld.in/" + url
 		+ ".html</link><description><![CDATA[<img src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "' alt='" + title + "' title='" + title + "' />" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "]]></description></item>";
 		return homeJSON;
+	}
+	
+	private static String getDate(String inDate) {
+		Date dd = new Date(inDate);
+		SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z");
+        String dt[] = dd.toString().split(" ");
+		return dt[0] + ", " + dt[2] + " " + dt[1] + " " + dt[5] + " 00:00:00 CST";
 	}
 	
 	public static String siteMapEntry(Element eElement) {
