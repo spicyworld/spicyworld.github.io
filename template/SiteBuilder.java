@@ -61,9 +61,9 @@ public class SiteBuilder {
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		
-		/*String img = "sooji-halwa";
-		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=11; i++) {
+		String img = "peas-kachori";
+		//createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
+		/*for (int i=1;i<=11; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
@@ -127,9 +127,9 @@ public class SiteBuilder {
 				Element nextElement = null, prevElement = null;
 				Element eElement = (Element) elementList.get(i);
 				//if (i<5) {
-				blogTable += "<br/><br/><div><a href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'><img style='box-shadow: 9px 8px 5px #888888;padding: 2px;background: grey;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
+				blogTable += "<br/><br/><div><a href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html?from=blog'><img style='box-shadow: 9px 8px 5px #888888;padding: 2px;background: grey;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + "'/></a></div>"
-						+ "<div style='padding-top:12px'><a style='font-size: 26px;color: #22B5E3;' href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>" + eElement.getElementsByTagName("title").item(0).getTextContent()+ "</a></div>"
+						+ "<div style='padding-top:12px'><a style='font-size: 26px;color: #22B5E3;' href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html?from=blog'>" + eElement.getElementsByTagName("title").item(0).getTextContent()+ "</a></div>"
 								+ "<div>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()).substring(100) + " ..." + "</div>";
 				//}
 				if (count % perPageData == 0) {
@@ -563,7 +563,7 @@ public class SiteBuilder {
 	public static String populateRSSData(Element eElement) {
 		String homeJSON = null;
 		homeJSON = "<item><title>" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</title><link>http://www.spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent()
-		+ ".html</link><description>" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "</description></item>";
+		+ ".html</link><description>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()) + "</description></item>";
 		return homeJSON;
 	}
 	
@@ -908,7 +908,7 @@ public class SiteBuilder {
 		try {
 		String srcPath = filePath;
 		String destPath = filePath;
-		float quality = 0.25f;
+		float quality = 0.15f;
 		Iterator iter = ImageIO.getImageWritersByFormatName("jpg");
 
 		ImageWriter writer = (ImageWriter)iter.next();
