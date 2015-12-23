@@ -79,9 +79,10 @@ public class SiteBuilder {
 		String recipes_data = "";
 		String siteMapData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
-		String rssXMLData = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version=\"2.0\"><channel>"
+		String rssXMLData = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?><rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\"><channel>"
 				+ "<title>Spicy World</title><link>http://www.spicyworld.in</link>"
-				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>";
+				+ "<description>Welcome to Spicy World by Arpita Ghosh Das. Easy and Simple Recipes make your cooking faster and your food delicious.</description>"
+				+ "<atom:link href=\"http://spicyworld.in/rss.xml\" rel=\"self\" type=\"application/rss+xml\" />";
 		String recipes_data_img = "", fileData = "";
 		int count = 1, perPageData = 18;
 		List recipeDataList = new ArrayList();
