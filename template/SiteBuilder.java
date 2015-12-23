@@ -575,12 +575,11 @@ public class SiteBuilder {
 		}
 		homeJSON = "<item><guid>http://www.spicyworld.in/" + url + ".html</guid><author>contact@spicyworld.in (Spicy World by Arpita)</author>" + pubDate
 				+ "<title>" + title + "</title><link>http://www.spicyworld.in/" + url
-		+ ".html</link><description><![CDATA[<img src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "' alt='" + title + "' title='" + title + "' />" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent() + "]]></description></item>";
+		+ ".html</link><description><![CDATA[<img src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "' alt='" + title + "' title='" + title + "' />" + eElement.getElementsByTagName("shortDesc").item(0).getTextContent().replace("class='topImagePosition descCSSStyle' ", "") + "]]></description></item>";
 		return homeJSON;
 	}
 	
 	private static String getDate(String inDate) {
-		System.out.println(inDate);
 		Date dd = new Date(inDate);
 		SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss Z");
         String dt[] = dd.toString().split(" ");
