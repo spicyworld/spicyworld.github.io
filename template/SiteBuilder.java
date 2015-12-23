@@ -567,7 +567,7 @@ public class SiteBuilder {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String pubDate = null;
 		try {
-			pubDate = "<pubDate>" + eElement.getElementsByTagName("pubDate").item(0).getTextContent() + "</pubDate>";
+			pubDate = "<pubDate>" + eElement.getElementsByTagName("pubDate1").item(0).getTextContent() + "</pubDate>";
 		} catch (Exception e) {
 			pubDate = "";
 		}
