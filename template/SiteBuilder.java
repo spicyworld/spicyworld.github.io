@@ -127,9 +127,9 @@ public class SiteBuilder {
 				Element nextElement = null, prevElement = null;
 				Element eElement = (Element) elementList.get(i);
 				//if (i<5) {
-				blogTable += "<br/><br/><div><a href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'><img style='box-shadow: 9px 8px 5px #888888;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
+				blogTable += "<br/><br/><div><a href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'><img style='box-shadow: 9px 8px 5px #888888;padding: 2px;background: grey;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + "'/></a></div>"
-						+ "<div style='padding-top:10px'><a style='font-size: 20px;color: #22B5E3;' href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>" + eElement.getElementsByTagName("title").item(0).getTextContent()+ "</a></div>"
+						+ "<div style='padding-top:12px'><a style='font-size: 26px;color: #22B5E3;' href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>" + eElement.getElementsByTagName("title").item(0).getTextContent()+ "</a></div>"
 								+ "<div>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()).substring(100) + " ..." + "</div>";
 				//}
 				if (count % perPageData == 0) {
