@@ -532,11 +532,12 @@ public class SiteBuilder {
 	}
 	
 	private static String bottomRelated(String recipes_data, Element eElement) {
+		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'bottom_links', this.href);\"";
-		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
-				+ "'><img style=\"width: 280px !important;\" src=\""
+		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + title 
+				+ "'><img alt='" + title + "' title='" + title + "' style=\"width: 280px !important;\" src=\""
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
-				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:280px;height:70px\"><a " + gaCode + " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
+				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:280px;height:70px\"><a " + gaCode + " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + title + "</a></div></div>";
 		return recipes_data;
 	}
 	
@@ -644,7 +645,7 @@ public class SiteBuilder {
 		}
 		String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 		if (steps.contains("recipeimages")) {
-			steps = "<div class='steps-image'>" + steps + "</div>";
+			steps = "<div class='steps-image'>" + steps.replace("<img ", "<img alt='Cooking Step: " + title + "' title='Cooking Step: " + title + "' ") + "</div>";
 		}
 		
 		out = "<div vocab='http://schema.org/' typeof='Recipe'><div class='h2Class'><div style=\"clear:both\"><h1 property='name' id='title'>"
