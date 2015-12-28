@@ -562,7 +562,8 @@ body {
     background: #EEEEEE;
     overflow: hidden;
     padding: 10px;
-    border-radius: 0px 0px 15px 15px;
+    margin-top:6px;
+    /*border-radius: 0px 0px 15px 15px;*/
 }
 
 .middleBottom .title a{
@@ -585,7 +586,7 @@ body {
 .middleBottom .left img, .middleBottom .middle img, .middleBottom .right img {
 	width: 100%;
 	height: 180px;
-	border-radius: 15px 15px 0px 0px;
+	/*border-radius: 15px 15px 0px 0px;*/
 }
 
 .middleBottom .middle, .middleBottom .right {
