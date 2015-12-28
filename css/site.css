@@ -519,11 +519,9 @@ body {
 }
 
 .middleBottom {
-    padding-top: 12px;
-    height: 760px;
-    padding-left: 10px;
+    padding-top: 20px;
+    height: 800px;
     clear: both;
-    padding-right: 12px;
 }
 
 .cookbook {
@@ -558,13 +556,16 @@ body {
 
 
 .middleBottom .title {
-	padding-top: 13px;
-	height: 80px;
+    height: 40px;
+    background: #EEEEEE;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
 }
 
-.middleBottom .title  a{
+.middleBottom .title a{
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 15px;
 	color: #22B5E3;
 }
 
@@ -576,13 +577,13 @@ body {
 	float: left;
 	width: 30%;
 	text-align: center;
-	height: 250px;
+	height: 265px;
 }
 
 .middleBottom .left img, .middleBottom .middle img, .middleBottom .right img {
 	width: 100%;
 	height: 180px;
-	box-shadow: 9px 8px 5px #888888;
+	border-radius: 15px 15px 0px 0px;
 }
 
 .middleBottom .middle, .middleBottom .right {
