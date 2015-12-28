@@ -90,11 +90,6 @@ public class SiteBuilder {
 		List recipeDataList = new ArrayList();
 		String tags = "";
 		String carosalImg = "";
-		/*String notice = "<div class='cookbook'>Our recipes are now available in form of CookBook. "
-				+ "<a class='download' title='Spicy World : Cook Book'  alt='Spicy World : Cook Book' href='Spicy-World-Cook-Book.pdf' target='_blank' onclick=\"ga('send', 'event', 'PDF', 'download', this.href);\">Download CookBook</a>"
-				+ "&nbsp;&nbsp;To get the full CookBook, please follow our <a target='_blank' href='https://www.facebook.com/spicyworldrecipes' onclick=\"ga('send', 'event', 'Facebook', 'Website Cook Book', this.href);\">Facebook Page</a>.</div>";
-			*/
-		String notice = "";
 		//String notice = "";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
@@ -102,7 +97,7 @@ public class SiteBuilder {
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
-				+ "</div></div></div>" + notice + "<div class=\"middleBottom\">";
+				+ "</div></div></div><div class=\"middleBottom\">";
 		String nextAvailable = "", prevAvailable = "";
 		List elementList = new ArrayList();
 		try {
