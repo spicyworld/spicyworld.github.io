@@ -62,20 +62,24 @@ public class SiteBuilder {
 	
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
+		String processorBasePath = "/Users/vghosam/Documents/workspace/test";
 		
-		String img = "paneer-paratha";
+		//Compress files
+		compressFiles(basePath, processorBasePath);
+		
+		/*String img = "paneer-paratha";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
 		for (int i=1;i<=14; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
-		}
+		}*/
 		
 		//transformAllImages(basePath);
 		//System.exit(1);
 		
 		
 		String templatePath = basePath;
-		String processor = "/Users/vghosam/Documents/workspace/test/src/SiteBuilder.java";
+		String processor = processorBasePath + "/src/SiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
 		String recipes_data_front = "<table class=\"dataTable\">";
 		String recipes_data = "";
@@ -1013,5 +1017,47 @@ public class SiteBuilder {
 			next = "<span class='netxLinkD'>Next Recipe&nbsp;</span>";
 		}
 		return "<div class='clear linkColor topNextPrevNavLinks'><div class='fleft'>" + prev + "</div><div class='fright'>" + next + "</div></div>";
+	}
+	
+	private static void compressFiles(String srcBase, String jarBase) {
+		String jarFile = jarBase + "/jar/yuicompressor-2.4.8.jar";
+		String jsFile = srcBase + "/template/js/site.js";
+		String jsDest = srcBase + "/js/site.js";
+		String compressString = "java -jar " + jarFile + " " + jsFile + " -o " + jsDest + " --charset utf-8";
+		try {
+			Runtime rt = Runtime.getRuntime();
+			Process pr = rt.exec(compressString);
+			System.out.println("Compressing: " + jsFile);
+			
+			jsFile = srcBase + "/template/js/siteCommon.js";
+			jsDest = srcBase + "/js/siteCommon.js";
+			compressString = "java -jar " + jarFile + " " + jsFile + " -o " + jsDest + " --charset utf-8";
+			pr = rt.exec(compressString);
+			System.out.println("Compressing: " + jsFile);
+			
+			
+			jsFile = srcBase + "/template/css/site.css";
+			jsDest = srcBase + "/css/site.css";
+			compressString = "java -jar " + jarFile + " " + jsFile + " -o " + jsDest + " --charset utf-8";
+			pr = rt.exec(compressString);
+			System.out.println("Compressing: " + jsFile);
+			
+			
+			jsFile = srcBase + "/template/css/site-mobile.css";
+			jsDest = srcBase + "/mobile/css/site.css";
+			compressString = "java -jar " + jarFile + " " + jsFile + " -o " + jsDest + " --charset utf-8";
+			pr = rt.exec(compressString);
+			System.out.println("Compressing: " + jsFile);
+			
+			jsFile = srcBase + "/template/js/site-mobile.js";
+			jsDest = srcBase + "/mobile/js/site-mobile.js";
+			compressString = "java -jar " + jarFile + " " + jsFile + " -o " + jsDest + " --charset utf-8";
+			pr = rt.exec(compressString);
+			System.out.println("Compressing: " + jsFile);
+			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
