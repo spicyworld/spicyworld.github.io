@@ -1,3 +1,7 @@
+#middleDataSearchSection {
+    padding-top: 10px;
+}
+
 .recipeListPageItem {
 	clear: both;
     padding-bottom: 15px;
@@ -467,13 +471,11 @@ height:auto;
 .headerMenu {
 	color: black;
     padding-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     border-bottom: 2px solid grey;
-    height: 28px;
+    min-height: 28px;
     clear: both;
-    padding-bottom: 2px;
     display: inline-block;
-    float: right;
     width: 100%;
 }
 
@@ -509,7 +511,7 @@ height:auto;
     clear: both;
     display: inline-block;
     width: 97.5%;
-    height: 85px;
+    height: 90px;
 }
 
 .header .right{
@@ -891,7 +893,7 @@ h1 {
 }
 
 ul li {
-	line-height: 28px;
+	line-height: 22px;
     font-size: 17px;
 }
 
