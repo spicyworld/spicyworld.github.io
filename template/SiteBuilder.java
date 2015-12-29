@@ -63,12 +63,12 @@ public class SiteBuilder {
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
 		
-		String img = "mutton-dakbangla";
-		/*createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=15; i++) {
+		String img = "paneer-paratha";
+		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
+		for (int i=1;i<=14; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
-		}*/
+		}
 		
 		//transformAllImages(basePath);
 		//System.exit(1);
