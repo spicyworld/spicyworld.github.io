@@ -357,10 +357,11 @@ height:auto;
 
 .relatedRecipesData { 
 	padding: 20px;
-    height: 490px;
+    min-height: 490px;
     background: lightgrey;
     font-family: cursive;
     box-shadow: 5px 5px 5px rgba(132,132,182,0.5);
+	display: inline-block;
 }
 
 .relatedRecipesData .imagesPage a {
@@ -478,7 +479,7 @@ height:auto;
 }
 
 .headerMenu {
-	color: black;
+    color: black;
     padding-top: 2px;
     margin-bottom: 1px;
     border-bottom: 2px solid grey;
