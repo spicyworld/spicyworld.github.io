@@ -81,7 +81,7 @@ public class SiteBuilder {
 		String templatePath = basePath;
 		String processor = processorBasePath + "/src/SiteBuilder.java";
 		String tag_data_template = templatePath + "template/template.html";
-		String recipes_data_front = "<table class=\"dataTable\">";
+		String recipes_data_front = "<div>";
 		String recipes_data = "";
 		String siteMapData = "<?xml version=\"1.0\" encoding=\"UTF-8\"?><urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">";
 		siteMapData = siteMapData + staticEntriesSiteMap();
@@ -136,7 +136,7 @@ public class SiteBuilder {
 								+ "<div>" + CookBook.html2text(eElement.getElementsByTagName("shortDesc").item(0).getTextContent()).substring(100) + " ..." + "</div>";
 				//}
 				if (count % perPageData == 0) {
-					recipeDataList.add(recipes_data_front + recipes_data + "</table>");
+					recipeDataList.add(recipes_data_front + recipes_data + "</div>");
 					recipes_data = "";
 				}
 				String relatedRecipes = relatedRecipes(elementList, i);
@@ -182,7 +182,7 @@ public class SiteBuilder {
 			latest3DataForHomePage += "</div>";
 			latest3DataForHomePage = latest3DataForHomePage.replace("##HOME_IMAGE_TOP##", carosalImg);
 			if (!"".equals(recipes_data)) {
-				recipeDataList.add(recipes_data_front + recipes_data + "</table>");
+				recipeDataList.add(recipes_data_front + recipes_data + "</div>");
 				recipes_data = "";
 			}
 			
@@ -787,13 +787,10 @@ public class SiteBuilder {
 	public static String recepiData(String recipes_data, Element eElement, String prefix) {
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
-		String itemTypeClass = "";
 		String text = "";
 		if ("nonVegItem".equals(type)) {
-			itemTypeClass = "nonVegItem-1";
 			text = "Nonveg Recipe";
 		} else {
-			itemTypeClass = "vegItem-1";
 			text = "Veg Recipe";
 		}
 		String data = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
@@ -801,23 +798,25 @@ public class SiteBuilder {
 		if (data.length() > 400) {
 			data = data.substring(0, 400) + " ...";
 		}
-		recipes_data += "<tr class=\"" + itemTypeClass + "\"><td>";
-		recipes_data += "<div style='clear:both;width:100%'><div class='leftitem' style=\"float:left;width: 35%;position:relative;\">"
-				+ "<div class='" + type + " itemTypeLabel'>" + text + "</div>"
-				+ "<a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
-				+ "<img width='330px' title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		
+		recipes_data += "<div class='recipeListPageItem'>"
+				+ "<div class='recipeListPageItemLeft'><a href='" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html'>"
+				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + buildNo
-				+ "\" /></a></div><div style='float:left;width:3%'>&nbsp;</div><div style=\"float:left;width:60%;\">"
-				+ "<div class=\"title\"><div style=\"float:left;width:90%\">"
+				+ "\" /></a><div class='" + type + " itemTypeLabel'>" + text + "</div></div>"
+				+ "<div class='recipeListPageItemRight'>"
+				+ "<div class=\"title\">"
 				+ "<a alt=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" "
 						+ "title=\"" + eElement.getElementsByTagName("title").item(0).getTextContent() + "\" class='noStyle' href=\""
 				+ eElement.getElementsByTagName("url").item(0).getTextContent()
-				+ ".html\"><div>" + eElement.getElementsByTagName("title").item(0).getTextContent()
-				+ "</div></a></div></div><div class=\"desc\">"
-				+ data + "</div></div></div></td>";
-		recipes_data += "</tr><tr class=\"blankTR " + itemTypeClass + "\"></tr>";
+				+ ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent()
+				+ "</a></div>"
+				+ "<div class=\"desc\">"
+				+ data + "</div>"
+				+ "</div>"
+				+ "</div>";
 		return recipes_data;
 	}
 

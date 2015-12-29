@@ -1,3 +1,26 @@
+.recipeListPageItem {
+	clear: both;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+
+.recipeListPageItemLeft {
+	float: left;
+	width: 35%;
+}
+
+.recipeListPageItemLeft img {
+	max-width:100%;
+	max-height:100%;
+	box-shadow: 9px 8px 5px #888;
+}
+
+.recipeListPageItemRight {
+	float: left;
+	padding-left: 30px;
+	width: 55%;
+}
+
 .hiddeneLabel {
 	position: absolute;
     left: 0;
@@ -371,13 +394,6 @@ height:auto;
 .recipePage {
 	min-height: 550px;
 }
-.dataTable img {
-	box-shadow: 9px 8px 5px #888888;
-}
-
-.dataTable {
-	float: left;
-}
 
 .middleTop {
 	clear: both;
@@ -612,26 +628,29 @@ body {
 }
 
 .itemTypeLabel {
-    position: absolute;
+    position: relative;
     background: lightgrey;
     padding: 5px;
     border-radius: 0px 8px 0px 0px;
     left: 0px;
-    bottom: 0px;
     text-transform: uppercase;
     font-size: 10px;
     font-family: cursive;
+    bottom: 26px;
+    width: 100px;
 }
 
 .vegItem {
   color: white;
   background: #254117;
   padding:5px 15px;
+  width: 70px !important;
 }
 
 .nonVegItem {
   color: white;
   background: #990012;
+  padding: 5px 5px 5px 12px;
 }
 
 .blankTR {
