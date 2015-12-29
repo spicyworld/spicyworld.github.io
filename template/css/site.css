@@ -201,15 +201,24 @@ height:auto;
 	text-decoration: none;
 }
 
+.paginationHeader {
+	display: inline-block;
+	clear: both;
+	width: 100%;
+}
+
 .paginationHeader h1 {
 	float: left;
-	padding-top: 10px;
+	width: 30%;
 }
 
 .paginationHeader .topPaginationData {
-	clear: none !important;
+    clear: none !important;
     text-align: right;
-    padding-right: 0px;
+    padding-right: 0;
+    width: 65%;
+    float: right;
+    padding-top: 0px !important;
 }
 
 .rightAddSection {
@@ -763,7 +772,7 @@ body {
     line-height: 23px;
 }
 
-.topPaginationData, .tagContent {
+.tagContent, .topPaginationData {
 	clear: both;
 	text-align: center;
 	padding:10px;
