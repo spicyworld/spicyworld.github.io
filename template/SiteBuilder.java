@@ -95,13 +95,14 @@ public class SiteBuilder {
 		String tags = "";
 		String carosalImg = "";
 		//String notice = "";
+		String topTags = "";//"<div class='topTags'></div>";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
 				+ "<a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
-				+ "</div></div></div><div class=\"middleBottom\">";
+				+ "</div></div></div>" + topTags + "<div class=\"middleBottom\">";
 		String nextAvailable = "", prevAvailable = "";
 		List elementList = new ArrayList();
 		try {
@@ -402,6 +403,7 @@ public class SiteBuilder {
 		//getAllImages(basePath + "recipeimages");
 		MobileSiteBuilder.buildNo = buildNo;
 		MobileSiteBuilder.mobileSiteBuilder();
+		//CookBook.main(args);
 	}
 	
 	

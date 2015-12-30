@@ -45,6 +45,7 @@ public class CookBook {
 	public static List pageMap = new ArrayList();
 	public static int waterMarkStart = 3;
 	public static int insertPageStart = 2;
+	
 	public static void main(String[] args) {
 		String processor = "/Users/vghosam/Documents/workspace/test/src/CookBook.java";
 		SiteBuilder.selfCopy(templatePath + "template/CookBook.java", processor);

@@ -1,5 +1,14 @@
+.topTags {
+	background: #eee;
+	height: 50px;
+	width: 99%;
+	display: inline-block;
+	margin-top: 12px;
+	border-left: 10px solid #22b5e3;
+}
+
 #middleDataSearchSection {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .recipeListPageItem {
@@ -422,8 +431,6 @@ height:auto;
 	background: -ms-linear-gradient(top,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 ); /* IE6-9 */
-	border-radius: 15px;
-
 }
 
 .middleTop .left {
@@ -467,10 +474,9 @@ height:auto;
 	width: 50%;
 }
 
-.middleTop  .right img {
+.middleTop .right img {
 	width: 100%;
 	height: 300px;
-	border-radius: 0px 15px 15px 0px;
 }
 
 .middleData {
@@ -563,7 +569,7 @@ body {
 }
 
 .middleBottom {
-    padding-top: 20px;
+    padding-top: 12px;
     height: 800px;
     clear: both;
 }
