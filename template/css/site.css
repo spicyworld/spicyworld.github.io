@@ -86,6 +86,10 @@
 	line-height: 18px;
 }
 
+.posLeft ul li {
+	line-height: 28px;
+}
+
 .uspage ul {
 	margin: 5px;
 }
