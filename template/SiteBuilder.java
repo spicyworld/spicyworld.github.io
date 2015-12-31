@@ -153,7 +153,7 @@ public class SiteBuilder {
 				String data = entry.getKey();
 				keywordTags += data + " ";
 				data = data.replace(" ", "-");
-				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
+				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a title='" + entry.getKey()  + "' href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
 				count++;
 				String h1Tag = "<h1 class='headerFont'>Recipes on <i><b>'" + entry.getKey() + "'</b></i></h1>";
 				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
