@@ -9,17 +9,22 @@
     float: left;
     font-size: 16px;
     padding-top: 9px;
-    width: 130px;
+    width: 150px;
 }
 
 .bottomLinksTags span a {
-    color: black;
+	color: black;
     text-decoration: none;
-    padding-left: 5px;
+    margin-left: 5px;
+    width: 120px;
+    display: inline-block;
+    float: left;
 }
 
 .bottomLinksTags span:before {
 	content: url(../images/arrow-right-disabled.png);
+	float: left;
+    padding-top: 5px;
 }
 
 .bottomLinksTags span a:hover {
