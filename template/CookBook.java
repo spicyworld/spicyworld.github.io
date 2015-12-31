@@ -51,8 +51,8 @@ public class CookBook {
 		SiteBuilder.selfCopy(templatePath + "template/CookBook.java", processor);
 		try {
 			createPdf("tmp.pdf");
-			generateTOC("tmp.pdf", "tmp1.pdf", 0);
-			waterMarkPDF("tmp1.pdf", "Spicy-World-Cook-Book.pdf");
+			generateTOC("tmp.pdf", "Spicy-World-Cook-Book.pdf", 0);
+			//waterMarkPDF("tmp1.pdf", "Spicy-World-Cook-Book.pdf");
 			//embedJS("sp.pdf", "Spicy-World-Cook-Book.pdf");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -206,7 +206,7 @@ public class CookBook {
 		doc.getDocumentElement().normalize();
 		NodeList nList = doc.getElementsByTagName("element");
 		//nList.getLength()
-		for (int temp = 0; temp < 8; temp++) {
+		for (int temp = 0; temp < nList.getLength(); temp++) {
 			Node nNode = nList.item(temp);
 			if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 				Element eElement = (Element) nNode;
