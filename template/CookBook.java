@@ -85,7 +85,9 @@ public class CookBook {
 		      over.showTextAligned(com.lowagie.text.Element.ALIGN_MIDDLE, "Table of Contents", 265, 800, 0);
 		      for(int i=start;i<pageMap.size(); i++){
 		    	  String[] data = ((String) pageMap.get(i)).split("##");
-		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_LEFT, data[1], 40, 800 - (counter*20), 0);
+		    	  //Anchor linking_point = new Anchor(data[1]);
+				  //linking_point.setReference("#" + data[2]);
+				  over.showTextAligned(com.lowagie.text.Element.ALIGN_LEFT, data[1], 40, 800 - (counter*20), 0);
 		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_RIGHT, data[0], 540, 800 - (counter*20), 0);
 		    	  if (counter == 39 && i < pageMap.size()) {
 		    		  breakFlag = false;
@@ -219,9 +221,11 @@ public class CookBook {
 	
 	public static void createRecipePages(Document document, Element eElement, int i, PdfWriter pdfWriter) {
 		try {
+			Paragraph heading = null;
 			String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 			String steps = eElement.getElementsByTagName("process").item(0).getTextContent();
 			String pic = eElement.getElementsByTagName("pic").item(0).getTextContent();
+			String url = eElement.getElementsByTagName("url").item(0).getTextContent();
 			String img = templatePath + pic.replace("recipeimages", "template/recipeimages");
 			BufferedImage bimg = ImageIO.read(new File(img));
 			int width          = bimg.getWidth();
@@ -236,15 +240,21 @@ public class CookBook {
 		    	steps = removeImage(steps);
 		    }
 			document.newPage();
-			pageMap.add(pdfWriter.getPageNumber() - 1 + "##" + title);
+			pageMap.add(pdfWriter.getPageNumber() - 1 + "##" + title + "##" + url);
 			
-			Paragraph heading = new Paragraph(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
-		    heading.setSpacingAfter(5f);
-		    document.add(heading);
+			heading = new Paragraph("", new Font(Font.HELVETICA, 15f, Font.BOLD));
+			document.add(heading);
+
+			
+			Anchor source_point = new Anchor(title, new Font(Font.HELVETICA, 15f, Font.BOLD));
+			source_point.setName(url);
+			document.add(source_point);
 			
 			String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
 			desc = html2text(desc);
-			document.add(new Paragraph(desc));
+			heading = new Paragraph(desc);
+			heading.setSpacingBefore(5f);
+			document.add(heading);
 			
 			float w = 520f;
 			float h = 0.0f;
