@@ -268,12 +268,16 @@
 }
 
 .rightAddSection {
-	width: 230px;
+	width: 100%;
     height: 230px;
-    position: fixed;
-    right: 0px;
     display:none;
-    bottom:0px;
+}
+
+.leftOne .leftTwo .leftThree {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 30%;
 }
 
 .descp a, .desc a {
