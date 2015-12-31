@@ -29,6 +29,7 @@ import com.lowagie.text.html.simpleparser.HTMLWorker;
 import com.lowagie.text.html.simpleparser.StyleSheet;
 import com.lowagie.text.pdf.BaseFont;
 import com.lowagie.text.pdf.MultiColumnText;
+import com.lowagie.text.pdf.PdfAction;
 import com.lowagie.text.pdf.PdfContentByte;
 import com.lowagie.text.pdf.PdfGState;
 import com.lowagie.text.pdf.PdfImportedPage;
@@ -85,10 +86,11 @@ public class CookBook {
 		      over.showTextAligned(com.lowagie.text.Element.ALIGN_MIDDLE, "Table of Contents", 265, 800, 0);
 		      for(int i=start;i<pageMap.size(); i++){
 		    	  String[] data = ((String) pageMap.get(i)).split("##");
-		    	  //Anchor linking_point = new Anchor(data[1]);
-				  //linking_point.setReference("#" + data[2]);
-				  over.showTextAligned(com.lowagie.text.Element.ALIGN_LEFT, data[1], 40, 800 - (counter*20), 0);
-		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_RIGHT, data[0], 540, 800 - (counter*20), 0);
+		    	  over.showTextAligned(com.lowagie.text.Element.ALIGN_LEFT, data[1], 40, 800 - (counter*20), 0);
+				  
+				  //over.setAction(new PdfAction("#" + data[2]), 800 - (counter*20), 40, 100, 20);
+		    	  
+				  over.showTextAligned(com.lowagie.text.Element.ALIGN_RIGHT, data[0], 540, 800 - (counter*20), 0);
 		    	  if (counter == 39 && i < pageMap.size()) {
 		    		  breakFlag = false;
 			    	  over.endText();
