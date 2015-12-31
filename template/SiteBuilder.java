@@ -123,13 +123,51 @@ public class SiteBuilder {
 
 				if (nNode.getNodeType() == Node.ELEMENT_NODE) {
 					Element eElement = (Element) nNode;
+					try {
+						tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
+					} catch (Exception e) {}
 					elementList.add(eElement);
 				}
 			}
+			
+			// Create tag cloud Starts
+			String ss[] = tags.split(",");
+			Map tagMap = new HashMap();
+			for (int i=0; i<ss.length; i++) {
+				String key = ss[i];
+				key = key.trim();
+				if (!"".equals(key) && !",".equals(key)) {
+					int value = 1;
+					try {
+						value = (int) tagMap.get(key);
+						value = value + 1;
+					} catch (Exception e) {}
+					tagMap.put(key, value);
+				}
+			}
+			Iterator iterator = tagMap.entrySet().iterator();
+			String htmlTags = "", keywordTags = "";
+			count = 0;
+			while (iterator.hasNext()) {
+				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
+				String data = entry.getKey();
+				keywordTags += data + " ";
+				data = data.replace(" ", "-");
+				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
+				count++;
+				String h1Tag = "<h1 class='headerFont'>Recipes on <i><b>'" + entry.getKey() + "'</b></i></h1>";
+				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
+				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc>"
+						+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/" + data + "-tag.html\" />"
+						+ "</url>";
+			}
+			// Create tag cloud Ends
+			count = 1;
 			String blogTable = "";
 			for (int i=0;i<elementList.size();i++) {
 				Element nextElement = null, prevElement = null;
 				Element eElement = (Element) elementList.get(i);
+				
 				//if (i<5) {
 				blogTable += "<br/><br/><div><a href='http://spicyworld.in/" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html?from=blog'><img style='box-shadow: 9px 8px 5px #888888;padding: 2px;background: grey;' width='550px' src='http://spicyworld.in/" + eElement.getElementsByTagName("pic").item(0)
 						.getTextContent() + "'/></a></div>"
@@ -149,7 +187,7 @@ public class SiteBuilder {
 				if (i < (elementList.size()-1)) {
 					nextElement = (Element) elementList.get(i+1);
 				}
-				createItemData(templatePath, eElement, count, nextElement, prevElement, relatedRecipes);
+				createItemData(templatePath, eElement, count, nextElement, prevElement, relatedRecipes, htmlTags);
 				String classToApply = null;
 				if (count == 1 || count == 4 || count == 7) {
 					classToApply = "left";
@@ -174,9 +212,7 @@ public class SiteBuilder {
 				count++;
 				siteMapData += siteMapEntry(eElement);
 				rssXMLData += populateRSSData(eElement);
-				try {
-					tags += eElement.getElementsByTagName("tags").item(0).getTextContent() + ",";
-				} catch (Exception e) {}
+				
 			}
 			System.out.println(blogTable);
 			
@@ -238,38 +274,6 @@ public class SiteBuilder {
 			fileData = fileData.replaceAll("##ONLOAD_CALL##", "initFancyAll();enableAd();");
 			fileData = fileData.replaceAll("##PINTEREST_INCLUDE##", pinterestData);
 			saveFile(templatePath + "all-food-images.html", fileData);
-			
-			// Create tag cloud
-			String ss[] = tags.split(",");
-			Map tagMap = new HashMap();
-			for (int i=0; i<ss.length; i++) {
-				String key = ss[i];
-				key = key.trim();
-				if (!"".equals(key) && !",".equals(key)) {
-					int value = 1;
-					try {
-						value = (int) tagMap.get(key);
-						value = value + 1;
-					} catch (Exception e) {}
-					tagMap.put(key, value);
-				}
-			}
-			Iterator iterator = tagMap.entrySet().iterator();
-			String htmlTags = "", keywordTags = "";
-			count = 0;
-			while (iterator.hasNext()) {
-				Map.Entry<String,Integer> entry = (Map.Entry<String,Integer>) iterator.next();
-				String data = entry.getKey();
-				keywordTags += data + " ";
-				data = data.replace(" ", "-");
-				htmlTags += "<span data-weight=\"" + entry.getValue() + "\"><a href=\"" + data + "-tag.html\">" + entry.getKey() + "</a></span>";
-				count++;
-				String h1Tag = "<h1 class='headerFont'>Recipes on <i><b>'" + entry.getKey() + "'</b></i></h1>";
-				generateTagHTML(data, tag_data_template, nList, templatePath, count, entry.getKey(), h1Tag);
-				siteMapData += "<url><loc>http://spicyworld.in/" + data + "-tag.html</loc>"
-						+ "<xhtml:link rel=\"alternate\" media=\"only screen and (max-width: 640px)\" href=\"http://spicyworld.in/mobile/" + data + "-tag.html\" />"
-						+ "</url>";
-			}
 			
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
@@ -606,7 +610,7 @@ public class SiteBuilder {
 		return siteMapDataEntry;
 	}
 	
-	public static void createItemData(String templatePath, Element eElement, int count, Element nextElement, Element prevElement, String relatedRecipes) {
+	public static void createItemData(String templatePath, Element eElement, int count, Element nextElement, Element prevElement, String relatedRecipes, String htmlTags) {
 		String out = "";
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
@@ -746,7 +750,7 @@ public class SiteBuilder {
 		// Facebook
 		//+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
 		+ "</div>"
-				+"";
+				+"<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags + "</div>";
 		
 		
 		String fileData = readFile(templatePath + "template/template.html");

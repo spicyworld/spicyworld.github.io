@@ -1,3 +1,31 @@
+.bottomLinksTags {
+	display: inline-block;
+	padding: 20px;
+    background: lightgrey;
+    box-shadow: 5px 5px 5px rgba(132,132,182,0.5);
+}
+
+.bottomLinksTags span {
+    float: left;
+    font-size: 16px;
+    padding-top: 9px;
+    width: 130px;
+}
+
+.bottomLinksTags span a {
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.bottomLinksTags span:before {
+	content: url(../images/arrow-right-disabled.png);
+}
+
+.bottomLinksTags span a:hover {
+	color: white;
+}
+
 .topTags {
 	background: #eee;
 	height: 50px;
