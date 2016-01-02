@@ -98,7 +98,7 @@ public class SiteBuilder {
 		String topTags = "";//"<div class='topTags'></div>";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
-				+ "<a href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
+				+ "<a onclick=\"ga('send', 'event', 'Home Recipe', 'recipes_button', this.href);\" href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
@@ -201,9 +201,9 @@ public class SiteBuilder {
 				if (classToApply!=null) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 					String url = eElement.getElementsByTagName("url").item(0).getTextContent();
-					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a title='" + title + "' alt='" + title + "' href=\"" + url + 
+					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a onclick=\"ga('send', 'event', 'Home Recipe', 'recipe_image', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + 
 							".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
-									+ "</a><div class=\"title\"><a title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
+									+ "</a><div class=\"title\"><a onclick=\"ga('send', 'event', 'Home Recipe', 'recipe_title', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 				}
 				if (count > 9 && count < 14) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
@@ -278,7 +278,7 @@ public class SiteBuilder {
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "Recipe Tags | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags + "</div></div>");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'tag_page', this.href);\" href=") + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
@@ -626,7 +626,7 @@ public class SiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img style=\"####\" alt='" + title 
+			additionalImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_top', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img style=\"####\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ additionalImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -644,7 +644,7 @@ public class SiteBuilder {
 		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
+			endImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_bottom', this.href);\" class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -730,7 +730,7 @@ public class SiteBuilder {
 				String ss[] = tagData.split(",");
 				for (int i=0; i<ss.length; i++) {
 					String tg = ss[i];
-					tags += "<span><a href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></span>";
+					tags += "<span><a onclick=\"ga('send', 'event', 'Tag Click', 'recipe_tags', this.href);\" href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></span>";
 				}
 			}
 			tags += "</div>";
@@ -750,7 +750,7 @@ public class SiteBuilder {
 		// Facebook
 		//+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
 		+ "</div>"
-				+"<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags + "</div>";
+				+"<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'recipe_bottom', this.href);\" href=") + "</div>";
 		
 		
 		String fileData = readFile(templatePath + "template/template.html");
