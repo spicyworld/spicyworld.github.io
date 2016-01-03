@@ -98,7 +98,7 @@ public class SiteBuilder {
 		String topTags = "";//"<div class='topTags'></div>";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
-				+ "<a onclick=\"ga('send', 'event', 'Home Recipe', 'recipes_button', this.href);\" href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
+				+ "<a onclick=\"ga('send', 'event', 'Home Page', 'recipes_button', this.href);\" href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
@@ -201,9 +201,9 @@ public class SiteBuilder {
 				if (classToApply!=null) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 					String url = eElement.getElementsByTagName("url").item(0).getTextContent();
-					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a onclick=\"ga('send', 'event', 'Home Recipe', 'recipe_image', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + 
+					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a onclick=\"ga('send', 'event', 'Home Page', 'recipe_image', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + 
 							".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
-									+ "</a><div class=\"title\"><a onclick=\"ga('send', 'event', 'Home Recipe', 'recipe_title', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
+									+ "</a><div class=\"title\"><a onclick=\"ga('send', 'event', 'Home Page', 'recipe_title', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 				}
 				if (count > 9 && count < 14) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
@@ -703,7 +703,7 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "<div class='div3Pos posLeft'><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_top_main', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition' /></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
