@@ -58,7 +58,7 @@ public class SiteBuilder {
 	
 	public static String buildNo = "?sessionId=212";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
-	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievement.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Btn Click', this.href);\">contact@spicyworld.in</a></u>";
+	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievement.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Email Click: Btn Click', this.href);\">contact@spicyworld.in</a></u>";
 	
 	public static void main(String[] args) {
 		String basePath = "/Volumes/Pearson/spicyworld/";
@@ -98,7 +98,7 @@ public class SiteBuilder {
 		String topTags = "";//"<div class='topTags'></div>";
 		String latest3DataForHomePage = "<div class=\"middleTop\"><div class=\"left\">"
 				+ "<div class=\"data\"><p><h1>Spicy World's Easy and Simple Recipes make your cooking faster and your food delicious. Check out our recipes.</h1></p>"
-				+ "<a onclick=\"ga('send', 'event', 'Home Page', 'recipes_button', this.href);\" href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
+				+ "<a onclick=\"ga('send', 'event', 'Home Page', 'Home Page: recipes_button', this.href);\" href=\"http://spicyworld.in/recipes.html\">Recipes</a></div></div>"
 				+ "<div class=\"middle\">&nbsp;</div><div class=\"right\">"
 				+ "<div id=\"slider1_container\" style=\"position: relative; top: 0px; left: 0px; height: 300px;\">"
 				+ "<div id='internalID' u=\"slides\" style=\"cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px;  height: 300px;\">##HOME_IMAGE_TOP##</div>"
@@ -201,9 +201,9 @@ public class SiteBuilder {
 				if (classToApply!=null) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 					String url = eElement.getElementsByTagName("url").item(0).getTextContent();
-					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a onclick=\"ga('send', 'event', 'Home Page', 'recipe_image', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + 
+					latest3DataForHomePage += "<div class=\"" + classToApply + "\"><a onclick=\"ga('send', 'event', 'Home Page', 'Home Page: recipe_image', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + 
 							".html\"><img title='" + title + "' alt='" + title + "' src=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + "\"/>"
-									+ "</a><div class=\"title\"><a onclick=\"ga('send', 'event', 'Home Page', 'recipe_title', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
+									+ "</a><div class=\"title\"><a onclick=\"ga('send', 'event', 'Home Page', 'Home Page: recipe_title', this.href);\" title='" + title + "' alt='" + title + "' href=\"" + url + ".html\">" + title + "</a></div></div>";
 				}
 				if (count > 9 && count < 14) {
 					String title = eElement.getElementsByTagName("title").item(0).getTextContent();
@@ -278,7 +278,7 @@ public class SiteBuilder {
 			// Save Tags
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "Recipe Tags | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'tag_page', this.href);\" href=") + "</div></div>");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div role='main'><div id='wordcloud1' class='wordcloud'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'Tag Click: tag_page', this.href);\" href=") + "</div></div>");
 			fileData = fileData.replace("##tags_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##KEYWORD_DATA##", keywordTags);
@@ -547,7 +547,7 @@ public class SiteBuilder {
 	
 	private static String bottomRelated(String recipes_data, Element eElement) {
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
-		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'bottom_links', this.href);\"";
+		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'Additional Recipe: bottom_links', this.href);\"";
 		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + title 
 				+ "'><img alt='" + title + "' title='" + title + "' style=\"width: 280px !important;\" src=\""
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
@@ -626,7 +626,7 @@ public class SiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_top', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img style=\"####\" alt='" + title 
+			additionalImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img style=\"####\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ additionalImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -644,7 +644,7 @@ public class SiteBuilder {
 		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_bottom', this.href);\" class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
+			endImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_bottom', this.href);\" class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
 			+ "' title='" + title + "' src='"
 			+ endImg + buildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
@@ -703,7 +703,7 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a onclick=\"ga('send', 'event', 'Image Click', 'recipe_top_main', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "<div class='div3Pos posLeft'><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top_main', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
 				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
 				+ "' class='topImagePosition' /></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
@@ -730,7 +730,7 @@ public class SiteBuilder {
 				String ss[] = tagData.split(",");
 				for (int i=0; i<ss.length; i++) {
 					String tg = ss[i];
-					tags += "<span><a onclick=\"ga('send', 'event', 'Tag Click', 'recipe_tags', this.href);\" href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></span>";
+					tags += "<span><a onclick=\"ga('send', 'event', 'Tag Click', 'Tag Click: recipe_tags', this.href);\" href=\"" + tg.replace(" ", "-") + "-tag.html\">" + tg + "</a></span>";
 				}
 			}
 			tags += "</div>";
@@ -750,7 +750,7 @@ public class SiteBuilder {
 		// Facebook
 		//+ "<div data-width=\"100%\" class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>" 
 		+ "</div>"
-				+"<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'recipe_bottom', this.href);\" href=") + "</div>";
+				+"<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'Tag Click: recipe_bottom', this.href);\" href=") + "</div>";
 		
 		
 		String fileData = readFile(templatePath + "template/template.html");
@@ -1017,7 +1017,7 @@ public class SiteBuilder {
 	
 	public static String nextPreviousPagination (Element prevElement, Element nextElement, String deviceType) {
 		//Next Previous Link Starts
-		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev" + deviceType + "', 'link_#POS#', this.href);\"";
+		String gaCode = "onclick=\"ga('send', 'event', 'Recipe Next Prev" + deviceType + "', 'Recipe Next Prev: link_#POS#', this.href);\"";
 		String prev = "", next = "";
 		if (prevElement != null) {
 			String prevTitle = "Next Recipe: " + prevElement.getElementsByTagName("title").item(0).getTextContent();
