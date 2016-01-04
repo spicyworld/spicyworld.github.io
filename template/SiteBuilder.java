@@ -67,9 +67,9 @@ public class SiteBuilder {
 		//Compress files
 		compressFiles(basePath, processorBasePath);
 		
-		/*String img = "daal-bukhara";
+		/*String img = "achari-khichdi";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=11; i++) {
+		for (int i=1;i<=13; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
