@@ -2,11 +2,30 @@
 <root>
 
    <element>
+         <title>Achari Khichuri / Pickled Khichdi</title>
+         <type>vegItem</type>
+         <shortDesc>'Khichuri' is a seasonal one-pot-meal. We generally enjoy it in monsoon or winter. The easiest dish of rice category is 'khichdi'. From bachelor to elder, everybody knows how to make it. But this is a tastiest variation of khichdi. 'Achar' means pickle, I used mango pickle here. The process is very simple, no need to fry or cook anything separately, everything will be cooked in one pot and one time. I made this on lunch along with some chips and fried potatoes. The combo was phenomenal and we just loved them.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;½ cup of rice.&lt;/li&gt;&lt;li&gt;1/4th cup of masoor dal / red lentils.&lt;/li&gt;&lt;li&gt;1/4th cup of moong dal / yellow lentils.&lt;/li&gt;&lt;li&gt;1 onion thinly sliced.&lt;/li&gt;&lt;li&gt;2 cloves of garlic roughly chopped.&lt;/li&gt;&lt;li&gt;4 green chilies.&lt;/li&gt;&lt;li&gt;Tempering (1 Teaspoon panchforon, 1 dry red chilli).&lt;/li&gt;&lt;li&gt;Spice powder (1 Teaspoon turmeric powder, 1 Teaspoon red chilli powder, 1 Teaspoon garam masala powder and ½ Teaspoon cumin powder).&lt;/li&gt;&lt;li&gt;3 Tablespoons of mustard oil.&lt;/li&gt;&lt;li&gt;2 Tablespoons of mango pickle.&lt;/li&gt;&lt;li&gt;Some green peas.&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Take the rice and 2 types of lentils in a bowl.&lt;/div&gt;&lt;div&gt;Wash them properly with water.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-2.jpg" /&gt;&lt;div&gt;Add onion, garlic and all the above mentioned spice powder in that bowl.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-3.jpg" /&gt;&lt;div&gt;Then add 2 tablespoons of mustard oil and little salt.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-4.jpg" /&gt;&lt;div&gt;Mix everything very well with your hand and keep it for 15 minutes.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-5.jpg" /&gt;&lt;div&gt;Then heat 1 tablespoon of mustard oil in a pan.&lt;/div&gt;&lt;div&gt;Add panchforon and dry red chilli. Saute them for 20 seconds.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-6.jpg" /&gt;&lt;div&gt;Add the rice and lentils mixture in the hot oil. Mix it well for 3 minutes.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-7.jpg" /&gt;&lt;div&gt;Then add 2 cups of warm water and enough salt. Mix it.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-8.jpg" /&gt;&lt;div&gt;Add green chilies, green peas and pinch of sugar. Mix it.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-9.jpg" /&gt;&lt;div&gt;First keep the heat on high, let the water comes to a boil.&lt;/div&gt;&lt;div&gt;After it starts boiling, turn the heat on low, cover the pan and cook it for 15-20 minutes.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-10.jpg" /&gt;&lt;div&gt;When everything becomes soft, add the mango pickel. Mix it and cook for another 5 minutes.&lt;/div&gt;&lt;div&gt;Pickel should be sour in taste, not sweet.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-11.jpg" /&gt;&lt;div&gt;After 5 minutes turn off the heat and let it rest for 2 minutes, then serve.&lt;/div&gt;&lt;img src="recipeimages/achari-khichdi-12.jpg" /&gt;</process>
+         <completionStatement>Your Achar khichdi is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with a dallop of ghee on top ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/achari-khichdi.jpg</pic>
+         <url>achari-khichdi</url>
+         <add-pic>recipeimages/achari-khichdi-1.jpg</add-pic>
+         <add-pic-style>width:50%</add-pic-style>
+         <end-pic>recipeimages/achari-khichdi-14.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
+         <keywords>khichdi, khichuri, achar, pickle, mango, spicy, maincourse, winter, meal, onepot, indian</keywords>
+         <tags>khichdi,spicy,veg,maincourse</tags>
+         <pubDate>01/04/2015</pubDate>
+   </element>
+
+   <element>
          <title>Daal Bukhara / Spicy Black Lentils Soup</title>
          <type>vegItem</type>
          <shortDesc>I heard a lot about this dish in past few months and started to research. As I never tasted it before, so I went to an Indian restaurant in Austin named 'Bombay Bistro' and tasted their 'daal bukhara'. Oh my god, it was lip smacking good and then I realized why this dal is so famous. Texture of the dal really impressed me a lot. The authentic recipe is very simple and easy but main trick here is the cooking time. The more you cook, the more texture and taste you will get. I made this dal along with butter naan and the combo was heavenly. Try this in your kitchen and let me know how it turned out.</shortDesc>
          <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of Whole urad dal / Black lentils.&lt;/li&gt;&lt;li&gt;Purée of 2 tomatoes.&lt;/li&gt;&lt;li&gt;1 and half teaspoon of red chilli powder.&lt;/li&gt;&lt;li&gt;1 Teaspoon of ginger and garlic paste.&lt;/li&gt;&lt;li&gt;5 Tablespoons of butter.&lt;/li&gt;&lt;li&gt;1 Teaspoon of garam masala powder.&lt;/li&gt;&lt;li&gt;Half cup of heavy cream.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-         <process>&lt;div&gt;Wash and soak the urad daal overnight in enough water.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-2.jpg" /&gt;&lt;div&gt;After soaking wash the daal thoroughly for 2-3 times.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-3.jpg" /&gt;&lt;div&gt;Put the lentils in pressure cooker along with some salt and 2-3 cups of water.&lt;/div&gt;&lt;div&gt;Give it pressure for 30-40 minutes. Lentils should be soft.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-4.jpg" /&gt;&lt;div&gt;Add tomato purée in the boiled dal. Mix it.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-5.jpg" /&gt;&lt;div&gt;Then add ginger and garlic paste. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-6.jpg" /&gt;&lt;div&gt;After that add red chilli powder. Mix it and if you want more heat, add more.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-7.jpg" /&gt;&lt;div&gt;Add the butter and salt. Mix it.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-8.jpg" /&gt;&lt;div&gt;Add the cream and mix the entire thing well. Cook this in slow flame for 1 hour.&lt;/div&gt;&lt;div&gt;Keep stirring the dal in 2-3 minutes.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-9.jpg" /&gt;&lt;div&gt;If it becomes dry, add 1/2 cup of warm water.&lt;/div&gt;&lt;div&gt;Lastly add garam masala powder and turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-10.jpg" /&gt;</process>
+         <process>&lt;div&gt;Wash and soak the urad daal overnight in enough water.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-2.jpg" /&gt;&lt;div&gt;After soaking wash the daal thoroughly for 2-3 times.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-3.jpg" /&gt;&lt;div&gt;Put the lentils in pressure cooker along with some salt and 2-3 cups of water.&lt;/div&gt;&lt;div&gt;Give it pressure for 30-40 minutes. Lentils should be soft.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-4.jpg" /&gt;&lt;div&gt;Add tomato purée in the boiled dal. Mix it.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-5.jpg" /&gt;&lt;div&gt;Then add ginger and garlic paste. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-6.jpg" /&gt;&lt;div&gt;After that add red chilli powder. Mix it and if you want more heat, add more.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-7.jpg" /&gt;&lt;div&gt;Add the butter and salt. Mix it.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-8.jpg" /&gt;&lt;div&gt;Add the cream and mix the entire thing well. Cook this in slow flame for 1 hour.&lt;/div&gt;&lt;div&gt;Keep stirring the dal in 2-3 minutes.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-9.jpg" /&gt;&lt;div&gt;If it becomes dry, add ½ cup of warm water.&lt;/div&gt;&lt;div&gt;Lastly add garam masala powder and turn off the heat.&lt;/div&gt;&lt;img src="recipeimages/daal-bukhara-10.jpg" /&gt;</process>
          <completionStatement>Your dal bukhara is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Add a dallop of butter on the dal and enjoy !!&lt;/li&gt;&lt;/ul&gt;</garnishment>
          <pic>recipeimages/daal-bukhara.jpg</pic>
@@ -24,7 +43,7 @@
          <title>Paneer Paratha / Cottage Cheese Bread</title>
          <type>vegItem</type>
          <shortDesc>Everybody loves paneer, right? Specially when there is a spicy paneer stuffing inside a paratha, I am always up for it. This was my first try on 'paneer paratha' and I just nailed it. Believe me it is much easier than 'aloo paratha'. I made those in breakfast with 'chana masala' and the combo was really gorgeous. Parathas came out perfectly crispy and soft. The taste was unforgettable, we enjoyed them a lot. I'm damn sure that 'he' will request me to make them soon again.</shortDesc>
-         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of crumbled / grated paneer.&lt;/li&gt;&lt;li&gt;4 Teaspoons of chopped onion.&lt;/li&gt;&lt;li&gt;2 chopped green chilies.&lt;/li&gt;&lt;li&gt;1 teaspoon of chopped ginger.&lt;/li&gt;&lt;li&gt;1/2 Teaspoon each of (red chilli powder, garam masala powder, coriander powder and amchoor powder).&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1 cup of flour / maida.&lt;/li&gt;&lt;li&gt;4 Teaspoons of wheat flour / atta.&lt;/li&gt;&lt;li&gt;2-3 Teaspoons of oil for the dough.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;1/2 cup of oil for frying parthas.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of crumbled / grated paneer.&lt;/li&gt;&lt;li&gt;4 Teaspoons of chopped onion.&lt;/li&gt;&lt;li&gt;2 chopped green chilies.&lt;/li&gt;&lt;li&gt;1 teaspoon of chopped ginger.&lt;/li&gt;&lt;li&gt;½ Teaspoon each of (red chilli powder, garam masala powder, coriander powder and amchoor powder).&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;1 cup of flour / maida.&lt;/li&gt;&lt;li&gt;4 Teaspoons of wheat flour / atta.&lt;/li&gt;&lt;li&gt;2-3 Teaspoons of oil for the dough.&lt;/li&gt;&lt;li&gt;Warm water.&lt;/li&gt;&lt;li&gt;½ cup of oil for frying parthas.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
          <process>&lt;div&gt;Put the flour and whole wheat flour in a mixing bowl.&lt;/div&gt;&lt;div&gt;Add pinch of salt. Mix them.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-2.jpg" /&gt;&lt;div&gt;Then add 2-3 teaspoons of oil / ghee.&lt;/div&gt;&lt;div&gt;Mix it very well with the flour.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-3.jpg" /&gt;&lt;div&gt;Now gradually add warm water and mix with the flour.&lt;/div&gt;&lt;div&gt;Do not add all the water at a time.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-4.jpg" /&gt;&lt;div&gt;Make a soft dough and knead it well for 5 minutes.&lt;/div&gt;&lt;div&gt;Apply little oil on the surface and cover it with a damp cloth for 15 minutes.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-5.jpg" /&gt;&lt;div&gt;Lets make the stuffing.&lt;/div&gt;&lt;div&gt;Add onion, ginger, green chilies and all the powder to grated paneer.&lt;/div&gt;&lt;div&gt;Mix it.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-6.jpg" /&gt;&lt;div&gt;Add salt to the stuffing and again mix it well.&lt;/div&gt;&lt;div&gt;Check the seasoning.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-7.jpg" /&gt;&lt;div&gt;Take little portion from the dough, make a ball and dip it in dry flour.&lt;/div&gt;&lt;div&gt;Flatten it to 2 inches.&lt;/div&gt;&lt;div&gt;Apply little oil on one side and sprinkle some dry flour.&lt;/div&gt;&lt;div&gt;Put 1-2 teaspoons of stuffing in the center.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-8.jpg" /&gt;&lt;div&gt;Then seal the edges properly, gently press it with your plam and flatten it to 3 inches with the help of rolling pin.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-9.jpg" /&gt;&lt;div&gt;Place the paratha in a hot tawa/pan for 1 minute.&lt;/div&gt;&lt;div&gt;Tawa should be hot not warm.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-10.jpg" /&gt;&lt;div&gt;Flip it and apply 1 teaspoon oil on the surface.&lt;/div&gt;&lt;div&gt;Keep it for 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-11.jpg" /&gt;&lt;div&gt;Again flip it and apply 1 Teaspoon oil on the other side.&lt;/div&gt;&lt;div&gt;Fry it for another 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-12.jpg" /&gt;&lt;div&gt;Then remove it from the pan and make rest of the parathas.&lt;/div&gt;&lt;img src="recipeimages/paneer-paratha-13.jpg" /&gt;</process>
          <completionStatement>Your paneer paratha is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some pickle and Chana Masala ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
@@ -43,7 +62,7 @@
          <title>Mutton Dakbunglow Curry / Mutton Dakbangla</title>
          <type>nonVegItem</type>
          <shortDesc>'Dakbanglow' means roadside resting house. Travelers used to take rest or halt for a night in those houses. The care taker of those 'bunglow's cooked this curry for their guests. Nowadays these kind of recipes are almost lost but in a few restaurants in Kolkata you can still find this dish. This is a typical bengali recipe and the tastiest dish ever. Once I ate this curry in my aunt's house and I can still remember the taste. The curry has juicy mutton, spicy gravy, flavorful potato and egg .. do you want anything more ?? It goes very well with plain basmati rice. 'Mutton Dakbangla' will be a great hit for Christmas dinner also. Try this in your kitchen and make your meal a special one.</shortDesc>
-         <ingrediants>&lt;ul&gt;&lt;li&gt;10 pieces of with bone mutton.&lt;/li&gt;&lt;li&gt;6 Teaspoons of curd.&lt;/li&gt;&lt;li&gt;1 Teaspoon of ginger and garlic paste.&lt;/li&gt;&lt;li&gt;1 big onion thinly sliced.&lt;/li&gt;&lt;li&gt;Whole spices (few fenugreek [methi] seeds, 4 cloves, 4 green cardamoms, 1 bay leaf).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;5 tablespoons of mustard oil.&lt;/li&gt;&lt;li&gt;Spice powder (1 Teaspoon turmeric powder, 1 Teaspoon red chilli powder, 1/2 Teaspoon nutmeg [jayfal] powder, a blade of mace [javetri], 1 Teaspoon roasted coriander powder and 1 Teaspoon garam masala powder).&lt;/li&gt;&lt;li&gt;2 pieces of potato.&lt;/li&gt;&lt;li&gt;1 hard boiled egg.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;10 pieces of with bone mutton.&lt;/li&gt;&lt;li&gt;6 Teaspoons of curd.&lt;/li&gt;&lt;li&gt;1 Teaspoon of ginger and garlic paste.&lt;/li&gt;&lt;li&gt;1 big onion thinly sliced.&lt;/li&gt;&lt;li&gt;Whole spices (few fenugreek [methi] seeds, 4 cloves, 4 green cardamoms, 1 bay leaf).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;5 tablespoons of mustard oil.&lt;/li&gt;&lt;li&gt;Spice powder (1 Teaspoon turmeric powder, 1 Teaspoon red chilli powder, ½ Teaspoon nutmeg [jayfal] powder, a blade of mace [javetri], 1 Teaspoon roasted coriander powder and 1 Teaspoon garam masala powder).&lt;/li&gt;&lt;li&gt;2 pieces of potato.&lt;/li&gt;&lt;li&gt;1 hard boiled egg.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
          <process>&lt;div&gt;Put all the above mentioned spice powder and 2 tablespoons of mustard oil in a bowl. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-2.jpg" /&gt;&lt;div&gt;Add ginger and garlic paste to it. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-3.jpg" /&gt;&lt;div&gt;Marinate the mutton pieces with curd, pinch of salt and this masala paste. Massage the pieces with masala very well. Keep it in fridge for 5 hours or overnight.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-4.jpg" /&gt;&lt;div&gt;Heat the remaining mustard oil in a kadai.&lt;/div&gt;&lt;div&gt;Add few onion slices first. Fry them golden in color.&lt;/div&gt;&lt;div&gt;Then remove them from pan and keep it aside for garnishing.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-5.jpg" /&gt;&lt;div&gt;In the remaining oil add the remaining onion slices. Fry them for 6-7 minutes.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-6.jpg" /&gt;&lt;div&gt;Then add the marinated mutton pieces. Mix it well for 6 minutes.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-7.jpg" /&gt;&lt;div&gt;Add the potatoes and salt. Mix it and cover the pan. Cook it on slow flame for 20-25 minutes.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-8.jpg" /&gt;&lt;div&gt;Mutton will release lots of water. &lt;/div&gt;&lt;div&gt;Add half teaspoon of sugar to it. Mix well and cook it.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-9.jpg" /&gt;&lt;div&gt;After half an hour you can see the potatoes become fully soft. But mutton needs to cook more.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-10.jpg" /&gt;&lt;div&gt;Boil a cup of water in a pressure cooker.&lt;/div&gt;&lt;div&gt;Add all the whole spices in the boiling water. In that way the water will becomw flavorful.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-11.jpg" /&gt;&lt;div&gt;Now add mutton with gravy in the pressure cooker. Keep aside the potatoes.&lt;/div&gt;&lt;div&gt;Give the mutton pressure for 10-15 minutes or until it becomes soft.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-12.jpg" /&gt;&lt;div&gt;If you have time in your hand, skip the cooker process.&lt;/div&gt;&lt;div&gt;When the potatoes become soft, remove them from the pan.&lt;/div&gt;&lt;div&gt;Add a cup of warm water and all the whole spices to the mutton.&lt;/div&gt;&lt;div&gt;Cook it in slow flame until it become soft.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-13.jpg" /&gt;&lt;div&gt;Check the seasoning.&lt;/div&gt;&lt;div&gt;When the mutton will become fully soft add the boiled egg. Simmer for just 2 minutes and then serve.&lt;/div&gt;&lt;img src="recipeimages/mutton-dakbangla-14.jpg" /&gt;</process>
          <completionStatement>Your mutton dakbunglow curry is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with plain basmati rice ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
@@ -63,7 +82,7 @@
          <type>vegItem</type>
          <shortDesc>According to me, winter is incomplete without 'green peas'. Am I right ?? We Bengalis love to eat 'koraishutir kochuri' during winter. In my home nobody brings this kochuri from shop. My mom always makes this at home with 'aloo dom' , 'payesh' and everybody loves it. Nowadays we don't need to wait till winter for green peas because now almost everywhere frozen peas are available. I very much enjoy the combination of fennel, asafoetida (hing) and green peas. This kochuri goes very well with 'dum aloo'. Try this in your kitchen and share some of your winter stories with me.</shortDesc>
          <ingrediants>&lt;ul&gt;&lt;li&gt;1 cup of green peas.&lt;/li&gt;&lt;li&gt;2 green chilies.&lt;/li&gt;&lt;li&gt;1 inch ginger.&lt;/li&gt;&lt;li&gt;2 pinches of hing / asafoetida.&lt;/li&gt;&lt;li&gt;Bhaja masala (1 Teaspoon cumin seeds, 1 Teaspoon fennel seeds, 1 Teaspoon coriander seeds, 1 dry red chilli).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Dough (1 cup maida/flour, pinch of salt, 1 Tablespoon of white oil, some warm water).&lt;/li&gt;&lt;li&gt;Oil for deep frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
-         <process>&lt;div&gt;First dry roast the cumin, fennel, coriander seeds and dry red chilli in a pan for 5 - 7 minutes.&lt;/div&gt;&lt;div&gt;Then put them in a blender and grind it to powder (bhaja masala).&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-2.jpg" /&gt;&lt;div&gt;Now put all the ingredients for the dough in a mixing bowl except water.&lt;/div&gt;&lt;div&gt;Mix the dry ingredients first with your hand and gradually add water and make semi soft dough.&lt;/div&gt;&lt;div&gt;Knead the dough very well, apply some oil on top and keep it aside in a bowl with cover for 20 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-3.jpg" /&gt;&lt;div&gt;Now put green peas, green chilies and ginger in a blender with very little water.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-4.jpg" /&gt;&lt;div&gt;Make a smooth paste. If the paste become coarse, the 'kachori's will not be puffed up properly.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-5.jpg" /&gt;&lt;div&gt;Heat 2 Teaspoons oil in a pan.&lt;/div&gt;&lt;div&gt;Add pinch of hing.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-6.jpg" /&gt;&lt;div&gt;Then add the paste, salt and 1/2 Teaspoon sugar. Mix it very well for 5 - 7 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-7.jpg" /&gt;&lt;div&gt;Then add 1 yo 2 Teaspoons bhaja masal or dry roasted powder. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-8.jpg" /&gt;&lt;div&gt;When the mixture will leave the pan properly, remove it from the pan.&lt;/div&gt;&lt;div&gt;The filling is ready and let it cool down a bit.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-9.jpg" /&gt;&lt;div&gt;Take a small portion from the dough and make a lemon size ball.&lt;/div&gt;&lt;div&gt;Then flatten it with your fingers and place 1 Teaspoon filling in the center.&lt;/div&gt;&lt;div&gt;Seal the edges properly and again flatten it.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-10.jpg" /&gt;&lt;div&gt;Put the flatten ball in little oil and spread it to 2 - 3 inches with rolling pin.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-11.jpg" /&gt;&lt;div&gt;Heat white oil in a kadai for deep frying.&lt;/div&gt;&lt;div&gt;Put the flatten bread in hot oil.&lt;/div&gt;&lt;div&gt;Press it gently with the spatula, it will puff up.&lt;/div&gt;&lt;div&gt;Then flip it and fry for 10 seconds.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-12.jpg" /&gt;</process>
+         <process>&lt;div&gt;First dry roast the cumin, fennel, coriander seeds and dry red chilli in a pan for 5 - 7 minutes.&lt;/div&gt;&lt;div&gt;Then put them in a blender and grind it to powder (bhaja masala).&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-2.jpg" /&gt;&lt;div&gt;Now put all the ingredients for the dough in a mixing bowl except water.&lt;/div&gt;&lt;div&gt;Mix the dry ingredients first with your hand and gradually add water and make semi soft dough.&lt;/div&gt;&lt;div&gt;Knead the dough very well, apply some oil on top and keep it aside in a bowl with cover for 20 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-3.jpg" /&gt;&lt;div&gt;Now put green peas, green chilies and ginger in a blender with very little water.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-4.jpg" /&gt;&lt;div&gt;Make a smooth paste. If the paste become coarse, the 'kachori's will not be puffed up properly.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-5.jpg" /&gt;&lt;div&gt;Heat 2 Teaspoons oil in a pan.&lt;/div&gt;&lt;div&gt;Add pinch of hing.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-6.jpg" /&gt;&lt;div&gt;Then add the paste, salt and ½ Teaspoon sugar. Mix it very well for 5 - 7 minutes.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-7.jpg" /&gt;&lt;div&gt;Then add 1 yo 2 Teaspoons bhaja masal or dry roasted powder. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-8.jpg" /&gt;&lt;div&gt;When the mixture will leave the pan properly, remove it from the pan.&lt;/div&gt;&lt;div&gt;The filling is ready and let it cool down a bit.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-9.jpg" /&gt;&lt;div&gt;Take a small portion from the dough and make a lemon size ball.&lt;/div&gt;&lt;div&gt;Then flatten it with your fingers and place 1 Teaspoon filling in the center.&lt;/div&gt;&lt;div&gt;Seal the edges properly and again flatten it.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-10.jpg" /&gt;&lt;div&gt;Put the flatten ball in little oil and spread it to 2 - 3 inches with rolling pin.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-11.jpg" /&gt;&lt;div&gt;Heat white oil in a kadai for deep frying.&lt;/div&gt;&lt;div&gt;Put the flatten bread in hot oil.&lt;/div&gt;&lt;div&gt;Press it gently with the spatula, it will puff up.&lt;/div&gt;&lt;div&gt;Then flip it and fry for 10 seconds.&lt;/div&gt;&lt;img src="recipeimages/peas-kachori-12.jpg" /&gt;</process>
          <completionStatement>Your koraishutir kochuri is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy them hot with dum aloo or simle potato curry.&lt;/li&gt;&lt;/ul&gt;</garnishment>
          <pic>recipeimages/peas-kachori.jpg</pic>
@@ -100,7 +119,7 @@
          <title>Sooji Halwa / Rava Kesari / Semolina Pudding</title>
          <type>vegItem</type>
          <shortDesc>The day before yesterday I was craving for some dessert at afternoon. As I didn't have any in my kitchen, had to make it by own. The quickest recipe I found is this one 'Sooji Halwa'. It really takes 20-25 minutes to prepare and tastes awesome. You can make 'halwa' in many colors like white, golden, yellow or orange. But I like my halwa little yellow in color. This was the first time I made halwa at home, really enjoyed while making and obviously eating it !! I love 'rose' flavor in my halwa, you can add cardamom, cinnamon or nutmeg flavors also. Try this in your kitchen and let me know how it turns out.</shortDesc>
-         <ingrediants>&lt;ul&gt;&lt;li&gt;Little more than 1/2 cup of semolina (sooji).&lt;/li&gt;&lt;li&gt;4 to 5 Tablespoons of ghee / unsalted butter.&lt;/li&gt;&lt;li&gt;2 Teaspoons of chopped cashews.&lt;/li&gt;&lt;li&gt;Some raisins.&lt;/li&gt;&lt;li&gt;6 to 7 Tablespoons of sugar.&lt;/li&gt;&lt;li&gt;1 and 1/2 cup of milk.&lt;/li&gt;&lt;li&gt;Yellow food color / Kesar / Saffron strands.&lt;/li&gt;&lt;li&gt;Few drops of rose water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;Little more than ½ cup of semolina (sooji).&lt;/li&gt;&lt;li&gt;4 to 5 Tablespoons of ghee / unsalted butter.&lt;/li&gt;&lt;li&gt;2 Teaspoons of chopped cashews.&lt;/li&gt;&lt;li&gt;Some raisins.&lt;/li&gt;&lt;li&gt;6 to 7 Tablespoons of sugar.&lt;/li&gt;&lt;li&gt;1 and ½ cup of milk.&lt;/li&gt;&lt;li&gt;Yellow food color / Kesar / Saffron strands.&lt;/li&gt;&lt;li&gt;Few drops of rose water.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
          <process>&lt;div&gt;Add ghee / butter in a hot pan and melt it.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-2.jpg" /&gt;&lt;div&gt;Then add chopped cashews. You can add whole cashews also.&lt;/div&gt;&lt;div&gt;Saute it for 2 minutes.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-3.jpg" /&gt;&lt;div&gt;Then add the raisins. You can add almond / pistachio also.&lt;/div&gt;&lt;div&gt;Mix it for 1 minute.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-4.jpg" /&gt;&lt;div&gt;Then add semolina / sooji in hot ghee.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-5.jpg" /&gt;&lt;div&gt;Mix it and stir it continuously for 10 minutes in slow flame.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-6.jpg" /&gt;&lt;div&gt;Boil the milk in another burner while roasting the sooji.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-7.jpg" /&gt;&lt;div&gt;Now add the boiled hot milk to the roasted semolina. Mix it well for 5 minutes.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-8.jpg" /&gt;&lt;div&gt;Add sugar, color / kesar and rose water in the sooji. Mix it well for another 5 minutes.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-9.jpg" /&gt;&lt;div&gt;Turn off the gas and let it rest for 4 minutes.&lt;/div&gt;&lt;div&gt;Then serve.&lt;/div&gt;&lt;img src="recipeimages/sooji-halwa-10.jpg" /&gt;</process>
          <completionStatement>Your sooji halwa is ready ...</completionStatement>
          <garnishment>&lt;ul&gt;&lt;li&gt;Serve this warm after some spicy meal ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
@@ -112,7 +131,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>dessert, sooji, semolina, halua, halwa, pudding, rava, sweet, milk, indian</keywords>
          <tags>dessert,indian,sweet</tags>
-         <pubDate>12/21/2015</pubDate>
+         <pubDate>12/2½015</pubDate>
    </element>
 
    <element>
@@ -312,7 +331,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>chicken, mutton, beef, kabab, jali, net, egg, fry, starter, spicy, party</keywords>
          <tags>kabab,starter,spicy</tags>
-         <pubDate>12/11/2015</pubDate>
+         <pubDate>12/1½015</pubDate>
    </element>
 
    <element>
@@ -469,7 +488,7 @@
          <add-pic-style>width:55%</add-pic-style>
          <keywords>coconut, narkel, naroo, nadu, pujo, puja, dessert, sweet, indian, quick</keywords>
          <tags>coconut,naroo,sweet,indian</tags>
-         <pubDate>12/01/2015</pubDate>
+         <pubDate>12/0½015</pubDate>
    </element>
 
    <element>
@@ -509,7 +528,7 @@
          <add-pic-style>width:75%</add-pic-style>
          <keywords>posto, poppyseed, bengali, onion, mustard oil, spicy, maincourse, bhapa posto, baked, lunch</keywords>
          <tags>posto,bengali,spicy,veg,maincourse,bhapa,baked,lunch</tags>
-         <pubDate>11/28/2015</pubDate>
+         <pubDate>1½8/2015</pubDate>
    </element>
 
    <element>
@@ -529,7 +548,7 @@
          <add-pic-style>width:75%</add-pic-style>
          <keywords>chicken, burger, pulled, saucy, spicy, onion, cheese, buns</keywords>
          <tags>chicken,burger,spicy,cheese</tags>
-         <pubDate>11/26/2015</pubDate>
+         <pubDate>1½6/2015</pubDate>
    </element>
 
      <element>
@@ -549,7 +568,7 @@
          <add-pic-style>width:75%</add-pic-style>
          <keywords>chicken, pasta, rotini, cheese, baked, spicy, saucy, maincourse, one-pot-meal, vegetables</keywords>
          <tags>chicken,pasta,spicy,maincourse,baked</tags>
-         <pubDate>11/26/2015</pubDate>
+         <pubDate>1½6/2015</pubDate>
    </element>
 
     <element>
@@ -569,7 +588,7 @@
       <url>chana-masala</url>
       <keywords>chana, curry, spicy, main course, indian, onion, ginger, garlic, veg</keywords>
       <tags>chole,chana,curry,spicy,indian,main course,veg</tags>
-      <pubDate>11/25/2015</pubDate>
+      <pubDate>1½5/2015</pubDate>
    </element>
 
    <element>
@@ -589,7 +608,7 @@
          <add-pic-style>width:55%</add-pic-style>
          <keywords>dessert, rosogolla, sweet, festive, indian, milk, cashew</keywords>
          <tags>dessert,rosogolla,sweet,indian,baked</tags>
-         <pubDate>11/24/2015</pubDate>
+         <pubDate>1½4/2015</pubDate>
    </element>
 
  <element>
@@ -609,7 +628,7 @@
       <url>mutton-kosha</url>
       <keywords>lunch, mutton, dinner, kasha, kosha, curry, spicy, maincourse, bengali</keywords>
       <tags>lunch,mutton,dinner,kasha,kosha,curry,spicy,maincourse,bengali</tags>
-      <pubDate>11/23/2015</pubDate>
+      <pubDate>1½3/2015</pubDate>
    </element>
 
    <element>
@@ -629,7 +648,7 @@
       <add-pic-style>width:70%</add-pic-style>
       <keywords>pulao, rice, main course, bengali, yellow, sweet, ghee, whole spice, cashew, raisin</keywords>
       <tags>pulao,rice,sweet,bengali,main course,ghee</tags>
-      <pubDate>11/22/2015</pubDate>
+      <pubDate>1½2/2015</pubDate>
    </element>
 
    <element>
@@ -649,7 +668,7 @@
       <add-pic-style>width:70%</add-pic-style>
       <keywords>chicken, korma, rich, gravy, party, dahi, main course, ghee, indian, spicy, mughlai, onion, curd</keywords>
       <tags>chicken,gravy,rich,party,spicy,indian,ghee,curd,main course,dahi</tags>
-      <pubDate>11/21/2015</pubDate>
+      <pubDate>1½½015</pubDate>
    </element>
 
    <element>
@@ -669,7 +688,7 @@
          <add-pic-style>width:55%</add-pic-style>
          <keywords>chicken, soup, vegetables, indian, spicy, garlic, starter</keywords>
          <tags>chicken,soup,starter,indian,spicy</tags>
-         <pubDate>11/20/2015</pubDate>
+         <pubDate>1½0/2015</pubDate>
    </element>
 
    <element>
@@ -839,7 +858,7 @@
       <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with luchi, paratha, bhatura, naan ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
       <keywords>niramish, aloo, potato, curry, breakfast, maincourse, puja, indian, spicy, no onion, no garlic</keywords>
       <tags>veg,potato,curry,indian,breakfast,maincourse,spicy</tags>
-      <pubDate>11/11/2015</pubDate>
+      <pubDate>11/1½015</pubDate>
    </element>
 
    <element>
@@ -1014,7 +1033,7 @@
       <keywords>radhaballavi, fry, daal, stuffed, breakfast, indian, bread</keywords>
       <tags>breakfast,bread,fry,indian</tags>
       <add-pic>recipeimages/radhaballavi-1.jpg</add-pic>
-      <pubDate>11/01/2015</pubDate>
+      <pubDate>11/0½015</pubDate>
    </element>
 
    <element>
@@ -1215,7 +1234,7 @@
       <url>pancake-bengali-style</url>
       <keywords>pancake, bengali, egg, spicy, batter, garlic, golaruti, fry, lunch box, dinner </keywords>
       <tags>bengali,pancake,golaruti,egg,lunchbox</tags>
-      <pubDate>10/21/2015</pubDate>
+      <pubDate>10/2½015</pubDate>
    </element>
 
     <element>
@@ -1487,7 +1506,7 @@
       <url>dahi-chicken</url>
       <keywords>chicken, curd, gravy, black pepper, dahi, doi, green chili, garlic</keywords>
       <tags>chicken,curd,main course,spicy,dahi</tags>
-      <pubDate>10/11/2015</pubDate>
+      <pubDate>10/1½015</pubDate>
    </element>
 
     <element>
@@ -1639,7 +1658,7 @@
       <url>palak-kichdi</url>
       <keywords>khichdi, khichri, khichuri, palak, spinach, lunch, meal, dry red chili, onion, garlic, ginger, masala</keywords>
       <tags>khichuri,palak,lunch,tempering,ghee</tags>
-      <pubDate>10/01/2015</pubDate>
+      <pubDate>10/0½015</pubDate>
    </element>
    
    <element>
@@ -1778,7 +1797,7 @@
       <url>aloo-posto</url>
       <keywords>potato, posto, poppy seeds, curry, green chili, lunch, bengali, mustard oil</keywords>
       <tags>lunch,potato,curry,bengali,spicy</tags>
-      <pubDate>09/21/2015</pubDate>
+      <pubDate>09/2½015</pubDate>
    </element>
    <element>
       <completionStatement>Your chicken salad sandwich is ready ...</completionStatement>
@@ -1945,7 +1964,7 @@
       <url>kadai-chicken</url>
        <keywords>chicken, gravy, spicy, main course, indian, onion, garlic, tomato, </keywords>
       <tags>chicken,gravy,spicy,main course,indian</tags>
-      <pubDate>09/11/2015</pubDate>
+      <pubDate>09/1½015</pubDate>
    </element>
    <element>
       <completionStatement>Your Chicken Tikka Kebab is ready.</completionStatement>
