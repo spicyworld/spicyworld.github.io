@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Crab Cakes / Crab Patties</title>
+         <type>nonVegItem</type>
+         <shortDesc>In India I never had crab, because they always scares me. After coming to USA, oneday we went for dinner in a restaurant. 'He' already ordered 'crab cake' as appetizer when I went to restroom. I really got upset after returning because I had no idea that crab cake is made of crab meat only. But when they served two cakes in a plate, the platter really impressed me. The taste was phenomenal and most important they didn't scare me at all. After that dinner I tried it in many other restaurants also and fell in love with crab meat (not whole crab). Last weekend I made these cakes at home and they came out delicious. Try this in your kitchen and let me know how it turns out.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;2 cups of crab meat (flake style).&lt;/li&gt;&lt;li&gt;1 egg.&lt;/li&gt;&lt;li&gt;2 Teaspoons of mayonnaise.&lt;/li&gt;&lt;li&gt;1 Teaspoon of crushed garlic.&lt;/li&gt;&lt;li&gt;3 Teaspoons of lemon juice.&lt;/li&gt;&lt;li&gt;Little lemon zest.&lt;/li&gt;&lt;li&gt;1 Teaspoon of black pepper powder.&lt;/li&gt;&lt;li&gt;2 Tablespoons of chilli sauce / sriracha sauce.&lt;/li&gt;&lt;li&gt;Half cup of chopped onion.&lt;/li&gt;&lt;li&gt;2 Teaspoons of chopped coriander leaves.&lt;/li&gt;&lt;li&gt;4 - 5 Tablespoons of bread crumbs.&lt;/li&gt;&lt;li&gt;1 Teaspoon of flour / maida.&lt;/li&gt;&lt;li&gt;Little garam masala powder.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;li&gt;Oil for frying.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Take a bowl.&lt;/div&gt;&lt;div&gt;Add egg, mayonnaise, garlic, lemon juice and lemon zest.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-2.jpg" /&gt;&lt;div&gt;Add chilli sauce, salt and black pepper powder. Mix it well.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-3.jpg" /&gt;&lt;div&gt;Now add chopped onion and coriander leaves. Mix them well.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-4.jpg" /&gt;&lt;div&gt;Add the crab meat to the mixture. Mix it.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-5.jpg" /&gt;&lt;div&gt;For binding add bread crumbs and flour to the crab. Mix everything well.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-6.jpg" /&gt;&lt;div&gt;Lastly sprinkle some garam masala powder and mix it.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-7.jpg" /&gt;&lt;div&gt;Now take some portion from the mixture and give a patty shape.&lt;/div&gt;&lt;div&gt;Do the same with rest of the mixture.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-8.jpg" /&gt;&lt;div&gt;Keep them in fridge for 1 hour.&lt;/div&gt;&lt;div&gt;Then heat half cup of oil in a flat pan.&lt;/div&gt;&lt;div&gt;Place the patties in hot oil one by one.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-9.jpg" /&gt;&lt;div&gt;Fry them for 3-4 minutes in one side.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-10.jpg" /&gt;&lt;div&gt;Flip them and again fry them for 3-4 minutes.&lt;/div&gt;&lt;div&gt;Do not overcook them, otherwise they will become hard.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-11.jpg" /&gt;&lt;div&gt;Remove them from oil and keep them on a paper tissue.&lt;/div&gt;&lt;div&gt;You can also make burgers with these patties.&lt;/div&gt;&lt;img src="recipeimages/crab-cake-12.jpg" /&gt;</process>
+         <completionStatement>Your Crab cakes are ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy them hot with onion rings and ketchup ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/crab-cake.jpg</pic>
+         <url>crab-cake</url>
+         <add-pic>recipeimages/crab-cake-1.jpg</add-pic>
+         <add-pic-style>width:70%</add-pic-style>
+         <end-pic>recipeimages/crab-cake-13.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
+         <keywords>crab, seafood, spicy, burger, cake, patty, starter, egg, garlic, onion, breadcrumbs, fry, oil</keywords>
+         <tags>seafood,spicy,starter,egg,fry,burger</tags>
+         <pubDate>01/05/2015</pubDate>
+   </element>
+
+   <element>
          <title>Chicken Pokora (Pakora) / Chicken Fritters</title>
          <type>nonVegItem</type>
          <shortDesc>How about a crazy snack in evening?? Ohh yeaah its Pakora time!! This is the perfect 'pokora' recipe ever. In Kolkata we get this kind of chicken pokora from fast food centers. But according to me the best homemade pokora maker is my mom. My friends, our relatives, everyone is a fan of my mom's pokora. They always become spicy, soft, juicy and yummy. If you follow this recipe you can get the same flavour from your pokora.</shortDesc>
