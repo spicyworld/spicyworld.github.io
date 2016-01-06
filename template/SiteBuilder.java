@@ -56,7 +56,8 @@ import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=214";
+	public static String buildNo = "?sessionId=215";
+	public static String imgBuildNo = "?sessionId=214";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievement.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Email Click: Btn Click', this.href);\">contact@spicyworld.in</a></u>";
 	
@@ -367,7 +368,7 @@ public class SiteBuilder {
 			//About Me Page
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "Arpita | About Me | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div><img alt='Arpita from Spicy World' title='Arpita from Spicy World' src='images/about.jpg" + buildNo + "'  width='100%'/>"
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div><img alt='Arpita from Spicy World' title='Arpita from Spicy World' src='images/about.jpg" + imgBuildNo + "'  width='100%'/>"
 					+ "<div id='aboutData'><div>" + aboutPageData + "</div></div></div>");
 			fileData = fileData.replace("##about_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
@@ -550,15 +551,15 @@ public class SiteBuilder {
 		String gaCode = "onclick=\"ga('send', 'event', 'Additional Recipe', 'Additional Recipe: bottom_links', this.href);\"";
 		recipes_data += "<div class='imagesPage'><div><a " + gaCode+ " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\" title='" + title 
 				+ "'><img alt='" + title + "' title='" + title + "' style=\"width: 280px !important;\" src=\""
-				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + imgBuildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:280px;height:70px\"><a " + gaCode + " href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + title + "</a></div></div>";
 		return recipes_data;
 	}
 	
 	public static String getAllImages(String recipes_data, Element eElement) {
-		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
+		recipes_data += "<div class='imagesPage'><div><a class=\"group1\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + imgBuildNo + "\" title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "'><img style=\"width: 212px !important;\" src=\""
-				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + imgBuildNo
 				+ "\"/></a></div><div style=\"clear:both;padding-left:20px;width:212px;height:70px\"><a href=\"" + eElement.getElementsByTagName("url").item(0).getTextContent() + ".html\">" + eElement.getElementsByTagName("title").item(0).getTextContent() + "</a></div></div>";
 		return recipes_data;
 	}
@@ -626,9 +627,9 @@ public class SiteBuilder {
 		String additionalImg = "";
 		try  {
 			additionalImg = eElement.getElementsByTagName("add-pic").item(0).getTextContent();
-			additionalImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + buildNo + "\"><img style=\"####\" alt='" + title 
+			additionalImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + additionalImg + imgBuildNo + "\"><img style=\"####\" alt='" + title 
 			+ "' title='" + title + "' src='"
-			+ additionalImg + buildNo
+			+ additionalImg + imgBuildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 			String addImgStyle = "";
 			try {
@@ -644,9 +645,9 @@ public class SiteBuilder {
 		String endImgStyle = "";
 		try  {
 			endImg = eElement.getElementsByTagName("end-pic").item(0).getTextContent();
-			endImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_bottom', this.href);\" class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + buildNo + "\"><img style=\"##_##\" alt='" + title 
+			endImg = "<div class='div3Pos posLeft'><br/><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_bottom', this.href);\" class=\"group1\" title=\"" + title + " (Final)\" href=\"" + endImg + imgBuildNo + "\"><img style=\"##_##\" alt='" + title 
 			+ "' title='" + title + "' src='"
-			+ endImg + buildNo
+			+ endImg + imgBuildNo
 			+ "' class='topImagePosition' /></a><br/><br/></div>";
 			try {
 				endImgStyle = eElement.getElementsByTagName("end-pic-style").item(0).getTextContent();
@@ -703,15 +704,15 @@ public class SiteBuilder {
 				+ "</div>"
 				+ "<p class=\"descp\" id='description' property='description' style=\"padding-top:8px;clear:both\">" + desc + "</p></div><br/>"
 				+ "<div>"
-				+ "<div class='div3Pos posLeft'><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top_main', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo + "\"><img alt='" + title 
+				+ "<div class='div3Pos posLeft'><a onclick=\"ga('send', 'event', 'Image Click', 'Image Click: recipe_top_main', this.href);\" class=\"group1\" title=\"" + title + "\" href=\"" + eElement.getElementsByTagName("pic").item(0).getTextContent() + imgBuildNo + "\"><img alt='" + title 
 				+ "' title='" + title + "' src='"
-				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + buildNo
+				+ eElement.getElementsByTagName("pic").item(0).getTextContent() + imgBuildNo
 				+ "' class='topImagePosition' /></a><br/><br/><div><h2 id='ingredients'>Ingredients</h2></div><div property='ingredients'>"
 				+ eElement.getElementsByTagName("ingrediants").item(0)
 						.getTextContent()
 				+ "</div></div>" + additionalImg
 				+ "<div class='div3Pos'><div><h2 id='steps'>Steps</h2></div><div property='recipeInstructions'>"
-				+ steps.replace(".jpg", ".jpg" + buildNo)
+				+ steps.replace(".jpg", ".jpg" + imgBuildNo)
 				+ "</div><br/><div class='complete'>"
 				+ eElement.getElementsByTagName("completionStatement").item(0)
 						.getTextContent()
@@ -806,7 +807,7 @@ public class SiteBuilder {
 				+ "<img title='" + eElement.getElementsByTagName("title").item(0).getTextContent() 
 				+ "' alt='" + eElement.getElementsByTagName("title").item(0).getTextContent() + "' src=\""
 				+ prefix + eElement.getElementsByTagName("pic").item(0)
-						.getTextContent() + buildNo
+						.getTextContent() + imgBuildNo
 				+ "\" /></a><div class='" + type + " itemTypeLabel'>" + text + "</div></div>"
 				+ "<div class='recipeListPageItemRight'>"
 				+ "<div class=\"title\">"
