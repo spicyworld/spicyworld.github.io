@@ -56,7 +56,7 @@ import com.sun.image.codec.jpeg.JPEGImageEncoder;
 
 public class SiteBuilder {
 	
-	public static String buildNo = "?sessionId=217";
+	public static String buildNo = "?sessionId=218";
 	public static String imgBuildNo = "?sessionId=214";
 	public static String pinterestData = "<script async data-pin-color=\"red\" data-pin-hover=\"true\" defer src=\"//assets.pinterest.com/js/pinit.js\"></script>";
 	public static String aboutPageData = "Hello Friends, <br/><br/><h1 class='specialH1'>Arpita</h1>&nbsp;is a daughter and homemaker from two lovely Bengali families. At present she lives in Austin, Texas with her husband Amitava.<br/><br/>They both are originally from greater Kolkata and real food lovers.<br/><br/>Cooking, learning about new recipes, listening and singing old songs in lonely afternoons are her hobbies. Arpita is also a big fan and follower of authentic bengali cooking and very much all kinds of indian street foods. Everyday as a self taught cook she paints her food with spices, colors, love and care. Behind everything Amitava is her real inspiration. After marriage, getting compliments from husband about cooking is a great achievement.<br/><br/>So, she heartily invites you all to take a colorful journey through her little \"<a href='http://spicyworld.in'>Spicy World</a>\" ...<br/><br/>Contact us: <u><a href='mailto:contact@spicyworld.in' target='_top' onclick=\"ga('send', 'event', 'Email Click', 'Email Click: Btn Click', this.href);\">contact@spicyworld.in</a></u>";
@@ -68,9 +68,9 @@ public class SiteBuilder {
 		//Compress files
 		compressFiles(basePath, processorBasePath);
 		
-		/*String img = "chicken-pulao";
+		/*String img = "aloo-porota";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=15; i++) {
+		for (int i=1;i<=18; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
 		}*/
