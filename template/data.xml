@@ -12,8 +12,8 @@
          <pic>recipeimages/aloo-porota.jpg</pic>
          <url>aloo-porota</url>
          <add-pic>recipeimages/aloo-porota-1.jpg</add-pic>
-         <add-pic-style>width:85%</add-pic-style>
-         <end-pic>recipeimages/caloo-porota-18.jpg</end-pic>
+         <add-pic-style>width:50%</add-pic-style>
+         <end-pic>recipeimages/aloo-porota-18.jpg</end-pic>
          <end-pic-style>width:85%</end-pic-style>
          <keywords>aloo, potato, paratha, bread, fry, breakfast, spicy, indian, stuffed, onion</keywords>
          <tags>aloo,veg,breakfast,spicy,indian</tags>
