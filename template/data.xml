@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Chicken Pulao / Murg Pulao</title>
+         <type>vegItem</type>
+         <shortDesc>One of my favorite weekday's meal is 'chicken pulao', because it takes very less time to cook. The dish is super tasty but very easy. I basically don't need any sides with this pulao, it itself tastes delicious. I only love to add potatoes but if you like other veggies in your pulao, feel free to add. This is also a very good lunch box option for adults and I can guarantee you that the box will return empty everytime without a single complain. You just have to try this in your kitchen.</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;5-6 with bone chicken pieces.&lt;/li&gt;&lt;li&gt;1 and half cups of basmati rice.&lt;/li&gt;&lt;li&gt;1 potato cut into small cubes.&lt;/li&gt;&lt;li&gt;3 teaspoons of curd.&lt;/li&gt;&lt;li&gt;1 onion thinly sliced.&lt;/li&gt;&lt;li&gt;1 teaspoon ginger and garlic paste.&lt;/li&gt;&lt;li&gt;2-3 green chilies.&lt;/li&gt;&lt;li&gt;Some cashews and raisins.&lt;/li&gt;&lt;li&gt;Half teaspoon of turmeric powder.&lt;/li&gt;&lt;li&gt;Half teaspoon of red chilli powder.&lt;/li&gt;&lt;li&gt;1 teaspoon full garam masala / any pulao masala of your choice.&lt;/li&gt;&lt;li&gt;Whole spices( 2 bay leaves, 4 cloves, 4 green cardamoms, 6 black pepper corns, 1 small cinnamon stick).&lt;/li&gt;&lt;li&gt;Salt and sugar.&lt;/li&gt;&lt;li&gt;Water.&lt;/li&gt;&lt;li&gt;4-5 tablespoons of white oil.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Crumble the boiled potato in a bowl. Do not mash them fully.&lt;/div&gt;&lt;div&gt;Add boiled beans to the crumbled potato.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-2.jpg" /&gt;&lt;div&gt;Add all the above mentioned spice powder and salt.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-3.jpg" /&gt;&lt;div&gt;Then add chopped onion and green chilies. Keep 2 teaspoons of chopped onion aside for garnishing.&lt;/div&gt;&lt;div&gt;Mix everything very well.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-4.jpg" /&gt;&lt;div&gt;Take curd, little and half teaspoon of sugar in a bowl. Mix it well.&lt;/div&gt;&lt;div&gt;Soak tamarind in little water for 1 hour.&lt;/div&gt;&lt;div&gt;Then mash the soaked tamarind in that water and add little salt, mix it.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-5.jpg" /&gt;&lt;div&gt;Make hole in the center of phuchkas and place them on a plate.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-6.jpg" /&gt;&lt;div&gt;Fill the phuchkas with spicy potato mixture.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-7.jpg" /&gt;&lt;div&gt;Then spread the curd mixture over every phuchka.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-8.jpg" /&gt;&lt;div&gt;Again spread the tamarind water over them.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-9.jpg" /&gt;&lt;div&gt;Lastly sprinkle chopped onion, coriander leaves, little spice powder, remaining curd and tamarind water over them.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-10.jpg" /&gt;&lt;div&gt;If you have sev / fried boondi / fried moong, sprinkle some of them on top and serve.&lt;/div&gt;&lt;img src="recipeimages/doi-puri-11.jpg" /&gt;</process>
+         <completionStatement>Your Chicken Pulao is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with some chilled raita ...&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/chicken-pulao.jpg</pic>
+         <url>chicken-pulao</url>
+         <add-pic>recipeimages/chicken-pulao-1.jpg</add-pic>
+         <add-pic-style>width:85%</add-pic-style>
+         <end-pic>recipeimages/chicken-pulao-12.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
+         <keywords>chicken, murg, pulao, pulaao, polao, spicy, rice, maincourse, indian, quick</keywords>
+         <tags>chicken,pulao,rice,maincourse,indian,spicy</tags>
+         <pubDate>01/06/2015</pubDate>
+   </element>
+
+   <element>
          <title>Doi phuchka / Dahi puri Chaat</title>
          <type>vegItem</type>
          <shortDesc>Do I really need to say anything about this ?? It's 'chaat' !! You can get several types of chaat in India from street vendors. They all are very very tasty. One of the famous chaat in Kolkata is 'doi phuchka'. They fill the phuchkas with spicy potato filling, thick curd mixture, tamarind chutney and sprinkle some chopped onion and coriander leaves .. ssluurrpp ... !!! Now I am staying in USA, so I had to make these kind of 'chaat's at home. But believe me, after making this, you will be finding excuses to make them again and again.</shortDesc>
