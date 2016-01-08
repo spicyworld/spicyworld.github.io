@@ -68,12 +68,12 @@ public class SiteBuilder {
 		//Compress files
 		compressFiles(basePath, processorBasePath);
 		
-		/*String img = "aloo-porota";
+		String img = "chicken-chaap";
 		createImage(basePath + "/template/recipeimages/" + img + ".jpg", basePath + "/recipeimages/" + img + ".jpg", 1500, true, basePath);
-		for (int i=1;i<=18; i++) {
+		for (int i=1;i<=14; i++) {
 			String limg = img + "-" + i;
 			createImage(basePath + "/template/recipeimages/" + limg + ".jpg", basePath + "/recipeimages/" + limg + ".jpg", 1500, true, basePath);
-		}*/
+		}
 		
 		//transformAllImages(basePath);
 		//System.exit(1);
