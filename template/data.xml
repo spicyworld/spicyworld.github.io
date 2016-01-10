@@ -2,6 +2,25 @@
 <root>
 
    <element>
+         <title>Whole Tandoori Chicken</title>
+         <type>nonVegItem</type>
+         <shortDesc>Last saturday 'he' brought a whole chicken from market. I got really panicked because I have never cooked whole chicken before. Immediately I googled for some ideas. First thought was 'murg mussallam' but then my eyes got stuck to a picture of whole roasted chicken and we both love chicken roast. So, the final decision was 'whole tandoori chicken'. The name itself describes it's scrumptiousness. Everybody loves tandoori chicken, then why not with a whole chicken??</shortDesc>
+         <ingrediants>&lt;ul&gt;&lt;li&gt;A whole young chicken.&lt;/li&gt;&lt;li&gt;½ cup of thick yogurt.&lt;/li&gt;&lt;li&gt;2 Tablespoons of butter.&lt;/li&gt;&lt;li&gt;2 Teaspoons of ginger and garlic paste.&lt;/li&gt;&lt;li&gt;6 Tablespoons of tandoori masala.&lt;/li&gt;&lt;li&gt;2 Teaspoons of garam masala.&lt;/li&gt;&lt;li&gt;2 Teaspoons of red chilli powder.&lt;/li&gt;&lt;li&gt;2 Teaspoons of kasuri methi.&lt;/li&gt;&lt;li&gt;Some Italian seasoning.&lt;/li&gt;&lt;li&gt;Stomach filling (half onion, some coriander leaves with stems and 1 lemon cut into half).&lt;/li&gt;&lt;li&gt;1 potato cut into cubes.&lt;/li&gt;&lt;li&gt;1/4th cup of oil.&lt;/li&gt;&lt;li&gt;Salt.&lt;/li&gt;&lt;/ul&gt;</ingrediants>
+         <process>&lt;div&gt;Take soft butter, 1 Teaspoon garam masala, some italian seasoning and salt in a bowl.&lt;/div&gt;&lt;div&gt;Mix everything well.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-2.jpg" /&gt;&lt;div&gt;Place the chicken on a flat dish. Do not discard the skin. It will give a nice crunch.&lt;/div&gt;&lt;div&gt;Make few slits upon the chicken with sharp knife.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-3.jpg" /&gt;&lt;div&gt;Apply the butter mixture under the skin only. &lt;/div&gt;&lt;img src="recipeimages/whole-chicken-4.jpg" /&gt;&lt;div&gt;Then take oil, tandoori masala, garam masala, red chilli powder and lots of salt in a bowl. Mix it.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-5.jpg" /&gt;&lt;div&gt;Add thick yogurt and ginger+garlic paste. Mix it.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-6.jpg" /&gt;&lt;div&gt;Lastly add kasuri methi and mix again.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-7.jpg" /&gt;&lt;div&gt;Put the chicken in the marination and massage the chicken very well.&lt;/div&gt;&lt;div&gt;Keep the marinated chicken in refrigerator for overnight.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-8.jpg" /&gt;&lt;div&gt;Take out the chicken from the fridge before 1 hour from baking.&lt;/div&gt;&lt;div&gt;Put the potato cubes and onion rings in the baking tray.&lt;/div&gt;&lt;div&gt;Add little oil, salt and italian seasoning. Mix them well.&lt;/div&gt;&lt;div&gt;Place the onion rings in the middle and keep the potato cubes on the side.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-9.jpg" /&gt;&lt;div&gt;Put the marinated chicken on the onion rings.&lt;/div&gt;&lt;div&gt;Fill the stomach with onion chunks, coriander leaves and lemon pieces.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-10.jpg" /&gt;&lt;div&gt;Tie up it's leg with kitchen thread.&lt;/div&gt;&lt;div&gt;Now its all set to bake.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-11.jpg" /&gt;&lt;div&gt;Put the chicken in the preheated oven for 1 hour in 425&deg;F.&lt;/div&gt;&lt;div&gt;After baking let it rest for 10 minutes, then serve.&lt;/div&gt;&lt;img src="recipeimages/whole-chicken-12.jpg" /&gt;</process>
+         <completionStatement>Your whole tandoori chicken is ready ...</completionStatement>
+         <garnishment>&lt;ul&gt;&lt;li&gt;Enjoy this hot with pulao, some salads and green chutney.&lt;/li&gt;&lt;/ul&gt;</garnishment>
+         <pic>recipeimages/whole-chicken.jpg</pic>
+         <url>whole-chicken</url>
+         <add-pic>recipeimages/whole-chicken-1.jpg</add-pic>
+         <add-pic-style>width:50%</add-pic-style>
+         <end-pic>recipeimages/whole-chicken-13.jpg</end-pic>
+         <end-pic-style>width:85%</end-pic-style>
+         <keywords>chicken, tandoori, whole, roast, spicy, dahi, bake, oven, grilled, onion, indian</keywords>
+         <tags>chicken,spicy,indian,grill</tags>
+         <pubDate>01/09/2016</pubDate>
+   </element>
+
+   <element>
          <title>Chicken Chaap</title>
          <type>nonVegItem</type>
          <shortDesc>One of the most famous dish from Mughlai cuisine is 'Chicken Chaap' and the taste is unbeatable. You will find the actual taste and flavour in few restaurants in Kolkata. After researching for a long time on the authentic recipe of Chicken chaap, here is the way how I made it. This recipe will give you the exact flavour of restaurant style Chaap. This dish should not be eaten as regular meal. It has a rich and thick gravy, goes best with pulao, &lt;a href='http://spicyworld.in/biriyani-tag.html'&gt;biriyani&lt;/a&gt;, naan or roti. Try not to avoid any ingredient from the list otherwise you will not achieve the real taste.</shortDesc>
@@ -17,7 +36,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>chicken, main course, spicy, rich, gravy, mughlai, curd, dahi, ghee, onion, ginger, garlic</keywords>
          <tags>chicken,spicy,rich,gravy,main course,indian,curd,ghee</tags>
-         <pubDate>01/07/2015</pubDate>
+         <pubDate>01/07/2016</pubDate>
    </element>
 
    <element>
@@ -36,7 +55,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>aloo, potato, paratha, bread, fry, breakfast, spicy, indian, stuffed, onion</keywords>
          <tags>aloo,veg,breakfast,spicy,indian</tags>
-         <pubDate>01/07/2015</pubDate>
+         <pubDate>01/07/2016</pubDate>
    </element>
 
    <element>
@@ -55,7 +74,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>chicken, murg, pulao, pulaao, polao, spicy, rice, maincourse, indian, quick</keywords>
          <tags>chicken,pulao,rice,maincourse,indian,spicy</tags>
-         <pubDate>01/06/2015</pubDate>
+         <pubDate>01/06/2016</pubDate>
    </element>
 
    <element>
@@ -74,7 +93,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>doiphuchka, dahi, puri, chaat, starter, spicy, indian</keywords>
          <tags>chaat,starter,veg,spicy,indian</tags>
-         <pubDate>01/05/2015</pubDate>
+         <pubDate>01/05/2016</pubDate>
    </element>
 
    <element>
@@ -93,7 +112,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>crab, seafood, spicy, burger, cake, patty, starter, egg, garlic, onion, breadcrumbs, fry, oil</keywords>
          <tags>seafood,spicy,starter,egg,fry,burger</tags>
-         <pubDate>01/05/2015</pubDate>
+         <pubDate>01/05/2016</pubDate>
    </element>
 
    <element>
@@ -112,7 +131,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>chicken, pokora, pakora, nuggets, fritters, spicy, fry, starter, snack</keywords>
          <tags>chicken,starter,fry,spicy,indian</tags>
-         <pubDate>01/04/2015</pubDate>
+         <pubDate>01/04/2016</pubDate>
    </element>
 
    <element>
@@ -131,7 +150,7 @@
          <end-pic-style>width:85%</end-pic-style>
          <keywords>khichdi, khichuri, achar, pickle, mango, spicy, maincourse, winter, meal, onepot, indian</keywords>
          <tags>khichdi,spicy,veg,maincourse</tags>
-         <pubDate>01/04/2015</pubDate>
+         <pubDate>01/04/2016</pubDate>
    </element>
 
    <element>
