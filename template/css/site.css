@@ -167,6 +167,7 @@
     z-index: 100000;
     background: white;
     top: 0px;*/
+    height: 150px;
 }
 
 .title .siteLogoHdr img {
@@ -523,44 +524,54 @@
 }
 
 .middleData {
-	padding-top: 0px;
+	padding-top: 15px;
 	padding-bottom: 10px;
+}
+
+.pad20px {
+	padding-right: 20px !important;
 }
 
 .headerMenu {
     color: black;
-    padding-top: 2px;
-    margin-bottom: 1px;
-    border-bottom: 2px solid grey;
-    min-height: 28px;
     clear: both;
     display: inline-block;
+    background: #f3f3f3;
     width: 100%;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
 }
 
-.headerMenu ul {
-	margin-top: 5px;
-}
-
-
-.headerMenu ul li {
-	list-style: none;
-	padding-left: 25px;
+.headerMenu div {
 	float: right;
+	padding: 10px;
 }
 
-.headerMenu ul li a {
+.headerMenu div:hover {
+	background: #e7e7e7;
+}
+
+.headerMenu div.selected:hover, .headerMenu .div_selected {
+	background: #008CBA !important;
+}
+
+.headerMenu a {
 	font-size: 17px;
     text-decoration: none;
     text-transform: uppercase;
     color: #22B5E3;
 } 
 
-.headerMenu ul li a.selected {
-	color: #330066;
+.headerMenu a.selected {
+	color: white;
 }
 
-.headerMenu ul li a:hover {
+.headerMenu a.selected:hover {
+	color: white;
+}
+
+.headerMenu a:hover {
 	color: #330066;
 }
 
@@ -570,7 +581,7 @@
     clear: both;
     display: inline-block;
     width: 97.5%;
-    height: 90px;
+    height: 105px;
 }
 
 .header .right{
@@ -583,17 +594,15 @@
 }
 
 .vegTopLine {
-	border-bottom: 2px solid green;
-    height: 0px !important;
-}
-
-.defaultTopLine {
-	height: 5px;
+	-webkit-box-shadow: 0 0px 5px green;
+  	-moz-box-shadow: 0 0px 5px green;
+  	box-shadow: 0 0px 5px green;
 }
 
 .nonVegTopLine {
-	border-bottom: 2px solid #E41B17;
-    height: 0px !important;
+	-webkit-box-shadow: 0 0px 5px red;
+  	-moz-box-shadow: 0 0px 5px red;
+  	box-shadow: 0 0px 5px red;
 }
 
 body {
