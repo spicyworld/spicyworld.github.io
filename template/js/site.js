@@ -1,10 +1,10 @@
 function fixedMenu() {
 	$(window).bind('scroll', function() {
          if ($(window).scrollTop() > 150) {
-         	$("#siteLogoMenu").show();
+         	$("#siteLogoMenu").show(300);
          	$('.headerMenu').addClass('fixed');
          } else {
-         	$("#siteLogoMenu").hide();
+         	$("#siteLogoMenu").hide(300);
             $('.headerMenu').removeClass('fixed');
          }
     });
