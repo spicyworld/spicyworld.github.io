@@ -1,3 +1,15 @@
+function fixedMenu() {
+	$(window).bind('scroll', function() {
+         if ($(window).scrollTop() > 150) {
+         	$("#siteLogoMenu").show();
+         	$('.headerMenu').addClass('fixed');
+         } else {
+         	$("#siteLogoMenu").hide();
+            $('.headerMenu').removeClass('fixed');
+         }
+    });
+}
+
 function startTagPage() {
 	$("#wordcloud1").awesomeCloud({
 		"size" : {

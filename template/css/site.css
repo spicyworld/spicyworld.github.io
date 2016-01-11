@@ -1,8 +1,24 @@
+#siteLogoMenu {
+	display: none;
+	float: left !important;
+}
+
+#siteLogoMenu img {
+	width: 60px;
+    height: 20px;
+}
+
 .bottomLinksTags {
 	display: inline-block;
 	padding: 20px;
     background: lightgrey;
     box-shadow: 5px 5px 5px rgba(132,132,182,0.5);
+}
+
+.fixed {
+	position: fixed !important;
+	top: 0px !important;
+	z-index: 1000001;
 }
 
 .bottomLinksTags span {
@@ -595,15 +611,15 @@
 }
 
 .vegTopLine {
-	-webkit-box-shadow: 0 0px 5px green;
-  	-moz-box-shadow: 0 0px 5px green;
-  	box-shadow: 0 0px 5px green;
+	-webkit-box-shadow: 0px 3px green;
+  	-moz-box-shadow: 0px 3px green;
+  	box-shadow: 0px 3px green;
 }
 
 .nonVegTopLine {
-	-webkit-box-shadow: 0 0px 5px red;
-  	-moz-box-shadow: 0 0px 5px red;
-  	box-shadow: 0 0px 5px red;
+	-webkit-box-shadow: 0px 3px red;
+  	-moz-box-shadow: 0px 3px red;
+  	box-shadow: 0px 3px red;
 }
 
 body {
@@ -611,7 +627,6 @@ body {
 	margin: 0px;
 	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Sans Serif", Tahoma, sans-serif;
 	font-size: 15px;
-	padding-top: 5px;
 }
 
 .centerContent {
