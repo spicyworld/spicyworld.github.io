@@ -11,7 +11,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.text.DateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -285,10 +287,13 @@ public class MobileSiteBuilder {
 		String type = eElement.getElementsByTagName("type").item(0)
 				.getTextContent();
 		String itemType = "";
+		String color = "green";
 		if ("nonVegItem".equals(type)) {
 			itemType = "Non-Vegetarian";
+			color = "red";
 		} else {
 			itemType = "Vegetarian";
+			color = "green";
 		}
 		String title = eElement.getElementsByTagName("title").item(0).getTextContent();
 		String desc = eElement.getElementsByTagName("shortDesc").item(0).getTextContent();
@@ -313,9 +318,16 @@ public class MobileSiteBuilder {
 		if (steps.contains("recipeimages")) {
 			steps = "<div class='steps-image'>" + steps + "</div>";
 		}
+		DateFormat fullDf = DateFormat.getDateInstance(DateFormat.MEDIUM);
+		String datepub;
+		try {
+			datepub = fullDf.format(new Date(eElement.getElementsByTagName("pubDate").item(0).getTextContent()));
+		} catch (Exception e1) {
+			datepub = eElement.getElementsByTagName("pubDate").item(0).getTextContent();
+		}
 		out = "<div><div class='h2Class'><div style=\"clear:both\"><h1>"
 				+ title
-				+ "</h1></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc.replace("recipeimages/", recipeImageBase + "recipeimages/") + "</p></div><br/>"
+				+ "</h1></div><div><u style='border-bottom: 2px solid " + color + "'><i>&copy; 2016 Spicy World</i>, Published on: <i>" + datepub + "</i></u></div><p class=\"descp\" style=\"padding-top:8px;clear:both\">" + desc.replace("recipeimages/", recipeImageBase + "recipeimages/") + "</p></div><br/>"
 				+ "<div>"
 				+ "<div class='div3Pos posLeft'><img alt='" + title 
 				+ "' title='" + title + "' src='"
