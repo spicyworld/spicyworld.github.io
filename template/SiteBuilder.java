@@ -317,7 +317,8 @@ public class SiteBuilder {
 			//Save Feedback Page
 			fileData = readFile(basePath + "template/template.html");
 			fileData = fileData.replace("##TITLE_DATA##", "Feedback or Comment | Spicy World by Arpita");
-			fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>");
+			//fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>");
+			fileData = fileData.replace("##MIDDLE_DATA##", "<div style=\"clear:both;width:95%;min-height: 500px;padding:20px;\"><div class=\"fb-comments\" data-href=\"http://spicyworld.in\" data-width=\"100%\" data-numposts=\"20\"></div></div>");
 			fileData = fileData.replace("##feedback_sel##", "selected");
 			fileData = fileData.replaceAll("##BUILD_NO##", buildNo);
 			fileData = fileData.replaceAll("##ADDITIONAL_SCRIPTS##", "");
@@ -757,7 +758,7 @@ public class SiteBuilder {
 		+ "<br/><div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		// For Disqus
 		//+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>"
-		+ "<div class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-numposts=\"5\"></div>"
+		+ "<div class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-width=\"100%\" data-numposts=\"5\"></div>"
 		+ "</div>";
 		
 		
