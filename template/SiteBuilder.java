@@ -748,16 +748,18 @@ public class SiteBuilder {
 			tags += "</div>";
 			out += tags;
 		} catch (Exception e) {} 
+			
 		if (relatedRecipes!=null && relatedRecipes.length()>0) {
 			relatedRecipes = "<br/><div id='relatedRecipes' class='relatedRecipes'>You may also like</div><div class='clear relatedRecipesData'>" + relatedRecipes + "</div>";
 		}
-		out += "<div class='botNextPrev'>" + oldNew + "</div>" + relatedRecipes
+		out += "<div class='botNextPrev'>" + oldNew + "</div>"
 		// For comment section
 		+ "<br/><div style=\"clear:both;padding-top:20px;padding-bottom:20px;\"><div id='comments' class='commentHeader'>Leave Your Comments</div>"
 		// For Disqus
 		//+ "<div class='disqus_thread_class'><div id=\"disqus_thread\"></div><script type=\"text/javascript\"> var disqus_shortname = 'spicyworld';  (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true; dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);  })();</script></div>"
 		+ "<div class=\"fb-comments\" data-href=\"http://spicyworld.in/" + url + ".html\" data-width=\"100%\" data-numposts=\"8\"></div>"
-		+ "<br/>"
+		+ "<br/>" +relatedRecipes
+		+ "<br/><br/>"
 		+ "<div id='relatedRecipesTags' class='relatedRecipes'>Categories</div><div class='bottomLinksTags'>" + htmlTags.replace("href=", "onclick=\"ga('send', 'event', 'Tag Click', 'Tag Click: recipe_bottom', this.href);\" href=") + "</div>"
 		+ "</div>";
 		
