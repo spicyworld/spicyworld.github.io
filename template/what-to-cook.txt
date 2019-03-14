@@ -1,0 +1,39 @@
+<div class="cookyourself">
+
+	<p>You have some items at home and you don't know what you can cook with them. Please try our following "Cooking Companion" tool which will help you out in deciding what you can cook today. This will bring you the list of items that you can possibly cook using the available ingredients at your home.<br/>So why waiting, try this unique experience and use the tool now!! <br/><span>[This is a beta version.]</span></p>
+	
+	<div class="middleIngSearchArea">
+		<h4>Select the heavy ingredients from the list below:</h4>
+		<div class="itemsIngList">
+			<div class="in" onClick="whatToCookLoad(1, 1)" id='1_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='chicken'>Chicken</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 2)" id='2_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='mutton##lamb'>Mutton / Goat / Lamb</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 3)" id='3_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='potato##aloo'>Potato/Aloo</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 4)" id='4_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='egg'>Egg</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 5)" id='5_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='rice'>Rice</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 6)" id='6_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='paneer'>Paneer</div></div>
+			<div class="in" onClick="whatToCookLoad(1, 7)" id='7_top'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='cauliflower'>Cauliflower</div></div>
+		</div>
+
+		<h4>Select the smaller ingredients from the list below:</h4>
+		<div class="itemsIngList">
+			<div class="inS" onClick="whatToCookLoad(2, 1)" id='1_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='tomatoes'>Tomatoes</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 2)" id='2_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='turmeric'>Turmeric Powder</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 3)" id='3_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='chilli'>Chilli</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 4)" id='4_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='cumin'>Cumin Powder</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 5)" id='5_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='cream'>Cream</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 6)" id='6_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='coriander'>Coriander</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 7)" id='7_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='oil'>Oil</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 8)" id='8_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='ginger'>Ginger</div></div>
+			<div class="inS" onClick="whatToCookLoad(2, 9)" id='9_bot'><div class="leftItemB">&nbsp;</div><div class="leftItemData" id='garlic'>Garlic</div></div>
+		</div>
+	</div>
+	<div class="whatErrorMessage">Please select at least one from each of the categories.</div>
+	<div class="specialButton specialButtonWhat">
+		<a id="searchCookingBtn" href="javascript:whatICanCook()" onClick="ga('send', 'event', 'Start Cooking', 'Start Cooking: Find Recommendation', this.href);">Start Cooking</a>
+		<div>&nbsp;</div>
+		<a href="javascript:resetSelection()" onClick="ga('send', 'event', 'Start Cooking', 'Start Cooking: Reset Selection', this.href);">Reset Selection</a>
+	</div>
+	<div id="recoDataSection"></div>
+</div>
+
+

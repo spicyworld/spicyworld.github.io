@@ -1,0 +1,50 @@
+<div class="uspage">
+<p><b>Purpose of This Site.</b><br/>The Site is an online recipe and food photography site to help and spread our home-made cooking recipes and photos across the foodies and cooks. This User Agreement is also applicable for the mobile version of the website.</p>
+
+<p><b>Prohibited Uses of This Site.</b><br/>As a user of this site you are agreeing not to use this Site for any purpose that is unlawful or prohibited by this User Agreement and that can cause or herm any personal or organization or community or any mass. Further, you agree to follow:<br/></p>
+<ul>
+<li>Not to distribute in any medium or any part of the Site, including anything under copyright of Spicy World.</li>
+<li>
+Not to modify, distribute, transmit, perform, broadcast, publish, license, reverse engineer, transfer or sell any material, information obtained from the Site without written approval from the Site owner (Spicy World).
+</li>
+<li>
+Not to use the Site for any commercial purpose without the prior written consent from Spicy World.
+</li>
+</ul>
+
+<p><b>User Conduct.</b><br/>While you are using the site you are agreeing with:</p>
+<ul>
+<li>Not to make personal comment which can offend others.</li>
+<li>Not to post content or initiate communications which are obscene, unlawful, threatening, abusive, indecent, lewd, pornographic, violent, discriminatory, or otherwise objectionable.</li>
+<li>Not to collect personal information about individuals.</li>
+<li>We are not responsible for any attacks or hacks that can cause or create risk to end users.</li>
+</ul>
+
+<p><b>Monitoring of Content and Personal Information.</b><br/>We reserve the right to monitor all content and activities on this Site, but we are not obligated to do that. We are not collecting any personal information or even distributing any user information for any business benifit or conducting and illigual or unlawfull activities.</p>
+
+<p><b>Accuracy and Completeness of Information</b>.<br/>We are not responsible if information we make available on this Site is not accurate, complete or up-to-date. The contents are authored by us only, any similarities might be a coincidence that is/was/will not be intentional.</p>
+
+<p><b>Rights</b><br/>All images are assets of Spicy World, any use of the assets without proper written concent is a violation. Social media sharing of content is allowed provided the copyright information and source link is mentioned.</p>
+
+<p><b>Recipe Submission</b><br/>We maintain your information with up most confidentiality, we are not sharing any information with any third party at the best of our knowledge, we only use some thirdparty software/tools to capture your information and we are not sharing those with others.<br/>We will be reviewing your submission and contact you for any queries. We will cook the same and taste the food, based upon our internal judgement we will post the recipe at our blog. To maintain our standard and repotation we might change or replace images with ours and/or few recipe steps or ingredients or other details.</p>
+
+<p><b>Cookies</b><br/>We use cookies in our website, while using our website and agreeing to this policy, you allow us to use cookie in the website. We do not store user information or personal data into cookie.</p>
+<b>How we use cookie?</b>
+<ul>
+<li>To track user navigation in the website.</li>
+<li>Track User session for accessing the Membership feature.</li>
+<li>Enable and disable javascript based features of the website.</li>
+<li>For better usability of the website.</li>
+<li>You can block cookies from browser settings, that will not have any adverse effect in website usage, few navigation and feature enable/disable will not work.</li>
+</ul>
+
+<p><b>Tool Usage.</b><br/>We use sevaral open source software and tools to build this website. Any user data gathered/shared by those tools are out of our control but we try to ensure best protection of user data by using standard tools and softwares. On time to time basis we check those tools and update our website to ensure user data is protected.</p>
+
+<p><b>Email Policy.</b><br/>We allow subscription for updates, we track the latest information from your subscription activity. We do not share your email and any personal info with any 3rd party individual(s) or organization(s) for any business purpose. We are not liable for any cause of damage made by the emails that we are sending, as per our best possible information and knowledge we are taking care whatever best for your and our security and trust. We are not liable to provide any physical or financial offerings to anyone for any damages caused by using our blog and its service(s). We also request our users to notify us if you observe or face any problem using our service(s) at any stage, so that we can take care of that early.</p>
+
+<p><b>Password Policy.</b><br/>We are using open source tools and custom code and applications are hosted in third party servers, so while choosing the password for creating account please make sure to use some password that’s not critical which can reveal any of your financial or personal account or information. We use encryption for storing your password (using best of our knowledge) so that it’s not easy to be understood in clear eye. If you notice anything that looks annoying or may cause any problem then please notify us, we will immediately take action to resolve the problem.</p>
+
+<p><b>Changes to This User Agreement.</b><br/>We reserve the right, we are the sole owner of this User Agreement, we can revise the terms any time and post to the website. It is your responsibility to check this page for any changes we make. Any previous agreement will be void with the launch of new agreement at any given point of time. Your continuous visit to our website means you are agreeing with the changes in this Agreement.</p>
+</div>
+
+

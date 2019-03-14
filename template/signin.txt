@@ -1,0 +1,114 @@
+<div class="memberLoginPage">
+	
+	<div id="loadingAccountPage">
+		<div id='subscribeMsg'><div id='loadingIcon'><img src="images/loading.gif" alt="Loading"/></div></div>
+	</div>
+	
+	<div id="signedInAccount">
+		<div class='signoutButton'><span id='userNameTop'></span>&nbsp;(<a href='javascript:signoutSP()' title='Sign Out'>Sign Out</a>)</div>
+		<br/>
+		<div class="accountMenu">
+			<a id='account_1' href='javascript:accountActivity("1")' onClick="ga('send', 'event', 'Account', 'Account: Menu Companion', this.href);">Cooking Companion</a>
+			<a id='account_2' href='javascript:accountActivity("2")' onClick="ga('send', 'event', 'Account', 'Account: Menu Bookmark', this.href);">My Bookmarks</a>
+			<a id='account_3' href='javascript:accountActivity("3")' onClick="ga('send', 'event', 'Account', 'Account: Menu Account', this.href);">Account Settings & Promotions</a>
+		</div>
+		<div id='accountContent'>
+			<div id='account_data_1'>##WHAT_TO_DATA##</div>
+			<div id='account_data_2'></div>
+			<div id='account_data_3'></div>
+		</div>
+	</div>
+	
+	<div id="loginRegisterPage">
+		<h1 class="head">Sign In to your Spicy World Account</h1>
+		<table align="center" width="50%">
+			<tr>
+				<td>Email Id (Login ID)</td>
+				<td><input type="text" id="emails" name="email" maxlength="400" onkeypress='enterPressCheckSignin(event)'/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" id="pass" name="pass" maxlength="100" onkeypress='enterPressCheckSignin(event)'/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><br/><div class='subsMsgDivFail' id='signInError'></div></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					&nbsp;
+				</td>
+				<td>
+					<div class="specialButton">
+						<a href="javascript:signInWithSP()" onClick="ga('send', 'event', 'Sign In', 'Sign In: Login', this.href);">Sign In</a>
+						<a href="index.html" onClick="ga('send', 'event', 'Sign In', 'Sign In: Cancel', this.href);">Cancel</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<hr/><br/>
+					<b>Do not have an Account?</b> Register with us by completing the following form.
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Email Id (Login ID)</td>
+				<td><input type="text" id="emailr" name="emailr" maxlength="400" onkeypress='enterPressCheckRegister(event)'/></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td><input type="password" id="passr" name="passr" maxlength="100" onkeypress='enterPressCheckRegister(event)'/></td>
+			</tr>
+			<tr>
+				<td>Name</td>
+				<td><input type="text" id="namer" name="namer" maxlength="1000" onkeypress='enterPressCheckRegister(event)'/></td>
+			</tr>
+			<tr>
+				<td colspan="2"><br/><div class='subsMsgDivFail' id='registerError'></div></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+					&nbsp;
+				</td>
+				<td>
+					<div class="specialButton">
+						<a href="javascript:registerWithSP()" onClick="ga('send', 'event', 'Register', 'Register: Sign Up', this.href);">Sign Up</a>
+						<a href="index.html" onClick="ga('send', 'event', 'Register', 'Register: Cancel', this.href);">Cancel</a>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<span class='noteMessage'>Note: By registering above, you agree to <a rel='nofollow' onClick="ga('send', 'event', 'User Agreement', 'User Agreement: Under Register', this.href);" href='user-agreement.html'>Spicy World Privacy Policy</a></span>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>

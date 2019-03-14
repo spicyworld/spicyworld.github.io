@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: http://spicyworld.in/sitemap.xml
+Disallow: /template/
+Disallow: /*/template/
+Disallow: /mobile

@@ -1,0 +1,30 @@
+<div class="publicpresenceItem">
+	<img src="images/pp/facebook-page.png" alt="Facebook Follow Logo"/>
+	<div class="datatxt">
+		<a onclick="ga('send', 'event', 'Public Presence', 'Public Presence: FB Page', this.href);" title="Spicy World - Facebook Page" href="https://www.facebook.com/spicyworldrecipes">Spicy World</a>
+		<span>(Official Facebook Page)</span>
+		<br/><br/>
+		<a onclick="ga('send', 'event', 'Public Presence', 'Public Presence: FB Group', this.href);" title="Sweet & Spicy - Facebook Group" href="https://www.facebook.com/groups/975021199218034/">Sweet & Spicy</a>
+		<span>(Official Facebook Group)</span>
+	</div>
+</div>
+<div class="publicpresenceItem">
+	<img src="images/pp/tasty-tales.png" alt="Tangy Tales Logo"/>
+	<div class="datatxt">
+		<a onclick="ga('send', 'event', 'Public Presence', 'Public Presence: Tangy Tales', this.href);" title="Tangy Tales - Guest Post" href="http://www.tangytales.com/veggie-cheese-pops-recipe">Guest Post at Tangy Tales</a>
+	</div>
+</div>
+<div class="publicpresenceItem">
+	<img src="images/pp/ctba.png" alt="Central Texas Bengali Association (CTBA)"/>
+	<div class="datatxt">
+		<a onclick="ga('send', 'event', 'Public Presence', 'Public Presence: CTBA', this.href);" title="Central Texas Bengali Association (CTBA): Durga Pujo 2016 Magazine" href="http://www.dhrubotara.org/wp-content/uploads/2016/10/magazine_2016.pdf">Durga Pujo 2016 Magazine (Page# 22)</a>
+		<br/><br/>
+		<span>Published by Central Texas Bengali Association (CTBA)</span>
+	</div>
+</div>
+<div class="publicpresenceItem">
+	<div class="divImg">
+		<script type="text/javascript" src="https://www.indiblogger.in/widgets/indirank.php?id=98765&c=1"></script>
+	</div>
+</div>
+

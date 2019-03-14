@@ -1,0 +1,325 @@
+.steps-image div.descheader {
+ margin-left: 23px !important;
+ display: block;
+ font-weight: bold;
+}
+
+.padtopbottomimg {
+	width: 75% !important;
+	margin-top: 35px !important;
+	margin-bottom: 30px !important;
+}
+
+.topNextPrevNavLinks {
+	padding: 10px;
+}
+
+.fleft {
+	float: left;
+}
+
+.fright {
+	float: right;
+}
+
+.imagesPage a, .footer a, .linkColor a{
+	color: #22B5E3;
+	text-decoration: none;
+}
+
+.prevLink:before {
+	content: url(../../images/arrow-left.png);
+}
+
+.netxLink:after{
+	content: url(../../images/arrow-right.png);
+}
+
+.prevLinkD:before {
+	content: url(../../images/arrow-left-disabled.png);
+}
+
+.netxLinkD:after{
+	content: url(../../images/arrow-right-disabled.png);
+}
+
+.vegTopLine {
+	border-bottom: 2px solid green;
+    height: 0px !important;
+    top: -6px;
+    position: relative;
+}
+
+.nonVegTopLine {
+	border-bottom: 2px solid red;
+    height: 0px !important;
+    top: -6px;
+    position: relative;
+}
+
+.aboutImg {
+	width: 80%;
+    box-shadow: 9px 8px 5px #888888;
+}
+
+.descp a {
+	font-size: 17px;
+}
+.hideMobileLink {
+	display: none;
+	font-size: 17px !important;
+}
+
+.internalLI {
+    list-style: none;
+    margin-left: -20px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.pad50px {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.searchPlace input {
+    margin-top: 1px;
+    height: 28px;
+    width: 180px;
+}
+
+.searchPlace {
+    clear: both;
+    height: 80px;
+}
+
+
+.searchPlace a {
+	background: grey;
+    padding: 10 20 10 20;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    border: 1px grey;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.searchPlace a:hover {
+	background: silver;
+}
+
+.adSection {
+	width: 320px;
+    height: 50px;
+    position: relative;
+    background: grey;
+    top: 0px;
+    margin: auto;
+    right: 0px;
+    margin-top:15px;
+}
+
+.wordcloud span{
+	padding: 10px;
+}
+
+.wordcloud {
+	padding: 30px;
+}
+
+.middleTop .data a {
+    background: grey;
+    padding: 10 20 10 20;
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    border: 2px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.middleTop .data a:hover {
+	background: silver;
+}
+
+.middleBottom {
+	clear: both;
+	padding-top: 20px;
+}
+
+.rightitem .title, .rightitem .desc {
+	clear: both;
+}
+
+.tagContent span {
+	padding-left: 10px;
+	display: inline-block;
+}
+
+.posLeft ul li, .div3Pos li {
+	text-align: left;
+}
+
+.garnishment ul li {
+	list-style: none;
+	text-align: center;
+}
+
+.garnishment ul {
+	padding-left: 0px;
+}
+.middleBottom .title {
+	padding-top: 10px;
+}
+
+.middleBottom img, .posLeft img  {
+	width: 80%;
+	box-shadow: 9px 8px 5px #888888;
+}
+
+.middleData, .lineBreakBottom {
+	clear: both;
+}
+
+.lineBreakBottom {
+	border: 1px solid grey;
+}
+
+.title img {
+	height: 100px;
+	width: 200px;
+}
+
+.headerMenu {
+	text-align: center;
+}
+
+.headerMenu li {
+	cursor: pointer;
+}
+
+.leftitem img {
+	width: 50%;
+	box-shadow: 9px 8px 5px #888888;
+}
+
+td {
+	text-align: center;
+}
+
+.topPaginationData span {
+	padding-left: 10px;
+}
+
+.topPaginationData .selected {
+	font-size: 20px;
+	color: black;
+}
+
+.rightitem {
+	padding-top: 8px;
+	padding-bottom: 20px;
+
+}
+
+.headerMenu ul {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.headerMenu ul li {
+	list-style: none;
+	border-radius: 1px;
+	border: 1px solid grey;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	padding: 10px;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+100;Grey+Flat */
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.headerMenu ul li:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: rgb(214,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(214,249,255,1) 0%, rgba(158,232,250,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,249,255,1)), color-stop(100%,rgba(158,232,250,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+
+}
+
+a {
+	color: #3598cf;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+body {
+	text-align: center;
+}
+
+.headerMenu .selected {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d6f9ff+0,9ee8fa+100;Blue+3D */
+background: rgb(214,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(214,249,255,1) 0%, rgba(158,232,250,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(214,249,255,1)), color-stop(100%,rgba(158,232,250,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(214,249,255,1) 0%,rgba(158,232,250,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6f9ff', endColorstr='#9ee8fa',GradientType=0 ); /* IE6-9 */
+}
+
+.headerMenu .selected  a{ 
+	color: black;
+}
+
+table {
+	padding-top: 30px;
+}
+
+.middleBottom .left, .middleBottom .middle, .middleBottom .right {
+	padding-bottom: 30px;
+}  
+
+.steps-image img {
+	width: 70%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 9px 8px 5px #888888;
+}
+
+.steps-image div {
+	text-align: left;
+    display: list-item;
+    margin-left: 1.3em;
+    margin-left: 40px;
+}
+
+.steps-image span {
+	display: block;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+h2 {
+	margin-bottom: 0px !important;
+	padding: 0px !important;
+}
