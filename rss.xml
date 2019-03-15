@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-bharta.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 14 Mar 2019 00:00:00 CST</pubDate>
+            <title>Chicken Bharta (Kolkata style)</title>
+            <link>http://www.spicyworld.in/chicken-bharta.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-bharta.jpg' />Chicken Bharta was prepared last weekend in our lunch. The recipe is Punjabi inspired Bengali dish. A very tasty shredded (pulled) chicken preparation which is famous throughout India. It has onion and tomato based gravy with beautiful flavor of kasuri methi and Garam masala. Of course, how can I forget about the Boiled Egg? To make an excellent Chicken Bharta you have to finish it off with boiled egg yolk. In Kolkata it's a frequently ordered dish in restaurants. To bring that exact flavor of restaurant I have used 'tandoori masala', believe me, do not skip this masala because it will definitely give the taste a big uplift. Chicken bharta goes very well with any rice preparation or naan, kulcha. But pair it with some naan or plain roti to enjoy it's authentic flavor.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/malai-chum-chum.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Mon, 11 Mar 2019 00:00:00 CST</pubDate>
@@ -1195,14 +1203,6 @@ In this blog we are going to talk about the places we visited in past one week a
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-manchurian.jpg' />
             Whenever I buy different types of sauces from market, can't think anything but Chinese dishes. With few ingredients you can creat such a splendid item. So, last of last weekend I went ahead and made 'chicken manchurian', the more I can say about it's delicious tangy and spicy taste the less it seems. We enjoyed it with some fried rice but you can also serve this with hakka noodles or simple rumali rotis. I told you before that I just adore the combo of rumali roti and chinese maincourse dishes, don't know why ? Try this manchurian recipe in your kitchen and enjoy a restaurant style dinner with your loved ones.
       ]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/chicken-bharta.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Tue, 22 Mar 2016 00:00:00 CST</pubDate>
-            <title>Chicken Bharta (Kolkata style)</title>
-            <link>http://www.spicyworld.in/chicken-bharta.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-bharta.jpg' />Chicken Bharta was prepared last weekend in our lunch. The recipe is punjabi inspired bengali dish. A very tasty shreded (pulled) chicken preparation that is famous throughout India. It has onion and tomato based gravy with beautiful flavour of kasuri methi and butter. In kolkata it's a frequently ordered dish in restaurants. To bring that exact flavour of resturant I have used 'tandoori masala', believe me, do not skip this masala because it will definitely give the taste a big uplift. Chicken bharta goes very well with any rice preparation or naan, kulcha. But pair it with some plain roti to enjoy it's authentic flavour.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/fulkopi-roast.html</guid>

@@ -528,6 +528,53 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-bharta.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta.jpg</image:loc>
+            <image:caption>Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-add.jpg</image:loc>
+            <image:caption>Chicken Bharta (Kolkata style) - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-add-top.jpg</image:loc>
+            <image:caption>Chicken Bharta (Kolkata style) - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-end.jpg</image:loc>
+            <image:caption>Chicken Bharta (Kolkata style) with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-b167ddfa-11e5-4717-bcda-56544c3db8c1.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-f54346f5-98ea-45fb-ab65-b2b11c9d17a5.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-82cb1a72-ab58-4692-8e9f-5cfcd064c803.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-b3b9a005-e6cd-4281-bbb0-3879e2bc6d7f.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-c7f768a3-d99b-4ab3-bc8b-d71f6110a2df.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-a30f90ea-41b6-4645-8ba9-d62f71e0a548.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-afa1c656-916e-4adf-9974-0d0a095c65aa.jpg</image:loc>
+            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/malai-chum-chum.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/malai-chum-chum.jpg</image:loc>
@@ -6625,65 +6672,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-manchurian-9.jpg</image:loc>
             <image:caption>Related to Chicken Manchurian</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-bharta.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta.jpg</image:loc>
-            <image:caption>Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-1.jpg</image:loc>
-            <image:caption>Chicken Bharta (Kolkata style) - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-2.jpg</image:loc>
-            <image:caption>Chicken Bharta (Kolkata style) - how you plate this</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-13.jpg</image:loc>
-            <image:caption>Chicken Bharta (Kolkata style) with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-3.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-4.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-5.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-6.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-7.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-8.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-9.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-10.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-11.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-bharta-12.jpg</image:loc>
-            <image:caption>Related to Chicken Bharta (Kolkata style)</image:caption>
         </image:image>
     </url>
     <url>
