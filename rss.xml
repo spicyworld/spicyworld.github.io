@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/paneer-bhapa.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 19 Mar 2019 00:00:00 CST</pubDate>
+            <title>Paneer Bhapa / Steamed Paneer in Mustard Poppy seeds gravy</title>
+            <link>http://www.spicyworld.in/paneer-bhapa.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/paneer-bhapa.jpg' />Paneer Bhapa is a very easy and flavorful Bengali veg dish which goes best with steamed rice. Bhapa means steamed. Any spicy bhapa dish like Chingri bhapa, Ilish bhapa etc will call for two important ingredients - Green chili and Mustard oil, without these two 'bhapa' will taste bland. In this Paneer Bhapa recipe, paneer will be steamed in mustard, poppy seeds, coconut and yogurt gravy within a steel box. The taste and texture of Paneer is out of the world. Try this very easy recipe in your kitchen and let me know how it turned out for you. ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/chicken-bharta.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 14 Mar 2019 00:00:00 CST</pubDate>
