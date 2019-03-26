@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/mango-sandesh.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 26 Mar 2019 00:00:00 CST</pubDate>
+            <title>Mango Sandesh / Aam Sondesh</title>
+            <link>http://www.spicyworld.in/mango-sandesh.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mango-sandesh.jpg' />Can you imagine summer without mango? Mango is one of my favorite fruit with which you can make so many things like Yogurt, Ice cream, Phirni, Kheer, Cake, Cheesecake and what not. This season I made Mango Sondesh, taste and texture came out really good. You can make them with Ricotta cheese also, in that case add some milk powder as ricotta cheese is much thinner than Paneer. Mango pulp is going to give the Sandesh very refreshing and nice aroma. For color I have used saffron. Try this simple recipe in your kitchen and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/macher-kofta-curry.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Fri, 22 Mar 2019 00:00:00 CST</pubDate>

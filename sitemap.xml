@@ -528,6 +528,53 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/mango-sandesh.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh.jpg</image:loc>
+            <image:caption>Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-add.jpg</image:loc>
+            <image:caption>Mango Sandesh / Aam Sondesh - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-add-top.jpg</image:loc>
+            <image:caption>Mango Sandesh / Aam Sondesh - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-end.jpg</image:loc>
+            <image:caption>Mango Sandesh / Aam Sondesh with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-d1156034-e82c-4bf0-a06b-fc4a4bae30b6.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-7737ce83-2ade-4109-af2c-1e170034c121.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-1f0b6659-b26b-4da3-b73c-dc18a62c298c.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-438bd1d0-0bf0-411c-9565-49357d8a77f0.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-7c898d28-eb6f-476f-be05-65487ec80f2a.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-0a61c401-2309-4784-ba8b-7f1442658c46.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-sandesh-6bb80ade-ff37-4c07-adbb-3edda0624a92.jpg</image:loc>
+            <image:caption>Related to Mango Sandesh / Aam Sondesh</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/macher-kofta-curry.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/macher-kofta-curry.jpg</image:loc>
@@ -11475,5 +11522,8 @@
     </url>
     <url>
         <loc>http://spicyworld.in/recipes-27.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/recipes-28.html</loc>
     </url>
 </urlset>
