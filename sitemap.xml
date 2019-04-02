@@ -528,6 +528,45 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chanar-payesh.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh.jpg</image:loc>
+            <image:caption>Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-add.jpg</image:loc>
+            <image:caption>Chanar Payesh / Paneer Kheer - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-add-top.jpg</image:loc>
+            <image:caption>Chanar Payesh / Paneer Kheer - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-end.jpg</image:loc>
+            <image:caption>Chanar Payesh / Paneer Kheer with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-ef8ae218-2622-4a7b-856a-f49b13495871.jpg</image:loc>
+            <image:caption>Related to Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-9ddc8912-b37c-41f0-a6ef-c31de43663a0.jpg</image:loc>
+            <image:caption>Related to Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-e5a264c3-976c-43af-b195-4f3382b0eef9.jpg</image:loc>
+            <image:caption>Related to Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-ece9a408-2dd4-461a-90ef-364b4ae1191b.jpg</image:loc>
+            <image:caption>Related to Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chanar-payesh-ef5963b3-b2c9-4ec1-a4e6-30c2256ce805.jpg</image:loc>
+            <image:caption>Related to Chanar Payesh / Paneer Kheer</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/afghani-chicken-curry.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/afghani-chicken-curry.jpg</image:loc>

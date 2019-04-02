@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chanar-payesh.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 02 Apr 2019 00:00:00 CST</pubDate>
+            <title>Chanar Payesh / Paneer Kheer</title>
+            <link>http://www.spicyworld.in/chanar-payesh.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chanar-payesh.jpg' />Chanar Payesh is a traditional Bengali dessert recipe in which soft, crumbled panner will be cooked in semi thickened milk along with condensed milk and green cardamom. The texture of Chanar Payesh is very important - neither too thick nor too thin. In one word this Payesh tastes delicious and more over it is very easy to make. During summer, when you want to make some cold, lightly sweetened dessert for any occasion or party, then Chanar Payesh is the best option as it takes very less time to cook than other typical desserts.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/afghani-chicken-curry.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Fri, 29 Mar 2019 00:00:00 CST</pubDate>
