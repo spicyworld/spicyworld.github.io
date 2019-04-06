@@ -7,7 +7,7 @@
         <add-title>Slow cooked Indian Chicken Wings</add-title>
         <youtube-url>https://www.youtube.com/watch?v=1ICt84sRaxc</youtube-url>
         <type>nonVegItem</type>
-        <shortDesc><![CDATA[Who doesn't give order Chicken wings from starter menu in restaurants?? I am one crazy wings lover. There are so many yummy recipes of Chicken wings in the internet. They all look really good. Here is my take on Bhuna (slow cooked, using water as less as possible) Chicken wings which is basically Indian style spicy wings. You can make this recipe with drumsticks also. With some green chutney and onion slices they taste yummmmm!]]></shortDesc>
+        <shortDesc><![CDATA[Who doesn't give order Chicken wings from starter menu in restaurants?? I am one crazy wings lover. There are so many yummy recipes of Chicken wings in the internet. They all look really good. Here is my take on Bhuna (slow cooked, using water as less as possible) Chicken wings which is basically Indian style spicy wings. You can make this recipe with drumsticks also. With some green chutney and onion slices they taste yummmmm! ]]></shortDesc>
         <completionStatement><![CDATA[Your Bhuna Chicken Wings are ready to serve.]]></completionStatement>
         <recoLinks/>
         <garnishment><![CDATA[Serve this hot with green chutney.]]></garnishment>
@@ -4011,6 +4011,50 @@ In this blog we are going to talk about the places we visited in past one week a
             <img src="recipeimages/prawn-curry-3.jpg" />
             <div>In the remaining oil, add all the whole spices. Saute for a minute.</div>
             <div>Then fry the onion till golden in color.</div>
+                        <img src="recipeimages/prawn-curry-4.jpg" />
+            <div>Then add chopped tomatoes. Cook for 5 minutes in medium flame.</div>
+            <img src="recipeimages/prawn-curry-5.jpg" />
+            <div>Add the fried potatoes and cauliflowers. Mix well and add half cup of water. Cook this for 10-15 minutes or untill everything becomes soft.</div>
+            <img src="recipeimages/prawn-curry-6.jpg" />
+            <div>Lastly add fried prawns, green chilies and simner for 5 minutes then turn off tge heat.</div>
+            <img src="recipeimages/prawn-curry-7.jpg" />
+            <div>Let it rest for another 2 - 3 minutes then serve.</div>
+            <img src="recipeimages/prawn-curry-8.jpg" style="width:85%"/>
+         ]]></process>
+        <completionStatement>Your Prawn curry with Potato and Cauliflower is ready ...</completionStatement>
+        <garnishment>Enjoy this hot curry with steamed rice ...</garnishment>
+        <pic>recipeimages/prawn-curry.jpg</pic>
+        <url>cauliflower-prawn-curry</url>
+        <add-pic>recipeimages/prawn-curry-1.jpg</add-pic>
+        <add-pic-style>width:45%</add-pic-style>
+        <end-pic>recipeimages/prawn-curry-9.jpg</end-pic>
+        <end-pic-style>width:85%</end-pic-style>
+        <keywords>prawn, shrimp, chingri, aloo, potato, fulkopi, cauliflower, torkari, curry, maincourse, bengali, spicy, fish, lunch</keywords>
+        <tags>fish,bengali,curry,maincourse,lunch,spicy</tags>
+        <pubDate>03/15/2016</pubDate>
+    </element>
+    <element>
+        <completionStatement>Your Chicken Tikka Kebab is ready.</completionStatement>
+        <garnishment>Sprinkle some lime juice / chaat masala over your kebabs and enjoy ..!!</garnishment>
+        <ingrediants><![CDATA[
+      <ul><li>Boneless chicken cut into cubes (20 pieces).</li><li>Half cup of hung curd.</li><li>2 Teaspoons of ginger and garlic paste.</li><li>Whole spices (2 Teaspoons of cumin seeds, 3 Teaspoons of coriander seeds, 2 Teaspoons of whole black pepper, 2 dry red chilies or 1 Teaspoon of chilli flakes, 4-5 green cardamom, 2-3 small cinnamon sticks, 1 bay leaf, 1 Teaspoon of  fennel seeds).</li><li>Salt.</li><li>1 Teaspoon of kashmiri red chilli powder.</li><li>A cup of onion and capsicum chunks.</li><li>1 and half Tablespoons of besan / gram flour.</li><li>3 Teaspoons of mustard oil.</li></ul>
+      ]]></ingrediants>
+        <pic>recipeimages/chicken-tikka.jpg</pic>
+        <process><![CDATA[
+      <div>Dry roast all the whole spices for 4 - 5 minutes in a pan. Then put those in a grinder and make a powder. This is tikka masala.</div>
+      <img src="recipeimages/chicken-tikka-3.jpg" />
+      <div>Then in the same pan dry roast the besan for 3 - 4 minutes in medium flame and keep aside. Do not burn it. </div>
+      <img src="recipeimages/chicken-tikka-4.jpg" />
+      <div>For the marination take mixing bowl. Put the chicken pieces, hung curd and ginger garlic paste.</div>
+      <img src="recipeimages/chicken-tikka-5.jpg" />
+      <div>Add 2-3 Tablespoons of tikka masala, kashmiri red chilli powder, salt, oil and roasted besan. Mix everything very well.</div>
+      <img src="recipeimages/chicken-tikka-6.jpg" />
+      <div>Put the marinated chicken into the refrigerator for at least 4-6 hrs.</div>
+      <div>For best result keep it overnight.</div>
+      <div>Before arrange the kababs add some cubed onion and capsicum into the chicken. Mix well and keep it for 30 minutes.</div>
+      <img src="recipeimages/chicken-tikka-7.jpg" />
+      <div>Soak the bamboo skewers into water for 15 minutes before putting in the oven.</div>
+      <div>Take a skewer , put a onion cube then a chicken piece then a capsicum cube. Repeat this process with all the skewers.</div>
             <div>Add ginger garlic paste, salt, half Teaspoon of sugar, a Teaspoon of turmeric powder and all the spice powder. Mix well for 4-5 .</div>
       <img src="recipeimages/chicken-tikka-8.jpg" />
       <div>Put the kababs into the oven and closer to the filaments for 20 minutes in the highest temperature.</div>
