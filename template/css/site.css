@@ -2519,6 +2519,21 @@ ul li {
     padding-top: 6px !important;
 }
 
+.bioSection .bio-img {
+	height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+}
+
+.bio-amitava {
+	background: url("../images/profile-amitava-icon.jpg") center no-repeat;
+}
+
+.bio-arpita {
+	background: url("../images/about-arpita-icon.jpg") center no-repeat;
+}
+
 .bottomHrTeam {
 	width: 90%;
     margin-left: 0px;
