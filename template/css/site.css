@@ -2689,3 +2689,36 @@ ul li {
     color: grey;
     cursor: text;
 }
+
+.css-fb {
+    font-size: 11px;
+    line-height: 12px;
+    background: #dbdbdb;
+    padding: 3px;
+    width: 110px;
+    height: 25px;
+}
+
+.css-fb .img-div {
+	float: left;
+    width: 30px;
+}
+
+.css-fb .img-div img {
+    height: 23px;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+
+.css-fb .text-div {
+	float: left;
+    width: 80px;
+    color: #3b5a9a;
+    font-family: Helvetica;
+    font-size: 9px;
+}
+
+.css-fb .text-div .fb-txt {
+	font-size: 13px;
+    font-weight: 900;
+}
