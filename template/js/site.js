@@ -62,6 +62,27 @@ function subscribeEmail() {
 	    });
 }
 
+function enterPressCheckSubscribe(B){
+    var A;
+    if(window.event){
+        A=window.event.keyCode;
+    }else{
+        A=B.which;
+    }
+    if(A==13){
+        subscribeEmail();
+    }else{
+    	$('#subsMsgDiv').removeClass('subsMsgDivFail');
+    	$('#subsMsgDiv').removeClass('subsMsgDivSuccess');
+        return "false";
+    }
+}
+
+function validateEmail(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+}
+
 function removeBookmarkURL(pageURL) {
 	pageURL = pageURL.trim();
 	var log = getCookieValue('log');
@@ -418,26 +439,6 @@ function whatICanCook() {
 	});
 }
 
-function enterPressCheckSubscribe(B){
-    var A;
-    if(window.event){
-        A=window.event.keyCode;
-    }else{
-        A=B.which;
-    }
-    if(A==13){
-        subscribeEmail();
-    }else{
-    	$('#subsMsgDiv').removeClass('subsMsgDivFail');
-    	$('#subsMsgDiv').removeClass('subsMsgDivSuccess');
-        return "false";
-    }
-}
-
-function validateEmail(email) {
-    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-}
 
 function calculateViews(pageURLTmp) {
 	/*var viewTxt = "View";
