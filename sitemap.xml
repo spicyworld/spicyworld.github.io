@@ -528,6 +528,37 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/aam-kasundi.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi.jpg</image:loc>
+            <image:caption>Aam Kasundi / Mango Mustard Chutney</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-add.jpg</image:loc>
+            <image:caption>Aam Kasundi / Mango Mustard Chutney - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-add-top.jpg</image:loc>
+            <image:caption>Aam Kasundi / Mango Mustard Chutney - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-end.jpg</image:loc>
+            <image:caption>Aam Kasundi / Mango Mustard Chutney with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-0eaa79e0-91ab-4a99-a4fa-2c1324650c0c.jpg</image:loc>
+            <image:caption>Related to Aam Kasundi / Mango Mustard Chutney</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-923236dd-2890-4191-b403-baa93cfd3353.jpg</image:loc>
+            <image:caption>Related to Aam Kasundi / Mango Mustard Chutney</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aam-kasundi-8fbf77c3-b0ff-4552-a9e6-7137ebbcd033.jpg</image:loc>
+            <image:caption>Related to Aam Kasundi / Mango Mustard Chutney</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/bhuna-chicken-wings.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-wings.jpg</image:loc>
