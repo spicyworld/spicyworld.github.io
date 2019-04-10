@@ -10,6 +10,7 @@ var allRecipes =  [
         "end-pic-style": "width:50%",
         "recipecategory": "Side dishes: Other",
         "add-title": "Mango Mustard Chutney",
+        "youtube-url": "https://www.youtube.com/watch?v=ik94LiPHvyE",
         "ingrediants": "<ul><li>2-3 medium sized green mangoes.<\/li><li>50 grams of black mustard seeds.<\/li><li>50 grams of yellow mustard seeds.<\/li><li>4 cloves of garlic.<\/li><li>1 inch ginger.<\/li><li>2-3 green chilies.<\/li><li>Half cup of mustard oil. (more is better)<\/li><li>Very little water.<\/li><li>Salt and sugar as per your taste.<\/li><li>1 Tablespoons of turmeric powder.<\/li><\/ul>",
         "process": "<div>Add all the ingredients in a blender along with ginger, garlic, green chilies, salt, sugar and turmeric powder.<\/div><img src=\"recipeimages/aam-kasundi-0eaa79e0-91ab-4a99-a4fa-2c1324650c0c.jpg\" /><div>With very little water blend them to a smooth paste.<\/div><div>Drizzle more mustard oil over the Kasundi.<\/div><div>Pour it in a container and then keep it under sunlight for 2-3 days. Keep it in fridge for further use. It will stay good for 6-7 months.<\/div><img src=\"recipeimages/aam-kasundi-923236dd-2890-4191-b403-baa93cfd3353.jpg\"  style='width:45%'/><img src=\"recipeimages/aam-kasundi-8fbf77c3-b0ff-4552-a9e6-7137ebbcd033.jpg\"  style='width:45%'/>",
         "add-pic": "recipeimages/aam-kasundi-add.jpg",
