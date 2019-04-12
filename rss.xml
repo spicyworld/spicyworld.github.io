@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chingri-malai-curry.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 12 Apr 2019 00:00:00 CST</pubDate>
+            <title>Chingri Macher Malai Curry / Prawn curry with Coconut Milk</title>
+            <link>http://www.spicyworld.in/chingri-malai-curry.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chingri-malai-curry.jpg' />Chingri Macher Malai Curry is a traditional Bengali recipe rather delicacy, where Golda Chingri or Lobster is cooked in onion - tomato gravy and then addition of coconut milk makes the curry more rich and creamy, thus the name 'malai curry'. Though I made it with jumbo shrimps as we both are not fan of lobster. Taste of this Prawn malai curry came out delicious, neither too spicy nor too sweet, perfectly balanced. I served it with mishti pulao aka basonti pulao and the pair was heavenly. Do try this recipe and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/aam-kasundi.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 09 Apr 2019 00:00:00 CST</pubDate>
