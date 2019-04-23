@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/ras-malai.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 23 Apr 2019 00:00:00 CST</pubDate>
+            <title>Ras Malai / Rosho Malai</title>
+            <link>http://www.spicyworld.in/ras-malai.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/ras-malai.jpg' />Ras Malai is a very popular Indian dessert in which first we will make soft, spongy rasgullas then they will be soaked in flavored sweetened milk. It tastes so so good during summer. Always serve Rasmalai chilled. In Bengali it is called Roshomalai. You can obviously make Rasmalai with store bought Rasgulla to cut down the time and effort. Do try this recipe in your kitchen and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/bhuna-chilli-chicken.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 18 Apr 2019 00:00:00 CST</pubDate>
