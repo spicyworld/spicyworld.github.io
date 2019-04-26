@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/egg-bhurji.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 26 Apr 2019 00:00:00 CST</pubDate>
+            <title>Anda Bhurji / Spicy Scrambled Egg</title>
+            <link>http://www.spicyworld.in/egg-bhurji.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/egg-bhurji.jpg' />Anything scrambled means Bhurji in India. Be it egg, paneer or nutrela, they all taste delicious. In this Egg Bhurji recipe first we will make a masala with onion and tomato, then eggs will be scrambled with that. Anda bhurji has no gravy but it is soft and juicy enough to pair with phulkas (roti) or pav (bread). You can make very good sandwich with them also. Try this recipe in your kitchen and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/ras-malai.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 23 Apr 2019 00:00:00 CST</pubDate>

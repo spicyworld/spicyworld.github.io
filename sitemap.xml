@@ -528,6 +528,49 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/egg-bhurji.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji.jpg</image:loc>
+            <image:caption>Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-add.jpg</image:loc>
+            <image:caption>Anda Bhurji / Spicy Scrambled Egg - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-add-top.jpg</image:loc>
+            <image:caption>Anda Bhurji / Spicy Scrambled Egg - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-end.jpg</image:loc>
+            <image:caption>Anda Bhurji / Spicy Scrambled Egg with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-173eeb7d-552e-4fac-a908-43ad7a8d801c.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-48db1056-339c-4118-8705-4b212aa13ffc.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-551128b7-81db-4e88-bbc8-0ce4a5573106.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-a12364b0-6d81-4405-9121-c6491cb4a643.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-d41f8dab-5693-43c8-b73a-684bbf1add54.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/egg-bhurji-2133d056-5631-45e8-9253-4909b7392591.jpg</image:loc>
+            <image:caption>Related to Anda Bhurji / Spicy Scrambled Egg</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/ras-malai.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/ras-malai.jpg</image:loc>
