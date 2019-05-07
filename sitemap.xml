@@ -528,6 +528,61 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/mango-rasgulla.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla.jpg</image:loc>
+            <image:caption>Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-add.jpg</image:loc>
+            <image:caption>Mango Rasgulla / Aam Roshogolla - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-add-top.jpg</image:loc>
+            <image:caption>Mango Rasgulla / Aam Roshogolla - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-end.jpg</image:loc>
+            <image:caption>Mango Rasgulla / Aam Roshogolla with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-ac82dc79-6103-4535-a6bb-4a9dbfa51255.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-825cda83-130d-425c-95a4-302c546dbaee.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-2ca7932e-a10f-4713-a985-98376bd1be2b.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-5ded38c5-ded9-4dd9-83c7-33dc7b6c76bb.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-642865a3-b367-420e-9486-8d994ed43f5b.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-bd29e4d7-9c56-4a4e-a62c-5d14f3babae1.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-48ca0d6a-05bd-43e9-a4e4-bf6f287fed42.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-3a4b671d-4587-45ca-ade8-15eca54a41fe.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla-ee754948-28d8-4a2e-8a26-77948af71f89.jpg</image:loc>
+            <image:caption>Related to Mango Rasgulla / Aam Roshogolla</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/egg-bhurji.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/egg-bhurji.jpg</image:loc>
@@ -11980,5 +12035,8 @@
     </url>
     <url>
         <loc>http://spicyworld.in/recipes-28.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/recipes-29.html</loc>
     </url>
 </urlset>

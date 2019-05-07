@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/mango-rasgulla.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 07 May 2019 00:00:00 CST</pubDate>
+            <title>Mango Rasgulla / Aam Roshogolla</title>
+            <link>http://www.spicyworld.in/mango-rasgulla.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mango-rasgulla.jpg' />Mango Rasgullas are summer delight to us. The recipe is very simple and easy. You just have to incorporate mango flavor in the rasgullas and sugar syrup. The taste of these Mango Rasgullas are out of the world. Serve then warm or chilled. Do give it a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/egg-bhurji.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Fri, 26 Apr 2019 00:00:00 CST</pubDate>
