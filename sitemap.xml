@@ -528,6 +528,53 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/grilled-chicken-cheese-sandwich.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich.jpg</image:loc>
+            <image:caption>Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-add.jpg</image:loc>
+            <image:caption>Grilled Chicken and Cheese Sandwich - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-add-top.jpg</image:loc>
+            <image:caption>Grilled Chicken and Cheese Sandwich - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-end.jpg</image:loc>
+            <image:caption>Grilled Chicken and Cheese Sandwich with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-a6cc2202-b141-47e5-964f-6355b837ba82.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-2bc4cfb2-3099-4fb2-a5d8-5570fc6c67e5.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-bf6b8511-1e21-4d0f-975e-d493f3c7acb4.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-a3ad2db9-dfe0-4600-a168-e20d55bdde3c.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-7f3f1809-76ca-4f0f-8754-3f3266a99ceb.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-4126888e-d8e6-46a3-989a-c49b2c6a7e7e.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-chicken-cheese-sandwich-3e08d087-accd-4c9f-b705-c5d62e1de0ed.jpg</image:loc>
+            <image:caption>Related to Grilled Chicken and Cheese Sandwich</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/mango-rasgulla.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/mango-rasgulla.jpg</image:loc>
