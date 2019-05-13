@@ -114,10 +114,10 @@
         <loc>http://spicyworld.in/mild-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/chop-tag.html</loc>
+        <loc>http://spicyworld.in/milk-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/milk-tag.html</loc>
+        <loc>http://spicyworld.in/chop-tag.html</loc>
     </url>
     <url>
         <loc>http://spicyworld.in/fry-tag.html</loc>
@@ -526,6 +526,65 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/mishti-doi.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi.jpg</image:loc>
+            <image:caption>Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-add.jpg</image:loc>
+            <image:caption>Mishti Doi / Caramel flavored Sweet Yogurt - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-add-top.jpg</image:loc>
+            <image:caption>Mishti Doi / Caramel flavored Sweet Yogurt - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-end.jpg</image:loc>
+            <image:caption>Mishti Doi / Caramel flavored Sweet Yogurt with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-20bc7ebb-f2af-4656-b019-bbad8baa805e.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-bd3ada8b-4f05-4c4f-8012-b41a80a4c36d.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-7518be82-713d-488d-9578-454a3c39628e.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-0df37c8c-33ec-4e45-90bd-c6d8092ad933.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-0770dbf7-f97a-4243-8638-d5976cd53fc3.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-1345fb6b-c3a6-418c-943b-f36daf71beed.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-4a8f41ac-59a8-4186-aa84-d2effe7c5e70.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-d789b6ab-1942-425c-b98d-11660a38b542.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-2e3af38e-a02a-4ea3-a977-0133aa68deae.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mishti-doi-25818665-6781-4c81-b38a-6b2d5fa9c7c2.jpg</image:loc>
+            <image:caption>Related to Mishti Doi / Caramel flavored Sweet Yogurt</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/grilled-chicken-cheese-sandwich.html</loc>
