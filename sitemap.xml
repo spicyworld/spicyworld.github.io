@@ -297,6 +297,9 @@
         <loc>http://spicyworld.in/bhapa-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/smokey-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/snacks-tag.html</loc>
     </url>
     <url>
@@ -426,6 +429,9 @@
         <loc>http://spicyworld.in/pasta-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/grilled-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/zafrani-tag.html</loc>
     </url>
     <url>
@@ -526,6 +532,33 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/bhatti-ka-murgh.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh.jpg</image:loc>
+            <image:caption>Bhatti Ka Murgh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh-add.jpg</image:loc>
+            <image:caption>Bhatti Ka Murgh - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh-add-top.jpg</image:loc>
+            <image:caption>Bhatti Ka Murgh - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh-end.jpg</image:loc>
+            <image:caption>Bhatti Ka Murgh with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh-67fc9cfa-aaa2-4dee-bea9-7fcdc77c2555.jpg</image:loc>
+            <image:caption>Related to Bhatti Ka Murgh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh-a3374369-336d-49be-9c16-6323b573012a.jpg</image:loc>
+            <image:caption>Related to Bhatti Ka Murgh</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/mishti-doi.html</loc>

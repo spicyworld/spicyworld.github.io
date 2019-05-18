@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/bhatti-ka-murgh.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 17 May 2019 00:00:00 CST</pubDate>
+            <title>Bhatti Ka Murgh</title>
+            <link>http://www.spicyworld.in/bhatti-ka-murgh.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/bhatti-ka-murgh.jpg' />Bhatti means oven made with clay and Murgh means chicken. Bhatti ka Murgh is an irresistible, spicy grilled chicken recipe from North Indian cuisine in which chicken will be marinated in roasted onion and cashew paste with yogurt and other flavorful spices. The taste is very close to Tandoori Chicken but slightly different because of the roasted onion flavor. Do try this recipe and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/mishti-doi.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Mon, 13 May 2019 00:00:00 CST</pubDate>
