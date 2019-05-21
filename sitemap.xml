@@ -534,6 +534,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/musur-daaler-bhorta.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta.jpg</image:loc>
+            <image:caption>Musur Daaler Bhorta / Spicy mashed Lentils</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta-add.jpg</image:loc>
+            <image:caption>Musur Daaler Bhorta / Spicy mashed Lentils - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta-add-top.jpg</image:loc>
+            <image:caption>Musur Daaler Bhorta / Spicy mashed Lentils - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta-end.jpg</image:loc>
+            <image:caption>Musur Daaler Bhorta / Spicy mashed Lentils with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta-04a42c25-e6e9-4509-b72b-c988772e8f43.jpg</image:loc>
+            <image:caption>Related to Musur Daaler Bhorta / Spicy mashed Lentils</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta-295b8a97-af1d-46f9-8bd8-40756702e4c5.jpg</image:loc>
+            <image:caption>Related to Musur Daaler Bhorta / Spicy mashed Lentils</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/bhatti-ka-murgh.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/bhatti-ka-murgh.jpg</image:loc>
