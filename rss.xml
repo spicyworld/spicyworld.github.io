@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/grilled-fish-spinach-rice.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 24 May 2019 00:00:00 CST</pubDate>
+            <title>Grilled Fish and Spinach Rice</title>
+            <link>http://www.spicyworld.in/grilled-fish-spinach-rice.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/grilled-fish-spinach-rice.jpg' />During summer everybody wants to spend less time in kitchen. Usually I make daal, curry or some veggie stir fried for lunch but the hot, humid weather of Texas is pushing me to cook short and simple meal. Well, how can I not cook something special on weekend? You don't have to stand more than 20 minutes in front of those hot burners to creat this awesome Grilled fish and Spinach rice platter. To make it more easy try to cook the rice on previous day and refrigerate it. Then all you have to do is just marinate and cook the fish and stir fried the rice. Try this recipe in your kitchen and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/musur-daaler-bhorta.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 21 May 2019 00:00:00 CST</pubDate>

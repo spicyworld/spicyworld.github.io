@@ -534,6 +534,49 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/grilled-fish-spinach-rice.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice.jpg</image:loc>
+            <image:caption>Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-add.jpg</image:loc>
+            <image:caption>Grilled Fish and Spinach Rice - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-add-top.jpg</image:loc>
+            <image:caption>Grilled Fish and Spinach Rice - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-end.jpg</image:loc>
+            <image:caption>Grilled Fish and Spinach Rice with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-1eb2ffea-c925-4a63-9341-99f70cdeff43.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-e5355dd8-f5b4-40c4-839a-e664f6acd11d.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-2aa9105e-4270-4659-9ba0-9fc916b4ece7.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-949b5489-e6bb-491e-9ee5-42550e233fcd.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-f502170f-4ddf-4c7b-a99c-63f8c21ace10.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice-f7eafb9d-5d75-46f1-910d-d699cd939f4b.jpg</image:loc>
+            <image:caption>Related to Grilled Fish and Spinach Rice</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/musur-daaler-bhorta.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/musur-daaler-bhorta.jpg</image:loc>
