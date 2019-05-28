@@ -534,6 +534,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/coffee-bhapa-doi.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi.jpg</image:loc>
+            <image:caption>Coffee flavored Bhapa Doi  / Steamed Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi-add.jpg</image:loc>
+            <image:caption>Coffee flavored Bhapa Doi  / Steamed Yogurt - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi-add-top.jpg</image:loc>
+            <image:caption>Coffee flavored Bhapa Doi  / Steamed Yogurt - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi-end.jpg</image:loc>
+            <image:caption>Coffee flavored Bhapa Doi  / Steamed Yogurt with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi-603a6caf-9299-4f71-af8e-52f3d2049374.jpg</image:loc>
+            <image:caption>Related to Coffee flavored Bhapa Doi  / Steamed Yogurt</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi-de9be599-6ed4-4efc-a89a-8d7059e3a266.jpg</image:loc>
+            <image:caption>Related to Coffee flavored Bhapa Doi  / Steamed Yogurt</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/grilled-fish-spinach-rice.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/grilled-fish-spinach-rice.jpg</image:loc>
