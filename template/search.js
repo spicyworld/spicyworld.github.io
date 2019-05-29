@@ -2,7 +2,7 @@ var allRecipes =  [
     {
         "recipecuisine": "Indian",
         "completionStatement": "Your coffee flavored steamed yogurt is ready to serve.",
-        "keywords": "bengali bhapa doi recipe, steamed yogurt, baked yogurt, bhapa dahi, coffee flavor, tiramisu, chocolate yogurt, summer dessert, indian sweet",
+        "keywords": "bengali bhapa doi recipe, steamed yogurt, baked yogurt, bhapa dahi, coffee flavor, tiramisu, chocolate yogurt, summer dessert, indian sweet, condensed milk, milk powder, ghee",
         "pic": "recipeimages/coffee-bhapa-doi.jpg",
         "title": "Coffee flavored Bhapa Doi",
         "type": "vegItem",
@@ -10,6 +10,7 @@ var allRecipes =  [
         "end-pic-style": "width:50%",
         "recipecategory": "Desserts",
         "add-title": "Steamed Yogurt",
+        "youtube-url": "https://www.youtube.com/watch?v=UdwLV5Ou0Jk",
         "ingrediants": "<ul><li>2 cups of thick full fat yogurt.<\/li><li>1.5 cups of condensed milk.<\/li><li>3 Tablespoons of full fat milk powder.<\/li><li>1 Tablespoon of instant coffee powder.<\/li><li>Half cup of warm water.<\/li><\/ul>",
         "process": "<div>Put the yogurt in a strainer and then put that strainer on a bowl for 3-4 hours.<\/div><div>The bowl will catch the extra water from yogurt.<\/div><div>In a small bowl add 1/4th cup of warm water and milk powder. Mix well and keep aside.<\/div><div>In another bowl add the remaining water and coffee powder. Mix well and keep aside.<\/div><div>In a big mixing bowl, add thick yogurt and condensed milk. Whisk well.<\/div><div>Then add milk powder mixture and 2 Teaspoons of coffee mixture. Again whisk well for 1-2 minutes.<\/div><div>Brush some ghee inside the steel bowls.<\/div><div>Pour the mixture into the bowls. Cover them with tight lid.<\/div><div>Steam for 20-25 minutes on medium flame.<\/div><div>Let them come to room temperature, then keep them in fridge for 3-4 hours.<\/div><img src=\"recipeimages/coffee-bhapa-doi-603a6caf-9299-4f71-af8e-52f3d2049374.jpg\"  style='width:45%'/><img src=\"recipeimages/coffee-bhapa-doi-de9be599-6ed4-4efc-a89a-8d7059e3a266.jpg\"  style='width:45%'/>",
         "add-pic": "recipeimages/coffee-bhapa-doi-add.jpg",
