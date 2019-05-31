@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/fish-fry.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 31 May 2019 00:00:00 CST</pubDate>
+            <title>Fish Fry (Kolkata Style)</title>
+            <link>http://www.spicyworld.in/fish-fry.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/fish-fry.jpg' />Fish fry or Bhetki fry is a very famous street food of West Bengal. Bhetki (or any white fish) will be first marinated in a green paste then they will get a coating of breadcrumbs and before serving will be fried until golden. There is a fast food center in Chandannagar, named 'robi fast food center', to me he is the best fish fry maker. As my school was in Chandannagar, so I know more shops of there than Chinsurah. There are actually two famous shops - 'bolai' is famous for 'chicken pokora' and 'robi' is famous for 'fish fry'. He always make them in front of you, deep fry them in hot oil and then serve those fries with salad and kasundi. Ohh, I miss those foods and fun a lot here. You will enjoy soft, flaky fish inside and crispy, crunchy coating outside, just heavenly. I brought that exact taste and flavor straight from his shop to my kitchen. Try this easy recipe in your kitchen and enjoy !!]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/coffee-bhapa-doi.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 28 May 2019 00:00:00 CST</pubDate>
@@ -1419,14 +1427,6 @@ In this blog we are going to talk about the places we visited in past one week a
             <title>Chicken Pizza with Makhni sauce</title>
             <link>http://www.spicyworld.in/chicken-pizza.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-pizza.jpg' />Ahhh, atlast I got the time to write down this particular. Made this Chicken Pizza two months ago with Makhni gravy, but the recipe is a bit long, so didn't get the time to write in one sitting. Finally I am posting the delicious pizza recipe. The main attraction here is the sauce which is makhni gravy. I know that we all are a big fan of 'murg makhni' or 'paneer makhni', then why not try this sauce with pizza ?? This recipe will give you a very satisfying result.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/fish-fry.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Tue, 08 Mar 2016 00:00:00 CST</pubDate>
-            <title>Fish Fry (Kolkata Style)</title>
-            <link>http://www.spicyworld.in/fish-fry.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/fish-fry.jpg' />There is a fast food center in Chandannagar, named 'robi fast food center', to me he is the best fish fry maker. As my school was in Chandannagar, I know more shops of there than Chinsurah. There are actually two famous shops - 'bolai' is famous for 'chicken pokora' and 'robi' is famous for 'fish fry'. He always make them in front of you, deep fry them in hot oil and then serve those fries with salad and kasundi. Ohh, I miss those foods and fun a lot here. You will enjoy soft, flaky fish inside and crispy, crunchy coating outside, just heavenly. I brought that exact taste and flavour straight from his shop to my kitchen. Try this easy recipe in your kitchen and enjoy !!]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/masala-chai.html</guid>

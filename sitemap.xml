@@ -534,6 +534,57 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fish-fry.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry.jpg</image:loc>
+            <image:caption>Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-add.jpg</image:loc>
+            <image:caption>Fish Fry (Kolkata Style) - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-add-top.jpg</image:loc>
+            <image:caption>Fish Fry (Kolkata Style) - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-end.jpg</image:loc>
+            <image:caption>Fish Fry (Kolkata Style) with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-51708432-5812-4bb0-b0d0-b007e489b1a9.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-b3e041d2-7654-44a3-9b62-3b7aa1f5f321.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-70719453-54a8-47f0-ae4c-45f347d66b4f.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-b562f272-a4ca-4d7b-aa25-d0341a01f5fe.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-25c32d41-abf2-43f6-93a5-c0392a36a206.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-65bab379-dd1e-48d6-9515-05c5e692ca5d.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-f453bbde-e1a4-430e-b605-db8a779f9ad1.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-fry-784dae00-52ac-448a-88a8-9aad4364c0b0.jpg</image:loc>
+            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/coffee-bhapa-doi.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/coffee-bhapa-doi.jpg</image:loc>
@@ -7991,53 +8042,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-pizza-11.jpg</image:loc>
             <image:caption>Related to Chicken Pizza with Makhni sauce</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/fish-fry.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry.jpg</image:loc>
-            <image:caption>Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-1.jpg</image:loc>
-            <image:caption>Fish Fry (Kolkata Style) - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-10.jpg</image:loc>
-            <image:caption>Fish Fry (Kolkata Style) with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-2.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-3.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-4.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-5.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-6.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-7.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-8.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-fry-9.jpg</image:loc>
-            <image:caption>Related to Fish Fry (Kolkata Style)</image:caption>
         </image:image>
     </url>
     <url>
