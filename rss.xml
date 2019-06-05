@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/dhaba-style-paneer-masala.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 04 Jun 2019 00:00:00 CST</pubDate>
+            <title>Dhaba style Paneer Masala</title>
+            <link>http://www.spicyworld.in/dhaba-style-paneer-masala.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/dhaba-style-paneer-masala.jpg' />Paneer Masala has a spicy onion and tomato based gravy with some flavorful spices like garam masala powder, dry fenugreek leaves etc. In any dhaba style (road side food joints) curry you will get actual flavors of the spices as they follow one simple rule - slow cooking. Fry the onion until golden, cook ginger garlic paste until raw smell gone, after adding dry spices cook on low flame and obviously you have to add ghee or butter. If you can follow these few simple things, then trust me you can achieve the exact taste of Dhaba style Paneer Masala. Do give this a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/fish-fry.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Fri, 31 May 2019 00:00:00 CST</pubDate>

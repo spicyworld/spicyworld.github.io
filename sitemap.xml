@@ -534,6 +534,45 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/dhaba-style-paneer-masala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala.jpg</image:loc>
+            <image:caption>Dhaba style Paneer Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-add.jpg</image:loc>
+            <image:caption>Dhaba style Paneer Masala - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-add-top.jpg</image:loc>
+            <image:caption>Dhaba style Paneer Masala - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-end.jpg</image:loc>
+            <image:caption>Dhaba style Paneer Masala with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-63fab35e-1353-4d2d-8c81-238cde68200c.jpg</image:loc>
+            <image:caption>Related to Dhaba style Paneer Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-6826984f-eab2-485c-bca1-2168ea562da9.jpg</image:loc>
+            <image:caption>Related to Dhaba style Paneer Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-2cea1e07-b552-4b77-8f00-b99d5d0f67ad.jpg</image:loc>
+            <image:caption>Related to Dhaba style Paneer Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-fd173cd9-f8ea-4a8c-a1b2-db8ad1c02ae4.jpg</image:loc>
+            <image:caption>Related to Dhaba style Paneer Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala-71dbe647-401b-4439-a9ec-28b138d8394a.jpg</image:loc>
+            <image:caption>Related to Dhaba style Paneer Masala</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/fish-fry.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/fish-fry.jpg</image:loc>
