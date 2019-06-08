@@ -534,6 +534,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fish-rezala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-rezala.jpg</image:loc>
+            <image:caption>Fish Rezala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-rezala-add.jpg</image:loc>
+            <image:caption>Fish Rezala - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-rezala-add-top.jpg</image:loc>
+            <image:caption>Fish Rezala - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-rezala-end.jpg</image:loc>
+            <image:caption>Fish Rezala with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-rezala-864baa1a-83b3-4d27-af69-3bfd169ee484.jpg</image:loc>
+            <image:caption>Related to Fish Rezala</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/dhaba-style-paneer-masala.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/dhaba-style-paneer-masala.jpg</image:loc>
@@ -11886,13 +11909,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-chutney-kabab.jpg</image:loc>
             <image:caption>Chicken Chutney Kabab</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/fish-rezala.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-rezala.jpg</image:loc>
-            <image:caption>Fish Rezala</image:caption>
         </image:image>
     </url>
     <url>
