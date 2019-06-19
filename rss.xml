@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/punjabi-mutton-curry.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Wed, 19 Jun 2019 00:00:00 CST</pubDate>
+            <title>Punjabi Mutton Curry</title>
+            <link>http://www.spicyworld.in/punjabi-mutton-curry.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/punjabi-mutton-curry.jpg' />Most of the Punjabi curries call for three important ingredients - freshly ground Garam Masala powder, Kasuri methi (dry fenugreek leaves) and Ghee (clarified butter). These ingredients make their curries very flavorful and tasty. Rest of the process is simple, marinated mutton will be cooked in onion tomato gravy. This punjabi mutton curry goes best with plain chapati (Indian flatbread) or rice. Do give this recipe a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/suji-kala-jamun.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Wed, 12 Jun 2019 00:00:00 CST</pubDate>

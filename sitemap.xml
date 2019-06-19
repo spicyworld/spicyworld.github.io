@@ -534,6 +534,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/punjabi-mutton-curry.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry.jpg</image:loc>
+            <image:caption>Punjabi Mutton Curry</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry-add.jpg</image:loc>
+            <image:caption>Punjabi Mutton Curry - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry-add-top.jpg</image:loc>
+            <image:caption>Punjabi Mutton Curry - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry-end.jpg</image:loc>
+            <image:caption>Punjabi Mutton Curry with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry-62b5fb4c-4e73-4e66-ac1f-31176d7999df.jpg</image:loc>
+            <image:caption>Related to Punjabi Mutton Curry</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/suji-kala-jamun.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/suji-kala-jamun.jpg</image:loc>
