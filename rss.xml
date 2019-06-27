@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/mango-icecream.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 27 Jun 2019 00:00:00 CST</pubDate>
+            <title>Mango Ice Cream</title>
+            <link>http://www.spicyworld.in/mango-icecream.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mango-icecream.jpg' />Mango Ice Cream is a summer delight. Can you imagine Summer without ice creams and mangoes? It's almost impossible. This mango ice cream recipe is very easy and simple. With only three ingredients and without ice cream machine you create this delicious dessert. Do give it a try and let me know how it turned out for you. ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/punjabi-mutton-curry.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Wed, 19 Jun 2019 00:00:00 CST</pubDate>

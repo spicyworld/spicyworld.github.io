@@ -534,6 +534,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/mango-icecream.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-icecream.jpg</image:loc>
+            <image:caption>Mango Ice Cream</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-icecream-add.jpg</image:loc>
+            <image:caption>Mango Ice Cream - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-icecream-add-top.jpg</image:loc>
+            <image:caption>Mango Ice Cream - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-icecream-end.jpg</image:loc>
+            <image:caption>Mango Ice Cream with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mango-icecream-9b624492-fed0-4f95-b0be-d24e93bf272f.jpg</image:loc>
+            <image:caption>Related to Mango Ice Cream</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/punjabi-mutton-curry.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/punjabi-mutton-curry.jpg</image:loc>
@@ -12383,5 +12406,8 @@
     </url>
     <url>
         <loc>http://spicyworld.in/recipes-29.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/recipes-30.html</loc>
     </url>
 </urlset>
