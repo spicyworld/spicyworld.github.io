@@ -2737,3 +2737,15 @@ ul li {
 	font-size: 13px;
     font-weight: 900;
 }
+
+.img-hover-zoom {
+	overflow: hidden;
+}
+
+.img-hover-zoom img {
+	transition: transform .5s ease;
+}
+
+.img-hover-zoom img:hover {
+	transform: scale(1.5);
+}
