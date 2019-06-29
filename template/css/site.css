@@ -2738,14 +2738,14 @@ ul li {
     font-weight: 900;
 }
 
-.img-hover-zoom {
+.img-hover-zoom, .recipeListPageItemLeft {
 	overflow: hidden;
 }
 
-.img-hover-zoom img {
+.img-hover-zoom img, .recipeListPageItemLeft img {
 	transition: transform .5s ease;
 }
 
-.img-hover-zoom img:hover {
+.img-hover-zoom img:hover, .recipeListPageItemLeft img:hover {
 	transform: scale(1.5);
 }
