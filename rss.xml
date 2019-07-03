@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/mutton-biriyani.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 02 Jul 2019 00:00:00 CST</pubDate>
+            <title>Kolkata style Mutton Biriyani</title>
+            <link>http://www.spicyworld.in/mutton-biriyani.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mutton-biriyani.jpg' />We always have a grand feeling whenever we hear the name 'Biriyani'. One of the most popular Indian dish accross the world is now Biriyani. Kolkata style Mutton Biriyani has a very unique aroma, juicy mutton pieces, long grain fragrant Basmati rice, soft potatoes and a piece of egg - everything in one plate. Whenever you are visiting Kolkata, do taste the Roshogolla, Mishti doi and Mutton Biriyani. There are many popular restaurants like Arsalan, Aminia, Oudh 1590, Kabuliwala, Nizam, Zeeshan who serve excellent quality of Biriyani. Still homemade Biriyani has its own charm, it needs love, care, patience and practice. I know that the process is lengthy but trust me it's worth a try.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/mango-icecream.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 27 Jun 2019 00:00:00 CST</pubDate>
@@ -1790,14 +1798,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Potato Stew / Aloo Moricher torkari</title>
             <link>http://www.spicyworld.in/potato-stew.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/potato-stew.jpg' />From childhood, whenever I got attacked by cough and cold, my mom used to feed me this 'aloo (potato) moricher torkari' along with some puffed rice / 'muri'. Its nothing but a simple potato curry with mild flavors of 'ghee' and 'morich' / black pepper. According to my mom, the heat of black pepper goes well against cold and cough. Magically my neck always felt better after finishing this mom-made curry. The recipe is very simple but it tastes delicious. Specially you will enjoy this curry during winter along with some luchi (poori) or parathas.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/mutton-biriyani.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Sat, 19 Dec 2015 00:00:00 CST</pubDate>
-            <title>Mutton Biriyani</title>
-            <link>http://www.spicyworld.in/mutton-biriyani.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mutton-biriyani.jpg' />You always have a grand feeling whenever you prnounce the name 'mutton biriyani'. I mean really I need to describe this? It become the most popular indian dish among the world. Biriyani has its own aroma, juicy meat and long grain flavourful rice. But in Kolkata they add boiled potato and egg in their biriyani which makes you more greedy:-) I know that the process is lenthy but believe me you will fall in love with the end result.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/chicken-rangeela.html</guid>

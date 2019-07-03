@@ -534,6 +534,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/mutton-biriyani.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani.jpg</image:loc>
+            <image:caption>Kolkata style Mutton Biriyani</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-add.jpg</image:loc>
+            <image:caption>Kolkata style Mutton Biriyani - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-add-top.jpg</image:loc>
+            <image:caption>Kolkata style Mutton Biriyani - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-end.jpg</image:loc>
+            <image:caption>Kolkata style Mutton Biriyani with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-2f234540-ec2d-41cc-9eb3-e0f228778de2.jpg</image:loc>
+            <image:caption>Related to Kolkata style Mutton Biriyani</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/mango-icecream.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/mango-icecream.jpg</image:loc>
@@ -10401,61 +10424,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/potato-stew-6.jpg</image:loc>
             <image:caption>Related to Potato Stew / Aloo Moricher torkari</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/mutton-biriyani.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani.jpg</image:loc>
-            <image:caption>Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-1.jpg</image:loc>
-            <image:caption>Mutton Biriyani - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-13.jpg</image:loc>
-            <image:caption>Mutton Biriyani with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-2.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-3.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-4.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-5.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-6.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-7.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-8.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-9.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-10.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-biriyani-11.jpg</image:loc>
-            <image:caption>Related to Mutton Biriyani</image:caption>
         </image:image>
     </url>
     <url>
