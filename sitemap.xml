@@ -351,6 +351,9 @@
         <loc>http://spicyworld.in/tortilla-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fried-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/nonveg-tag.html</loc>
     </url>
     <url>
@@ -532,6 +535,37 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/aloo-tikki-chaat.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat.jpg</image:loc>
+            <image:caption>Aloo Tikki Chaat</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-add.jpg</image:loc>
+            <image:caption>Aloo Tikki Chaat - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-add-top.jpg</image:loc>
+            <image:caption>Aloo Tikki Chaat - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-end.jpg</image:loc>
+            <image:caption>Aloo Tikki Chaat with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-f48c1077-8d40-4500-8bd8-93c66934de36.jpg</image:loc>
+            <image:caption>Related to Aloo Tikki Chaat</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-46c3f08c-c7f6-4ba0-a064-427c268356d3.jpg</image:loc>
+            <image:caption>Related to Aloo Tikki Chaat</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat-9238b753-c298-42d9-8009-0c089b7cdc24.jpg</image:loc>
+            <image:caption>Related to Aloo Tikki Chaat</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/mutton-biriyani.html</loc>

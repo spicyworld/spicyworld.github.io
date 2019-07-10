@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/aloo-tikki-chaat.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 09 Jul 2019 00:00:00 CST</pubDate>
+            <title>Aloo Tikki Chaat</title>
+            <link>http://www.spicyworld.in/aloo-tikki-chaat.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/aloo-tikki-chaat.jpg' />Aloo tikki means Potato cutlets. Aloo tikki chaat is a mouth watering snack from North Indian cuisine. Main trick about this recipe is to make crispy and crunchy tikkis. If they become soggy, the chaat will not come out that tasty. Usually these tikkis are served with Chana masala (chickpea curry), Yogurt, Tamarind chutney, Green chutney and Sev. Do give this recipe a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/mutton-biriyani.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 02 Jul 2019 00:00:00 CST</pubDate>
