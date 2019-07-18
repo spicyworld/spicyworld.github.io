@@ -537,6 +537,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/dhaba-style-butter-chicken.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken.jpg</image:loc>
+            <image:caption>Dhaba style Butter Chicken / Murg Makhni</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken-add.jpg</image:loc>
+            <image:caption>Dhaba style Butter Chicken / Murg Makhni - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken-add-top.jpg</image:loc>
+            <image:caption>Dhaba style Butter Chicken / Murg Makhni - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken-end.jpg</image:loc>
+            <image:caption>Dhaba style Butter Chicken / Murg Makhni with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken-d18d7880-c41a-47e3-a987-fdc0aa6727d8.jpg</image:loc>
+            <image:caption>Related to Dhaba style Butter Chicken / Murg Makhni</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/aloo-tikki-chaat.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-chaat.jpg</image:loc>

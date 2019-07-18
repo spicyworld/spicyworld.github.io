@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/dhaba-style-butter-chicken.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Wed, 17 Jul 2019 00:00:00 CST</pubDate>
+            <title>Dhaba style Butter Chicken / Murg Makhni</title>
+            <link>http://www.spicyworld.in/dhaba-style-butter-chicken.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/dhaba-style-butter-chicken.jpg' />As you know Dhaba means road side food joints. Their ambiance and kitchen are not very sophisticated rather more simple and rustic. Dhaba style Butter chicken has spicy, rich, colorful gravy with generous amount of butter and their chicken pieces has very smokey flavor. Overall I love this version of Butter Chicken with some Garlic naan or Jeera rice. Do give this recipe a try and let me know how it turned out for you.  ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/aloo-tikki-chaat.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 09 Jul 2019 00:00:00 CST</pubDate>
