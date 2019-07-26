@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/kheer-kodom.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 25 Jul 2019 00:00:00 CST</pubDate>
+            <title>Kheer Kodom / Ras Kadam</title>
+            <link>http://www.spicyworld.in/kheer-kodom.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/kheer-kodom.jpg' />Kodom or Kadamba is basically the name of a flower which has a round shape and very bright yellow color. The sweet Kheer Kodom (also known as Ras Kadam) has three layers. First one is grated mawa, second one is lightly sweetened mawa and the final one is juicy roshogolla. Yes its a three layered dessert and it tastes delicious! You can make this recipe with store bought rasgulla also but I made them from scratch. Do give this unique recipe a try and let me know how in turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/dhaba-style-butter-chicken.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Wed, 17 Jul 2019 00:00:00 CST</pubDate>

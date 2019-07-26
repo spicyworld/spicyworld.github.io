@@ -537,6 +537,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/kheer-kodom.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom.jpg</image:loc>
+            <image:caption>Kheer Kodom / Ras Kadam</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom-add.jpg</image:loc>
+            <image:caption>Kheer Kodom / Ras Kadam - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom-add-top.jpg</image:loc>
+            <image:caption>Kheer Kodom / Ras Kadam - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom-end.jpg</image:loc>
+            <image:caption>Kheer Kodom / Ras Kadam with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom-6c91185c-4b53-47e9-bdd4-0441efa15ec8.jpg</image:loc>
+            <image:caption>Related to Kheer Kodom / Ras Kadam</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kheer-kodom-5b4b7b2d-4081-4c0e-b044-ba025347896d.jpg</image:loc>
+            <image:caption>Related to Kheer Kodom / Ras Kadam</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/dhaba-style-butter-chicken.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/dhaba-style-butter-chicken.jpg</image:loc>
