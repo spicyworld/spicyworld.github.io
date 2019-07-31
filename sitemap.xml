@@ -537,6 +537,37 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fish-paturi.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi.jpg</image:loc>
+            <image:caption>Fish paturi / Kolapatay Macher Paturi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-add.jpg</image:loc>
+            <image:caption>Fish paturi / Kolapatay Macher Paturi - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-add-top.jpg</image:loc>
+            <image:caption>Fish paturi / Kolapatay Macher Paturi - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-end.jpg</image:loc>
+            <image:caption>Fish paturi / Kolapatay Macher Paturi with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-74547b9b-f648-4f19-b448-efe5571c07e3.jpg</image:loc>
+            <image:caption>Related to Fish paturi / Kolapatay Macher Paturi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-6cbdb9be-a7a6-45e4-86ae-52e368bdec2e.jpg</image:loc>
+            <image:caption>Related to Fish paturi / Kolapatay Macher Paturi</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-paturi-803ef01b-ec9f-4931-b6df-fb112492316e.jpg</image:loc>
+            <image:caption>Related to Fish paturi / Kolapatay Macher Paturi</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/kheer-kodom.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/kheer-kodom.jpg</image:loc>
