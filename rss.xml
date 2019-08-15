@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/paneer-dopyaza.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 15 Aug 2019 00:00:00 CST</pubDate>
+            <title>Paneer Dopyaza</title>
+            <link>http://www.spicyworld.in/paneer-dopyaza.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/paneer-dopyaza.jpg' />Dopyaza means double the amount of onion. Paneer Dopyaza is a North Indian Paneer gravy preparation which has a thick, creamy sauce along with soft Paneer cubes and slight crunch of onion. In this recipe onions will be added twice in two different forms. It goes best with naan, roti or jeera rice. Do give it a try and let me know how it turned out for you. ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/fish-paturi.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 30 Jul 2019 00:00:00 CST</pubDate>

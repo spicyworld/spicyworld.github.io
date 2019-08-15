@@ -165,6 +165,9 @@
         <loc>http://spicyworld.in/summer-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/dopyaza-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/mustard-oil-tag.html</loc>
     </url>
     <url>
@@ -535,6 +538,29 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/paneer-dopyaza.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza.jpg</image:loc>
+            <image:caption>Paneer Dopyaza</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza-add.jpg</image:loc>
+            <image:caption>Paneer Dopyaza - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza-add-top.jpg</image:loc>
+            <image:caption>Paneer Dopyaza - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza-end.jpg</image:loc>
+            <image:caption>Paneer Dopyaza with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza-3fcd33c6-5a2b-4e80-b9b9-016dac6c6b03.jpg</image:loc>
+            <image:caption>Related to Paneer Dopyaza</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/fish-paturi.html</loc>
