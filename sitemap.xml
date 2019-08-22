@@ -540,6 +540,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fish-roll.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll.jpg</image:loc>
+            <image:caption>Fish Roll (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll-add.jpg</image:loc>
+            <image:caption>Fish Roll (Kolkata Style) - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll-add-top.jpg</image:loc>
+            <image:caption>Fish Roll (Kolkata Style) - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll-end.jpg</image:loc>
+            <image:caption>Fish Roll (Kolkata Style) with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll-57e928c2-a358-4e9e-a4f6-343a02bb5e9b.jpg</image:loc>
+            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fish-roll-184eed41-ea40-4073-9790-53e3fe1b5531.jpg</image:loc>
+            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/paneer-dopyaza.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/paneer-dopyaza.jpg</image:loc>
@@ -6953,77 +6980,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/mango-mousse-bc604c79-968f-4775-9a29-f183dd5349ce.jpg</image:loc>
             <image:caption>Related to Mango Mousse (Eggless)</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/fish-roll.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll.jpg</image:loc>
-            <image:caption>Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-add.jpg</image:loc>
-            <image:caption>Fish Roll (Kolkata Style) - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-add-top.jpg</image:loc>
-            <image:caption>Fish Roll (Kolkata Style) - how you plate this</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-end.jpg</image:loc>
-            <image:caption>Fish Roll (Kolkata Style) with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-cf868c7b-55a5-48da-af06-043302cf4870.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-38241d78-7fcc-4ded-8d24-852f92b6da9a.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-d66a5dce-8224-48c6-a862-5b1565e53025.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-c2c2b70f-04d6-4efe-88c5-fe5356dafe3d.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-b704193d-6997-4e45-97fc-bf2c09c7ffc8.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-2f71250c-aec3-4b9a-88d1-84cd86b3117c.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-3d0962a1-4057-4b80-930f-245f0160316b.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-19d103c9-1de8-4bdd-a9ad-d019bbbbb001.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-f2ea7cbd-bebd-42e2-b986-2b32a7a5d1d9.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-0bc1dc60-382c-468b-87c1-165ee438585a.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-3eac2e34-8f56-4e84-90cc-6d1c9f533e13.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-b18262c7-b100-47c2-a5d5-b67a32132339.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/fish-roll-53827377-f5cb-4f12-be04-c0c93e5e44d6.jpg</image:loc>
-            <image:caption>Related to Fish Roll (Kolkata Style)</image:caption>
         </image:image>
     </url>
     <url>

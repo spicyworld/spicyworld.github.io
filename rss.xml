@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/fish-roll.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Wed, 21 Aug 2019 00:00:00 CST</pubDate>
+            <title>Fish Roll (Kolkata Style)</title>
+            <link>http://www.spicyworld.in/fish-roll.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/fish-roll.jpg' />If you have any Bengali friend in your gang then I guess you already know that he / she has a thing for fish, football and rabindra sangeet. We eat fish in many forms like thick curry (kaliya), thin curry (jhol), batter fried, shallow fried (mach vaja), steamed version (vapa) and so on. One of the popular among them is 'fried fish'. Now in this category also we have so many variations. The most simple one is shallow fried marinated (with salt and turmeric) fish and the complicated one is 'Fish Roll'. In this recipe fish fillets will be stuffed with spicy fish and shrimp filling then they will get a coating of breadcrumbs and at last deep fry them until golden ... it's the example of our ultimate love towards fish and#128522;and#128522; . The hard part is making the roll, except that step, everything is easy. The taste of fish roll is phenomenal. You just need to give one bite to understand it's deliciousness. ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/paneer-dopyaza.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 15 Aug 2019 00:00:00 CST</pubDate>
@@ -1288,14 +1296,6 @@ In this blog we are going to talk about the places we visited in past one week a
             <title>Mango Mousse (Eggless)</title>
             <link>http://www.spicyworld.in/mango-mousse.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/mango-mousse.jpg' />Mango is all over the market nowadays. Everybody loves juiciness and sweetness of mango during summer. You can make so many desserts with mango. One of my favourite among them is 'maongo mousse'. Mousse has very light and fluffy texture that's why I love to eat it. Sometimes, to me, after having heavy meals rich dessert becomes overpowering, in those case 'mousse' is very good option. I made my mousse with mango puree and without egg, gelatin. With only three ingredients you can achieve such a lovely and quick dessert.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/fish-roll.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Wed, 27 Apr 2016 00:00:00 CST</pubDate>
-            <title>Fish Roll (Kolkata Style)</title>
-            <link>http://www.spicyworld.in/fish-roll.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/fish-roll.jpg' />Bengalis love fish. We can eat fish in many forms like thick curry (kaliya), thin curry (jhol), batter fried, shallow fried (mach vaja), steamed version (vapa) and so on. One of the popular among them is 'fried fish'. Now in this category also we have so many variations. The most simple one is shallow fried marinated (with salt and turmeric) fish and the complicated one is 'Fish Roll'. In this recipe we stuff the marinated fish fillet with crumbly fish stuffing, then roll the fillet, coat with breadcrumbs and then deep fry them ... it's the example of our ultimate love towards fish and#128522;and#128522; . The hard part is making the roll, except that step, everything is easy. The taste of fish roll is phenomenal. You just need to give one bite to understand it's deliciousness. ]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/chicken-keema-paratha.html</guid>
