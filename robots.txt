@@ -4,3 +4,4 @@ Sitemap: http://spicyworld.in/sitemap.xml
 Disallow: /template/
 Disallow: /*/template/
 Disallow: /mobile
+Disallow: /site
