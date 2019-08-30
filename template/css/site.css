@@ -2686,7 +2686,7 @@ ul li {
 }
 
 .hidden {
-	display: none;
+	display: none !important;
 }
 
 .padleft0px {
@@ -2754,10 +2754,10 @@ ul li {
 	position: fixed;
     left: 10px;
     top: 90px;
-    width: 130px;
+    width: 160px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1430px) {
 	.desktop-add {
 		display: none;
 	}
