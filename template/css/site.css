@@ -2753,8 +2753,9 @@ ul li {
 .desktop-add {
 	position: fixed;
     left: 10px;
-    top: 90px;
+    top: 75px;
     width: 160px;
+    height: 600px;
 }
 
 @media (max-width: 1430px) {
