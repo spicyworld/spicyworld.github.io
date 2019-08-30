@@ -2749,3 +2749,16 @@ ul li {
 .img-hover-zoom img:hover, .recipeListPageItemLeft img:hover {
 	transform: scale(1.5);
 }
+
+.desktop-add {
+	position: fixed;
+    left: 10px;
+    top: 90px;
+    width: 130px;
+}
+
+@media (max-width: 1024px) {
+	.desktop-add {
+		display: none;
+	}
+}
