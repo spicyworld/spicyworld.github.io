@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-rezala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala.jpg</image:loc>
+            <image:caption>Chicken Rezala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-add.jpg</image:loc>
+            <image:caption>Chicken Rezala - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-add-top.jpg</image:loc>
+            <image:caption>Chicken Rezala - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-end.jpg</image:loc>
+            <image:caption>Chicken Rezala with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-ab2661e6-3cf9-4a06-9cea-0174d8d32694.jpg</image:loc>
+            <image:caption>Related to Chicken Rezala</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/fish-roll.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/fish-roll.jpg</image:loc>
@@ -7795,57 +7818,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/aloo-tikki-mutton-keema-1cf32dcf-2f58-4e4e-a42f-91e71fdad94b.jpg</image:loc>
             <image:caption>Related to Mutton Keema stuffed Aloo Tikki / Minced Mutton stuffed Potato Fritters</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-rezala.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala.jpg</image:loc>
-            <image:caption>Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-add.jpg</image:loc>
-            <image:caption>Chicken Rezala - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-add-top.jpg</image:loc>
-            <image:caption>Chicken Rezala - how you plate this</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-end.jpg</image:loc>
-            <image:caption>Chicken Rezala with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-bdc4bedd-ff1a-4a81-b21b-e51c5e8495ad.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-2822e01d-4bc3-4c0a-bba4-dc11bc1e3a89.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-8660256b-2f49-44b2-bb7d-ec45242d62c8.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-3eb9b053-3a7f-4fde-9905-41022a045c15.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-4484bb49-2c97-4359-bbd4-01e77f4cae25.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-80ce1e45-a929-48e5-8f43-c12ee267c569.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-e27754c7-c006-463b-842f-883dae460f17.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-rezala-182ea778-8a3c-4786-97bc-42c188bcaaf6.jpg</image:loc>
-            <image:caption>Related to Chicken Rezala</image:caption>
         </image:image>
     </url>
     <url>
