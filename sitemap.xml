@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/sorshe-salmon.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon.jpg</image:loc>
+            <image:caption>Somedutta's Sorshe Salmon / Salmon in Mustard sauce</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon-add.jpg</image:loc>
+            <image:caption>Somedutta's Sorshe Salmon / Salmon in Mustard sauce - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon-add-top.jpg</image:loc>
+            <image:caption>Somedutta's Sorshe Salmon / Salmon in Mustard sauce - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon-end.jpg</image:loc>
+            <image:caption>Somedutta's Sorshe Salmon / Salmon in Mustard sauce with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon-564f3d83-086a-4c9d-a21c-2fdadc0096ce.jpg</image:loc>
+            <image:caption>Related to Somedutta's Sorshe Salmon / Salmon in Mustard sauce</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/chicken-rezala.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-rezala.jpg</image:loc>
