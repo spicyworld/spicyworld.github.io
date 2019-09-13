@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-chaap.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Fri, 13 Sep 2019 00:00:00 CST</pubDate>
+            <title>Chicken Chaap</title>
+            <link>http://www.spicyworld.in/chicken-chaap.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-chaap.jpg' />One of the most famous dish from Mughlai cuisine is 'Chicken Chaap' and the taste is unbeatable. You will find the actual taste and flavor in few popular restaurants in Kolkata. After researching for a long time about the authentic recipe of Chicken chaap, here is the way how I made it. This recipe will give you the exact flavor of restaurant style Chaap. This dish should not be eaten as regular meal. It has a rich and thick gravy, goes best with pulao, biriyani, naan or roti. Try not to avoid any ingredient from the list otherwise you will not achieve the real taste. Do give it a try and let me know how it turned for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/sorshe-salmon.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 05 Sep 2019 00:00:00 CST</pubDate>
@@ -1750,14 +1758,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Whole Tandoori Chicken</title>
             <link>http://www.spicyworld.in/whole-chicken.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/whole-chicken.jpg' />Last saturday 'he' brought a whole chicken from market. I got really panicked because I have never cooked whole chicken before. Immediately I googled for some ideas. First thought was 'murg mussallam' but then my eyes got stuck to a picture of whole roasted chicken and we both love chicken roast. So, the final decision was 'whole tandoori chicken'. The name itself describes it's scrumptiousness. Everybody loves tandoori chicken, then why not with a whole chicken??]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/chicken-chaap.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Thu, 07 Jan 2016 00:00:00 CST</pubDate>
-            <title>Chicken Chaap</title>
-            <link>http://www.spicyworld.in/chicken-chaap.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-chaap.jpg' />One of the most famous dish from Mughlai cuisine is 'Chicken Chaap' and the taste is unbeatable. You will find the actual taste and flavour in few restaurants in Kolkata. After researching for a long time on the authentic recipe of Chicken chaap, here is the way how I made it. This recipe will give you the exact flavour of restaurant style Chaap. This dish should not be eaten as regular meal. It has a rich and thick gravy, goes best with pulao, <a href='http://spicyworld.in/biriyani-tag.html'>biriyani</a>, naan or roti. Try not to avoid any ingredient from the list otherwise you will not achieve the real taste.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/aloo-porota.html</guid>

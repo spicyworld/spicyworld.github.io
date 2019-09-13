@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-chaap.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap.jpg</image:loc>
+            <image:caption>Chicken Chaap</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-add.jpg</image:loc>
+            <image:caption>Chicken Chaap - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-add-top.jpg</image:loc>
+            <image:caption>Chicken Chaap - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-end.jpg</image:loc>
+            <image:caption>Chicken Chaap with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-98319143-564b-49cb-a940-a26609ca06c1.jpg</image:loc>
+            <image:caption>Related to Chicken Chaap</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/sorshe-salmon.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/sorshe-salmon.jpg</image:loc>
@@ -9840,69 +9863,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/whole-chicken-12.jpg</image:loc>
             <image:caption>Related to Whole Tandoori Chicken</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-chaap.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap.jpg</image:loc>
-            <image:caption>Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-1.jpg</image:loc>
-            <image:caption>Chicken Chaap - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-14.jpg</image:loc>
-            <image:caption>Chicken Chaap with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-2.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-3.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-4.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-5.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-6.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-7.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-8.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-9.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-10.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-11.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-12.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-chaap-13.jpg</image:loc>
-            <image:caption>Related to Chicken Chaap</image:caption>
         </image:image>
     </url>
     <url>
