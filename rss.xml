@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-cheese-balls.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 19 Sep 2019 00:00:00 CST</pubDate>
+            <title>Chicken Cheese Balls</title>
+            <link>http://www.spicyworld.in/chicken-cheese-balls.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-cheese-balls.jpg' />Cheese stuffed Chicken balls are very delicious starter item. From younger to elder everybody love these balls. They have crispy coating outside and gooey cheese inside .. treat to your mouth! You can use any cheese of you choice. For this recipe I used ground cornflakes instead of breadcrumbs to coat the balls. You can definitely use breadcrumbs. Recipe of chicken cheese balls is very easy. If you are vegetarian then instead of chicken use boiled, mashed potato and other veggies of your choice. Do give this recipe a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/chicken-chaap.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Fri, 13 Sep 2019 00:00:00 CST</pubDate>

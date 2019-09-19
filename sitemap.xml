@@ -354,10 +354,10 @@
         <loc>http://spicyworld.in/tortilla-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/fried-tag.html</loc>
+        <loc>http://spicyworld.in/nonveg-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/nonveg-tag.html</loc>
+        <loc>http://spicyworld.in/fried-tag.html</loc>
     </url>
     <url>
         <loc>http://spicyworld.in/taco-tag.html</loc>
@@ -538,6 +538,33 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/chicken-cheese-balls.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls.jpg</image:loc>
+            <image:caption>Chicken Cheese Balls</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls-add.jpg</image:loc>
+            <image:caption>Chicken Cheese Balls - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls-add-top.jpg</image:loc>
+            <image:caption>Chicken Cheese Balls - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls-end.jpg</image:loc>
+            <image:caption>Chicken Cheese Balls with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls-831d54e6-5447-4671-a678-648f55a8a6c0.jpg</image:loc>
+            <image:caption>Related to Chicken Cheese Balls</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-cheese-balls-acf820c6-ab84-427d-aaa2-4ca108daef42.jpg</image:loc>
+            <image:caption>Related to Chicken Cheese Balls</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/chicken-chaap.html</loc>
