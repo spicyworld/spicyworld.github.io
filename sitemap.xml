@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/murgh-banjara-kabab.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab.jpg</image:loc>
+            <image:caption>Murgh Banjara Kabab</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab-add.jpg</image:loc>
+            <image:caption>Murgh Banjara Kabab - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab-add-top.jpg</image:loc>
+            <image:caption>Murgh Banjara Kabab - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab-end.jpg</image:loc>
+            <image:caption>Murgh Banjara Kabab with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab-33e44dde-98b7-49eb-9641-fdb26107b375.jpg</image:loc>
+            <image:caption>Related to Murgh Banjara Kabab</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/texas-fall-lost-maples.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/texas-fall-lost-maples.jpg</image:loc>
@@ -12626,5 +12649,8 @@
     </url>
     <url>
         <loc>http://spicyworld.in/recipes-30.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/recipes-31.html</loc>
     </url>
 </urlset>
