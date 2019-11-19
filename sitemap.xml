@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/fulkopir-rezala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala.jpg</image:loc>
+            <image:caption>Fulkopir Rezala / Mughlai Cauliflower Gravy</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala-add.jpg</image:loc>
+            <image:caption>Fulkopir Rezala / Mughlai Cauliflower Gravy - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala-add-top.jpg</image:loc>
+            <image:caption>Fulkopir Rezala / Mughlai Cauliflower Gravy - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala-end.jpg</image:loc>
+            <image:caption>Fulkopir Rezala / Mughlai Cauliflower Gravy with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala-7bd0e566-0cb3-42ae-a806-d51d5beabf29.jpg</image:loc>
+            <image:caption>Related to Fulkopir Rezala / Mughlai Cauliflower Gravy</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/murgh-banjara-kabab.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/murgh-banjara-kabab.jpg</image:loc>
