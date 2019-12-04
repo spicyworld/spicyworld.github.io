@@ -1,5 +1,11 @@
 function openHeaderMenu() {
-	$('#headerMenuTopSection').toggle(500);
+	var disp = $('#headerMenuTopSection').css("display");
+	if (disp == 'none') {
+		$('#headerMenuTopSection').show(50);
+	} else {
+		$('#headerMenuTopSection').hide(50);
+	}
+	return;
 }
 
 function startTagPage() {
