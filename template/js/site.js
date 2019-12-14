@@ -518,24 +518,23 @@ function fixedMenu() {
             //$('.searchPositionTop').removeClass('searchWhileNav');
          }
     });
-    /*
-    var popupmsg = getCookieValue('popupvi2');
+    var popupmsg = getCookieValue('popupvi3');
+    console.log(popupmsg);
     if (popupmsg != 'done') {
     	$('#popupMessageSpecial').show();
-    	setCookieValue('popupvi2', 'done');
+    	setCookieValue('popupvi3', 'done');
     } else {
     	$('#popupMessageSpecial').html('');
     }
-    */
 }
 
-/*
+
 function closePopupMessageBMP() {
-	setCookieValue('popupvi2', 'done');
+	setCookieValue('popupvi3', 'done');
 	$('#popupMessageSpecial').hide();
 	$('#popupMessageSpecial').html('');
 }
-*/
+
 
 function startTagPage() {
 	$("#wordcloud1").awesomeCloud({

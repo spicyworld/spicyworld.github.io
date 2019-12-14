@@ -2323,9 +2323,10 @@ ul li {
     border: 1px solid #516055;
     padding: 20px;
     top: 140px;
-    width: 63%;
+    width: 50%;
     box-shadow: 2px 4px 14px 4px #888;
     max-width: 915px;
+    left: 25%;
 }
 
 .travelSite .travel-section {
