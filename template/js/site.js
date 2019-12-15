@@ -519,7 +519,6 @@ function fixedMenu() {
          }
     });
     var popupmsg = getCookieValue('popupvi3');
-    console.log(popupmsg);
     if (popupmsg != 'done') {
     	$('#popupMessageSpecial').show();
     	setCookieValue('popupvi3', 'done');
