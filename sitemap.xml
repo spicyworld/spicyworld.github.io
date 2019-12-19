@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-pokora.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora.jpg</image:loc>
+            <image:caption>Chicken Pokora (Pakora) / Batter fried Chicken</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-add.jpg</image:loc>
+            <image:caption>Chicken Pokora (Pakora) / Batter fried Chicken - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-add-top.jpg</image:loc>
+            <image:caption>Chicken Pokora (Pakora) / Batter fried Chicken - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-end.jpg</image:loc>
+            <image:caption>Chicken Pokora (Pakora) / Batter fried Chicken with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-3686d5cc-9d7c-4d52-9824-82298594a4bd.jpg</image:loc>
+            <image:caption>Related to Chicken Pokora (Pakora) / Batter fried Chicken</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/fulkopir-rezala.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/fulkopir-rezala.jpg</image:loc>
@@ -10362,53 +10385,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/crab-cake-11.jpg</image:loc>
             <image:caption>Related to Crab Cakes / Crab Patties</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-pokora.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora.jpg</image:loc>
-            <image:caption>Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-1.jpg</image:loc>
-            <image:caption>Chicken Pokora (Pakora) / Chicken Fritters - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-10.jpg</image:loc>
-            <image:caption>Chicken Pokora (Pakora) / Chicken Fritters with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-2.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-3.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-4.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-5.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-6.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-7.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-8.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pokora-9.jpg</image:loc>
-            <image:caption>Related to Chicken Pokora (Pakora) / Chicken Fritters</image:caption>
         </image:image>
     </url>
     <url>

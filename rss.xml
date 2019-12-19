@@ -5,6 +5,15 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-pokora.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 19 Dec 2019 00:00:00 CST</pubDate>
+            <title>Chicken Pokora (Pakora) / Batter fried Chicken</title>
+            <link>http://www.spicyworld.in/chicken-pokora.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-pokora.jpg' />How about a crazy snack during winter evening?? Ohh yeaah time for some crispy, crunchy chicken pakora! This is the perfect 'pokora' recipe ever. In Kolkata we get this kind of chicken pokora from fast food centers. But according to me the best homemade pokora maker is my mom. My friends, our relatives, everyone is a fan of my mom's pokora. They always become spicy, soft, juicy and yummy. Do give this recipe a try and let me know how it turned out for you.
+]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/fulkopir-rezala.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 19 Nov 2019 00:00:00 CST</pubDate>
@@ -1830,14 +1839,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Crab Cakes / Crab Patties</title>
             <link>http://www.spicyworld.in/crab-cake.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/crab-cake.jpg' />In India I never had crab, because they always scares me. After coming to USA, oneday we went for dinner in a restaurant. 'He' already ordered 'crab cake' as appetizer when I went to restroom. I really got upset after returning because I had no idea that crab cake is made of crab meat only. But when they served two cakes in a plate, the platter really impressed me. The taste was phenomenal and most important they didn't scare me at all. After that dinner I tried it in many other restaurants also and fell in love with crab meat (not whole crab). Last weekend I made these cakes at home and they came out delicious. Try this in your kitchen and let me know how it turns out.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/chicken-pokora.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Mon, 04 Jan 2016 00:00:00 CST</pubDate>
-            <title>Chicken Pokora (Pakora) / Chicken Fritters</title>
-            <link>http://www.spicyworld.in/chicken-pokora.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-pokora.jpg' />How about a crazy snack in evening?? Ohh yeaah its Pakora time!! This is the perfect 'pokora' recipe ever. In Kolkata we get this kind of chicken pokora from fast food centers. But according to me the best homemade pokora maker is my mom. My friends, our relatives, everyone is a fan of my mom's pokora. They always become spicy, soft, juicy and yummy. If you follow this recipe you can get the same flavour from your pokora.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/daal-bukhara.html</guid>
