@@ -127,6 +127,9 @@
 		width: 100px !important; 
     	height: 48px !important;
 	}
+	.spicyworld-apps .publicpresenceItem img {
+		height: 100px !important;
+	}
 	.publicpresenceItem .datatxt {
 		width: 60%;
 		font-size: 13px;
@@ -1693,6 +1696,11 @@ ul li {
 	padding: 1px;
 	float: left;
 	margin: 10px 20px;
+}
+
+.spicyworld-apps .publicpresenceItem img {
+	height: 100px;
+	width: 100px;
 }
 
 .publicpresenceItem span {

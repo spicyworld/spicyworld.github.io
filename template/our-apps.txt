@@ -1,0 +1,20 @@
+<div class="spicyworld-apps">
+	<div class="publicpresenceItem">
+		<img src="app-images/spicyworld.png" alt="SpicyWorld Recipes - android app icon"/>
+		<div class="datatxt">
+			<a onclick="ga('send', 'event', 'Our Apps', 'Our Apps: SpicyWorld Recipes', this.href);" title="SpicyWorld Recipes" href="https://play.google.com/store/apps/details?id=com.onetwotwo.creativestudio.spicyworldrecipes">SpicyWorld Recipes</a>
+		</div>
+	</div>
+	<div class="publicpresenceItem">
+		<img src="app-images/whattocook.png" alt="What to cook? - android app icon"/>
+		<div class="datatxt">
+			<a onclick="ga('send', 'event', 'Our Apps', 'Our Apps: What to cook?', this.href);" title="What to cook?" href="https://play.google.com/store/apps/details?id=com.onetwotwo.creativestudio.whattocook">What to cook?</a>
+		</div>
+	</div>
+	<div class="publicpresenceItem">
+		<img src="app-images/tictactoe.png" alt="TicTacToe - android app icon"/>
+		<div class="datatxt">
+			<a onclick="ga('send', 'event', 'Our Apps', 'Our Apps: TicTacToe', this.href);" title="TicTacToe" href="https://play.google.com/store/apps/details?id=com.onetwotwo.creativestudio.tictactoe">TicTacToe</a>
+		</div>
+	</div>
+</div>
