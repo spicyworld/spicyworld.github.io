@@ -540,6 +540,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/murgh-musallam.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-musallam.jpg</image:loc>
+            <image:caption>Murgh Musallam</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-musallam-add.jpg</image:loc>
+            <image:caption>Murgh Musallam - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-musallam-add-top.jpg</image:loc>
+            <image:caption>Murgh Musallam - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-musallam-end.jpg</image:loc>
+            <image:caption>Murgh Musallam with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/murgh-musallam-6b25eead-69a8-4164-9b00-688d16d8d4fa.jpg</image:loc>
+            <image:caption>Related to Murgh Musallam</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/chicken-pokora.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-pokora.jpg</image:loc>

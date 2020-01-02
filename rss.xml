@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/murgh-musallam.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 02 Jan 2020 00:00:00 CST</pubDate>
+            <title>Murgh Musallam</title>
+            <link>http://www.spicyworld.in/murgh-musallam.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/murgh-musallam.jpg' />Murgh Musallam is a delicacy from Mughlai cuisine. The recipe requires for whole chicken but you can definitely make it with medium size pieces also. In Murgh Musallam recipe, the whole chicken will be marinated for a good long time, then it will get stuffed with eggs and after that the chicken will get cooked in a flavorful onion and nut based gravy. You can make this dish on special occasions and Murgh Musallam goes best with pulao or naan. Do give this recipe a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/chicken-pokora.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 19 Dec 2019 00:00:00 CST</pubDate>
