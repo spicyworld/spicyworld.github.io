@@ -420,6 +420,9 @@
         <loc>http://spicyworld.in/vegetables-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/nimki-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/kosha-tag.html</loc>
     </url>
     <url>
@@ -538,6 +541,56 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/bengali-nimki.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki.jpg</image:loc>
+            <image:caption>Nimki / Namak pare</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki-add.jpg</image:loc>
+            <image:caption>Nimki / Namak pare - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki-add-top.jpg</image:loc>
+            <image:caption>Nimki / Namak pare - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki-end.jpg</image:loc>
+            <image:caption>Nimki / Namak pare with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki-53d22dce-2916-4c19-bd8c-fd16db98d360.jpg</image:loc>
+            <image:caption>Related to Nimki / Namak pare</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bengali-nimki-1882b003-756e-4645-b8a2-ec573ed136dc.jpg</image:loc>
+            <image:caption>Related to Nimki / Namak pare</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/aloo-gobi-paratha.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-gobi-paratha.jpg</image:loc>
+            <image:caption>Aloo Gobi Paratha / Aloo Fulkopir Porota</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-gobi-paratha-add.jpg</image:loc>
+            <image:caption>Aloo Gobi Paratha / Aloo Fulkopir Porota - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-gobi-paratha-add-top.jpg</image:loc>
+            <image:caption>Aloo Gobi Paratha / Aloo Fulkopir Porota - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-gobi-paratha-end.jpg</image:loc>
+            <image:caption>Aloo Gobi Paratha / Aloo Fulkopir Porota with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/aloo-gobi-paratha-595c1f6f-ceb2-49c0-92cc-5bfc811d8bf4.jpg</image:loc>
+            <image:caption>Related to Aloo Gobi Paratha / Aloo Fulkopir Porota</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/murgh-musallam.html</loc>
