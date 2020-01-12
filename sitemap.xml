@@ -471,6 +471,9 @@
         <loc>http://spicyworld.in/streetfood-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/punjabi-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/prawn-tag.html</loc>
     </url>
     <url>
@@ -541,6 +544,25 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/restaurant-style-chicken-bharta.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/restaurant-style-chicken-bharta.jpg</image:loc>
+            <image:caption>Restaurant style Chicken Bharta</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/restaurant-style-chicken-bharta-add.jpg</image:loc>
+            <image:caption>Restaurant style Chicken Bharta - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/restaurant-style-chicken-bharta-add-top.jpg</image:loc>
+            <image:caption>Restaurant style Chicken Bharta - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/restaurant-style-chicken-bharta-end.jpg</image:loc>
+            <image:caption>Restaurant style Chicken Bharta with Garnishment</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/bengali-nimki.html</loc>
