@@ -546,6 +546,45 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/ros-bora.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora.jpg</image:loc>
+            <image:caption>Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-add.jpg</image:loc>
+            <image:caption>Rosh Bora  / Rosh Fuluri - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-add-top.jpg</image:loc>
+            <image:caption>Rosh Bora  / Rosh Fuluri - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-end.jpg</image:loc>
+            <image:caption>Rosh Bora  / Rosh Fuluri with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-7aeb8c58-e6cd-4f4e-b4ce-1de39cbe2f5e.jpg</image:loc>
+            <image:caption>Related to Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-79597a9a-eb0a-460c-aa3e-7ac66c01603e.jpg</image:loc>
+            <image:caption>Related to Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-3671ee6f-60df-4091-a50b-78f783a00bd6.jpg</image:loc>
+            <image:caption>Related to Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-ceb293ee-aaeb-4615-b3bb-7692dcef3db8.jpg</image:loc>
+            <image:caption>Related to Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/ros-bora-3caa570f-53e8-41a5-b829-f704c30bd043.jpg</image:loc>
+            <image:caption>Related to Rosh Bora  / Rosh Fuluri</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/restaurant-style-chicken-bharta.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/restaurant-style-chicken-bharta.jpg</image:loc>
@@ -9963,53 +10002,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/fish-mustard-curry-11.jpg</image:loc>
             <image:caption>Related to Sorse bata Maach / Sorshe Maach / Fish Mustard Curry</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/ros-bora.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora.jpg</image:loc>
-            <image:caption>Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-1.jpg</image:loc>
-            <image:caption>Ros Bora / Dumplings in sugar syrup - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-10.jpg</image:loc>
-            <image:caption>Ros Bora / Dumplings in sugar syrup with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-2.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-3.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-4.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-5.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-6.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-7.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-8.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/ros-bora-9.jpg</image:loc>
-            <image:caption>Related to Ros Bora / Dumplings in sugar syrup</image:caption>
         </image:image>
     </url>
     <url>
