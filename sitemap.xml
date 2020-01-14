@@ -111,6 +111,9 @@
         <loc>http://spicyworld.in/chilli-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/sankranti-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/mild-tag.html</loc>
     </url>
     <url>
@@ -121,6 +124,9 @@
     </url>
     <url>
         <loc>http://spicyworld.in/fry-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/patisapta-tag.html</loc>
     </url>
     <url>
         <loc>http://spicyworld.in/curry-tag.html</loc>
@@ -249,10 +255,10 @@
         <loc>http://spicyworld.in/charcoal-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/travel-tag.html</loc>
+        <loc>http://spicyworld.in/sweet-tag.html</loc>
     </url>
     <url>
-        <loc>http://spicyworld.in/sweet-tag.html</loc>
+        <loc>http://spicyworld.in/travel-tag.html</loc>
     </url>
     <url>
         <loc>http://spicyworld.in/indian-tag.html</loc>
@@ -544,6 +550,33 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/patisapta.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta.jpg</image:loc>
+            <image:caption>Patisapta with Makha Sondesh filling</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta-add.jpg</image:loc>
+            <image:caption>Patisapta with Makha Sondesh filling - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta-add-top.jpg</image:loc>
+            <image:caption>Patisapta with Makha Sondesh filling - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta-end.jpg</image:loc>
+            <image:caption>Patisapta with Makha Sondesh filling with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta-cdc5ab9d-14ee-421b-a056-e56bb1f22b8d.jpg</image:loc>
+            <image:caption>Related to Patisapta with Makha Sondesh filling</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/patisapta-5a00f3d4-92f8-4071-b0f2-d77931fe3c5b.jpg</image:loc>
+            <image:caption>Related to Patisapta with Makha Sondesh filling</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/ros-bora.html</loc>

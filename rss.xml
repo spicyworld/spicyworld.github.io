@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/patisapta.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Tue, 14 Jan 2020 00:00:00 CST</pubDate>
+            <title>Patisapta with Makha Sondesh filling</title>
+            <link>http://www.spicyworld.in/patisapta.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/patisapta.jpg' />During sankranti apart from <a href="ros-bora.html">Rosh Bora</a> my another favorite is Patisapta. It is very similar to Crepe. You can stuff the Patisapta with various kinds of stuffing like kheer, coconut mixture, sandesh, naru etc. The batter of Patisapta is lightly sweetened with sugar or jaggery and the stuffing has to be sweetened with jaggery only. The right proportion of the ingredients and the freshness of the stuffing is the secret of the recipe. Do give this a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/ros-bora.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Mon, 13 Jan 2020 00:00:00 CST</pubDate>
