@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-tandoori.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Sat, 18 Jan 2020 00:00:00 CST</pubDate>
+            <title>Tandoori Chicken</title>
+            <link>http://www.spicyworld.in/chicken-tandoori.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-tandoori.jpg' />This dish dont need any explanation. Its very popular in India and nowadays all over the world. There was a rumor that without "tandoor/oven" you cannot make tandoori. But believe me today I am sharing "oven method and stove top method" of making tandoori chicken. 'Tandoor' means oven made with clay and the heat comes from charcoal. In restaurants the actual tandoor flavour comes when juices of chicken drops on the charcoal, it creat a nice smokey flavor. You will fall in love with those charred, spicy chicken legs. Please give this recipe a try at your home and prove the rumor wrong!]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/patisapta.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 14 Jan 2020 00:00:00 CST</pubDate>
@@ -2127,14 +2135,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Aloo Fulkopi Posto (Potato and cauliflower cooked in poppy seed paste gravy)</title>
             <link>http://www.spicyworld.in/aloo-fulkopi-posto.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/aloo-fulkopi-posto.jpg' />Bengali without posto(poppy seed)? - impossible. Bengali without aloo(potato)? - no way. I specially can't live without these two. 'Aloo posto' or 'aloo fulkopi posto' is my favourite weekday's lunch with steamed rice and hot daal. My hubby is very fond of 'fulkopi' (cauliflower), that's why I added this in the gravy. But if you don't like you can totally skip this part. The most simple and easy recipe is this one. Here is how I made it ...]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/chicken-tandoori.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Mon, 16 Nov 2015 00:00:00 CST</pubDate>
-            <title>Tandoori Chicken</title>
-            <link>http://www.spicyworld.in/chicken-tandoori.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/tandoori-chicken.jpg' />This dish dont need any explanation. Its very popular in India and nowadays all over the world. There was a rumor that without "tandoor/oven" you cannot make tandoori. But believe me today I am sharing "oven method and gas method" of making tandoori chicken. 'Tandoor' means oven made with clay and the heat comes from charcoal. In restaurants the actual tandoor flavour comes when juices of chicken drops on the charcoal, it creats a nice smokey flavour. You will fall in love with this dish. Please give it a try at your home and prove the rumor wrong.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/khatta-baingan.html</guid>

@@ -552,6 +552,25 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-tandoori.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori.jpg</image:loc>
+            <image:caption>Tandoori Chicken</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori-add.jpg</image:loc>
+            <image:caption>Tandoori Chicken - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori-add-top.jpg</image:loc>
+            <image:caption>Tandoori Chicken - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori-end.jpg</image:loc>
+            <image:caption>Tandoori Chicken with Garnishment</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/patisapta.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/patisapta.jpg</image:loc>
@@ -11973,37 +11992,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/aloo-fulkopi-posto-5.jpg</image:loc>
             <image:caption>Related to Aloo Fulkopi Posto (Potato and cauliflower cooked in poppy seed paste gravy)</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-tandoori.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken.jpg</image:loc>
-            <image:caption>Tandoori Chicken</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-1.jpg</image:loc>
-            <image:caption>Tandoori Chicken - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-6.jpg</image:loc>
-            <image:caption>Tandoori Chicken with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-2.jpg</image:loc>
-            <image:caption>Related to Tandoori Chicken</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-3.jpg</image:loc>
-            <image:caption>Related to Tandoori Chicken</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-4.jpg</image:loc>
-            <image:caption>Related to Tandoori Chicken</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/tandoori-chicken-5.jpg</image:loc>
-            <image:caption>Related to Tandoori Chicken</image:caption>
         </image:image>
     </url>
     <url>
