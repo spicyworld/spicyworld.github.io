@@ -569,6 +569,10 @@
             <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori-end.jpg</image:loc>
             <image:caption>Tandoori Chicken with Garnishment</image:caption>
         </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-tandoori-16f6f7a2-4c6f-4c92-bc4c-154ba305bf2f.jpg</image:loc>
+            <image:caption>Related to Tandoori Chicken</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/patisapta.html</loc>
