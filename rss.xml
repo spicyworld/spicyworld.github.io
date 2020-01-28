@@ -5,12 +5,20 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/sorshe-chingri-bhapa.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Mon, 27 Jan 2020 00:00:00 CST</pubDate>
+            <title>Sorshe Chingri Bhapa  / Steamed Prawn in Mustard gravy</title>
+            <link>http://www.spicyworld.in/sorshe-chingri-bhapa.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/sorshe-chingri-bhapa.jpg' />Bhapa means steamed. There are so many fish curry recipes in Bengali cuisine which calls for 'mustard' / sorshe, this particular item is a jewel. Fresh flavor of mustard oil and green chilies goes so well with shrimp. With some steamed rice this 'sorshe chingri bhapa' tastes best. You can make this with fish fillet or paneer also. If you are a shrimp lover and also don't know about this dish, then trust me and give it a try ... you can thank me later ! ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/chicken-tandoori.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Sat, 18 Jan 2020 00:00:00 CST</pubDate>
             <title>Tandoori Chicken</title>
             <link>http://www.spicyworld.in/chicken-tandoori.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-tandoori.jpg' />This dish dont need any explanation. Its very popular in India and nowadays all over the world. There was a rumor that without "tandoor/oven" you cannot make tandoori. But believe me today I am sharing "oven method and stove top method" of making tandoori chicken. 'Tandoor' means oven made with clay and the heat comes from charcoal. In restaurants the actual tandoor flavour comes when juices of chicken drops on the charcoal, it creat a nice smokey flavor. You will fall in love with those charred, spicy chicken legs. Please give this recipe a try at your home and prove the rumor wrong!]]></description>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-tandoori.jpg' />Tandoori chicken doesn't need any explanation. Its very popular in India and nowadays all over the world. There was a rumor that without "tandoor/oven" you cannot make tandoori. But believe me today I am sharing "oven method and stove top method" of making tandoori chicken. 'Tandoor' means oven made with clay and the heat comes from charcoal. In restaurants the actual tandoor flavour comes when juices of chicken drops on the charcoal, it creat a nice smokey flavor. You will fall in love with those charred, spicy chicken legs. Please give this recipe a try at your home and prove the rumor wrong!]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/patisapta.html</guid>
@@ -1168,14 +1176,6 @@ Khichuri - Beguni or Daal - Bhaat - Beguni ... which combo should I make for lun
             <title>Food Review!!! / Yes from our Yellowstone and Las Vegas Trip</title>
             <link>http://www.spicyworld.in/food-review-yellowstone-las-vegas-trip.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/yellowstone-food-restaurant.jpg' />Finally I am uploading the food pictures, which we have enjoyed during our last trip to Yellowstone National Park. We went there at the end of May, it was a 7 days long trip. For me (as a food blogger) apart from trip, food has to be the second main attraction. From first day to last day of this trip, we had some delicious food and experiences. Let us share our experience with you.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/sorshe-chingri-bhapa.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Mon, 18 Jul 2016 00:00:00 CST</pubDate>
-            <title>Sorshe Chingri Bhapa  / Steamed Prawn in Mustard gravy</title>
-            <link>http://www.spicyworld.in/sorshe-chingri-bhapa.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/sorshe-chingri-bhapa.jpg' />There are so many fish curry recipes in Bengali cuisine which calls for 'mustard' / sorshe, but this particular item is a jewel because you can cook this in microwave within 5 minutes.Yeaah you read it right ! With some steamed rice this 'sorshe chingri bhapa' tastes best. If you are a shrimp lover and also don't know about this dish, then trust me and give it a try ... you can thank me later ! ]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/pheni-paratha.html</guid>
