@@ -269,30 +269,6 @@
 		width: 100% !important;
 	}
 
-	.siteTagsAll span {
-		display: block !important;
-		float: left !important;
-		padding: 10px;
-	}
-
-	.siteTagsAll .wordcloud {
-    	display: none !important;
-    }
-
-    .siteTagsAll .siteTagsAllMobile {
-    	display: block !important;
-    	width: 90%;
-    	padding: 20px;
-    }
-
-    .siteTagsAll .siteTagsAllMobile a {
-    	text-decoration: none;
-    }
-
-    .siteTagsAll .siteTagsAllMobile a:hover {
-    	color: #22b5e3;
-    }
-
 	.additionalRecipeCaption {
 		width: 100% !important;
 		height: auto !important;
@@ -1104,19 +1080,6 @@
 	width: 110px;
 }
 
-.wordcloud {
-  height: 540px;
-  margin: 10px auto;
-  padding: 0;
-  page-break-after: always;
-  page-break-inside: avoid;
-  width: 80%;
-}
-
-.wordcloud span {
-  display: none;
-}
-
 .recipePage {
 	min-height: 550px;
 	padding-top: 5px;
@@ -1405,7 +1368,7 @@ body {
 	color: #5d3a52;
 }
 
-.wordcloud, .wordcloudImg {
+.wordcloudImg {
 	padding-top: 20px;
 	min-height: 550px;
 	clear: both;
@@ -1424,6 +1387,12 @@ body {
 .tagContent {
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+.siteTagsAll span {
+	display: block !important;
+	float: left !important;
+	padding: 10px;
 }
 
 .tagContent .heading {
@@ -1669,10 +1638,6 @@ ul li {
 	padding-left:20px;
 	width:280px;
 	height:70px;
-}
-
-.siteTagsAllMobile {
-	display: none;
 }
 
 .publicpresence {
@@ -2436,6 +2401,18 @@ ul li {
 
 .middleBottom .readMore:hover, .readMore:hover, .staticMessage a:hover {
 	background: linear-gradient(#817e7e,#414141);
+}
+
+
+
+.siteTagsAll .siteTagsAllMobile {
+	display: block !important;
+	width: 90%;
+	padding: 20px;
+}
+
+.siteTagsAll .siteTagsAllMobile a {
+	text-decoration: none;
 }
 
 .siteTagsAll .siteTagsAllMobile a:hover {

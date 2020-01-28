@@ -534,28 +534,17 @@ function closePopupMessageBMP() {
 	$('#popupMessageSpecial').html('');
 }
 
-
-function startTagPage() {
-	$("#wordcloud1").awesomeCloud({
-		"size" : {
-			"grid" : 50,
-			"normalize" : true
-		},
-		"options" : {
-			"color" : "random-dark",
-			"rotationRatio" : 0.2,
-			"printMultiplier" : 3.5,
-			"sort" : "random"
-		},
-		"font" : "oblique, 'Times New Roman', Times, serif",
-		"shape" : "circle"
-	});
-}
-
 function initFancy() {
 	initFancyAll();
 }
 
+function startTagPage() {
+	var spans = $('.data-points');
+	for (var i=0; i<spans.length; i++) {
+		spans[i].style.fontSize = 18 + eval(spans[i].getAttribute('class').replace('data-points ', '')) + 'px';
+		spans[i].style.color = getRandomColor(eval(spans[i].getAttribute('class').replace('data-points ', '')));
+	}
+}
 
 function initFancyAll() {
 	$("a.group1").fancybox({
