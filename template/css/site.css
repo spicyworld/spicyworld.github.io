@@ -1929,6 +1929,8 @@ ul li {
 	font-size: 16px !important;
 }
 
+
+
 #subsMsgDiv {
 	display: none;
 	padding-top: 0;
@@ -2767,4 +2769,8 @@ ul li {
 	.desktop-add {
 		display: none;
 	}
+}
+
+.subscribe-btn {
+	cursor: pointer;
 }
