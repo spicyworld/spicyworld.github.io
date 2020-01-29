@@ -5,6 +5,15 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/kasuri-methi-murg-masala.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Wed, 29 Jan 2020 00:00:00 CST</pubDate>
+            <title>Kasuri Methi Murg Masala</title>
+            <link>http://www.spicyworld.in/kasuri-methi-murg-masala.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/kasuri-methi-murg-masala.jpg' />I love the buttery aroma of Kasuri Methi (dry fenugreek leaves), it makes almost every curry flavorful. Methi (fenugreek) seeds also has a great aroma but it tastes bitter. If you know how to use it properly then it can make big differences in taste and flavors. I cooked this Chicken Curry yesterday and it was a blast. Kasuri methi Murg Masala goes best with plain roti or rice. Please give it a try and let me know about your experience.
+]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/sorshe-chingri-bhapa.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Mon, 27 Jan 2020 00:00:00 CST</pubDate>
@@ -2375,14 +2384,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Dhaba style egg curry</title>
             <link>http://www.spicyworld.in/dhaba-style-egg-curry.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/dhaba-style-egg-curry.jpg' />In India we all love "dhaba" foods and also we love eggs. Mostly their dishes are spicy. So, today I am sharing this spicy dish with you. Please try this at your home.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/kasuri-methi-murg-masala.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Mon, 05 Oct 2015 00:00:00 CST</pubDate>
-            <title>Kasuri Methi Murg Masala</title>
-            <link>http://www.spicyworld.in/kasuri-methi-murg-masala.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/kasuri-methi-murg-masala.jpg' />I made this dish yesterday and it was a blast. So, I am sharing this recipe with you. Please give it a try and let me know about your experience.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/vegetable-biriyani.html</guid>

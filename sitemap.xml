@@ -555,6 +555,25 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/kasuri-methi-murg-masala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala.jpg</image:loc>
+            <image:caption>Kasuri Methi Murg Masala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala-add.jpg</image:loc>
+            <image:caption>Kasuri Methi Murg Masala - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala-add-top.jpg</image:loc>
+            <image:caption>Kasuri Methi Murg Masala - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala-end.jpg</image:loc>
+            <image:caption>Kasuri Methi Murg Masala with Garnishment</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/sorshe-chingri-bhapa.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/sorshe-chingri-bhapa.jpg</image:loc>
@@ -12449,13 +12468,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/dhaba-style-egg-curry.jpg</image:loc>
             <image:caption>Dhaba style egg curry</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/kasuri-methi-murg-masala.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala.jpg</image:loc>
-            <image:caption>Kasuri Methi Murg Masala</image:caption>
         </image:image>
     </url>
     <url>
