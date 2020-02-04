@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css"/>
+    <title>Learn Numbers, Alphabets, Shapes & Colors - 122CreativeStudio</title>
+  </head>
+  <body class="text-center">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      <!-- HEADER STARTS -->
+      <header class="masthead">
+        <div class="inner">
+          <h3 class="masthead-brand">Learn Numbers, Alphabets, Shapes & Colors</h3>
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link active" href="#" id="numbers-head">Numbers</a>
+            <a class="nav-link" href="#" id="alphabets-head">Alphabets</a>
+            <a class="nav-link" href="#" id="shapes-head">Shapes</a>
+            <a class="nav-link" href="#" id="colors-head">Colors</a>
+          </nav>
+        </div>
+      </header>
+      <!-- HEADER ENDS -->
+
+      <!-- MAIN STARTS -->
+      <main role="main" class="inner cover" id="middle-data-container">
+
+      </main>
+      <!-- MAIN ENDS -->
+      
+      <!-- FOOTER STARTS -->
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p>Learn Numbers, Alphabets, Shapes & Colors<br/><a href="">&copy; 2019-2020 by 122CreativeStudio</a>.</p>
+        </div>
+      </footer>
+      <!-- FOOTER ENDS -->
+
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
+  <script>
+    $( document ).ready(function() {
+        loadPage("numbers-head");
+        $('.nav-link').click(function() {
+            var page = this.id;
+            loadPage(page);
+        });
+    });
+  </script>
+</html>
