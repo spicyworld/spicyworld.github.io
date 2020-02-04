@@ -1,5 +1,8 @@
 var counter = 0;
 var customData = [];
+var containerHeight = $(document).height();
+var headerHeight = $('.dim-areas-top').height();
+var pageHeight = 0;
 		
 function loadPage(page) {
 	$('.nav-link').removeClass('active');
@@ -28,4 +31,11 @@ function loadData() {
   } else {
   	$('.dim-areas').removeClass('dim-areas');
   }
+}
+
+function resetPageHright() {
+	pageHeight = $("#middle-data-container").outerHeight();
+	if (pageHeight > 0) {
+		$("#middle-data-container").css({'padding-top' :  (((containerHeight - (headerHeight * 5)) - pageHeight)/2) + 'px'});
+	}
 }

@@ -14,13 +14,16 @@
 				{"key": "10", "val": "TEN"}
 		];
 		counter = 0;
+		resetPageHright();
 		loadData();
-		setInterval(function(){
+		setInterval(function() {
 		  changeCounter('next');
-		}, 3000);
+		}, 2500);
 	</script>
 	<div class="prev"><a class="prev-link" href="javascript:changeCounter('prev')"><</a></div>
-	<h2 class="display-key"></h2>
-	<h2 class="display-val"></h2>
+	<div class="middle-section">
+		<h2 class="display-key"></h2>
+		<h2 class="display-val"></h2>
+	</div>
 	<div class="next"><a class="next-link" href="javascript:changeCounter('next')">></a></div>
 </p>

@@ -119,5 +119,5 @@ body {
 }
 
 .dim-areas {
-  opacity: 0.5;
+  visibility: hidden;
 }
