@@ -101,4 +101,23 @@ body {
 
 .display-key, .display-val {
   font-size: 80px;
+  padding-bottom: 20px;
+}
+
+.prev {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    font-size: 30px;
+}
+
+.next {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    font-size: 30px;
+}
+
+.dim-areas {
+  opacity: 0.5;
 }

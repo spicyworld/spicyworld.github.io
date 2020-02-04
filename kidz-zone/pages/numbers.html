@@ -1,6 +1,7 @@
 <p>
 	<script type="text/javascript">
-		var numbers = [
+		customData = [
+				{"key": "0", "val": "ZERO"}, 
 				{"key": "1", "val": "ONE"}, 
 				{"key": "2", "val": "TWO"},
 				{"key": "3", "val": "THREE"},
@@ -12,20 +13,14 @@
 				{"key": "9", "val": "NINE"},
 				{"key": "10", "val": "TEN"}
 		];
-
-		var counter = 0;
-		var id = setInterval(loadData, 3000);
-  		function loadData() {
-		    if (counter == numbers.length) {
-		      clearInterval(id);
-		    } else {
-		      console.log(counter);
-		      $('.display-key').html(numbers[counter].key);
-			  $('.display-val').html(numbers[counter].val);
-			  counter++;
-		    }
-  		}
+		counter = 0;
+		loadData();
+		setInterval(function(){
+		  changeCounter('next');
+		}, 3000);
 	</script>
+	<div class="prev"><a class="prev-link" href="javascript:changeCounter('prev')"><</a></div>
 	<h2 class="display-key"></h2>
 	<h2 class="display-val"></h2>
+	<div class="next"><a class="next-link" href="javascript:changeCounter('next')">></a></div>
 </p>
