@@ -555,6 +555,25 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/mutton-rezala.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala.jpg</image:loc>
+            <image:caption>Mutton Rezala</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-add.jpg</image:loc>
+            <image:caption>Mutton Rezala - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-add-top.jpg</image:loc>
+            <image:caption>Mutton Rezala - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-end.jpg</image:loc>
+            <image:caption>Mutton Rezala with Garnishment</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/kasuri-methi-murg-masala.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/kasuri-methi-murg-masala.jpg</image:loc>
@@ -7099,61 +7118,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chanar-kalia-46384ecc-d98b-424f-9691-19bb10748eba.jpg</image:loc>
             <image:caption>Related to Curry of Cheese Balls / Chanar Kalia</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/mutton-rezala.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala.jpg</image:loc>
-            <image:caption>Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-add.jpg</image:loc>
-            <image:caption>Mutton Rezala - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-add-top.jpg</image:loc>
-            <image:caption>Mutton Rezala - how you plate this</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-end.jpg</image:loc>
-            <image:caption>Mutton Rezala with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-536cffe4-db60-40e2-beab-08e5a8195184.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-178b2082-015c-4c15-8421-1c6d4e5a9040.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-ac07c587-2dd4-400b-9ffb-58c3a6406a99.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-36469f2c-de2d-41e9-a982-5aab3cb6d14b.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-64dbdb4b-b920-4ea1-8662-ee18b19b5ba1.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-f842415e-eb31-434a-b3f9-4abc042053f0.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-d695624a-851f-48ca-995a-d90f248e7098.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-9ab5d7a2-d116-4746-a00c-879721c210eb.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/mutton-rezala-0e8fa599-0179-443f-870f-91f6ec592ba8.jpg</image:loc>
-            <image:caption>Related to Mutton Rezala</image:caption>
         </image:image>
     </url>
     <url>
