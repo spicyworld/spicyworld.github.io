@@ -483,6 +483,9 @@
         <loc>http://spicyworld.in/punjabi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/covid-19-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/prawn-tag.html</loc>
     </url>
     <url>
@@ -553,6 +556,13 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/corona-virus.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/corona-virus.jpg</image:loc>
+            <image:caption>Corona Virus / COVID-19</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/mutton-rezala.html</loc>
