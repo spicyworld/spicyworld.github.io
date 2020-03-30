@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-satay.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Mon, 30 Mar 2020 00:00:00 CST</pubDate>
+            <title>Chicken Satay - indo chinese style / Chicken Sathe</title>
+            <link>http://www.spicyworld.in/chicken-satay.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-satay.jpg' />Basically Chicken Satay is a dish from Thai cuisine, where small pieces of meat or fish cooked on a stick, and served with a spicy peanut sauce. But what today I am sharing is different than this one. Nowadays, if you see menu cards of Bengali weddings, Chicken Sathe will be the most common item. They serve Chicken Sathe as starter. First time I had it in a wedding and I was like wo! what a flavor and idea! In this Chicken Sathe recipe, marinated bite size chicken pieces will be skewered with onions and capsicums, then they will be batter fried until golden and lastly we will toss them in a spicy brown  sauce. Believe me, you will be impressed with the end result. You can make it with fish or paneer also. Give this recipe a try and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/corona-virus.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Mon, 30 Mar 2020 00:00:00 CST</pubDate>

@@ -117,6 +117,9 @@
         <loc>http://spicyworld.in/sankranti-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/indo-chinese-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/mild-tag.html</loc>
     </url>
     <url>
@@ -556,6 +559,33 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/chicken-satay.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay.jpg</image:loc>
+            <image:caption>Chicken Satay - indo chinese style / Chicken Sathe</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay-add.jpg</image:loc>
+            <image:caption>Chicken Satay - indo chinese style / Chicken Sathe - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay-add-top.jpg</image:loc>
+            <image:caption>Chicken Satay - indo chinese style / Chicken Sathe - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay-end.jpg</image:loc>
+            <image:caption>Chicken Satay - indo chinese style / Chicken Sathe with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay-2faf1199-3d26-4c27-98b1-9e592e8efa97.jpg</image:loc>
+            <image:caption>Related to Chicken Satay - indo chinese style / Chicken Sathe</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-satay-fd87df30-1513-409a-a519-9c9420ae325c.jpg</image:loc>
+            <image:caption>Related to Chicken Satay - indo chinese style / Chicken Sathe</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/corona-virus.html</loc>
