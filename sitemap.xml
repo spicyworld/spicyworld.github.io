@@ -561,6 +561,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/bhuna-chicken-roll.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll.jpg</image:loc>
+            <image:caption>Bhuna Chicken Roll</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll-add.jpg</image:loc>
+            <image:caption>Bhuna Chicken Roll - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll-add-top.jpg</image:loc>
+            <image:caption>Bhuna Chicken Roll - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll-end.jpg</image:loc>
+            <image:caption>Bhuna Chicken Roll with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll-997d74fa-e4dc-4e4c-9912-a56b4a832ef1.jpg</image:loc>
+            <image:caption>Related to Bhuna Chicken Roll</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll-c2c46934-201a-4599-a9df-4d72d2c2737f.jpg</image:loc>
+            <image:caption>Related to Bhuna Chicken Roll</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/chicken-satay.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-satay.jpg</image:loc>
