@@ -1,1 +1,76 @@
-bfjdndn
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="main.css">
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<script type="text/javascript">
+			function changeSelect() {
+				var myselect = $("#myselect").val();
+				$('.sub-item').addClass('hidden');
+				$('.' + myselect + '-item').removeClass('hidden');
+				changeSelectSub(myselect);
+			}
+			function changeSelectSub(type) {
+				var myselect = $('.' + type + '-item').val();
+				console.log(myselect);
+				$('.sub-item').addClass('hidden');
+				$('.' + type + '-item').removeClass('hidden');
+				$('.' + type + '-item div').addClass('hidden');
+				$('.' + myselect).removeClass('hidden');
+			}
+		</script>
+	</head>
+	<body>
+		<div class="header">
+			<select id="myselect" name="myselect" onChange="changeSelect()">
+				<option value="shapes" selected>Shapes</option>
+				<option value="numbers">Numbers</option>
+			</select>
+			<select class="shapes-item sub-item" onChange="changeSelectSub('shapes')">
+				<option value="square" selected>Square</option>
+				<option value="circle">Circle</option>
+				<option value="triangle">Triangle</option>
+				<option value="rectangle">Rectangle</option>
+				<option value="oval">Oval</option>
+				<option value="trapezoid">Trapezoid</option>
+				<option value="parallelogram">Parallelogram</option>
+			</select>
+			<select class="numbers-item hidden sub-item" onChange="changeSelectSub('numbers')">
+				<option value="zero" selected>Zero (0)</option>
+				<option value="one">One (1)</option>
+				<option value="two">Two (2)</option>
+				<option value="three">Three (3)</option>
+				<option value="four">Four (4)</option>
+				<option value="five">Five (5)</option>
+				<option value="six">Six (6)</option>
+				<option value="seven">Seven (7)</option>
+				<option value="eight">Eight (8)</option>
+				<option value="nine">Nine (9)</option>
+			</select>
+		</div>
+		<div class="middle">
+			<div class="shapes shapes-item sub-item">
+				<div class="square">SQUARE</div>
+				<div class="circle hidden">CIRCLE</div>
+				<div class="triangle hidden"><span>TRIANGLE</span></div>
+				<div class="rectangle hidden">RECTANGLE</div>
+				<div class="oval hidden">OVAL</div>
+				<div class="trapezoid hidden"><span>Trapezoid</span></div>
+				<div class="parallelogram hidden">Parallelogram</div>
+			</div>
+			<div class="numbers numbers-item sub-item hidden">
+				<div class="one">ONE - 1</div>
+				<div class="two hidden">TWO - 2</div>
+				<div class="three hidden">THREE - 3</div>
+				<div class="four hidden">FOUR - 4</div>
+				<div class="five hidden">FIVE - 5</div>
+				<div class="six hidden">SIX - 6</div>
+				<div class="seven hidden">SEVEN - 7</div>
+				<div class="eight hidden">EIGHT - 8</div>
+				<div class="nine hidden">NINE - 9</div>
+				<div class="zero hidden">ZERO - 0</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</body>
+</html>
