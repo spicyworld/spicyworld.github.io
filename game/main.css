@@ -36,8 +36,8 @@ select {
 }
 
 .square {
-  height: 350px;
-  width: 350px;
+  height: 600px;
+  width: 600px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a90329+0,8f0222+64,6d0019+100 */
 background: #A90329; /* Old browsers */
 background: -moz-linear-gradient(top,  #A90329 0%, #8F0222 64%, #6D0019 100%); /* FF3.6-15 */
