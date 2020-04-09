@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/palak-chicken.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Thu, 09 Apr 2020 00:00:00 CST</pubDate>
+            <title>Palak Chicken / Chicken cooked with Spinach puree</title>
+            <link>http://www.spicyworld.in/palak-chicken.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/palak-chicken.jpg' />With Chicken you can make so many types of gravy. It is one of the friendly ingredient to me. Palak chicken is a healthy chicken recipe in which chicken will be cooked in spinach gravy. You can definitely add fenugreek leaves, mustard leaves along with spinach if you want to make it healthier. Palak Chicken is an amazing semi thick curry which can be enjoyed with roti, paratha or rice.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/bhuna-chicken-roll.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Tue, 31 Mar 2020 00:00:00 CST</pubDate>

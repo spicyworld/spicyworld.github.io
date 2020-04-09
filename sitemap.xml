@@ -561,6 +561,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/palak-chicken.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken.jpg</image:loc>
+            <image:caption>Palak Chicken / Chicken cooked with Spinach puree</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken-add.jpg</image:loc>
+            <image:caption>Palak Chicken / Chicken cooked with Spinach puree - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken-add-top.jpg</image:loc>
+            <image:caption>Palak Chicken / Chicken cooked with Spinach puree - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken-end.jpg</image:loc>
+            <image:caption>Palak Chicken / Chicken cooked with Spinach puree with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken-dbbc4ab6-2c47-4f25-a504-1201a0e5659c.jpg</image:loc>
+            <image:caption>Related to Palak Chicken / Chicken cooked with Spinach puree</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/palak-chicken-92760c36-d116-4e71-9328-9982873982ed.jpg</image:loc>
+            <image:caption>Related to Palak Chicken / Chicken cooked with Spinach puree</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/bhuna-chicken-roll.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/bhuna-chicken-roll.jpg</image:loc>
@@ -12800,5 +12827,8 @@
     </url>
     <url>
         <loc>http://spicyworld.in/recipes-31.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/recipes-32.html</loc>
     </url>
 </urlset>
