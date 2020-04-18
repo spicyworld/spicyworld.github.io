@@ -518,10 +518,10 @@ function fixedMenu() {
             //$('.searchPositionTop').removeClass('searchWhileNav');
          }
     });
-    var popupmsg = getCookieValue('popupvi3');
+    var popupmsg = getCookieValue('popupvi4');
     if (popupmsg != 'done') {
     	$('#popupMessageSpecial').show();
-    	setCookieValue('popupvi3', 'done');
+    	//setCookieValue('popupvi4', 'done');
     } else {
     	$('#popupMessageSpecial').html('');
     }
@@ -529,21 +529,13 @@ function fixedMenu() {
 
 
 function closePopupMessageBMP() {
-	setCookieValue('popupvi3', 'done');
+	setCookieValue('popupvi4', 'done');
 	$('#popupMessageSpecial').hide();
 	$('#popupMessageSpecial').html('');
 }
 
 function initFancy() {
 	initFancyAll();
-}
-
-function startTagPage() {
-	var spans = $('.data-points');
-	for (var i=0; i<spans.length; i++) {
-		spans[i].style.fontSize = 18 + eval(spans[i].getAttribute('class').replace('data-points ', '')) + 'px';
-		spans[i].style.color = getRandomColor(eval(spans[i].getAttribute('class').replace('data-points ', '')));
-	}
 }
 
 function initFancyAll() {
