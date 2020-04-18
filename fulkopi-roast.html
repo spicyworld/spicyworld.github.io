@@ -278,10 +278,10 @@
 								<form class="mG61Hd" action="https://docs.google.com/forms/d/e/1FAIpQLSckWaFo0IxkU-5sE1vGc_fswBmZeq0X2qYGthd1yRV0PuMSyQ/formResponse" target="_self" method="POST" id="mG61Hd" onsubmit="return false;">
 									<label class="main" for="email">Want More?</label><br>
 									<label class="sub">Signup for Our Newsletters</label><br>
-									<input type="email" class="subscribeEmail quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Enter your email" aria-describedby="i.desc.1539438427 i.err.1539438427" name="entry.1247065039" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" badinput="false" aria-invalid="true" placeholder="Enter Email">
+									<input onkeypress="enterPressCheckSubscribe(event)" type="email" class="subscribeEmail quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Enter your email" aria-describedby="i.desc.1539438427 i.err.1539438427" name="entry.1247065039" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" badinput="false" aria-invalid="true" placeholder="Enter Email">
 									<div id="subsMsgDiv">Thank you. You are successfully subscribed to our mailing list.</div>
 									<div class="specialButton subscribe">
-										<a class="subscribe-btn" title="Subscribe Now">Subscribe Now</a>
+										<a href="javascript:subscribeEmail()" class="subscribe-btn" title="Subscribe Now">Subscribe Now</a>
 								    </div>
 								    <span class="noteMessage">By subscribing above, you agree to <a class="user-agreement-nav" href="user-agreement.html" rel="nofollow">Spicy World Privacy Policy</a></span>
 							    </form>
