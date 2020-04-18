@@ -2387,7 +2387,11 @@ ul li {
 	text-overflow: ellipsis;
 }
 
-.middleBottom .readMore, .readMore, .staticMessage a {
+.popupBtn {
+	font-size: 16px !important;
+}
+
+.middleBottom .readMore, .readMore, .staticMessage a, .popupBtn {
     font-size: 11px;
     background: #22b5e3;
     padding: 4px 10px 4px 10px;
@@ -2399,7 +2403,7 @@ ul li {
     cursor: pointer;
 }
 
-.middleBottom .readMore:hover, .readMore:hover, .staticMessage a:hover {
+.middleBottom .readMore:hover, .readMore:hover, .staticMessage a:hover, .popupBtn:hover {
 	background: linear-gradient(#817e7e,#414141);
 }
 
