@@ -561,6 +561,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-kabiraji.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-kobiraji.jpg</image:loc>
+            <image:caption>Chicken Kabiraji Cutlet</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-kobiraji-add.jpg</image:loc>
+            <image:caption>Chicken Kabiraji Cutlet - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-kobiraji-add-top.jpg</image:loc>
+            <image:caption>Chicken Kabiraji Cutlet - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-kobiraji-end.jpg</image:loc>
+            <image:caption>Chicken Kabiraji Cutlet with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-kabiraji-aa6edb75-d58c-4c00-a9cc-5e40f4a03a51.jpg</image:loc>
+            <image:caption>Related to Chicken Kabiraji Cutlet</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/palak-chicken.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/palak-chicken.jpg</image:loc>
