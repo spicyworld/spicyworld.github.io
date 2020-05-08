@@ -9,6 +9,7 @@ var allRecipes =  [
         "end-pic-style": "width:50%",
         "recipecategory": "Side dishes: Other",
         "add-title": "Tomato Sauce",
+        "youtube-url": "https://www.youtube.com/watch?v=QYdoMnRYSoY",
         "ingrediants": "<ul><li>800 grams of ripe tomatoes.<\/li><li>1 small onion, chopped.<\/li><li>5 cloves of garlic.<\/li><li>1 inch of ginger.<\/li><li>1 Tablespoon of kashmiri chili powder.<\/li><li>Salt and sugar as per your taste.<\/li><li>3-4 dry red chilies.<\/li><li>2 Tablespoons of vinegar.<\/li><\/ul>",
         "process": "<div>Remove the hard part of the tomatoes. In a kadai, add the prepped tomatoes.<\/div><div>Then add chopped onion, garlic and ginger. Cook for few minutes.<\/div><div>Add salt and sugar as per your taste. Mix well.<\/div><div>Then add dry red chilies, vinegar and kashmiri chili powder. Cook on medium flame.<\/div><div>Tomatoes will release lot of water. Keep cooking until the mixture becomes semi thick.<\/div><div>Put the mixture in a blender and blend until smooth.<\/div><div>Take out the smooth puree in a bowl.<\/div><div>Strain it little by little in a strainer. You will get 250 grams of smooth tomato ketchup.<\/div>",
         "add-pic": "recipeimages/tomato-ketchup-sauce-add.jpg",
