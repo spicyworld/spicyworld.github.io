@@ -561,6 +561,25 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/tomato-ketchup-sauce.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/tomato-ketchup-sauce.jpg</image:loc>
+            <image:caption>Tomato Ketchup Homemade / Tomato Sauce</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/tomato-ketchup-sauce-add.jpg</image:loc>
+            <image:caption>Tomato Ketchup Homemade / Tomato Sauce - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/tomato-ketchup-sauce-add-top.jpg</image:loc>
+            <image:caption>Tomato Ketchup Homemade / Tomato Sauce - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/tomato-ketchup-sauce-end.jpg</image:loc>
+            <image:caption>Tomato Ketchup Homemade / Tomato Sauce with Garnishment</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/chicken-kabiraji.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-kobiraji.jpg</image:loc>

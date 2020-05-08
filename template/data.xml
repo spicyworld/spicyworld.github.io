@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <element>
+        <process><![CDATA[<div>Remove the hard part of the tomatoes. In a kadai, add the prepped tomatoes.</div><div>Then add chopped onion, garlic and ginger. Cook for few minutes.</div><div>Add salt and sugar as per your taste. Mix well.</div><div>Then add dry red chilies, vinegar and kashmiri chili powder. Cook on medium flame.</div><div>Tomatoes will release lot of water. Keep cooking until the mixture becomes semi thick.</div><div>Put the mixture in a blender and blend until smooth.</div><div>Take out the smooth puree in a bowl.</div><div>Strain it little by little in a strainer. You will get 250 grams of smooth tomato ketchup.</div>]]></process>
+        <ingrediants><![CDATA[<ul><li>800 grams of ripe tomatoes.</li><li>1 small onion, chopped.</li><li>5 cloves of garlic.</li><li>1 inch of ginger.</li><li>1 Tablespoon of kashmiri chili powder.</li><li>Salt and sugar as per your taste.</li><li>3-4 dry red chilies.</li><li>2 Tablespoons of vinegar.</li></ul>]]></ingrediants>
+        <title>Tomato Ketchup Homemade</title>
+        <add-title>Tomato Sauce</add-title>
+        <type>vegItem</type>
+        <shortDesc><![CDATA[During the lockdown period (because of Covid 19) I made noodles for evening snack one day. After serving the noodles everyone in my family was looking for Tomato Ketchup but there were very little of ketchup left in the jar. The shops were out of stock at that time and that's when I decided to make Tomato Ketchup at home. The taste of homemade Ketchup is much much better than the readymade one, no aroma of preservative and less sugary. I have made it with onion, ginger and garlic but you can definitely skip them if you want. My tomato ketchup recipe contains kashmiri red chili powder for color, instead of that you can also use very little amount of beetroot. Tomato Ketchup can be made in various ways with versatile ingredients. I kept the recipe very simple and it came out really yummy. Do give it a try and let me know how it turned for you.]]></shortDesc>
+        <completionStatement><![CDATA[Your tomato ketchup is ready to serve.]]></completionStatement>
+        <recoLinks/>
+        <garnishment><![CDATA[Serve this with any kind of snacks ...]]></garnishment>
+        <recipecategory><![CDATA[Side dishes: Other]]></recipecategory>
+        <preptime><![CDATA[20]]></preptime>
+        <cooktime><![CDATA[45]]></cooktime>
+        <servcount><![CDATA[50]]></servcount>
+        <pic>recipeimages/tomato-ketchup-sauce.jpg</pic>
+        <url>tomato-ketchup-sauce</url>
+        <add-pic>recipeimages/tomato-ketchup-sauce-add.jpg</add-pic>
+        <add-pic-style>width:50%</add-pic-style>
+        <blog-type>rb</blog-type>
+        <add-pic-top>recipeimages/tomato-ketchup-sauce-add-top.jpg</add-pic-top>
+        <add-pic-top-style>width:50%</add-pic-top-style>
+        <end-pic>recipeimages/tomato-ketchup-sauce-end.jpg</end-pic>
+        <end-pic-style>width:50%</end-pic-style>
+        <keywords>easy tomato ketchup recipe, spicy tomato ketchup, tomato ketchup recipe in hindi, without preservatives, onion, ginger, garlic, red chilies, homemade tomato sauce recipe</keywords>
+        <tags>sauce,veg,party</tags>
+        <pubDate>05/07/2020</pubDate>
+    </element>
+    <element>
         <process><![CDATA[<div>Take a mixing bowl, add minced chicken, finely chopped onion, ginger, garlic, green chilies, coriander leaves, salt, sugar,  black pepper, red chili powder and melted butter. Mix well. Cover the bowl and keep it aside for one hour.</div><div>Beat an egg with some salt and pepper. Keep aside.</div><div>Then take some portion (bigger than a lemon) from chicken mixture. First make it as a patty, then flatten the patty and give it thin cutlet shape.</div><div>First sprinkle little breadcrumbs over the cutlets, pat well.</div><div>Then dip each cutlet into the beaten egg and then lightly coat again with breadcrumbs.</div><div>Deep fry the cutlet one by one into hot oil until both the sides are golden brown.</div><div>Take them out from oil.</div><div>For the cover, in another bowl crack open 1/2 eggs, add salt, pepper and cornflour. Mix well and make a runny batter.</div><div>The oil should be very hot.</div><div>Take some batter with your fingers and spread it over the oil as fast as you can.</div><div>Repeat the process for 7-8 times to make one cover.</div><div>Then dip one cutlet into the egg batter and place it at the edge of the cover.</div><div>Carefully wrap the cutlet with egg cover by folding it. Please check the video for detailed process.</div><div>Remove it from hot oil and  place it on a tissue paper to drain excess oil. Serve hot with some ketchup, kasundi and salad.</div><img src="recipeimages/chicken-kabiraji-aa6edb75-d58c-4c00-a9cc-5e40f4a03a51.jpg"  style='width:45%'/>]]></process>
         <ingrediants><![CDATA[<ul><li>500 grams of ground or minced chicken.</li><li>1 medium onion, finely chopped.</li><li>5-6 cloves of garlic and 1 inch ginger finely chopped.</li><li>2 green chilies, finely chopped.</li><li>A handful of coriander leaves, chopped.</li><li>Salt as per your taste.</li><li>Pinch of sugar.</li><li>1 Tablespoon of red chili powder.</li><li>1.5 Tablespoons of black pepper powder.</li><li>3-4 eggs.</li><li>1 Tablespoons of melted butter.</li><li>Breadcrumbs as required.</li><li>3-4 Tablespoons of cornflour.</li><li>Oil for frying.</li></ul>]]></ingrediants>
         <title>Chicken Kabiraji Cutlet</title>
