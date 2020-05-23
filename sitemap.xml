@@ -561,6 +561,29 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/chicken-pulao.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao.jpg</image:loc>
+            <image:caption>Chicken Pulao / Murg Pulao</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-add.jpg</image:loc>
+            <image:caption>Chicken Pulao / Murg Pulao - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-add-top.jpg</image:loc>
+            <image:caption>Chicken Pulao / Murg Pulao - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-end.jpg</image:loc>
+            <image:caption>Chicken Pulao / Murg Pulao with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-530c2295-a4ed-4d45-9366-b5420dc6da4e.jpg</image:loc>
+            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/tomato-ketchup-sauce.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/tomato-ketchup-sauce.jpg</image:loc>
@@ -10464,73 +10487,6 @@
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/aloo-porota-17.jpg</image:loc>
             <image:caption>Related to Aloo ka Paratha / Spicy potato stuffed Bread</image:caption>
-        </image:image>
-    </url>
-    <url>
-        <loc>http://spicyworld.in/chicken-pulao.html</loc>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao.jpg</image:loc>
-            <image:caption>Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-1.jpg</image:loc>
-            <image:caption>Chicken Pulao / Murg Pulao - how you serve</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-15.jpg</image:loc>
-            <image:caption>Chicken Pulao / Murg Pulao with Garnishment</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-2.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-3.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-4.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-5.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-6.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-7.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-8.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-9.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-10.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-11.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-12.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-13.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>http://spicyworld.in/recipeimages/chicken-pulao-14.jpg</image:loc>
-            <image:caption>Related to Chicken Pulao / Murg Pulao</image:caption>
         </image:image>
     </url>
     <url>

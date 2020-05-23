@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/chicken-pulao.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Sat, 23 May 2020 00:00:00 CST</pubDate>
+            <title>Chicken Pulao / Murg Pulao</title>
+            <link>http://www.spicyworld.in/chicken-pulao.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-pulao.jpg' />One of my favorite weekday meal is 'Chicken Pulao' aka Murg Pulao, because it is a one pot meal and takes very little time to cook. This wholesome dish is super tasty and goes best with raita or any type of curry. To make the pulao more healthy you can add add veggies like potatoes, carrots, beans etc. Along with that cashews and raisins can also be added. This is a very good lunch box option for adults and I can guarantee you that the box will return empty every time without a single complain. Try this in your kitchen and let me know how it turned out for you.]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/tomato-ketchup-sauce.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Thu, 07 May 2020 00:00:00 CST</pubDate>
@@ -1921,14 +1929,6 @@ We visited the historic Texas city with lot of cultural heritages and true histo
             <title>Aloo ka Paratha / Spicy potato stuffed Bread</title>
             <link>http://www.spicyworld.in/aloo-porota.html</link>
             <description><![CDATA[<img src='http://spicyworld.in/recipeimages/aloo-porota.jpg' />I have many stories about 'aloor porota' in my life. My mom used to give me pure bengali style 'aloor porota' in my lunch box during school life and my friends were always a fan of my lunch box. That was my first story of this porota. When I was in college, we (my family) loved to eat 'dhaba food' during travel. In India, each and every dhaba serve 'aloo ka paratha'. I tasted their paratha many times and they were delicious. The taste was different from my mom's porota. This was the second story. The last one is from my dearest friend Monica. When I was in Jersy, one of my punjabi friend Monica, was an expert in making 'aloo ka paratha'. She literally taught me how to make them. Her paratha tastes heavenly. So, these paratha stories are parts of my life. As my husband doesn't like wheat paratha / atta paratha, I had to make them with flour / maida. You will fall in love with those parathas once you make them. Just give it a try.]]></description>
-        </item>
-        <item>
-            <guid>http://www.spicyworld.in/chicken-pulao.html</guid>
-            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
-            <pubDate>Wed, 06 Jan 2016 00:00:00 CST</pubDate>
-            <title>Chicken Pulao / Murg Pulao</title>
-            <link>http://www.spicyworld.in/chicken-pulao.html</link>
-            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/chicken-pulao.jpg' />One of my favorite weekday's meal is 'chicken pulao', because it takes very less time to cook. The dish is super tasty but very easy. I basically don't need any sides with this pulao, it itself tastes delicious. I only love to add potatoes but if you like other veggies in your pulao, feel free to add. This is also a very good lunch box option for adults and I can guarantee you that the box will return empty everytime without a single complain. You just have to try this in your kitchen.]]></description>
         </item>
         <item>
             <guid>http://www.spicyworld.in/doi-puri.html</guid>
