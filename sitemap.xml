@@ -561,6 +561,33 @@
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/potol-bhapa.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa.jpg</image:loc>
+            <image:caption>Potol Bhapa / Steamed Pointed Gourd</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa-add.jpg</image:loc>
+            <image:caption>Potol Bhapa / Steamed Pointed Gourd - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa-add-top.jpg</image:loc>
+            <image:caption>Potol Bhapa / Steamed Pointed Gourd - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa-end.jpg</image:loc>
+            <image:caption>Potol Bhapa / Steamed Pointed Gourd with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa-2c714775-fe6a-4f83-96cd-814f3afd7e77.jpg</image:loc>
+            <image:caption>Related to Potol Bhapa / Steamed Pointed Gourd</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/potol-bhapa-1c99a424-5c30-4e82-8b7e-a19ba0ba77a1.jpg</image:loc>
+            <image:caption>Related to Potol Bhapa / Steamed Pointed Gourd</image:caption>
+        </image:image>
+    </url>
+    <url>
         <loc>http://spicyworld.in/chicken-pulao.html</loc>
         <image:image>
             <image:loc>http://spicyworld.in/recipeimages/chicken-pulao.jpg</image:loc>

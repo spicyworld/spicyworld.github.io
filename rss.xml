@@ -5,6 +5,14 @@
         <description>Welcome to Spicy World by Arpita. Easy and Simple Recipes make your cooking faster and your food delicious.</description>
         <atom:link href="http://spicyworld.in/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <guid>http://www.spicyworld.in/potol-bhapa.html</guid>
+            <author>contact@spicyworld.in (Spicy World by Arpita)</author>
+            <pubDate>Wed, 17 Jun 2020 00:00:00 CST</pubDate>
+            <title>Potol Bhapa / Steamed Pointed Gourd</title>
+            <link>http://www.spicyworld.in/potol-bhapa.html</link>
+            <description><![CDATA[<img src='http://spicyworld.in/recipeimages/potol-bhapa.jpg' />I love to cook various types of Bhapa (steamed) dishes like Chingri Bhapa, Paneer Bhapa, Mach Bhapa etc as they are easy to cook and tastes outstanding. This time I tried the traditional Bengali recipe 'Potol Bhapa'. It's a delight for vegetarians as well as non vegetarians. It is a very easy recipe and calls for minimum spices, yet it tastes simply delicious. Potol Bhapa goes best with plain steamed rice. Do give this recipe a try and let me know how it turned out for you. ]]></description>
+        </item>
+        <item>
             <guid>http://www.spicyworld.in/chicken-pulao.html</guid>
             <author>contact@spicyworld.in (Spicy World by Arpita)</author>
             <pubDate>Sat, 23 May 2020 00:00:00 CST</pubDate>
