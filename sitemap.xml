@@ -96,6 +96,9 @@
         <loc>http://spicyworld.in/pulao-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/bengali-puja-food-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/beguni-tag.html</loc>
     </url>
     <url>
@@ -156,6 +159,9 @@
         <loc>http://spicyworld.in/baked-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/taler-bora-bengali-recipe-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/breakfast-tag.html</loc>
     </url>
     <url>
@@ -172,6 +178,9 @@
     </url>
     <url>
         <loc>http://spicyworld.in/roll-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/taal-fuluri-tag.html</loc>
     </url>
     <url>
         <loc>http://spicyworld.in/summer-tag.html</loc>
@@ -432,6 +441,9 @@
         <loc>http://spicyworld.in/vegetables-tag.html</loc>
     </url>
     <url>
+        <loc>http://spicyworld.in/taaler-bora-recipe-tag.html</loc>
+    </url>
+    <url>
         <loc>http://spicyworld.in/nimki-tag.html</loc>
     </url>
     <url>
@@ -559,6 +571,33 @@
     </url>
     <url>
         <loc>http://spicyworld.in/khichdi-tag.html</loc>
+    </url>
+    <url>
+        <loc>http://spicyworld.in/taaler-bora.html</loc>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora.jpg</image:loc>
+            <image:caption>Taaler Bora (Fuluri) / Sweet Palm Fritters</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora-add.jpg</image:loc>
+            <image:caption>Taaler Bora (Fuluri) / Sweet Palm Fritters - how you serve</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora-add-top.jpg</image:loc>
+            <image:caption>Taaler Bora (Fuluri) / Sweet Palm Fritters - how you plate this</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora-end.jpg</image:loc>
+            <image:caption>Taaler Bora (Fuluri) / Sweet Palm Fritters with Garnishment</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora-f6f935dd-4674-4b9a-81eb-5e7b75d9cfd9.jpg</image:loc>
+            <image:caption>Related to Taaler Bora (Fuluri) / Sweet Palm Fritters</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>http://spicyworld.in/recipeimages/taaler-bora-b5b08435-a3b2-46a5-9845-377cedf3a66c.jpg</image:loc>
+            <image:caption>Related to Taaler Bora (Fuluri) / Sweet Palm Fritters</image:caption>
+        </image:image>
     </url>
     <url>
         <loc>http://spicyworld.in/potol-bhapa.html</loc>
