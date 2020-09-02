@@ -87,6 +87,20 @@
 }
 
 @media (max-width: 768px) {
+	.mimis-page div:first-child {
+		width: 40%;
+	}
+	
+	.mimis-page div:nth-child(2) {
+		float: right;
+    	width: 55%;
+	}
+
+	.mimis-page div:nth-child(3) {
+		float: none;
+    	width: 37.5%;
+	}
+
 	.cal-item {
 	    position: relative !important;
 	    margin: 0px auto;
@@ -2754,4 +2768,39 @@ ul li {
 
 .subscribe-btn {
 	cursor: pointer;
+}
+
+.exciting-news {
+	position: absolute;
+    left: -84px;
+    top: 0px;
+    background: greenyellow;
+    padding: 19px 5px;
+    border-radius: 12px;
+    animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: skyblue;}
+  25%{background-color: yellow;}
+  50%{background-color: green;}
+  75%{background-color: grey;}
+  100% {background-color: cyan;}
+}
+
+.exciting-news img {
+	width: 65px;
+}
+
+.mimis-page div {
+	width: 30%;
+	float: left;
+}
+
+.mimis-page div img {
+	width: 100%;
+}
+
+.mimis-page .my-data {
+	padding: 10px;
 }

@@ -518,10 +518,9 @@ function fixedMenu() {
             //$('.searchPositionTop').removeClass('searchWhileNav');
          }
     });
-    var popupmsg = getCookieValue('popupvi4');
+    var popupmsg = getCookieValue('popupvi7');
     if (popupmsg != 'done') {
     	$('#popupMessageSpecial').show();
-    	//setCookieValue('popupvi4', 'done');
     } else {
     	$('#popupMessageSpecial').html('');
     }
@@ -529,7 +528,7 @@ function fixedMenu() {
 
 
 function closePopupMessageBMP() {
-	setCookieValue('popupvi4', 'done');
+	setCookieValue('popupvi7', 'done');
 	$('#popupMessageSpecial').hide();
 	$('#popupMessageSpecial').html('');
 }
