@@ -88,7 +88,7 @@
 
 @media (max-width: 768px) {
 	.mimis-page div:first-child {
-		width: 40%;
+		width: 38%;
 	}
 	
 	.mimis-page div:nth-child(2) {
@@ -97,8 +97,8 @@
 	}
 
 	.mimis-page div:nth-child(3) {
-		float: none;
-    	width: 37.5%;
+		float: left;
+    	width: 35.5%;
 	}
 
 	.cal-item {

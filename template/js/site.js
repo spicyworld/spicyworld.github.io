@@ -518,7 +518,7 @@ function fixedMenu() {
             //$('.searchPositionTop').removeClass('searchWhileNav');
          }
     });
-    var popupmsg = getCookieValue('popupvi7');
+    var popupmsg = getCookieValue('popupvi10');
     if (popupmsg != 'done') {
     	$('#popupMessageSpecial').show();
     } else {
@@ -528,7 +528,7 @@ function fixedMenu() {
 
 
 function closePopupMessageBMP() {
-	setCookieValue('popupvi7', 'done');
+	setCookieValue('popupvi10', 'done');
 	$('#popupMessageSpecial').hide();
 	$('#popupMessageSpecial').html('');
 }
